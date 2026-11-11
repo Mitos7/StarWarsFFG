@@ -1,118 +1,83 @@
-import Helpers from "../helpers/common.js";
-import { defaultSkillList } from "../config/ffg-skillslist.js";
+import {defaultSkillList} from "../config/ffg-skillslist.js";
 
-export default class SkillListImporter extends FormApplication {
-  /** @override */
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "swffg-skilllist-importer",
-      classes: ["starwarsffg", "data-import"],
-      title: "Skill List Importer",
-      width: 385,
-      template: "systems/starwarsffg/templates/importer/skill-list-importer.html",
-    });
-  }
+const {ApplicationV2, HandlebarsApplicationMixin} = foundry.applications.api;
 
-  /**
-   * Return a reference to the target attribute
-   * @type {String}
-   */
-  get attribute() {
-    return this.options.name;
-  }
-
-  /** @override */
-  async getData() {
-    $(".import-progress").addClass("import-hidden");
-
-    if (!CONFIG?.temporary) {
-      CONFIG.temporary = {};
+/** Native ApplicationV2 skill-list manager. */
+export default class SkillListImporter extends HandlebarsApplicationMixin(ApplicationV2) {
+  static DEFAULT_OPTIONS = {
+    id: "swffg-skilllist-importer",
+    classes: ["starwarsffg", "data-import"],
+    window: {title: "Skill List Importer", resizable: true},
+    position: {width: 440, height: 540},
+    actions: {
+      "reset-skills": async function() { return this._resetSkills(); },
+      "download-skills": async function(event, target) { return this._downloadSkills(target.dataset.id); },
+      "import-skills": async function() { return this._importSkills(); }
     }
+  };
 
-    const currentSkillTheme = await game.settings.get("starwarsffg", "skilltheme");
+  static PARTS = {
+    main: {template: "systems/starwarsffg/templates/importer/skill-list-importer-v2.hbs"}
+  };
 
-    const themes = CONFIG.FFG.alternateskilllists.map((list) => {
-      return {
-        name: list.id,
-        isactive: currentSkillTheme === list.id,
-        candelete: currentSkillTheme !== list.id && list.id !== "starwars" && list.id !== "genesys",
-      };
-    });
-
-    return {
-      cssClass: "data-importer-window",
-      themes,
-    };
+  async _prepareContext(options) {
+    const context = await super._prepareContext(options);
+    const currentSkillTheme = game.settings.get("starwarsffg", "skilltheme");
+    context.cssClass = "data-importer-window";
+    context.themes = CONFIG.FFG.alternateskilllists.map(list => ({
+      name: list.id,
+      isactive: currentSkillTheme === list.id,
+      candelete: currentSkillTheme !== list.id && !["starwars", "genesys"].includes(list.id)
+    }));
+    return context;
   }
 
-  /** @override */
-  activateListeners(html) {
-    super.activateListeners(html);
+  async _resetSkills() {
+    if (!game.user.isGM) return ui.notifications.warn("Only GMs can reset skill lists.");
+    await game.settings.set("starwarsffg", "arraySkillList", foundry.utils.deepClone(defaultSkillList));
+    await game.settings.set("starwarsffg", "skilltheme", "starwars");
+    await this.close();
+    window.location.reload();
+  }
 
-    html.find(".reset-button").on("click", async (event) => {
-      event.preventDefault();
-      event.stopPropagation();
+  async _downloadSkills(skillTheme) {
+    if (!skillTheme) return;
+    const current = game.settings.get("starwarsffg", "arraySkillList");
+    const data = current.find(entry => entry.id === skillTheme);
+    if (!data) return ui.notifications.warn("Skill theme not found.");
+    const filename = `swffg-skilltheme-${skillTheme.replace(/[^a-z0-9_-]/gi, "_")}.json`;
+    foundry.utils.saveDataToFile(JSON.stringify(data, null, 2), "application/json", filename);
+  }
 
-      game.settings.set("starwarsffg", "arraySkillList", defaultSkillList);
-      game.settings.set("starwarsffg", "skilltheme", "starwars");
+  async _importSkills() {
+    if (!game.user.isGM) return ui.notifications.warn("Only GMs can import skill lists.");
+    const input = this.element.querySelector('input[type="file"][name="data"]');
+    const file = input?.files?.[0];
+    if (!file) return ui.notifications.error("You did not upload a data file!");
 
-      foundry.utils.debounce(() => window.location.reload(), 100);
-
-      this.close();
-    });
-
-    html.find(".fa-download").on("click", async (event) => {
-      event.preventDefault();
-      event.stopPropagation();
-
-      const target = event.currentTarget;
-      const skilltheme = target.dataset.id;
-      const currentSkillList = await game.settings.get("starwarsffg", "arraySkillList");
-
-      const data = currentSkillList.find((i) => i.id === skilltheme);
-
-      // Trigger file save procedure
-      const filename = `swffg-skilltheme-${skilltheme.replace(/\s/g, "_")}.json`;
-      saveDataToFile(JSON.stringify(data, null, 2), "text/json", filename);
-    });
-
-    html.find(".dialog-button").on("click", async (event) => {
-      try {
-        event.preventDefault();
-        event.stopPropagation();
-
-        const form = html[0];
-        if (!form.data.files.length) return ui.notifications.error("You did not upload a data file!");
-        const text = await readTextFromFile(form.data.files[0]);
-
-        let currentSkillList = await game.settings.get("starwarsffg", "arraySkillList");
-
-        const newSkillList = JSON.parse(text);
-
-        Object.keys(newSkillList.skills).forEach((skill) => {
-          if (!newSkillList.skills[skill].custom && !newSkillList.skills[skill].label.includes("SWFFG.")) {
-            newSkillList.skills[skill].custom = true;
-          }
-        });
-
-        // Check to find if imported skill list id is already in master skilltheme list
-        const skillIndex = currentSkillList.findIndex((i) => i.id === newSkillList.id);
-        if (skillIndex >= 0) {
-          currentSkillList[skillIndex] = newSkillList;
-        } else {
-          currentSkillList.push(newSkillList);
-        }
-
-        const newMasterSkillListData = currentSkillList;
-        await game.settings.set("starwarsffg", "arraySkillList", newMasterSkillListData);
-        foundry.utils.debounce(() => window.location.reload(), 100);
-
-        this.close();
-      } catch (error) {
-        ui.notifications.warn(`Error importing the file. Check the console (f12) for details.`);
-        CONFIG.logger.error(`Error importing the file`, error);
-        this.close();
+    try {
+      const text = await foundry.utils.readTextFromFile(file);
+      const parsed = JSON.parse(text);
+      if (!parsed || typeof parsed.id !== "string" || !parsed.id.trim()
+        || !parsed.skills || Array.isArray(parsed.skills) || typeof parsed.skills !== "object") {
+        throw new Error("Invalid skill-theme JSON: expected an id and skills object.");
       }
-    });
+      for (const skill of Object.values(parsed.skills)) {
+        if (!skill || typeof skill !== "object" || typeof skill.label !== "string") {
+          throw new Error("Invalid skill entry in imported theme");
+        }
+        if (!skill.custom && !skill.label.includes("SWFFG.")) skill.custom = true;
+      }
+      const current = foundry.utils.deepClone(game.settings.get("starwarsffg", "arraySkillList"));
+      const index = current.findIndex(entry => entry.id === parsed.id);
+      if (index >= 0) current[index] = parsed;
+      else current.push(parsed);
+      await game.settings.set("starwarsffg", "arraySkillList", current);
+      await this.close();
+      window.location.reload();
+    } catch (error) {
+      CONFIG.logger.error("Error importing skill theme", error);
+      ui.notifications.error("Error importing the file. Check the console for details.");
+    }
   }
 }

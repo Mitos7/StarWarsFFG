@@ -1,235 +1,180 @@
-class ffgSettings extends FormApplication {
-  activateListeners(html) {
-    super.activateListeners(html);
-    html.find("button.filepicker").click(this._onFilePicker.bind(this));
-  }
+﻿/**
+ * Star Wars FFG settings menus.
+ *
+ * Native Foundry ApplicationV2 implementation; no FormApplication,
+ * jQuery event bindings or legacy form-update hooks.
+ */
+const {ApplicationV2, HandlebarsApplicationMixin} = foundry.applications.api;
 
-  getData(acceptableSettings) {
-    const canConfigure = game.user.can("SETTINGS_MODIFY");
-    let includeSettings = [];
-    for (const setting of game.settings.settings) {
-      if (acceptableSettings.includes(setting[0])) {
-        const s = foundry.utils.duplicate(setting[1]);
-        s.name = game.i18n.localize(s.name);
-        s.hint = game.i18n.localize(s.hint);
-        s.value = game.settings.get(s.namespace, s.key);
-        s.type = setting.type instanceof Function ? setting.type.name : "String";
-        s.isCheckbox = setting[1].type === Boolean;
-        s.isSelect = s.choices !== undefined;
-        s.isRange = setting[1].type === Number && s.range;
-        s.isFilePicker = setting.valueType === "FilePicker";
-        includeSettings.push(s);
-      }
-    }
-
-    const data = {
-      system: {title: game.system.title, menus: [], settings: includeSettings},
-    };
-
-    // Return data
-    return {
-      user: game.user,
-      canConfigure: canConfigure,
-      systemTitle: game.system.title,
-      data: data,
-    };
-  }
-
-  _onFilePicker(event) {
-    event.preventDefault();
-
-    const fp = new foundry.applications.apps.FilePicker({
-      type: "image",
-      callback: (path) => {
-        $(event.currentTarget).prev().val(path);
-        //this._onSubmit(event);
+export class FFGSettingsV2 extends HandlebarsApplicationMixin(ApplicationV2) {
+  static DEFAULT_OPTIONS = {
+    id: "swffg-settings-{id}",
+    classes: ["starwarsffg", "ffg-settings-v2"],
+    tag: "form",
+    window: {title: "Star Wars FFG Settings", resizable: true},
+    position: {width: 640, height: 650},
+    form: {
+      handler: async function(event, form, formData) {
+        return this._saveSettings(formData);
       },
-      top: this.position.top + 40,
-      left: this.position.left + 10,
-    });
-    return fp.browse();
+      closeOnSubmit: true,
+      submitOnChange: false
+    },
+    actions: {
+      "reset-settings": function() { return this.render({force: true}); },
+      "file-picker": function(event, target) { return this._openFilePicker(target); }
+    }
+  };
+
+  static PARTS = {
+    settings: {template: "systems/starwarsffg/templates/dialogs/ffg-ui-settings-v2.hbs"}
+  };
+
+  static SETTING_KEYS = [];
+
+  get title() {
+    return game.i18n.localize(this.constructor.TITLE_KEY ?? "SWFFG.Settings.ui.Title");
   }
 
-    /** @override */
-  async _updateObject(event, formData) {
-    for (let [k, v] of Object.entries(foundry.utils.flattenObject(formData))) {
-      let s = game.settings.settings.get(k);
-      let current = game.settings.get(s.namespace, s.key);
-      if (v !== current) {
-        await game.settings.set(s.namespace, s.key, v);
+  async _prepareContext(options) {
+    const context = await super._prepareContext(options);
+    const settings = [];
+    for (const fullKey of this.constructor.SETTING_KEYS) {
+      const entry = game.settings.settings.get(fullKey);
+      if (!entry) {
+        console.warn("SWFFG | Unknown setting for ApplicationV2 menu:", fullKey);
+        continue;
+      }
+      const value = game.settings.get(entry.namespace, entry.key);
+      const setting = {
+        ...entry,
+        name: game.i18n.localize(entry.name),
+        hint: game.i18n.localize(entry.hint),
+        value,
+        type: (typeof entry.type === "function" ? entry.type.name : "String"),
+        isCheckbox: entry.type === Boolean,
+        isSelect: entry.choices !== undefined,
+        isRange: entry.type === Number && !!entry.range,
+        isFilePicker: entry.valueType === "FilePicker"
+      };
+      settings.push(setting);
+    }
+    context.user = game.user;
+    context.canConfigure = game.user.can("SETTINGS_MODIFY");
+    context.systemTitle = game.system.title;
+    context.data = {system: {title: game.system.title, menus: [], settings}};
+    return context;
+  }
+
+  async _saveSettings(formData) {
+    if (!game.user.can("SETTINGS_MODIFY")) {
+      ui.notifications.error("Only a GM may change these settings.");
+      return;
+    }
+    const submitted = foundry.utils.flattenObject(formData.object);
+    for (const fullKey of this.constructor.SETTING_KEYS) {
+      const config = game.settings.settings.get(fullKey);
+      if (!config) continue;
+      let value = submitted[fullKey];
+      // Unchecked HTML checkboxes may be omitted from submitted forms.
+      if (value === undefined) {
+        if (config.type !== Boolean) continue;
+        value = false;
+      }
+      if (config.type === Boolean) value = value === true || value === "true" || value === "on";
+      else if (config.type === Number) {
+        value = Number(value);
+        if (!Number.isFinite(value)) throw new Error("Invalid numeric setting: " + fullKey);
+      }
+      else if (config.type === String && value != null) value = String(value);
+      const previous = game.settings.get(config.namespace, config.key);
+      if (!foundry.utils.equals(previous, value)) {
+        await game.settings.set(config.namespace, config.key, value);
       }
     }
   }
-}
 
-export class rulesetSettings extends ffgSettings {
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "ruleset-settings",
-      classes: ["starwarsffg", "ruleset-settings"],
-      title: `${game.i18n.localize("SWFFG.Settings.ruleset.Title")}`,
-      template: "systems/starwarsffg/templates/dialogs/ffg-ui-settings.html",
+  _openFilePicker(button) {
+    const input = button.previousElementSibling;
+    if (!input || !input.name) return;
+    const picker = new foundry.applications.apps.FilePicker({
+      type: "image",
+      callback: path => {
+        input.value = path;
+        input.dispatchEvent(new Event("change", {bubbles: true}));
+      }
     });
-  }
-
-  getData(options) {
-    const includeSettingsNames = [
-        "starwarsffg.dicetheme",
-        "starwarsffg.vehicleRangeBand",
-        "starwarsffg.skilltheme",
-        "starwarsffg.enableForceDie",
-    ];
-    return super.getData(includeSettingsNames);
+    return picker.browse();
   }
 }
 
-export class uiSettings extends ffgSettings {
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "ui-settings",
-      classes: ["starwarsffg", "ui-settings"],
-      title: `${game.i18n.localize("SWFFG.Settings.ui.Title")}`,
-      template: "systems/starwarsffg/templates/dialogs/ffg-ui-settings.html",
-    });
-  }
 
-  getData(options) {
-    const includeSettingsNames = [
-      "starwarsffg.ui-uitheme",
-      "starwarsffg.ui-pausedImage",
-      "starwarsffg.ui-token-healthy",
-      "starwarsffg.ui-token-wounded",
-      "starwarsffg.ui-token-overwounded",
-      "starwarsffg.ui-token-stamina-ok",
-      "starwarsffg.ui-token-stamina-damaged",
-      "starwarsffg.ui-token-stamina-over",
-      "starwarsffg.displaySimulation",
-      "starwarsffg.rollSimulation",
-    ];
-    return super.getData(includeSettingsNames);
-  }
+export class rulesetSettings extends FFGSettingsV2 {
+  static DEFAULT_OPTIONS = {
+    id: "ruleset-settings",
+    classes: ["starwarsffg", "ffg-settings-v2", "ruleset-settings"]
+  };
+  static TITLE_KEY = "SWFFG.Settings.ruleset.Title";
+  static SETTING_KEYS = ["starwarsffg.dicetheme", "starwarsffg.vehicleRangeBand", "starwarsffg.skilltheme", "starwarsffg.enableForceDie"];
 }
 
-export class combatSettings extends ffgSettings {
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "combat-settings",
-      classes: ["starwarsffg", "combat-settings"],
-      title: `${game.i18n.localize("SWFFG.Settings.combat.Title")}`,
-      template: "systems/starwarsffg/templates/dialogs/ffg-ui-settings.html",
-    });
-  }
 
-  getData(options) {
-    const includeSettingsNames = [
-      "starwarsffg.useGenericSlots",
-      "starwarsffg.initiativeRule",
-      "starwarsffg.removeCombatantAction",
-      "starwarsffg.useDefense",
-      "starwarsffg.additionalStatuses",
-    ];
-    return super.getData(includeSettingsNames);
-  }
+export class uiSettings extends FFGSettingsV2 {
+  static DEFAULT_OPTIONS = {
+    id: "ui-settings",
+    classes: ["starwarsffg", "ffg-settings-v2", "ui-settings"]
+  };
+  static TITLE_KEY = "SWFFG.Settings.ui.Title";
+  static SETTING_KEYS = ["starwarsffg.ui-uitheme", "starwarsffg.ui-pausedImage", "starwarsffg.ui-token-healthy", "starwarsffg.ui-token-wounded", "starwarsffg.ui-token-overwounded", "starwarsffg.ui-token-stamina-ok", "starwarsffg.ui-token-stamina-damaged", "starwarsffg.ui-token-stamina-over", "starwarsffg.displaySimulation", "starwarsffg.rollSimulation"];
 }
 
-export class actorSettings extends ffgSettings {
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "actor-settings",
-      classes: ["starwarsffg", "actor-settings"],
-      title: `${game.i18n.localize("SWFFG.Settings.actor.Title")}`,
-      template: "systems/starwarsffg/templates/dialogs/ffg-ui-settings.html",
-    });
-  }
 
-  getData(options) {
-    const includeSettingsNames = [
-      "starwarsffg.enableSoakCalc",
-      "starwarsffg.talentSorting",
-      "starwarsffg.showMinionCount",
-      "starwarsffg.showAdversaryCount",
-      "starwarsffg.adversaryItemName",
-      "starwarsffg.maxAttribute",
-      "starwarsffg.maxSkill",
-      "starwarsffg.medItemName",
-      "starwarsffg.HealingItemAction",
-      "starwarsffg.consumeHealingItem",
-      "starwarsffg.RivalTokenPrepend",
-    ];
-    return super.getData(includeSettingsNames);
-  }
+export class combatSettings extends FFGSettingsV2 {
+  static DEFAULT_OPTIONS = {
+    id: "combat-settings",
+    classes: ["starwarsffg", "ffg-settings-v2", "combat-settings"]
+  };
+  static TITLE_KEY = "SWFFG.Settings.combat.Title";
+  static SETTING_KEYS = ["starwarsffg.useGenericSlots", "starwarsffg.initiativeRule", "starwarsffg.removeCombatantAction", "starwarsffg.useDefense", "starwarsffg.additionalStatuses"];
 }
 
-export class xpSpendingSettings extends ffgSettings {
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "xpSpending",
-      classes: ["starwarsffg", "xpSpending"],
-      title: `${game.i18n.localize("SWFFG.Settings.xpSpending.Title")}`,
-      template: "systems/starwarsffg/templates/dialogs/ffg-ui-settings.html",
-    });
-  }
 
-  getData(options) {
-    const includeSettingsNames = [
-      "starwarsffg.specializationCompendiums",
-      "starwarsffg.signatureAbilityCompendiums",
-      "starwarsffg.forcePowerCompendiums",
-      "starwarsffg.talentCompendiums",
-      "starwarsffg.backgroundCompendiums",
-      "starwarsffg.obligationCompendiums",
-      "starwarsffg.speciesCompendiums",
-      "starwarsffg.careerCompendiums",
-      "starwarsffg.motivationCompendiums",
-      "starwarsffg.itemCompendiums",
-      "starwarsffg.notifyOnXpSpend",
-      "starwarsffg.defaultObligation",
-      "starwarsffg.defaultDuty",
-      "starwarsffg.defaultMorality",
-      "starwarsffg.maxRarity",
-      "starwarsffg.allowRestricted",
-      "starwarsffg.defaultCredits",
-    ];
-    return super.getData(includeSettingsNames);
-  }
+export class actorSettings extends FFGSettingsV2 {
+  static DEFAULT_OPTIONS = {
+    id: "actor-settings",
+    classes: ["starwarsffg", "ffg-settings-v2", "actor-settings"]
+  };
+  static TITLE_KEY = "SWFFG.Settings.actor.Title";
+  static SETTING_KEYS = ["starwarsffg.enableSoakCalc", "starwarsffg.talentSorting", "starwarsffg.showMinionCount", "starwarsffg.showAdversaryCount", "starwarsffg.adversaryItemName", "starwarsffg.maxAttribute", "starwarsffg.maxSkill", "starwarsffg.medItemName", "starwarsffg.HealingItemAction", "starwarsffg.consumeHealingItem", "starwarsffg.RivalTokenPrepend"];
 }
 
-export class localizationSettings extends ffgSettings {
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "localization",
-      classes: ["starwarsffg", "localization"],
-      title: `${game.i18n.localize("SWFFG.Settings.localization.Title")}`,
-      template: "systems/starwarsffg/templates/dialogs/ffg-ui-settings.html",
-    });
-  }
 
-  getData(options) {
-    const includeSettingsNames = [
-      "starwarsffg.skillSorting",
-      "starwarsffg.destiny-pool-light",
-      "starwarsffg.destiny-pool-dark",
-    ];
-    return super.getData(includeSettingsNames);
-  }
+export class xpSpendingSettings extends FFGSettingsV2 {
+  static DEFAULT_OPTIONS = {
+    id: "xpSpending",
+    classes: ["starwarsffg", "ffg-settings-v2", "xpSpending"]
+  };
+  static TITLE_KEY = "SWFFG.Settings.xpSpending.Title";
+  static SETTING_KEYS = ["starwarsffg.specializationCompendiums", "starwarsffg.signatureAbilityCompendiums", "starwarsffg.forcePowerCompendiums", "starwarsffg.talentCompendiums", "starwarsffg.backgroundCompendiums", "starwarsffg.obligationCompendiums", "starwarsffg.speciesCompendiums", "starwarsffg.careerCompendiums", "starwarsffg.motivationCompendiums", "starwarsffg.itemCompendiums", "starwarsffg.notifyOnXpSpend", "starwarsffg.defaultObligation", "starwarsffg.defaultDuty", "starwarsffg.defaultMorality", "starwarsffg.maxRarity", "starwarsffg.allowRestricted", "starwarsffg.defaultCredits"];
 }
 
-export class groupManagerSettings extends ffgSettings {
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "group-manager",
-      classes: ["starwarsffg", "group-manager"],
-      title: `${game.i18n.localize("SWFFG.Settings.groupManager.Title")}`,
-      template: "systems/starwarsffg/templates/dialogs/ffg-ui-settings.html",
-    });
-  }
 
-  getData(options) {
-    const includeSettingsNames = [
-      "starwarsffg.pcListMode",
-      "starwarsffg.privateTriggers",
-      "starwarsffg.GMCharactersInGroupManager"
-    ];
-    return super.getData(includeSettingsNames);
-  }
+export class localizationSettings extends FFGSettingsV2 {
+  static DEFAULT_OPTIONS = {
+    id: "localization",
+    classes: ["starwarsffg", "ffg-settings-v2", "localization"]
+  };
+  static TITLE_KEY = "SWFFG.Settings.localization.Title";
+  static SETTING_KEYS = ["starwarsffg.skillSorting", "starwarsffg.destiny-pool-light", "starwarsffg.destiny-pool-dark"];
 }
+
+
+export class groupManagerSettings extends FFGSettingsV2 {
+  static DEFAULT_OPTIONS = {
+    id: "group-manager",
+    classes: ["starwarsffg", "ffg-settings-v2", "group-manager"]
+  };
+  static TITLE_KEY = "SWFFG.Settings.groupManager.Title";
+  static SETTING_KEYS = ["starwarsffg.pcListMode", "starwarsffg.privateTriggers", "starwarsffg.GMCharactersInGroupManager"];
+}
+
