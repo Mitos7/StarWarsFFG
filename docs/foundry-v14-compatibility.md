@@ -9,7 +9,7 @@ Before upgrading, stop Foundry completely and copy the entire world directory fr
 The following warnings are intentionally deferred to their dedicated OpenSpec changes:
 
 - ApplicationV1, `FormApplication`, and legacy Actor/Item sheet usage is handled by `migrate-ui-to-application-v2`.
-- Legacy `template.json` system data definitions are handled by `adopt-typed-system-data-models`.
+- The old root `template.json` was replaced in the Mitos fork with transitional TypeDataModels and declarations in `system.json` (all 6 Actor and 20 Item types). The original data defaults remain in `scripts/legacy-template.json`, with a regeneration script. Nested objects remain permissive ObjectFields for custom FFG character skills and items; a future stricter schema needs migration testing. The Foundry V14 template.json setup warning is resolved.
 
 No other system-originated compatibility warning is allowlisted. In particular, Version 14 runtime code must not use legacy Active Effect changes or numeric modes, `renderChatMessage`, `core.rollMode`, `ChatMessage#applyRollMode`, or singular combatant-by-token lookup outside the explicit Version 13 compatibility adapters.
 

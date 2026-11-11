@@ -55,6 +55,7 @@ import {xpLogUndo} from "./helpers/actor-helpers.js";
 import {register_system_tours} from "./helpers/tours.js";
 import { activeEffectChangesUpdate, getActiveEffectChanges } from "./compatibility/active-effects.js";
 import { bindChatAction, registerChatMessageRender } from "./helpers/chat-message.js";
+import { registerStarWarsDataModels } from "./data/system-data-models.js";
 
 /* -------------------------------------------- */
 /*  Foundry VTT Initialization                  */
@@ -79,6 +80,8 @@ Hooks.on("setup", function (){
 
 Hooks.once("init", async function () {
   console.log(`Initializing SWFFG System`);
+  // Modern TypeDataModels replace the deprecated root template.json.
+  registerStarWarsDataModels();
   // Place our classes in their own namespace for later reference.
   game.ffg = {
     ActorFFG,

@@ -224,6 +224,11 @@ export class ActorSheetFFG extends foundry.appv1.sheets.ActorSheet {
     const actorData = this.actor.toObject(false);
     data.actor = actorData;
     data.data = actorData.system;
+    // TypeDataModel#toObject exports persisted schema fields only. The FFG actor
+    // prepares additional transient fields which must remain available to the
+    // legacy sheet without being persisted as arbitrary system data.
+    data.data.skilltypes = this.actor.system.skilltypes ?? [];
+    data.data.effects = this.actor.system.effects ?? [];
     data.talentList = this.actor.talentList;
     data.rollData = this.actor.getRollData.bind(this.actor);
 

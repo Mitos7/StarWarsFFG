@@ -1,3 +1,9 @@
+`2.0.5-mitos.2` (community fork)
+* Foundry V14: replace deprecated root `template.json` with 26 registered TypeDataModels, preserving existing FFG document defaults and flexible custom skill/item structures.
+* Foundry V14: expose transient prepared `skilltypes` and active effects to legacy character sheets, fixing a runtime rendering error introduced by the typed model transition.
+* Compatibility: 20/20 automated unit tests passing; verified character creation and opening its sheet in Foundry 14 build 369.
+* Known remaining warning: Foundry V1 application/sheet framework is deprecated; full ApplicationV2 migration is a separate task and is not included in this patch.
+
 `2.0.4`
 * Enhancements:
   * Adds support for Foundry VTT 14 build 366 while retaining Foundry VTT 13 support.
