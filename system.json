@@ -2,7 +2,7 @@
     "id":  "starwarsffg",
     "title":  "Star Wars FFG",
     "description":  "A system for playing Star Wars FFG games.",
-    "version":  "2.0.5-mitos.7",
+    "version":  "2.0.5-mitos.8",
     "compatibility":  {
                           "minimum":  13,
                           "verified":  14,
@@ -59,27 +59,27 @@
                       },
                       {
                           "lang":  "fr",
-                          "name":  "FranÃ§ais (French)",
+                          "name":  "FranÃƒÂ§ais (French)",
                           "path":  "lang/fr.json"
                       },
                       {
                           "lang":  "es",
-                          "name":  "EspaÃ±ol (Spanish)",
+                          "name":  "EspaÃƒÂ±ol (Spanish)",
                           "path":  "lang/es.json"
                       },
                       {
                           "lang":  "pt-BR",
-                          "name":  "PortuguÃªs (BR)",
+                          "name":  "PortuguÃƒÂªs (BR)",
                           "path":  "lang/pt-BR.json"
                       },
                       {
                           "lang":  "ca",
-                          "name":  "CatalÃ  (Catalan)",
+                          "name":  "CatalÃƒÂ  (Catalan)",
                           "path":  "lang/ca.json"
                       },
                       {
                           "lang":  "ua",
-                          "name":  "Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ° Ð¼Ð¾Ð²Ð° (Ukrainian)",
+                          "name":  "ÃÂ£ÃÂºÃ‘â‚¬ÃÂ°Ã‘â€”ÃÂ½Ã‘ÂÃ‘Å’ÃÂºÃÂ° ÃÂ¼ÃÂ¾ÃÂ²ÃÂ° (Ukrainian)",
                           "path":  "lang/ua.json"
                       }
                   ],
@@ -91,7 +91,7 @@
     "secondaryTokenAttribute":  "strain",
     "url":  "https://github.com/Mitos7/StarWarsFFG",
     "manifest":  "https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json",
-    "download":  "https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.7/system.zip",
+    "download":  "https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.8/system.zip",
     "license":  "LICENSE.txt",
     "documentTypes":  {
                           "Actor":  {
@@ -191,6 +191,11 @@
                                                  "id":  "swffg-mitos-addons",
                                                  "type":  "module",
                                                  "manifest":  "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/collection/module.json"
+                                             },
+                                             {
+                                                 "id":  "swffg-mitos-starter",
+                                                 "type":  "module",
+                                                 "manifest":  "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/starter-kit/module.json"
                                              }
                                          ]
                       }

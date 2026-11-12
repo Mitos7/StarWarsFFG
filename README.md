@@ -1,3 +1,10 @@
+## Original starter compendia (optional)
+
+We provide [11 original starter compendia with 59 playable demonstration entries](starter-kit/README.md): equipment, weapons, armour, species, careers, specializations, talents, narrative powers, adversaries, vehicles and an original short adventure. **No official commercial books are included.** Install as a module via: https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/starter-kit/module.json`n
+To import your legally-owned official data, use StarWarsFFG's built-in **OggDude Dataset Importer** from the Compendiums sidebar with a ZIP of your local OggDude Data folder. Always back up your world first.
+
+---
+
 ## Mitos7 - Public installation (Foundry V14)
 
 Install the main **Star Wars FFG + Genesys** system using this manifest in Foundry **Game Systems -> Install System -> Manifest URL**:
@@ -33,7 +40,7 @@ The system for Foundry VTT contains no rules or proprietary content from the var
 For more info and documentation including various "How-To" guides, please check out the Wiki section of our GitHub repo.
 
 - For support on this game system : Discord [The Foundry](https://discord.gg/foundryvtt) #starwars-ffg
-- Read this document in another language : [Français](https://github.com/StarWarsFoundryVTT/StarWarsFFG/blob/main/README-fr.md), [Català](https://github.com/StarWarsFoundryVTT/StarWarsFFG/blob/main/README-ca.md)
+- Read this document in another language : [FranÃ§ais](https://github.com/StarWarsFoundryVTT/StarWarsFFG/blob/main/README-fr.md), [CatalÃ ](https://github.com/StarWarsFoundryVTT/StarWarsFFG/blob/main/README-ca.md)
 - This system supports simulated dice rolls to determine success chance. Powered by [SWRPG Online](https://github.com/swrpg-online/monte-carlo)
 
 # Installing Star Wars FFG game system
