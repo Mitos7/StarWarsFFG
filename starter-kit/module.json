@@ -1,0 +1,111 @@
+{
+  "id": "swffg-mitos-starter",
+  "title": "Star Wars FFG / Genesys — Kit original de Mitos",
+  "description": "Once compendios originales de demostración, sin contenido de libros oficiales: equipo, armas, especies, talentos, adversarios, vehículos y una aventura.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Mitos7"
+    }
+  ],
+  "compatibility": {
+    "minimum": 14,
+    "verified": 14,
+    "maximum": 14
+  },
+  "url": "https://github.com/Mitos7/StarWarsFFG",
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/starter-kit/module.json",
+  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-starter-1.0.0/swffg-mitos-starter.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "type": "system"
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "equipo",
+      "label": "Equipo original",
+      "type": "Item",
+      "path": "packs/equipo",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "armas",
+      "label": "Armas originales",
+      "type": "Item",
+      "path": "packs/armas",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "armaduras",
+      "label": "Armaduras originales",
+      "type": "Item",
+      "path": "packs/armaduras",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "especies",
+      "label": "Especies originales",
+      "type": "Item",
+      "path": "packs/especies",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "carreras",
+      "label": "Carreras originales",
+      "type": "Item",
+      "path": "packs/carreras",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "especializaciones",
+      "label": "Especializaciones originales",
+      "type": "Item",
+      "path": "packs/especializaciones",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "talentos",
+      "label": "Talentos originales",
+      "type": "Item",
+      "path": "packs/talentos",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "poderes",
+      "label": "Poderes narrativos originales",
+      "type": "Item",
+      "path": "packs/poderes",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "adversarios",
+      "label": "Adversarios originales",
+      "type": "Actor",
+      "path": "packs/adversarios",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "vehiculos",
+      "label": "Vehículos originales",
+      "type": "Actor",
+      "path": "packs/vehiculos",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "guias",
+      "label": "Guías y aventura original",
+      "type": "JournalEntry",
+      "path": "packs/guias"
+    }
+  ],
+  "flags": {
+    "swffg-mitos-starter": {
+      "license": "CC0-1.0",
+      "booksIncluded": false
+    }
+  }
+}

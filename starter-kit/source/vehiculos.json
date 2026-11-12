@@ -1,0 +1,362 @@
+[
+  {
+    "_id": "2ba3ddc215e56b1b",
+    "name": "Lanzadera Gris-7",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Transporte civil para una expedición corta</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 3,
+          "max": 3,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 16,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 12,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 2,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 7,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "f374993f89d24da9",
+    "name": "Patrullera Centella",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Nave ligera de vigilancia</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 4,
+          "max": 4,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 18,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 11,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 2,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 3,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "62685544537a5ea8",
+    "name": "Carguero Bruma Gris",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Viejo vehículo de carga con almacén oculto</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 4,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 2,
+          "max": 2,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 25,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 17,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 3,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 8,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  }
+]

@@ -1,0 +1,154 @@
+[
+  {
+    "_id": "753d0adc52ba4796",
+    "name": "Vigilante Portuario",
+    "type": "career",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Profesión de patrulla y protección civil</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "specializations": {},
+      "signatureabilities": {},
+      "careerSkills": {
+        "careerSkill0": "Vigilance",
+        "careerSkill1": "Perception",
+        "careerSkill2": "Discipline",
+        "careerSkill3": "Ranged: Light",
+        "careerSkill4": "Cool",
+        "careerSkill5": "Athletics",
+        "careerSkill6": "(none)",
+        "careerSkill7": "(none)"
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "9a8cad6382321974",
+    "name": "Cartógrafo de Rutas",
+    "type": "career",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Explorador de mapas y señales remotas</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "specializations": {},
+      "signatureabilities": {},
+      "careerSkills": {
+        "careerSkill0": "Astrogation",
+        "careerSkill1": "Computers",
+        "careerSkill2": "Perception",
+        "careerSkill3": "Survival",
+        "careerSkill4": "Piloting: Space",
+        "careerSkill5": "(none)",
+        "careerSkill6": "(none)",
+        "careerSkill7": "(none)"
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "4c752dff3e455cb5",
+    "name": "Técnico de Sistemas",
+    "type": "career",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Especialista en reparaciones y maquinaria</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "specializations": {},
+      "signatureabilities": {},
+      "careerSkills": {
+        "careerSkill0": "Mechanics",
+        "careerSkill1": "Computers",
+        "careerSkill2": "Perception",
+        "careerSkill3": "Coordination",
+        "careerSkill4": "Vigilance",
+        "careerSkill5": "(none)",
+        "careerSkill6": "(none)",
+        "careerSkill7": "(none)"
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "0c38c67bdd5cfddf",
+    "name": "Negociador Itinerante",
+    "type": "career",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Mediador de conflictos comerciales</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "specializations": {},
+      "signatureabilities": {},
+      "careerSkills": {
+        "careerSkill0": "Negotiation",
+        "careerSkill1": "Charm",
+        "careerSkill2": "Cool",
+        "careerSkill3": "Deception",
+        "careerSkill4": "Streetwise",
+        "careerSkill5": "(none)",
+        "careerSkill6": "(none)",
+        "careerSkill7": "(none)"
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  }
+]

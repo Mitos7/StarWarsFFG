@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "74bc544c3d33988c",
+    "name": "Valori de las Llanuras",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Pueblo original viajero que se orienta por patrones de viento</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "14538684113a4743",
+    "name": "Drenn de Cobre",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Pueblo minero conocido por su trabajo en equipo</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "bd8c5bc2bf0aee0c",
+    "name": "Tessari de la Bruma",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Comunidad anfibia de humedales y canales</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "55cd00acfabd52a6",
+    "name": "Colono de Frontera",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Humano criado en asentamientos remotos</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 110
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  }
+]

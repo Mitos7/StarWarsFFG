@@ -1,0 +1,650 @@
+[
+  {
+    "_id": "925018e7d25a12a2",
+    "name": "Emisor de emergencia",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Baliza portátil para pedir ayuda</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 80,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "dd388e03bd643498",
+    "name": "Herramientas de campo",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Juego de microherramientas para reparar equipos</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 125,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "d97e879a0afef97d",
+    "name": "Botiquín de campaña",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Material básico para asistir heridos</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 95,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "de4a15d69b61f6cd",
+    "name": "Linterna espectral",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Fuente de luz visible y ultravioleta</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 40,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "7e56c820fc03bb34",
+    "name": "Cuerda magnética",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Cable de veinte metros con anclaje</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 75,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "5876026d6b1a70d1",
+    "name": "Ración compacta",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Comida y agua para una jornada</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 15,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "609b570b3ba78a04",
+    "name": "Detector térmico",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Sensor portátil para localizar calor</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 110,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "e53e9c68048532b0",
+    "name": "Tarjeta de acceso del puerto",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Credencial con una firma de seguridad antigua</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 0,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 5,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "c9304001f5f3ddb1",
+    "name": "Filtro respiratorio",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Filtro de emergencia para polvo industrial</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 50,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "a2e14c85b80fb951",
+    "name": "Comunicador de taller",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Radio de corto alcance para técnicos</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 70,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "b6319536d80697ed",
+    "name": "Escáner de ondas",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Localiza interferencias y transmisores próximos</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 180,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 4,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "f8630f2d33e10a26",
+    "name": "Casco de trabajo",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Protección civil para el sector de máquinas</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 55,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  }
+]

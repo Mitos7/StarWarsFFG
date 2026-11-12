@@ -1,0 +1,94 @@
+[
+  {
+    "_id": "1f417b5d103ab7d3",
+    "name": "00 — Instrucciones",
+    "pages": [
+      {
+        "_id": "25eaddbb2621c21b",
+        "name": "Contenido",
+        "type": "text",
+        "text": {
+          "format": 1,
+          "content": "<h1>Kit original de iniciación</h1><p>Once compendios con contenido original y no oficial. Arrastra objetos o actores para emplearlos. No contiene ningún libro comercial. Para importar tu propia biblioteca OggDude, en Compendios pulsa OggDude Dataset Importer; elige un ZIP de tu carpeta Data. Haz copia de seguridad antes de importar.</p><p>El soporte Genesys se cambia en la configuración de StarWarsFFG.</p>"
+        }
+      }
+    ],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "17b87d84ec86260d",
+    "name": "01 — El eco del astillero",
+    "pages": [
+      {
+        "_id": "c28b4de8ec15f681",
+        "name": "Contenido",
+        "type": "text",
+        "text": {
+          "format": 1,
+          "content": "<h1>El eco del astillero</h1><p>Aventura original de prueba.</p><h2>Gancho</h2><p>Una estación de carga supuestamente abandonada emite una llamada de auxilio. Una piloto civil ofrece transporte a cambio de rescatar a los trabajadores.</p><h2>Escena 1: atraque</h2><p>La gravedad es inestable. Un guardia conoce la ruta segura. Una prueba de Vigilancia descubre huellas recientes.</p><h2>Escena 2: taller</h2><p>Un terminal borra los registros. Una prueba de Mecánica o Computadoras permite reconstruir la señal. Un operario explica que alguien manipuló las máquinas.</p><h2>Escena 3: centinela</h2><p>Un centinela impide el paso. Se puede desactivar, engañar o combatir.</p><h2>Escena 4: decisión</h2><p>El capataz ocultó pruebas de un sabotaje. Los personajes pueden rescatar a los empleados, denunciarlo o negociar.</p><h2>PNJ</h2><p>Guardia del puerto; Operario de chatarra; Centinela mecánico; Capataz del sector oscuro; Rescatadora civil.</p><h2>Recompensa</h2><p>Un favor de la rescatadora y un transporte temporal; los créditos los decide el DJ.</p>"
+        }
+      }
+    ],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "b1a599be2e0a5cdf",
+    "name": "02 — Complicaciones d6",
+    "pages": [
+      {
+        "_id": "06966603530bc394",
+        "name": "Contenido",
+        "type": "text",
+        "text": {
+          "format": 1,
+          "content": "<h1>Complicaciones narrativas d6</h1><ol><li>La energía falla.</li><li>Un testigo reconoce al grupo.</li><li>Una compuerta bloquea el camino.</li><li>Salta una falsa alarma.</li><li>Una oportunidad inesperada para negociar.</li><li>El objetivo se mueve a una zona peligrosa.</li></ol><p>No sustituye los resultados oficiales de los dados narrativos.</p>"
+        }
+      }
+    ],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "6cf846560cb7ef90",
+    "name": "03 — Preparación de partida",
+    "pages": [
+      {
+        "_id": "ccc75e4e77e48c59",
+        "name": "Contenido",
+        "type": "text",
+        "text": {
+          "format": 1,
+          "content": "<h1>Lista de comprobación</h1><ol><li>Activa el módulo solo en un mundo StarWarsFFG.</li><li>Comprueba que aparecen los once compendios.</li><li>Arrastra un guardia, un arma y una nave a la campaña.</li><li>Prueba tiradas, combate y la reserva de Destino.</li><li>Introduce tus propios datos de manuales legales mediante el importador OggDude.</li></ol><p>Instalar el módulo no altera automáticamente tus personajes ni mundos.</p>"
+        }
+      }
+    ],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  }
+]

@@ -1,0 +1,318 @@
+[
+  {
+    "_id": "2f06c67461b21367",
+    "name": "Chaleco de patrulla",
+    "type": "armour",
+    "img": "systems/starwarsffg/images/defaults/items/armor.png",
+    "system": {
+      "description": "<p>Placas ligeras para guardias de paso</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 260,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "defence": {
+        "value": 0,
+        "type": "Number",
+        "label": "Defence",
+        "abrev": "Def",
+        "adjusted": 0
+      },
+      "soak": {
+        "value": 1,
+        "type": "Number",
+        "label": "Soak",
+        "adjusted": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "05d1d302a0f44f04",
+    "name": "Mono reforzado",
+    "type": "armour",
+    "img": "systems/starwarsffg/images/defaults/items/armor.png",
+    "system": {
+      "description": "<p>Ropa de trabajo con tejido resistente</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 115,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "defence": {
+        "value": 0,
+        "type": "Number",
+        "label": "Defence",
+        "abrev": "Def",
+        "adjusted": 0
+      },
+      "soak": {
+        "value": 1,
+        "type": "Number",
+        "label": "Soak",
+        "adjusted": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "afcb83158cacfab9",
+    "name": "Traje de presión",
+    "type": "armour",
+    "img": "systems/starwarsffg/images/defaults/items/armor.png",
+    "system": {
+      "description": "<p>Traje de evacuación para un fallo atmosférico</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 3,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 600,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 5,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "defence": {
+        "value": 0,
+        "type": "Number",
+        "label": "Defence",
+        "abrev": "Def",
+        "adjusted": 0
+      },
+      "soak": {
+        "value": 1,
+        "type": "Number",
+        "label": "Soak",
+        "adjusted": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "03c0044ccad9316a",
+    "name": "Capa de fibras densas",
+    "type": "armour",
+    "img": "systems/starwarsffg/images/defaults/items/armor.png",
+    "system": {
+      "description": "<p>Abrigo industrial con capas protectoras</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 180,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "defence": {
+        "value": 0,
+        "type": "Number",
+        "label": "Defence",
+        "abrev": "Def",
+        "adjusted": 0
+      },
+      "soak": {
+        "value": 1,
+        "type": "Number",
+        "label": "Soak",
+        "adjusted": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  }
+]

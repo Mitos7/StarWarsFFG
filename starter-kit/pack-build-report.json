@@ -1,0 +1,57 @@
+{
+  "equipo": {
+    "type": "Item",
+    "docs": 12,
+    "entries": 12
+  },
+  "armas": {
+    "type": "Item",
+    "docs": 7,
+    "entries": 7
+  },
+  "armaduras": {
+    "type": "Item",
+    "docs": 4,
+    "entries": 4
+  },
+  "especies": {
+    "type": "Item",
+    "docs": 4,
+    "entries": 4
+  },
+  "carreras": {
+    "type": "Item",
+    "docs": 4,
+    "entries": 4
+  },
+  "especializaciones": {
+    "type": "Item",
+    "docs": 4,
+    "entries": 4
+  },
+  "talentos": {
+    "type": "Item",
+    "docs": 8,
+    "entries": 8
+  },
+  "poderes": {
+    "type": "Item",
+    "docs": 3,
+    "entries": 3
+  },
+  "adversarios": {
+    "type": "Actor",
+    "docs": 6,
+    "entries": 6
+  },
+  "vehiculos": {
+    "type": "Actor",
+    "docs": 3,
+    "entries": 3
+  },
+  "guias": {
+    "type": "JournalEntry",
+    "docs": 4,
+    "entries": 8
+  }
+}

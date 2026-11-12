@@ -1,0 +1,702 @@
+[
+  {
+    "_id": "b1a94f076cfd486f",
+    "name": "Pistola de descarga T-12",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Arma compacta de vigilancia</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 180,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Light",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 5,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 4,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Short",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "50dc3c5bc9cb490a",
+    "name": "Carabina de pulsos Mica",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Carabina para exploraciones</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 3,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 450,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 4,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Heavy",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 7,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Medium",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "5ba273325d01b234",
+    "name": "Bastón eléctrico aislado",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Bastón de inmovilización temporal</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 90,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Melee",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 3,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 5,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Engaged",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "131d5bbfe7452267",
+    "name": "Hoja de cerámica",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Herramienta industrial de corte</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 65,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Melee",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 3,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 4,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Engaged",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "db32689d30518f30",
+    "name": "Fusil de seguridad",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Rifle de patrulla de muelle</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 4,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 650,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 5,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Heavy",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 8,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Long",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "b56d4a1f1dbb342b",
+    "name": "Lanzador de red",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Arma de captura no letal</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 3,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 390,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 5,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Light",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 2,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 5,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Short",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "e1764d9fd1af03aa",
+    "name": "Pistola térmica de taller",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Herramienta modificada para autodefensa</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 70,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Light",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 3,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 5,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Short",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  }
+]

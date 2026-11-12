@@ -1,0 +1,226 @@
+[
+  {
+    "_id": "63cd6df175ac52ca",
+    "name": "Analista de frecuencias",
+    "type": "specialization",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Especialización original para investigar transmisiones y rastrear emisores</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "talents": {
+        "talent0": {},
+        "talent1": {},
+        "talent2": {},
+        "talent3": {},
+        "talent4": {},
+        "talent5": {},
+        "talent6": {},
+        "talent7": {},
+        "talent8": {},
+        "talent9": {},
+        "talent10": {},
+        "talent11": {},
+        "talent12": {},
+        "talent13": {},
+        "talent14": {},
+        "talent15": {},
+        "talent16": {},
+        "talent17": {},
+        "talent18": {},
+        "talent19": {}
+      },
+      "careerSkills": {
+        "careerSkill0": "(none)",
+        "careerSkill1": "(none)",
+        "careerSkill2": "(none)",
+        "careerSkill3": "(none)",
+        "careerSkill4": "(none)"
+      },
+      "universal": false
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "fb21ba44b255fc47",
+    "name": "Mecánico de rescate",
+    "type": "specialization",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Especialización original para reparar bajo presión y evacuar civiles</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "talents": {
+        "talent0": {},
+        "talent1": {},
+        "talent2": {},
+        "talent3": {},
+        "talent4": {},
+        "talent5": {},
+        "talent6": {},
+        "talent7": {},
+        "talent8": {},
+        "talent9": {},
+        "talent10": {},
+        "talent11": {},
+        "talent12": {},
+        "talent13": {},
+        "talent14": {},
+        "talent15": {},
+        "talent16": {},
+        "talent17": {},
+        "talent18": {},
+        "talent19": {}
+      },
+      "careerSkills": {
+        "careerSkill0": "(none)",
+        "careerSkill1": "(none)",
+        "careerSkill2": "(none)",
+        "careerSkill3": "(none)",
+        "careerSkill4": "(none)"
+      },
+      "universal": false
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "a6ce95b6a35e65cf",
+    "name": "Explorador de ruinas",
+    "type": "specialization",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Especialización original para orientarse y sobrevivir lejos de rutas seguras</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "talents": {
+        "talent0": {},
+        "talent1": {},
+        "talent2": {},
+        "talent3": {},
+        "talent4": {},
+        "talent5": {},
+        "talent6": {},
+        "talent7": {},
+        "talent8": {},
+        "talent9": {},
+        "talent10": {},
+        "talent11": {},
+        "talent12": {},
+        "talent13": {},
+        "talent14": {},
+        "talent15": {},
+        "talent16": {},
+        "talent17": {},
+        "talent18": {},
+        "talent19": {}
+      },
+      "careerSkills": {
+        "careerSkill0": "(none)",
+        "careerSkill1": "(none)",
+        "careerSkill2": "(none)",
+        "careerSkill3": "(none)",
+        "careerSkill4": "(none)"
+      },
+      "universal": false
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  },
+  {
+    "_id": "1631424f0d6af581",
+    "name": "Mediador de fronteras",
+    "type": "specialization",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Especialización original para negociar acuerdos entre colonias</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Mitos Starter",
+          "Original",
+          "Demo"
+        ],
+        "sources": []
+      },
+      "talents": {
+        "talent0": {},
+        "talent1": {},
+        "talent2": {},
+        "talent3": {},
+        "talent4": {},
+        "talent5": {},
+        "talent6": {},
+        "talent7": {},
+        "talent8": {},
+        "talent9": {},
+        "talent10": {},
+        "talent11": {},
+        "talent12": {},
+        "talent13": {},
+        "talent14": {},
+        "talent15": {},
+        "talent16": {},
+        "talent17": {},
+        "talent18": {},
+        "talent19": {}
+      },
+      "careerSkills": {
+        "careerSkill0": "(none)",
+        "careerSkill1": "(none)",
+        "careerSkill2": "(none)",
+        "careerSkill3": "(none)",
+        "careerSkill4": "(none)"
+      },
+      "universal": false
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true
+      }
+    }
+  }
+]
