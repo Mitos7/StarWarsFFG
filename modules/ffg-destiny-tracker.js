@@ -1,17 +1,20 @@
-import { GroupManager } from "./groupmanager-ffg.js";
 import { bindChatAction, registerChatMessageRender } from "./helpers/chat-message.js";
 
 /**
  * A specialized form used to pop out the editor.
- * @extends {FormApplication}
+ * Native ApplicationV2 tracker for the shared destiny pool.
  *
  * OPTIONS:
  *
  *
  */
-export default class DestinyTracker extends FormApplication {
+const {ApplicationV2, HandlebarsApplicationMixin} = foundry.applications.api;
+
+export default class DestinyTracker extends HandlebarsApplicationMixin(ApplicationV2) {
   constructor(object={}, options={}) {
-    super(object, options);
+    // `object` is retained for compatibility with the old FormApplication
+    // signature. The tracker has no document object.
+    super(options);
 
     this.destinyQueue = [];
     this.isRunningQueue = false;
@@ -20,151 +23,92 @@ export default class DestinyTracker extends FormApplication {
     }
   }
 
-  /** @override */
-  static get defaultOptions() {
-    return foundry.utils.mergeObject(super.defaultOptions, {
-      id: "destiny-tracker",
-      classes: ["starwarsffg"],
-      title: "Destiny Tracker",
-      template: "systems/starwarsffg/templates/ffg-destiny-tracker.html",
-    });
-  }
+  static DEFAULT_OPTIONS = {
+    id: "destiny-tracker",
+    classes: ["starwarsffg"],
+    tag: "form",
+    window: {title: "Destiny Tracker", resizable: false},
+    position: {width: 180, height: 120},
+    actions: {
+      "toggle-destiny-menu": function(event, target) { return this._toggleMenu(target); },
+      "destiny-menu-item": function(event, target) { return this._runMenuItem(event, target); },
+      "change-destiny": function(event, target) { return this._changeDestiny(event, target); },
+    },
+  };
+
+  static PARTS = {tracker: {template: "systems/starwarsffg/templates/ffg-destiny-tracker.html"}};
 
   /** @override */
-  getData() {
+  async _prepareContext(options) {
+    const context = await super._prepareContext(options);
     // Get current value
     let destinyPool = { light: game.settings.get("starwarsffg", "dPoolLight"), dark: game.settings.get("starwarsffg", "dPoolDark") };
     let destinyPoolLabel = { light: game.settings.get("starwarsffg", "destiny-pool-light"), dark: game.settings.get("starwarsffg", "destiny-pool-dark") };
 
-    const x = $(window).width();
-    const y = $(window).height();
-
-    this.position.left = x - window.screen.width;
-    this.position.top = y - 250;
-    //this.position.width = 150;
-    //this.position.height = 105;
-
     // filter menu based on role.
 
-    const menu = this.menu.filter((m) => game.user.hasRole(m.minimumRole) || !m.minimumRole);
+    const menu = (this.menu ?? []).map((item, index) => ({...item, index})).filter(item => game.user.hasRole(item.minimumRole) || !item.minimumRole);
 
     // Return data
-    return {
+    return Object.assign(context, {
       destinyPool,
       destinyPoolLabel,
       isGM: game.user.isGM,
       menu,
       theme: game.settings.get("starwarsffg", "dicetheme"),
-    };
+    });
   }
 
   /* -------------------------------------------- */
 
-  /** @override */
-  _updateObject(event, formData) {};
+  _onRender(context, options) {
+    super._onRender(context, options);
+    this._registerDestinyHandlers();
+  }
 
-  /** @override */
-  async close(options = {}) {};
+  _toggleMenu(target) {
+    const menu = this.element.querySelector(`#${target.id}Content`);
+    if (!menu) return;
+    menu.classList.toggle("show");
+    const rect = menu.getBoundingClientRect();
+    menu.classList.toggle("vertical", rect.x + rect.width < 0 || rect.y + rect.height < 0 || rect.y + rect.height > window.innerHeight || rect.x + rect.width > window.innerWidth || rect.x > window.innerWidth || rect.y > window.innerHeight);
+  }
 
-  /** @override */
-  activateListeners(html) {
-    const d = html.find("swffg-destiny-container")[0];
-    new foundry.applications.ux.Draggable(this, html, d, this.options.resizable);
+  _runMenuItem(event, target) {
+    event.preventDefault();
+    event.stopPropagation();
+    this.menu?.[Number(target.dataset.index)]?.callback();
+  }
 
-    $("#destiny-tracker").css({ bottom: "0px", right: "305px" });
+  async _changeDestiny(event, target) {
+    const pointType = target.dataset.group;
+    const typeName = game.i18n.localize(game.settings.get("starwarsffg", pointType === "dPoolLight" ? "destiny-pool-light" : "destiny-pool-dark"));
+    const add = event.shiftKey;
+    const remove = event.ctrlKey || event.metaKey;
+    const flipType = pointType === "dPoolLight" ? "dPoolDark" : "dPoolLight";
+    let messageText;
 
-    // future functionality to allow multiple menu items to be passed in
+    if (!add && !remove) {
+      if (game.settings.get("starwarsffg", pointType) === 0) return ui.notifications.warn(`Cannot flip a ${typeName} point; 0 remaining.`);
+      const pool = {light: game.settings.get("starwarsffg", "dPoolLight"), dark: game.settings.get("starwarsffg", "dPoolDark")};
+      pool[flipType === "dPoolLight" ? "light" : "dark"]++;
+      pool[pointType === "dPoolLight" ? "light" : "dark"]--;
+      if (game.user.isGM) {
+        await game.settings.set("starwarsffg", "dPoolLight", pool.light);
+        await game.settings.set("starwarsffg", "dPoolDark", pool.dark);
+      } else await game.socket.emit("system.starwarsffg", {pool});
+      messageText = `<div class="destiny-flip ${flipType}"><div class="destiny-title">${game.i18n.localize("SWFFG.DestinyFlipMessage")}: <span class="${typeName}">${typeName}</span></div><div class="destiny-left ${flipType !== "dPoolDark"} dark">${game.i18n.localize(game.settings.get("starwarsffg", "destiny-pool-dark"))} ${game.i18n.localize("SWFFG.DestinyFlipRemaining")}: ${pool.dark}</div><div class="destiny-left ${flipType !== "dPoolLight"} light">${game.i18n.localize(game.settings.get("starwarsffg", "destiny-pool-light"))} ${game.i18n.localize("SWFFG.DestinyFlipRemaining")}: ${pool.light}</div></div>`;
+    } else {
+      if (!game.user.isGM) return ui.notifications.warn("Only GMs can add or remove points from the Destiny Pool.");
+      await game.settings.set("starwarsffg", pointType, game.settings.get("starwarsffg", pointType) + (add ? 1 : -1));
+      messageText = `${add ? "Added" : "Removed"} a ${typeName} point.`;
+    }
+    return CONFIG.ChatMessage.documentClass.create({user: game.user.id, content: messageText});
+  }
 
-    $.expr.filters.offscreen = function (el) {
-      var rect = el.getBoundingClientRect();
-      return rect.x + rect.width < 0 || rect.y + rect.height < 0 || rect.y + rect.height > window.innerHeight || rect.x + rect.width > window.innerWidth || rect.x > window.innerWidth || rect.y > window.innerHeight;
-    };
-
-    html.find(".dropbtn").click((event) => {
-      const id = `#${$(event.currentTarget).attr("id")}Content`;
-      $(html.find(id)).toggleClass("show");
-
-      if ($(".dropdown-content").is(":offscreen")) {
-        $(html.find(id)).addClass("vertical");
-      } else {
-        $(html.find(id)).removeClass("vertical");
-      }
-    });
-
-    html.find(".dropdown-content a").click((event) => {
-      event.preventDefault();
-      event.stopPropagation();
-
-      const index = event.currentTarget.dataset.value;
-      this.menu[index].callback();
-    });
-
-    html.find(".destiny-points").click(async (event) => {
-      const pointType = event.currentTarget.dataset.group;
-      var typeName = null;
-      const add = event.shiftKey;
-      const remove = event.ctrlKey || event.metaKey;
-      var flipType = null;
-      var actionType = null;
-      if (pointType == "dPoolLight") {
-        flipType = "dPoolDark";
-        typeName = game.i18n.localize(game.settings.get("starwarsffg", "destiny-pool-light"));
-      } else {
-        flipType = "dPoolLight";
-        typeName = game.i18n.localize(game.settings.get("starwarsffg", "destiny-pool-dark"));
-      }
-      var messageText;
-
-      if (!add && !remove) {
-        if (game.settings.get("starwarsffg", pointType) == 0) {
-          ui.notifications.warn(`Cannot flip a ${typeName} point; 0 remaining.`);
-          return;
-        } else {
-          let pool = { light: 0, dark: 0 };
-          if (flipType == "dPoolLight") {
-            pool.light = game.settings.get("starwarsffg", flipType) + 1;
-            pool.dark = game.settings.get("starwarsffg", pointType) - 1;
-          } else if (flipType == "dPoolDark") {
-            pool.dark = game.settings.get("starwarsffg", flipType) + 1;
-            pool.light = game.settings.get("starwarsffg", pointType) - 1;
-          }
-
-          if (game.user.isGM) {
-            game.settings.set("starwarsffg", "dPoolLight", pool.light);
-            game.settings.set("starwarsffg", "dPoolDark", pool.dark);
-          } else {
-            await game.socket.emit("system.starwarsffg", { pool });
-          }
-
-          messageText = `<div class="destiny-flip ${flipType}">
-          <div class="destiny-title">${game.i18n.localize("SWFFG.DestinyFlipMessage")}: <span class="${typeName}">${typeName}</span></div>
-          <div class="destiny-left ${flipType !== "dPoolDark"} dark">${game.i18n.localize(game.settings.get("starwarsffg", "destiny-pool-dark"))} ${game.i18n.localize("SWFFG.DestinyFlipRemaining")}: ${pool.dark}</div>
-          <div class="destiny-left ${flipType !== "dPoolLight"} light">${game.i18n.localize(game.settings.get("starwarsffg", "destiny-pool-light"))} ${game.i18n.localize("SWFFG.DestinyFlipRemaining")}: ${pool.light}</div>
-          </div>`;
-        }
-      } else if (add) {
-        if (!game.user.isGM) {
-          ui.notifications.warn("Only GMs can add or remove points from the Destiny Pool.");
-          return;
-        }
-        const setting = game.settings.settings.get(`starwarsffg.${pointType}`);
-        game.settings.set("starwarsffg", pointType, game.settings.get("starwarsffg", pointType) + 1);
-        messageText = "Added a " + typeName + " point.";
-      } else if (remove) {
-        if (!game.user.isGM) {
-          ui.notifications.warn("Only GMs can add or remove points from the Destiny Pool.");
-          return;
-        }
-        const setting = game.settings.settings.get(`starwarsffg.${pointType}`);
-        game.settings.set("starwarsffg", pointType, game.settings.get("starwarsffg", pointType) - 1);
-        messageText = "Removed a " + typeName + " point.";
-      }
-
-      CONFIG.ChatMessage.documentClass.create({
-        user: game.user.id,
-        content: messageText,
-      });
-    });
+  _registerDestinyHandlers() {
+    if (this._destinyHandlersRegistered) return;
+    this._destinyHandlersRegistered = true;
 
     // setup chat hook for destiny roll
     registerChatMessageRender((message, html) => {
@@ -223,7 +167,7 @@ export default class DestinyTracker extends FormApplication {
           };
 
           // only allow one player flip at a time.
-          if (!this.destinyQueue.find((q) => q.id === args[0].destiny)) {
+          if (!this.destinyQueue.find((q) => q.id === request.id)) {
             this.destinyQueue.push(request);
           }
         }
@@ -244,6 +188,7 @@ export default class DestinyTracker extends FormApplication {
         }
 
         if (!this.isRunningQueue) {
+          this.isRunningQueue = true;
           this._processDestinyRequests();
         }
       });
@@ -271,31 +216,31 @@ export default class DestinyTracker extends FormApplication {
 
   async _processDestinyRequests() {
     CONFIG.logger.debug(`Processing ${this.destinyQueue.length} Destiny Requests`);
+    try {
+      while (this.destinyQueue.length > 0) {
+        const request = this.destinyQueue.shift();
+        CONFIG.logger.debug(`Processing Destiny Request (${request.type}) from User ${request.id}`, request);
+        const light = await game.settings.get("starwarsffg", "dPoolLight");
+        const dark = await game.settings.get("starwarsffg", "dPoolDark");
 
-    while (this.destinyQueue.length > 0) {
-      const request = this.destinyQueue.shift();
-      CONFIG.logger.debug(`Processing Destiny Request (${request.type}) from User ${request.id}`, request);
-
-      const light = await game.settings.get("starwarsffg", "dPoolLight");
-      const dark = await game.settings.get("starwarsffg", "dPoolDark");
-
-      switch (request.type) {
-        case "destiny-roll": {
-          game.settings.set("starwarsffg", `destinyrollers${request.id}`, true);
-          await game.settings.set("starwarsffg", "dPoolLight", light + request.light);
-          await game.settings.set("starwarsffg", "dPoolDark", dark + request.dark);
-          break;
-        }
-        case "destiny-flip": {
-          await game.settings.set("starwarsffg", "dPoolLight", light - request.light);
-          game.settings.set("starwarsffg", "dPoolDark", dark - request.dark);
-          break;
+        switch (request.type) {
+          case "destiny-roll": {
+            game.settings.set("starwarsffg", `destinyrollers${request.id}`, true);
+            await game.settings.set("starwarsffg", "dPoolLight", light + request.light);
+            await game.settings.set("starwarsffg", "dPoolDark", dark + request.dark);
+            break;
+          }
+          case "destiny-flip": {
+            await game.settings.set("starwarsffg", "dPoolLight", light - request.light);
+            await game.settings.set("starwarsffg", "dPoolDark", dark - request.dark);
+            break;
+          }
         }
       }
+    } finally {
+      this.isRunningQueue = false;
     }
-
     CONFIG.logger.debug(`Done Processing Destiny Requests`);
-    this.isRunningQueue = false;
   }
 
   async _rollDestiny() {
