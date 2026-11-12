@@ -1,5 +1,6 @@
 param([string]$OutputPath = (Join-Path $env:TEMP 'sw-release-originals-13'))
 $ErrorActionPreference = 'Stop'
+Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 $repo = Split-Path $PSScriptRoot -Parent
 New-Item -Path $OutputPath -ItemType Directory -Force | Out-Null
