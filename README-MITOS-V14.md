@@ -81,3 +81,7 @@ The older `swffg-mitos-starter` add-on remains usable for 11 generic demo
 packs; if enabled, its 12 Star Wars packs duplicate the system's library,
 so disable it in a world where those duplicate lists are unwanted.
 See `docs/library-catalogue.md` for details.
+
+## Existing illustration references (Foundry V14)
+
+This version selects images by category from the preinstalled Foundry V14 `icons/` library when possible. No individual Star Wars character/ship official portraits are bundled; those without matching stock illustrations retain generic system icons. No procedural graphics are created.

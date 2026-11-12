@@ -4,6 +4,18 @@ system now use verified stock item/actor icons already bundled by StarWarsFFG.
 No original portrait/cover art or procedurally generated artwork is provided
 for individual entries.
 
+## Existing artwork — what the system really includes
+
+All 230 item/actor sample entries now use verified preinstalled **Foundry V14**
+stock imagery selected by object type where possible. Datapads use a tablet
+image, blaster pistols/rifles use energy-weapon artwork, and medical equipment
+uses medical images. No images were generated or copied into the repository.
+
+**Important:** These are stock category illustrations, not authentic individual
+Star Wars portraits or ship renders. The original system bundle does not include
+the official illustrations for each named character, weapon or starship. Ships
+without suitable stock art use the original StarWarsFFG vehicle icon.
+
 ## Original starter compendia (optional)
 
 We provide [23 optional starter compendia with 239 fan/homebrew entries](starter-kit/README.md): equipment, weapons, armour, species, careers, specializations, talents, narrative powers, adversaries, vehicles and an original short adventure. **No official commercial books are included.** Install as a module via: https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/starter-kit/module.json
@@ -30,8 +42,6 @@ Six community add-on mirrors preserve their original software licenses. Other pa
 This is an independent community fork, not endorsed by Lucasfilm, Disney, FFG, Edge Studio, Foundry VTT or the original system maintainers. This installation branch is for V14; ApplicationV2/V16 work remains on a separate experimental branch.
 
 ---
-
-# StarWarsFFG
 
 # StarWarsFFG
 
