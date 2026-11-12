@@ -53,5 +53,65 @@
     "type": "JournalEntry",
     "docs": 4,
     "entries": 8
+  },
+  "sw-armas": {
+    "type": "Item",
+    "docs": 17,
+    "entries": 17
+  },
+  "sw-equipo": {
+    "type": "Item",
+    "docs": 16,
+    "entries": 16
+  },
+  "sw-armaduras": {
+    "type": "Item",
+    "docs": 8,
+    "entries": 8
+  },
+  "sw-especies": {
+    "type": "Item",
+    "docs": 16,
+    "entries": 16
+  },
+  "sw-carreras": {
+    "type": "Item",
+    "docs": 18,
+    "entries": 18
+  },
+  "sw-especializaciones": {
+    "type": "Item",
+    "docs": 18,
+    "entries": 18
+  },
+  "sw-talentos": {
+    "type": "Item",
+    "docs": 12,
+    "entries": 12
+  },
+  "sw-poderes": {
+    "type": "Item",
+    "docs": 10,
+    "entries": 10
+  },
+  "sw-adversarios": {
+    "type": "Actor",
+    "docs": 21,
+    "entries": 21
+  },
+  "sw-personajes": {
+    "type": "Actor",
+    "docs": 16,
+    "entries": 16
+  },
+  "sw-naves": {
+    "type": "Actor",
+    "docs": 23,
+    "entries": 23
+  },
+  "sw-guias": {
+    "type": "JournalEntry",
+    "docs": 5,
+    "entries": 10
   }
 }

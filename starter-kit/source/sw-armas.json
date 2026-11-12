@@ -1,0 +1,1736 @@
+[
+  {
+    "_id": "e4c3d7a4dad88069",
+    "name": "Pistola bláster estándar",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Arma corta de energía útil para un personaje de aventuras.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 400,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Light",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 5,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 4,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Medium",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "55dbdf24df2ccaaf",
+    "name": "Pistola bláster pesada",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Arma corta de mayor peso, de fabricación común en regiones remotas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 700,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 4,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Light",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 7,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Medium",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "e3fa0a370e6163a6",
+    "name": "DL-44 bláster pesado",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Versión fan de una pistola potente de la saga.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 1100,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 5,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Light",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 8,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Medium",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "e180a3d6cbb365d7",
+    "name": "E-11 fusil bláster",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Fusil de servicio asociado a tropas imperiales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 3,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 950,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 4,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Heavy",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 8,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Long",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "007d327e28aa9889",
+    "name": "A280 fusil bláster",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Arma larga empleada en enfrentamientos terrestres.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 3,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 980,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 4,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Heavy",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 8,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 4,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Long",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "762e40d95a78c063",
+    "name": "DC-15A fusil bláster",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Arma de época de la República, robusta y de gran tamaño.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 4,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 1200,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 5,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Heavy",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 9,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Long",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "9635ffb65b99f0d2",
+    "name": "EE-3 carabina bláster",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Carabina compacta apreciada por algunos cazarrecompensas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 3,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 1350,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 5,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Heavy",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 8,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Medium",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "35648fef12340c89",
+    "name": "DLT-19 bláster pesado",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Arma de apoyo que exige preparación para su uso.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 5,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 1700,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 6,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Heavy",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 10,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Long",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "935e9923262b87a0",
+    "name": "WESTAR-34 pistola bláster",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Diseño estilizado utilizado por tiradores especializados.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 1450,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 6,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Light",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 7,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Medium",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "d29e1c602a59c778",
+    "name": "Bowcaster wookiee",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Arma de energía de construcción compleja y agarre pesado.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 5,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 1750,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 7,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Heavy",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 10,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Long",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "edf6a184c6d85a23",
+    "name": "Bláster de iones",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Instrumento para interferir circuitos y mecanismos; efectos a juicio del DJ.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 3,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 900,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 5,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Light",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 4,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 5,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Medium",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "e8014789742612d2",
+    "name": "Cuchillo vibratorio",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Hoja equipada con un mecanismo de vibración.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 220,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Melee",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 3,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 4,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Engaged",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "3631ad74045f5de3",
+    "name": "Espada vibratoria",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Arma de combate cercano que utiliza un borde oscilante.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 650,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 5,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Melee",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 5,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Engaged",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "f6668872b6f825ac",
+    "name": "Bastón electrostático",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Arma de contacto con un extremo electrificado.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 3,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 390,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 5,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Melee",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 5,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 4,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Engaged",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "c6a0a1d901b9b064",
+    "name": "Sable de luz de entrenamiento",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Réplicas de entrenamiento con energía limitada; reglas del DJ.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 2400,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 8,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Lightsaber",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 7,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 3,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Engaged",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "fc312029e51b9f7c",
+    "name": "Sable de luz fan",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Representación no oficial para partidas con usuarios de la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 10000,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 10,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Lightsaber",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 9,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 2,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Engaged",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "a1f60cc825e8ff23",
+    "name": "Detonador térmico de ejercicio",
+    "type": "weapon",
+    "img": "systems/starwarsffg/images/defaults/items/weapon.png",
+    "system": {
+      "description": "<p>Versión inerte simulada para entrenamientos; no reproduce reglas oficiales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 350,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 5,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "hardpoints": {
+        "value": 0,
+        "type": "Number",
+        "label": "Hard Points",
+        "abrev": "HP",
+        "adjusted": 0
+      },
+      "equippable": {
+        "value": true,
+        "type": "Boolean",
+        "equipped": false
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": [],
+      "skill": {
+        "value": "Ranged: Light",
+        "type": "String",
+        "label": "Skill"
+      },
+      "damage": {
+        "value": 6,
+        "type": "Number",
+        "label": "Damage",
+        "abrev": "Dam",
+        "adjusted": 0
+      },
+      "crit": {
+        "value": 4,
+        "type": "Number",
+        "label": "Critical Rating",
+        "abrev": "Crit",
+        "adjusted": 0
+      },
+      "range": {
+        "value": "Short",
+        "type": "String",
+        "label": "Range",
+        "adjusted": "Short"
+      },
+      "special": {
+        "value": "",
+        "type": "String",
+        "label": "Special"
+      },
+      "ammo": {
+        "max": 0,
+        "value": 0
+      }
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  }
+]

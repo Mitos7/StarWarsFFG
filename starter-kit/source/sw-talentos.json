@@ -1,0 +1,518 @@
+[
+  {
+    "_id": "2d2a7f0cd297a67b",
+    "name": "Grit",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: representa fortaleza mental en situaciones de presión.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: representa fortaleza mental en situaciones de presión.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "a23919964318a82c",
+    "name": "Toughened",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: representa resistencia al agotamiento físico.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: representa resistencia al agotamiento físico.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "96de4afde83f83e5",
+    "name": "Quick Draw",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: desenvaina una herramienta con rapidez narrativa.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: desenvaina una herramienta con rapidez narrativa.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "cf21392643b68ebb",
+    "name": "Parry",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: experiencia en defenderse en cuerpo a cuerpo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: experiencia en defenderse en cuerpo a cuerpo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "312eb8fc86c2d17d",
+    "name": "Reflect",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: familiaridad con detener ataques en combate.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: familiaridad con detener ataques en combate.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "31b7e9d3193bb4d7",
+    "name": "Dedication",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: esfuerzo personal para perfeccionar una habilidad.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: esfuerzo personal para perfeccionar una habilidad.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "a770b750556801b0",
+    "name": "Skilled Jockey",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: habilidad intuitiva con vehículos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: habilidad intuitiva con vehículos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "b0c7fda284c622d4",
+    "name": "Jury Rigged",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: ingenio para modificar dispositivos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: ingenio para modificar dispositivos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "b14a2f68aa17d6e7",
+    "name": "Natural Pilot",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: facilidad innata para comprender maniobras.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: facilidad innata para comprender maniobras.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "082df376830bb6f4",
+    "name": "Deadly Accuracy",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: entrenamiento centrado en precisión.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: entrenamiento centrado en precisión.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "a196de1197da9727",
+    "name": "Side Step",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: técnica para reposicionarse en un combate.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: técnica para reposicionarse en un combate.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "c5d7bab0c82b0d46",
+    "name": "Armor Master",
+    "type": "talent",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Propuesta fan: familiaridad con protección y movimiento.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "activation": {
+        "value": "Passive",
+        "type": "String",
+        "label": "Activation"
+      },
+      "ranks": {
+        "ranked": false,
+        "current": 1,
+        "min": 0
+      },
+      "isForceTalent": false,
+      "isConflictTalent": false,
+      "tier": 1,
+      "trees": [],
+      "longDesc": "<p>Propuesta fan: familiaridad con protección y movimiento.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>"
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  }
+]

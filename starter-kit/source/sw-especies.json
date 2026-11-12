@@ -1,0 +1,514 @@
+[
+  {
+    "_id": "f39d218d9819a71a",
+    "name": "Humano",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Población presente en muchos sistemas del espacio conocido.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "336f1721ff475581",
+    "name": "Wookiee",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Humanoide alto y peludo asociado a Kashyyyk y tradiciones tribales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "ff5d5349daedff6b",
+    "name": "Twi'lek",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Humanoide de Ryloth con apéndices cefálicos característicos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "92f392796d7b9113",
+    "name": "Rodiano",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Humanoide de ojos prominentes reconocido entre cazadores y comerciantes.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "5c7c937644fcad5c",
+    "name": "Zabrak",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Humanoide de gran resistencia conocido por sus pequeños cuernos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "95f882d62228cde7",
+    "name": "Bothan",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Población presente en redes diplomáticas y de información.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "dee393f8d968530c",
+    "name": "Mon Calamari",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Pueblo anfibio vinculado a la ingeniería y a naves de gran tamaño.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "e659da148bce588a",
+    "name": "Togruta",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Humanoide de marcados patrones faciales y apéndices craneales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "a821d406756af8b7",
+    "name": "Trandoshano",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Humanoide reptiliano oriundo de Trandosha.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "52e8e32878090599",
+    "name": "Nautolano",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Humanoide acuático de tentáculos cefálicos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "3edf243564f95730",
+    "name": "Duros",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Pueblo con larga historia de exploración y navegación.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "b48ac5e58e32fda5",
+    "name": "Chiss",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Población de tez azulada originaria de regiones remotas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "949ef3098400ed64",
+    "name": "Jawa",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Ser de pequeña estatura conocido por comercio y recuperación de piezas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "110e24abfbb8a610",
+    "name": "Ithoriano",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Pueblo de fisonomía distintiva y tradiciones ecológicas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "1f0ff8bf228b9829",
+    "name": "Droide jugador",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Opción fan para representar un personaje mecánico; revisar reglas de tu mesa.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "68081fee614781d6",
+    "name": "Mirialano",
+    "type": "species",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Humanoide de Mirial caracterizado por marcas faciales culturales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "talents": {},
+      "abilities": {},
+      "species": {},
+      "startingXP": 100
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  }
+]

@@ -1,0 +1,898 @@
+[
+  {
+    "_id": "1a2645b0cd6f4e60",
+    "name": "Comunicador personal",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Permite establecer contacto con compañeros a distancia variable.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 0,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 50,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "d0f25a15e71a6df3",
+    "name": "Macrobinoculares",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Visor óptico para identificar movimientos a distancia.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 120,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "6435331b1adc3007",
+    "name": "Datapad",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Ordenador portátil para leer mapas y ficheros.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 180,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "52b8d798377b11de",
+    "name": "Kit de reparación de droide",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Herramientas para mantener mecanismos y circuitos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 400,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 4,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "38c5847e515a2daa",
+    "name": "Medpac",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Equipo para una primera intervención sanitaria.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 350,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "b7f045ebf068fd8b",
+    "name": "Estimulante médico",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Consumible narrativo de emergencia; su efecto lo establece el DJ.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 0,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 25,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "68c3234ac7c4b7b7",
+    "name": "Herramientas de slicing",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Accesorios informáticos para interactuar con terminales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 900,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 6,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "09f46cb6564d0929",
+    "name": "Grilletes de seguridad",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Sujetadores empleados en instalaciones de control.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 100,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "6d939346c6f6870c",
+    "name": "Máscara respiratoria",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Dispositivo para filtrar aire hostil temporalmente.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 250,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 4,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "d871aaafbfbdf9f5",
+    "name": "Mochila de supervivencia",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Conjunto de herramientas y raciones para exploradores.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 3,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 200,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "44c84307ddcacdf7",
+    "name": "Baliza de emergencia",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Emite una señal para facilitar la localización.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 150,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "8910f6a4ccf325a2",
+    "name": "Unidad de datos imperial",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Pequeño soporte electrónico recuperado de un terminal.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 0,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 120,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 4,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "2c63f66588e1323c",
+    "name": "Mapa estelar parcial",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Registro incompleto de sistemas y rutas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 0,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 75,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 3,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "176707cec0e46e9b",
+    "name": "Célula energética",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Recarga genérica de equipamiento electrónico.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 1,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 30,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 2,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "8069474e704ef966",
+    "name": "Herramienta de fusión",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Utensilio para cortes y soldaduras industriales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 2,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 300,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 4,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "ed43aec860e0cb98",
+    "name": "Repuesto de motivador",
+    "type": "gear",
+    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "system": {
+      "description": "<p>Componente de repuesto para vehículos ligeros.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [
+          "Star Wars",
+          "Fan Homebrew",
+          "Stats NO Oficiales"
+        ],
+        "sources": []
+      },
+      "quantity": {
+        "value": 1,
+        "type": "Number",
+        "label": "Quantity",
+        "abrev": "Qty"
+      },
+      "encumbrance": {
+        "value": 3,
+        "type": "Number",
+        "label": "Encumbrance",
+        "abrev": "Encum",
+        "adjusted": 0
+      },
+      "price": {
+        "value": 650,
+        "type": "Number",
+        "label": "Price",
+        "adjusted": 0
+      },
+      "rarity": {
+        "value": 5,
+        "type": "Number",
+        "label": "Rarity",
+        "adjusted": 0
+      },
+      "itemattachment": [],
+      "itemmodifier": [],
+      "adjusteditemmodifer": []
+    },
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  }
+]

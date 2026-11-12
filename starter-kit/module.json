@@ -1,8 +1,8 @@
 {
   "id": "swffg-mitos-starter",
   "title": "Star Wars FFG / Genesys — Kit original de Mitos",
-  "description": "Once compendios originales de demostración, sin contenido de libros oficiales: equipo, armas, especies, talentos, adversarios, vehículos y una aventura.",
-  "version": "1.0.0",
+  "description": "23 compendios: material original y referencias fan no oficiales de Star Wars (naves, armas, especies, personajes y adversarios) con datos jugables caseros; no incluye manuales FFG.",
+  "version": "1.1.0",
   "authors": [
     {
       "name": "Mitos7"
@@ -15,7 +15,7 @@
   },
   "url": "https://github.com/Mitos7/StarWarsFFG",
   "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/starter-kit/module.json",
-  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-starter-1.0.0/swffg-mitos-starter.zip",
+  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-starter-1.1.0/swffg-mitos-starter.zip",
   "relationships": {
     "systems": [
       {
@@ -100,12 +100,96 @@
       "label": "Guías y aventura original",
       "type": "JournalEntry",
       "path": "packs/guias"
+    },
+    {
+      "name": "sw-armas",
+      "type": "Item",
+      "label": "Star Wars — Armas (fan)",
+      "path": "packs/sw-armas",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-equipo",
+      "type": "Item",
+      "label": "Star Wars — Equipo (fan)",
+      "path": "packs/sw-equipo",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-armaduras",
+      "type": "Item",
+      "label": "Star Wars — Armaduras (fan)",
+      "path": "packs/sw-armaduras",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-especies",
+      "type": "Item",
+      "label": "Star Wars — Especies (fan)",
+      "path": "packs/sw-especies",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-carreras",
+      "type": "Item",
+      "label": "Star Wars — Carreras (fan)",
+      "path": "packs/sw-carreras",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-especializaciones",
+      "type": "Item",
+      "label": "Star Wars — Especializaciones (fan)",
+      "path": "packs/sw-especializaciones",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-talentos",
+      "type": "Item",
+      "label": "Star Wars — Talentos (fan)",
+      "path": "packs/sw-talentos",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-poderes",
+      "type": "Item",
+      "label": "Star Wars — Poderes de la Fuerza (fan)",
+      "path": "packs/sw-poderes",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-adversarios",
+      "type": "Actor",
+      "label": "Star Wars — Adversarios (fan)",
+      "path": "packs/sw-adversarios",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-personajes",
+      "type": "Actor",
+      "label": "Star Wars — Personajes conocidos (fan)",
+      "path": "packs/sw-personajes",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-naves",
+      "type": "Actor",
+      "label": "Star Wars — Naves y vehículos (fan)",
+      "path": "packs/sw-naves",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-guias",
+      "type": "JournalEntry",
+      "label": "Star Wars — Aventuras y guía (fan)",
+      "path": "packs/sw-guias"
     }
   ],
   "flags": {
     "swffg-mitos-starter": {
       "license": "CC0-1.0",
-      "booksIncluded": false
+      "booksIncluded": false,
+      "fanContent": true
     }
   }
 }

@@ -43,7 +43,7 @@ async function run() {
     total+=count;
     console.log("PASS",info.name,count,"documents and",keys,"LevelDB entries");
   }
-  if(total!==59 || manifest.packs.length!==11)throw new Error("Unexpected kit size");
+  if(total!==239 || manifest.packs.length!==23)throw new Error("Unexpected kit size");
   console.log("PASSED",manifest.packs.length,"PACKS,",total,"TOTAL DOCUMENTS");
 }
 run().catch(e=>{console.error(e);process.exitCode=1});

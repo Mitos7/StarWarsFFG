@@ -1,0 +1,2808 @@
+[
+  {
+    "_id": "7a6d365effb0d4c2",
+    "name": "T-65 X-wing",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Caza ligero polivalente usado en misiones de escolta.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 4,
+          "max": 4,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 15,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 12,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 2,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 1,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "55ecdc3163e58792",
+    "name": "TIE/ln Fighter",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Caza imperial monoplaza que prioriza maniobrabilidad.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 5,
+          "max": 5,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 9,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 1,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 1,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "e253e5961d50eecb",
+    "name": "TIE Interceptor",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Caza especializado en persecución de alta velocidad.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 6,
+          "max": 6,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 11,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 9,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 1,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 1,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "0525c83de53827b5",
+    "name": "TIE Bomber",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Caza pesado optimizado para ataques de apoyo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 3,
+          "max": 3,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 16,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 12,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 2,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 2,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "5cd483966df34c08",
+    "name": "BTL Y-wing",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Cazabombardero robusto para ataques prolongados.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 3,
+          "max": 3,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 20,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 15,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 3,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 2,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "9ed0b66d5c6cd73d",
+    "name": "RZ-1 A-wing",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Interceptor compacto y muy veloz.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 6,
+          "max": 6,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 11,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 11,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 1,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 1,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "31ad47ac96e9ebbd",
+    "name": "A/SF-01 B-wing",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Caza de perfil irregular y gran potencia.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 3,
+          "max": 3,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 19,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 14,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 3,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 1,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "b9fdba9a28bf0a87",
+    "name": "YT-1300 Light Freighter",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Carguero ligero configurable para transportar mercancía.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 4,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 3,
+          "max": 3,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 32,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 22,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 3,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 8,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "e862d40ee83108e1",
+    "name": "Millennium Falcon",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Adaptación fan del carguero rápido pilotado por Han Solo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 4,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 5,
+          "max": 5,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 35,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 26,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 4,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 8,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "1572832693446c51",
+    "name": "Firespray-31",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Nave de patrulla con estructura peculiar y gran autonomía.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 4,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 4,
+          "max": 4,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 27,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 18,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 4,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 3,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "979f59e00d89820f",
+    "name": "Lambda-class Shuttle",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Lanzadera imperial de transporte y enlace.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 4,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 3,
+          "max": 3,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 27,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 19,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 3,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 20,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "f1d558cbe7e2a4f3",
+    "name": "CR90 Corvette",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Corbeta ligera para patrulla y transporte militar.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 5,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 3,
+          "max": 3,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 75,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 42,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 5,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 120,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "a067685c7e13c5d7",
+    "name": "Nebulon-B Frigate",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Fragata diseñada para escolta y servicios de flota.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 6,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 2,
+          "max": 2,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 125,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 90,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 5,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 480,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "8c41368d8a58a152",
+    "name": "Imperial Star Destroyer",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Gran nave capital imperial; usa reglas de escala de tu mesa.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 8,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 2,
+          "max": 2,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 350,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 200,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 8,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 20000,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "a4f9ca4bbe55dee1",
+    "name": "Venator Star Destroyer",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Nave capital de la era de la República.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 8,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 2,
+          "max": 2,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 310,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 200,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 7,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 16000,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "1d5c89aa679aec11",
+    "name": "ARC-170 Starfighter",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Caza de largo alcance de la era de las Guerras Clon.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 4,
+          "max": 4,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 19,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 16,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 3,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 3,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "6263ba3c76883b30",
+    "name": "LAAT/i Republic Gunship",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Transporte aéreo de asalto de la República.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 4,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 3,
+          "max": 3,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 30,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 18,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 4,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 20,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "15db7d4ccd726e4e",
+    "name": "AT-ST Walker",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Vehículo terrestre bípedo de patrulla.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 2,
+          "max": 2,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 22,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 12,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 4,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 2,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "0beda2b079d4ba98",
+    "name": "AT-AT Walker",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Vehículo terrestre de asalto pesado.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 6,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 1,
+          "max": 1,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 85,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 35,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 7,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 40,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "c2c1023662e3ee41",
+    "name": "74-Z Speeder Bike",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Moto deslizadora para exploración rápida.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 2,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 5,
+          "max": 5,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 6,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 5,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 1,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 1,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "6b74476f37e7fc11",
+    "name": "Jedi Starfighter Delta-7",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Nave ligera de pilotaje intensivo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 3,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 5,
+          "max": 5,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 12,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 9,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 2,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 1,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "75741009df6602ef",
+    "name": "U-wing",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Transporte militar ligero de desembarco.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 4,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 4,
+          "max": 4,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 29,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 19,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 3,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 12,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "42c9e93db3f0115b",
+    "name": "Razor Crest",
+    "type": "vehicle",
+    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "system": {
+      "biography": "<p>Transporte acorazado de un cazador de recompensas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
+      "attributes": {},
+      "metadata": {
+        "tags": [],
+        "sources": []
+      },
+      "stats": {
+        "silhouette": {
+          "value": 4,
+          "type": "Number",
+          "label": "Silhouette"
+        },
+        "speed": {
+          "value": 3,
+          "max": 3,
+          "type": "Number",
+          "label": "Speed"
+        },
+        "handling": {
+          "value": 0,
+          "type": "Number",
+          "label": "Handling"
+        },
+        "hullTrauma": {
+          "value": 0,
+          "min": 0,
+          "max": 30,
+          "label": "Hull Trauma"
+        },
+        "systemStrain": {
+          "value": 0,
+          "min": 0,
+          "max": 20,
+          "label": "System Strain"
+        },
+        "shields": {
+          "fore": 0,
+          "port": 0,
+          "starboard": 0,
+          "aft": 0,
+          "label": "Shields"
+        },
+        "armour": {
+          "value": 4,
+          "type": "Number",
+          "label": "Armour",
+          "adjusted": 0
+        },
+        "sensorRange": {
+          "value": "Short",
+          "type": "String"
+        },
+        "crew": {},
+        "passengerCapacity": {
+          "value": 5,
+          "type": "Number",
+          "label": "Passenger Capacity"
+        },
+        "encumbrance": {
+          "value": 0,
+          "min": 0,
+          "max": 10,
+          "adjusted": 0
+        },
+        "cost": {
+          "value": 0,
+          "type": "Number",
+          "label": "Cost",
+          "adjusted": 0
+        },
+        "rarity": {
+          "value": 0,
+          "isrestricted": false,
+          "type": "Number",
+          "label": "Rarity",
+          "adjusted": 0
+        },
+        "customizationHardPoints": {
+          "value": 0,
+          "type": "Number",
+          "label": "Hard Points",
+          "adjusted": 0
+        },
+        "hyperdrive": {
+          "value": 1,
+          "type": "Number",
+          "label": "SWFFG.Hyperdrive"
+        },
+        "consumables": {
+          "value": 1,
+          "duration": "months",
+          "type": "Number",
+          "label": "SWFFG.Consumables"
+        },
+        "navicomputer": {
+          "value": false,
+          "type": "Boolean",
+          "label": "SWFFG.VehicleNavicomputer"
+        }
+      },
+      "spaceShip": false,
+      "silhouetteImage": "systems/starwarsffg/images/shipdefence.png"
+    },
+    "items": [],
+    "effects": [],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "nonOfficialRules": true,
+        "fanIndex": true
+      }
+    }
+  }
+]

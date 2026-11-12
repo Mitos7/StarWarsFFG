@@ -1,0 +1,122 @@
+[
+  {
+    "_id": "115f3c2213dc8686",
+    "name": "00 — IMPORTANTE: Fichas NO oficiales",
+    "pages": [
+      {
+        "_id": "79391aabf198a848",
+        "name": "Guía",
+        "type": "text",
+        "text": {
+          "format": 1,
+          "content": "<h1>Star Wars — contenido fan</h1><p>Este pack incorpora nombres familiares de Star Wars, pero todas las estadísticas, precios, talentos y descripciones aquí escritas son adaptaciones creadas para la mesa. No reproducen ni sustituyen los manuales de Fantasy Flight Games / Edge, y puede haber diferencias relevantes. Esta información no tiene licencia oficial de Disney ni de Lucasfilm. No se incluyen imágenes protegidas de personajes o naves.</p><p>Para obtener tus valores oficiales, introduce datos de tus manuales o importa tu propio dataset con OggDude en el mundo.</p>"
+        }
+      }
+    ],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "f3ec332904f7518c",
+    "name": "01 — Preparar una patrulla imperial",
+    "pages": [
+      {
+        "_id": "74f7f488c7ac751a",
+        "name": "Guía",
+        "type": "text",
+        "text": {
+          "format": 1,
+          "content": "<h1>Patrulla imperial</h1><p>Encuentro introductorio fan original: una patrulla inspecciona un carguero ligero que transporta una ayuda humanitaria. Sus ocupantes pueden negociar, esconder los suministros o escapar.</p><p>Recursos: Stormtrooper imperial, Piloto TIE, Oficial imperial, YT-1300, TIE/ln y armas de patrulla.</p>"
+        }
+      }
+    ],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "96794fed25015195",
+    "name": "02 — Encuentro en Tatooine",
+    "pages": [
+      {
+        "_id": "0a82d5761de345c4",
+        "name": "Guía",
+        "type": "text",
+        "text": {
+          "format": 1,
+          "content": "<h1>Encuentro en Tatooine</h1><p>Los personajes buscan una pieza de hiperimpulsor en un asentamiento desértico. Un mercader jawa ofrece información a cambio de un favor; un grupo tusken vigila una ruta cercana.</p><p>Recursos: Jawa, Asaltante tusken, mochila de supervivencia, comunicador, speeder.</p>"
+        }
+      }
+    ],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "33eaa4009d0dcfe2",
+    "name": "03 — Persecución de cazas",
+    "pages": [
+      {
+        "_id": "17f84e01a3e73d61",
+        "name": "Guía",
+        "type": "text",
+        "text": {
+          "format": 1,
+          "content": "<h1>Persecución de cazas</h1><p>Un mensaje de auxilio obliga al grupo a atravesar una zona de restos orbitales. Dos cazas enemigos inician una persecución. El DJ puede plantear rutas alternativas y riesgos de navegación.</p><p>Recursos: X-wing, TIE/ln, Y-wing, cartas de objetivos creadas por el DJ.</p>"
+        }
+      }
+    ],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "fanIndex": true
+      }
+    }
+  },
+  {
+    "_id": "38fb80ca83501f24",
+    "name": "04 — Reglas y OggDude",
+    "pages": [
+      {
+        "_id": "2cb816ba71e94da9",
+        "name": "Guía",
+        "type": "text",
+        "text": {
+          "format": 1,
+          "content": "<h1>Cómo usar este índice fan</h1><ol><li>Arrastra los objetos y naves de los compendios a tu mundo.</li><li>Comprueba los valores con tus libros oficiales, pues aquí son inventados.</li><li>Para reglas completas y versiones exactas, usa el importador OggDude del sistema principal con tu colección autorizada.</li><li>Conserva los compendios oficiales separados de estas fichas fan.</li></ol>"
+        }
+      }
+    ],
+    "ownership": {
+      "default": 0
+    },
+    "flags": {
+      "swffg-mitos-starter": {
+        "demo": true,
+        "fanIndex": true
+      }
+    }
+  }
+]
