@@ -2,7 +2,7 @@
   "id": "starwarsffg",
   "title": "Star Wars FFG",
   "description": "A system for playing Star Wars FFG games.",
-  "version": "2.0.5-mitos.4",
+  "version": "2.0.5-mitos.5",
   "compatibility": {
     "minimum": 13,
     "verified": 14,
@@ -87,7 +87,7 @@
   "secondaryTokenAttribute": "strain",
   "url": "https://github.com/Mitos7/StarWarsFFG",
   "manifest": "https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json",
-  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.4/system.zip",
+  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.5/system.zip",
   "license": "LICENSE.txt",
   "documentTypes": {
     "Actor": {
@@ -121,12 +121,12 @@
       "motivation": {}
     }
   },
-  "background": "systems/starwarsffg/assets/setup/star-wars-original-cover.webp",
+  "background": "systems/starwarsffg/images/bgWindow.jpg",
   "media": [
     {
       "type": "setup",
-      "url": "systems/starwarsffg/assets/setup/star-wars-original-cover.webp",
-      "thumbnail": "systems/starwarsffg/assets/setup/star-wars-original-thumbnail.webp"
+      "url": "systems/starwarsffg/images/paused.png",
+      "thumbnail": "systems/starwarsffg/images/paused.png"
     }
   ]
 }
