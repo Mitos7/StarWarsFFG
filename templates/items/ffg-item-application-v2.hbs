@@ -1,27 +1,10 @@
 <section class="swffg-v2-body">
-  <header class="swffg-v2-header">
-    <img src="{{item.img}}" alt="" width="72" height="72"/>
-    <div>
-      <label for="swffg-v2-item-name">Item name</label>
-      <input id="swffg-v2-item-name" name="name" value="{{item.name}}" {{#unless canEdit}}disabled{{/unless}}/>
-      <small>{{item.type}} · Experimental native ApplicationV2 sheet</small>
-    </div>
-  </header>
-  <h2>Core item properties</h2>
-  <div class="swffg-v2-fields">
-    {{#each fields as |field|}}
-      <label class="swffg-v2-field">
-        <span>{{field.label}}</span>
-        {{#if field.number}}
-          <input type="number" name="system.{{field.key}}.value" value="{{field.value}}" {{#unless ../canEdit}}disabled{{/unless}}/>
-        {{else}}
-          <input type="text" name="system.{{field.key}}.value" value="{{field.value}}" {{#unless ../canEdit}}disabled{{/unless}}/>
-        {{/if}}
-      </label>
-    {{/each}}
-  </div>
-  <footer class="swffg-v2-footer">
-    <button type="submit" {{#unless canEdit}}disabled{{/unless}}><i class="fas fa-save"></i> Save Item</button>
-    <span>Item attachments and special effects remain in the legacy sheet during migration.</span>
-  </footer>
+  <header class="swffg-v2-header"><img src="{{item.img}}" alt="" width="72" height="72"/><div><label for="swffg-v2-item-name">Item name</label><input id="swffg-v2-item-name" name="name" value="{{item.name}}" {{#unless canEdit}}disabled{{/unless}}/><small>{{item.type}} · Native ApplicationV2 preview</small></div></header>
+  <nav class="tabs" data-group="primary"><a data-tab="details">Details</a><a data-tab="associations">Attachments & qualities</a>{{#if upgrades}}<a data-tab="tree">Power tree</a>{{/if}}</nav>
+  <section class="tab-content" data-group="primary" data-tab="details"><h2>Item properties</h2><div class="swffg-v2-fields">
+    {{#each fields as |field|}}<label class="swffg-v2-field"><span>{{field.label}}</span>{{#if field.boolean}}<input type="checkbox" name="system.{{field.path}}" {{checked field.value}} {{#unless ../canEdit}}disabled{{/unless}}/>{{else if field.number}}<input type="number" name="system.{{field.path}}" value="{{field.value}}" {{#unless ../canEdit}}disabled{{/unless}}/>{{else}}<input type="text" name="system.{{field.path}}" value="{{field.value}}" {{#unless ../canEdit}}disabled{{/unless}}/>{{/if}}</label>{{/each}}
+  </div>{{#if isRollable}}<button type="button" data-action="roll-item"><i class="fas fa-crosshairs"></i> Roll weapon</button>{{/if}}</section>
+  <section class="tab-content" data-group="primary" data-tab="associations"><h2>Attachments and modifiers</h2><p class="hint">Drop a compatible modifier or attachment on this sheet to install it. Its active effects are transferred to this item.</p><ul class="swffg-v2-inventory">{{#each associations as |entry|}}<li><img src="{{entry.img}}" alt="" width="28" height="28"/><span>{{entry.name}} ({{entry.type}}{{#if entry.rank}} {{entry.rank}}{{/if}})</span>{{#if entry.active}}<span>active</span>{{/if}}{{#if ../canEdit}}<button type="button" data-action="remove-association" data-type="{{entry.type}}" data-id="{{entry.id}}"><i class="fas fa-trash"></i></button>{{/if}}</li>{{else}}<li>No attachments or modifiers.</li>{{/each}}</ul></section>
+  <section class="tab-content" data-group="primary" data-tab="tree"><h2>Upgrades</h2><ul class="swffg-v2-inventory">{{#each upgrades as |upgrade|}}<li><button type="button" data-action="toggle-upgrade" data-upgrade="{{upgrade.key}}">{{#if upgrade.learned}}✓{{else}}○{{/if}} {{upgrade.name}} {{#if upgrade.cost}}({{upgrade.cost}} XP){{/if}}</button></li>{{/each}}</ul></section>
+  <footer class="swffg-v2-footer"><button type="submit" {{#unless canEdit}}disabled{{/unless}}><i class="fas fa-save"></i> Save Item</button></footer>
 </section>

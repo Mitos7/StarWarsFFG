@@ -16,3 +16,10 @@
 .swffg-app-v2 .swffg-v2-inventory li {display:flex;align-items:center;gap:10px;margin:4px 0;}
 .swffg-app-v2 .swffg-v2-footer {display:flex;gap:14px;align-items:center;flex-wrap:wrap;border-top:1px solid #475a66;padding:12px 0 4px;}
 .swffg-app-v2 .swffg-v2-footer button {background:#ab8c55;color:#101822;font-weight:bold;max-width:200px;}
+.swffg-app-v2 .tabs {display:flex;gap:4px;margin:12px 0;border-bottom:1px solid #475a66;}
+.swffg-app-v2 .tabs [data-tab] {padding:7px 10px;color:#d9e5f2;cursor:pointer;}
+.swffg-app-v2 .tabs [data-tab].active {color:#f6d49a;border-bottom:2px solid #f6d49a;}
+.swffg-app-v2 .tab-content:not(.active) {display:none;}
+.swffg-app-v2 .swffg-v2-power {display:block;border:1px solid #3b4c60;border-radius:5px;padding:8px;margin:8px 0;}
+.swffg-app-v2 .swffg-v2-power img {vertical-align:middle;margin-right:7px;}
+.swffg-app-v2 .hint {color:#a2b5c7;font-size:.9em;}

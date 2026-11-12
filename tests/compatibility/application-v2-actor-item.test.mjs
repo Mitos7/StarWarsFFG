@@ -51,10 +51,38 @@ test("item context prepares editable fields and writes updates via document",asy
   const instance=Object.create(ItemSheetFFGAppV2.prototype);
   instance.isEditable=true;instance.document=item;
   const data=await instance._prepareContext({});
-  assert.equal(data.fields.length,2);
+  assert.equal(data.fields.length,4);
   assert.equal(data.fields[0].number,true);
   let result;
   instance.document.update=async object=>{result=object;};
   await ItemSheetFFGAppV2.DEFAULT_OPTIONS.form.handler.call(instance,null,null,{object:{"system.damage.value":6}});
   assert.deepEqual(result,{"system.damage.value":6});
+});
+
+test("native actor actions operate on embedded documents without an ApplicationV1 sheet",async()=>{
+  const calls=[];
+  globalThis.game.ffg={DiceHelpers:{
+    rollSkillDirect:async(...args)=>calls.push(["skill",...args]),
+    rollItem:async(...args)=>calls.push(["weapon",...args])
+  }};
+  const weapon={id:"weapon1",type:"weapon",system:{equippable:{equipped:false},quantity:{value:2}},update:async change=>calls.push(["update",change])};
+  const actor={id:"actor1",system:{characteristics:{Brawn:{value:3}},skills:{Brawl:{rank:2,characteristic:"Brawn"}}},items:{get:id=>id==="weapon1"?weapon:null},toObject:()=>({_id:"actor1"})};
+  const instance=Object.create(ActorSheetFFGAppV2.prototype); instance.isEditable=true; instance.document=actor;
+  await instance._rollSkill("Brawl"); await instance._rollWeapon("weapon1");
+  await instance._toggleEquipped("weapon1"); await instance._changeQuantity("weapon1",-1);
+  assert.equal(calls[0][0],"skill"); assert.deepEqual(calls[1],["weapon","weapon1","actor1"]);
+  assert.deepEqual(calls[2],["update",{"system.equippable.equipped":true}]);
+  assert.deepEqual(calls[3],["update",{"system.quantity.value":1}]);
+});
+
+test("native item drop installs a compatible modifier and transfers its effects",async()=>{
+  globalThis.foundry.utils={deepClone:value=>structuredClone(value)};
+  const updates=[],effects=[];
+  const target={type:"weapon",system:{itemmodifier:[],hardpoints:{adjusted:2}},update:async update=>updates.push(update),createEmbeddedDocuments:async(type,data)=>effects.push([type,data])};
+  const modifier={type:"itemmodifier",system:{type:"weapon",rank:1},toObject:()=>({name:"Accurate",system:{rank:1},effects:[{name:"Accurate effect"}]})};
+  const instance=Object.create(ItemSheetFFGAppV2.prototype); instance.isEditable=true; instance.document=target;
+  await instance._onDropItem({},modifier);
+  assert.equal(updates[0]["system.itemmodifier"][0].name,"Accurate");
+  assert.equal(effects[0][0],"ActiveEffect");
+  assert.equal(effects[0][1][0].disabled,false);
 });

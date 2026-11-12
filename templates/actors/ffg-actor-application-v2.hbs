@@ -1,48 +1,34 @@
 <section class="swffg-v2-body">
   <header class="swffg-v2-header">
     <img src="{{actor.img}}" alt="" width="72" height="72"/>
-    <div>
-      <label for="swffg-v2-actor-name">{{localize "Name"}}</label>
+    <div><label for="swffg-v2-actor-name">{{localize "Name"}}</label>
       <input id="swffg-v2-actor-name" name="name" value="{{actor.name}}" {{#unless canEdit}}disabled{{/unless}} />
-      <small>{{actorType}} · Experimental native ApplicationV2 sheet</small>
+      <small>{{actorType}} · Native ApplicationV2 preview</small>
     </div>
   </header>
-  <h2>Characteristics</h2>
-  <div class="swffg-v2-grid">
-    {{#each characteristics as |stat|}}
-    <label class="swffg-v2-stat">
-      <span>{{stat.label}}</span>
-      <input type="number" name="system.characteristics.{{stat.key}}.value" value="{{stat.value}}" min="0" max="12" {{#unless ../canEdit}}disabled{{/unless}}/>
-    </label>
-    {{/each}}
-  </div>
-  <h2>Resources</h2>
-  <div class="swffg-v2-grid">
-    {{#each stats as |stat|}}
-    <label class="swffg-v2-stat">
-      <span>{{stat.label}}</span>
-      <input type="number" name="system.stats.{{stat.key}}.value" value="{{stat.value}}" min="0" {{#unless ../canEdit}}disabled{{/unless}}/>
-    </label>
-    {{/each}}
-  </div>
-  <h2>Skills</h2>
-  <table><thead><tr><th>Skill</th><th>Attribute</th><th>Rank</th></tr></thead><tbody>
-  {{#each skills as |skill|}}
-    <tr><td>{{skill.label}}</td><td>{{skill.characteristic}}</td>
-      <td><input type="number" name="system.skills.{{skill.key}}.rank" value="{{skill.rank}}" min="0" max="6" {{#unless ../canEdit}}disabled{{/unless}}/></td>
-    </tr>
-  {{/each}}
-  </tbody></table>
-  <h2>Inventory</h2>
-  <ul class="swffg-v2-inventory">
-  {{#each items as |item|}}
-    <li data-item-id="{{item.id}}"><img src="{{item.img}}" alt="" width="28" height="28"/>
-       <button type="button" data-action="open-item" data-item-id="{{item.id}}">{{item.name}} ({{item.type}})</button>
-    </li>
-  {{else}}<li>No items yet</li>{{/each}}
-  </ul>
-  <footer class="swffg-v2-footer">
-    <button type="submit" {{#unless canEdit}}disabled{{/unless}}><i class="fas fa-save"></i> Save Character</button>
-    <span>Skill rolls, talents, XP and combat actions remain in the legacy sheet during migration.</span>
-  </footer>
+  <nav class="tabs" data-group="primary">
+    <a data-tab="overview">Overview</a><a data-tab="skills">Skills & Rolls</a><a data-tab="inventory">Equipment</a><a data-tab="force">Force Powers</a>
+  </nav>
+  <section class="tab-content" data-group="primary" data-tab="overview">
+    <h2>Characteristics</h2><div class="swffg-v2-grid">
+    {{#each characteristics as |stat|}}<label class="swffg-v2-stat"><span>{{stat.label}}</span><input type="number" name="system.characteristics.{{stat.key}}.value" value="{{stat.value}}" min="0" max="12" {{#unless ../canEdit}}disabled{{/unless}}/></label>{{/each}}
+    </div><h2>Resources</h2><div class="swffg-v2-grid">
+    {{#each stats as |stat|}}<label class="swffg-v2-stat"><span>{{stat.label}}{{#if stat.max}} / {{stat.max}}{{/if}}</span><input type="number" name="system.stats.{{stat.key}}.value" value="{{stat.value}}" min="0" {{#unless ../canEdit}}disabled{{/unless}}/></label>{{/each}}
+    </div>
+  </section>
+  <section class="tab-content" data-group="primary" data-tab="skills">
+    <h2>Skills</h2><table><thead><tr><th>Skill</th><th>Attribute</th><th>Rank</th><th></th></tr></thead><tbody>
+    {{#each skills as |skill|}}<tr><td>{{skill.label}}</td><td>{{skill.characteristic}}</td><td><input type="number" name="system.skills.{{skill.key}}.rank" value="{{skill.rank}}" min="0" max="6" {{#unless ../canEdit}}disabled{{/unless}}/></td><td><button type="button" data-action="roll-skill" data-skill="{{skill.key}}"><i class="fas fa-dice"></i> Roll</button></td></tr>{{/each}}
+    </tbody></table>
+    <h2>Weapons</h2><ul class="swffg-v2-inventory">{{#each weapons as |item|}}<li><img src="{{item.img}}" alt="" width="28" height="28"/><span>{{item.name}}</span><button type="button" data-action="roll-weapon" data-item-id="{{item.id}}"><i class="fas fa-crosshairs"></i> Roll weapon</button></li>{{else}}<li>No equipped weapons.</li>{{/each}}</ul>
+  </section>
+  <section class="tab-content" data-group="primary" data-tab="inventory">
+    <h2>Inventory</h2><p class="hint">Drop compatible items anywhere on this sheet. Dragging an owned item reorders it using the native ActorSheetV2 handler.</p><ul class="swffg-v2-inventory">
+    {{#each items as |item|}}<li data-item-id="{{item.id}}"><img src="{{item.img}}" alt="" width="28" height="28"/><button type="button" data-action="open-item" data-item-id="{{item.id}}">{{item.name}} ({{item.type}})</button>{{#if item.quantity}}<button type="button" data-action="quantity" data-item-id="{{item.id}}" data-delta="-1">−</button><span>{{item.quantity}}</span><button type="button" data-action="quantity" data-item-id="{{item.id}}" data-delta="1">+</button>{{/if}}{{#if item.equipped}}<button type="button" data-action="toggle-equipped" data-item-id="{{item.id}}">Equipped</button>{{else}}<button type="button" data-action="toggle-equipped" data-item-id="{{item.id}}">Equip</button>{{/if}}{{#if ../canEdit}}<button type="button" data-action="delete-item" data-item-id="{{item.id}}"><i class="fas fa-trash"></i></button>{{/if}}</li>{{else}}<li>No items yet</li>{{/each}}
+    </ul>
+  </section>
+  <section class="tab-content" data-group="primary" data-tab="force">
+    <h2>Force Powers</h2>{{#each forcePowers as |power|}}<article class="swffg-v2-power"><img src="{{power.img}}" alt="" width="32" height="32"/><strong>{{power.name}}</strong><button type="button" data-action="roll-force" data-item-id="{{power.id}}">Roll Force</button><button type="button" data-action="open-item" data-item-id="{{power.id}}">Edit tree</button><ul>{{#each power.upgrades as |upgrade|}}<li><button type="button" data-action="toggle-force-upgrade" data-item-id="{{../id}}" data-upgrade="{{upgrade.key}}">{{#if upgrade.learned}}✓{{else}}○{{/if}} {{upgrade.name}} {{#if upgrade.cost}}({{upgrade.cost}} XP){{/if}}</button></li>{{/each}}</ul></article>{{else}}<p>No force powers.</p>{{/each}}
+  </section>
+  <footer class="swffg-v2-footer"><button type="submit" {{#unless canEdit}}disabled{{/unless}}><i class="fas fa-save"></i> Save Character</button></footer>
 </section>
