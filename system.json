@@ -1,132 +1,197 @@
 {
-  "id": "starwarsffg",
-  "title": "Star Wars FFG",
-  "description": "A system for playing Star Wars FFG games.",
-  "version": "2.0.5-mitos.6",
-  "compatibility": {
-    "minimum": 13,
-    "verified": 14,
-    "maximum": 14
-  },
-  "authors": [
-    {
-      "name": "Esrin"
-    },
-    {
-      "name": "CStadther"
-    },
-    {
-      "name": "Wrycu"
-    },
-    {
-      "name": "Jaxxa"
-    }
-  ],
-  "esmodules": [
-    "modules/dice-pool-ffg.js",
-    "modules/swffg-main.js",
-    "lib/slimselect/slimselect.js",
-    "lib/datatables/datatables.min.js"
-  ],
-  "styles": [
-    "styles/starwarsffg.css",
-    "lib/pure/grids-min.css",
-    "lib/slimselect/slimselect.css",
-    "lib/datatables/datatables.min.css"
-  ],
-  "scripts": [
-    "lib/jszip/jszip.min.js",
-    "lib/jxon/jxon.min.js",
-    "lib/slimselect/slimselect.js"
-  ],
-  "socket": true,
-  "packs": [],
-  "packFolders": [],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-    },
-    {
-      "lang": "de",
-      "name": "Deutsch (German)",
-      "path": "lang/de.json"
-    },
-    {
-      "lang": "fr",
-      "name": "Français (French)",
-      "path": "lang/fr.json"
-    },
-    {
-      "lang": "es",
-      "name": "Español (Spanish)",
-      "path": "lang/es.json"
-    },
-    {
-      "lang": "pt-BR",
-      "name": "Português (BR)",
-      "path": "lang/pt-BR.json"
-    },
-    {
-      "lang": "ca",
-      "name": "Català (Catalan)",
-      "path": "lang/ca.json"
-    },
-    {
-      "lang": "ua",
-      "name": "Українська мова (Ukrainian)",
-      "path": "lang/ua.json"
-    }
-  ],
-  "grid": {
-    "distance": 5,
-    "units": "ft"
-  },
-  "primaryTokenAttribute": "wounds",
-  "secondaryTokenAttribute": "strain",
-  "url": "https://github.com/Mitos7/StarWarsFFG",
-  "manifest": "https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json",
-  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.6/system.zip",
-  "license": "LICENSE.txt",
-  "documentTypes": {
-    "Actor": {
-      "character": {},
-      "minion": {},
-      "vehicle": {},
-      "homestead": {},
-      "rival": {},
-      "nemesis": {}
-    },
-    "Item": {
-      "ability": {},
-      "armour": {},
-      "career": {},
-      "criticaldamage": {},
-      "criticalinjury": {},
-      "forcepower": {},
-      "gear": {},
-      "itemattachment": {},
-      "itemmodifier": {},
-      "talent": {},
-      "shipattachment": {},
-      "shipweapon": {},
-      "homesteadupgrade": {},
-      "signatureability": {},
-      "specialization": {},
-      "species": {},
-      "weapon": {},
-      "background": {},
-      "obligation": {},
-      "motivation": {}
-    }
-  },
-  "background": "systems/starwarsffg/assets/setup/star-wars-original-cover.webp",
-  "media": [
-    {
-      "type": "setup",
-      "url": "systems/starwarsffg/assets/setup/star-wars-original-cover.webp",
-      "thumbnail": "systems/starwarsffg/assets/setup/star-wars-original-thumbnail.webp"
-    }
-  ]
+    "id":  "starwarsffg",
+    "title":  "Star Wars FFG",
+    "description":  "A system for playing Star Wars FFG games.",
+    "version":  "2.0.5-mitos.7",
+    "compatibility":  {
+                          "minimum":  13,
+                          "verified":  14,
+                          "maximum":  14
+                      },
+    "authors":  [
+                    {
+                        "name":  "Esrin"
+                    },
+                    {
+                        "name":  "CStadther"
+                    },
+                    {
+                        "name":  "Wrycu"
+                    },
+                    {
+                        "name":  "Jaxxa"
+                    }
+                ],
+    "esmodules":  [
+                      "modules/dice-pool-ffg.js",
+                      "modules/swffg-main.js",
+                      "lib/slimselect/slimselect.js",
+                      "lib/datatables/datatables.min.js"
+                  ],
+    "styles":  [
+                   "styles/starwarsffg.css",
+                   "lib/pure/grids-min.css",
+                   "lib/slimselect/slimselect.css",
+                   "lib/datatables/datatables.min.css"
+               ],
+    "scripts":  [
+                    "lib/jszip/jszip.min.js",
+                    "lib/jxon/jxon.min.js",
+                    "lib/slimselect/slimselect.js"
+                ],
+    "socket":  true,
+    "packs":  [
+
+              ],
+    "packFolders":  [
+
+                    ],
+    "languages":  [
+                      {
+                          "lang":  "en",
+                          "name":  "English",
+                          "path":  "lang/en.json"
+                      },
+                      {
+                          "lang":  "de",
+                          "name":  "Deutsch (German)",
+                          "path":  "lang/de.json"
+                      },
+                      {
+                          "lang":  "fr",
+                          "name":  "FranÃ§ais (French)",
+                          "path":  "lang/fr.json"
+                      },
+                      {
+                          "lang":  "es",
+                          "name":  "EspaÃ±ol (Spanish)",
+                          "path":  "lang/es.json"
+                      },
+                      {
+                          "lang":  "pt-BR",
+                          "name":  "PortuguÃªs (BR)",
+                          "path":  "lang/pt-BR.json"
+                      },
+                      {
+                          "lang":  "ca",
+                          "name":  "CatalÃ  (Catalan)",
+                          "path":  "lang/ca.json"
+                      },
+                      {
+                          "lang":  "ua",
+                          "name":  "Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ° Ð¼Ð¾Ð²Ð° (Ukrainian)",
+                          "path":  "lang/ua.json"
+                      }
+                  ],
+    "grid":  {
+                 "distance":  5,
+                 "units":  "ft"
+             },
+    "primaryTokenAttribute":  "wounds",
+    "secondaryTokenAttribute":  "strain",
+    "url":  "https://github.com/Mitos7/StarWarsFFG",
+    "manifest":  "https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json",
+    "download":  "https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.7/system.zip",
+    "license":  "LICENSE.txt",
+    "documentTypes":  {
+                          "Actor":  {
+                                        "character":  {
+
+                                                      },
+                                        "minion":  {
+
+                                                   },
+                                        "vehicle":  {
+
+                                                    },
+                                        "homestead":  {
+
+                                                      },
+                                        "rival":  {
+
+                                                  },
+                                        "nemesis":  {
+
+                                                    }
+                                    },
+                          "Item":  {
+                                       "ability":  {
+
+                                                   },
+                                       "armour":  {
+
+                                                  },
+                                       "career":  {
+
+                                                  },
+                                       "criticaldamage":  {
+
+                                                          },
+                                       "criticalinjury":  {
+
+                                                          },
+                                       "forcepower":  {
+
+                                                      },
+                                       "gear":  {
+
+                                                },
+                                       "itemattachment":  {
+
+                                                          },
+                                       "itemmodifier":  {
+
+                                                        },
+                                       "talent":  {
+
+                                                  },
+                                       "shipattachment":  {
+
+                                                          },
+                                       "shipweapon":  {
+
+                                                      },
+                                       "homesteadupgrade":  {
+
+                                                            },
+                                       "signatureability":  {
+
+                                                            },
+                                       "specialization":  {
+
+                                                          },
+                                       "species":  {
+
+                                                   },
+                                       "weapon":  {
+
+                                                  },
+                                       "background":  {
+
+                                                      },
+                                       "obligation":  {
+
+                                                      },
+                                       "motivation":  {
+
+                                                      }
+                                   }
+                      },
+    "background":  "systems/starwarsffg/assets/setup/star-wars-original-cover.webp",
+    "media":  [
+                  {
+                      "type":  "setup",
+                      "url":  "systems/starwarsffg/assets/setup/star-wars-original-cover.webp",
+                      "thumbnail":  "systems/starwarsffg/assets/setup/star-wars-original-thumbnail.webp"
+                  }
+              ],
+    "relationships":  {
+                          "recommends":  [
+                                             {
+                                                 "id":  "swffg-mitos-addons",
+                                                 "type":  "module",
+                                                 "manifest":  "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/collection/module.json"
+                                             }
+                                         ]
+                      }
 }

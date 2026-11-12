@@ -44,9 +44,15 @@ test("Foundry setup restores exact classic Star Wars logo from prior release",()
 });
 
 test("public Foundry installer metadata uses correct download and latest manifest",()=>{
-  assert.equal(manifest.version,"2.0.5-mitos.6");
+  assert.equal(manifest.version,"2.0.5-mitos.7");
   assert.equal(manifest.id,"starwarsffg");
   assert.equal(manifest.manifest,"https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json");
-  assert.equal(manifest.download,"https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.6/system.zip");
+  assert.equal(manifest.download,"https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.7/system.zip");
   assert.equal(manifest.compatibility.verified,14);
+  assert.equal(manifest.relationships?.recommends?.length,1);
+  assert.equal(manifest.relationships.recommends[0].id,"swffg-mitos-addons");
+  assert.equal(
+    manifest.relationships.recommends[0].manifest,
+    "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/collection/module.json"
+  );
 });
