@@ -2,7 +2,7 @@
 
 Community compatibility build for Foundry VTT V14, based on `salohcin714/StarWarsFFG` pull request [#2280](https://github.com/StarWarsFoundryVTT/StarWarsFFG/pull/2280), itself based on the original [StarWarsFoundryVTT/StarWarsFFG](https://github.com/StarWarsFoundryVTT/StarWarsFFG) project.
 
-Version: `2.0.5-mitos.5`  |  System ID: `starwarsffg`  |  Compatible generation: Foundry 14.
+Version: `2.0.5-mitos.6`  |  System ID: `starwarsffg`  |  Compatible generation: Foundry 14.
 
 ## Installation
 
@@ -20,8 +20,18 @@ The source PR reports runtime checks on Foundry V14 build 366, and this fork has
 
 Original project and contributors are preserved; see README.md and LICENSE.txt (MIT). Compatibility work by `salohcin714` in upstream PR #2280. This fork packages that patch for standalone Foundry installation.
 
-## Original package images and Genesys compatibility
+## Setup card restored (v2.0.5-mitos.6)
 
-The Foundry setup preview now references `images/paused.png` (original Imperial insignia from the upstream project) and `images/bgWindow.jpg` (original sheet/window background). No generated or external replacement artwork is packaged. The original upstream manifest did not define setup media.
+The setup card and background were restored **byte for byte** from the previously published Mitos release v2.0.5-mitos.4: the classic yellow outlined Star Wars logo on black. The original logo SVG and source attribution remain in `assets/setup/`. This is NOT the procedural sci-fi drawing used in v2.0.5-mitos.3, nor the Imperial pause emblem used in v2.0.5-mitos.5.
 
-StarWarsFFG also includes native Genesys support: selectable Genesys dice theme, Genesys skills and Genesys vehicle range settings. This support belongs to the core system, not to an external add-on. Please preserve both Star Wars and Genesys behaviors during ApplicationV2 migration.
+The original StarWarsFoundryVTT/StarWarsFFG system did not ship a setup-card image in its manifest, but it does include an original Imperial insignia and window/character-sheet backgrounds. Those upstream resources remain unchanged in `images/`.
+
+StarWarsFFG includes Star Wars and Genesys rules, skills and dice themes in the core system.
+
+## Installing from a public Foundry client
+
+In Foundry V14, use **Game Systems → Install System → Manifest URL**:
+
+`https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json`
+
+The release `system.zip` is self-contained and has `system.json` at its ZIP root. Users do not need access to the author's computer or a GitHub account. Modules/addons are separate third-party packages, not bundled in this system release. Back up worlds before upgrading.
