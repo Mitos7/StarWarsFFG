@@ -43,7 +43,9 @@ export default class ItemAttachments {
 
           item.Description = ImportHelpers.cleanDescription(item.Description);
 
-          data.img = `/systems/starwarsffg/images/mod-${item?.Type ? item.Type.toLowerCase() : "all"}.png`;
+          const imageType = item.Type?.toLowerCase();
+          const iconType = imageType === "mount" ? "vehicle" : ["armor", "weapon", "gear", "vehicle"].includes(imageType) ? imageType : "all";
+          data.img = `systems/starwarsffg/images/mod-${iconType}.png`;
           data.data = {
             description: item.Description,
             attributes: {},

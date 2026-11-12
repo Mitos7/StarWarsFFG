@@ -3,7 +3,7 @@
     "_id": "5b9ae4ab967ca9d0",
     "name": "Eco emocional",
     "type": "forcepower",
-    "img": "icons/magic/defensive/shield-barrier-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/the-force.jpeg",
     "system": {
       "description": "<p>Capacidad narrativa original de percibir emociones intensas, bajo arbitraje del DJ</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -49,7 +49,7 @@
     "_id": "0476957c9b4a1be8",
     "name": "Instinto de peligro",
     "type": "forcepower",
-    "img": "icons/magic/defensive/shield-barrier-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/yoda.jpeg",
     "system": {
       "description": "<p>Capacidad narrativa original de captar una amenaza inmediata, bajo arbitraje del DJ</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -95,7 +95,7 @@
     "_id": "85b18474413db098",
     "name": "Luz de calma",
     "type": "forcepower",
-    "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/obi-wan-kenobi.jpeg",
     "system": {
       "description": "<p>Capacidad narrativa original de reconfortar a alguien asustado; no sustituye poderes oficiales</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},

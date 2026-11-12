@@ -3,7 +3,7 @@
     "_id": "b1a94f076cfd486f",
     "name": "Pistola de descarga T-12",
     "type": "weapon",
-    "img": "icons/weapons/guns/pistol-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/blaster-pistol.jpeg",
     "system": {
       "description": "<p>Arma compacta de vigilancia</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -103,7 +103,7 @@
     "_id": "50dc3c5bc9cb490a",
     "name": "Carabina de pulsos Mica",
     "type": "weapon",
-    "img": "icons/weapons/guns/rifle-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/a280-blaster-rifle.jpeg",
     "system": {
       "description": "<p>Carabina para exploraciones</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -203,7 +203,7 @@
     "_id": "5ba273325d01b234",
     "name": "Bastón eléctrico aislado",
     "type": "weapon",
-    "img": "icons/weapons/staves/staff-engraved-wood.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/electrostaff.jpeg",
     "system": {
       "description": "<p>Bastón de inmovilización temporal</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -303,7 +303,7 @@
     "_id": "131d5bbfe7452267",
     "name": "Hoja de cerámica",
     "type": "weapon",
-    "img": "icons/weapons/guns/pistol-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/vibroblade.jpeg",
     "system": {
       "description": "<p>Herramienta industrial de corte</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -403,7 +403,7 @@
     "_id": "db32689d30518f30",
     "name": "Fusil de seguridad",
     "type": "weapon",
-    "img": "icons/weapons/guns/rifle-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/e-11-blaster-rifle.jpeg",
     "system": {
       "description": "<p>Rifle de patrulla de muelle</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -503,7 +503,7 @@
     "_id": "b56d4a1f1dbb342b",
     "name": "Lanzador de red",
     "type": "weapon",
-    "img": "icons/weapons/guns/pistol-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/ee-3.png",
     "system": {
       "description": "<p>Arma de captura no letal</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -603,7 +603,7 @@
     "_id": "e1764d9fd1af03aa",
     "name": "Pistola térmica de taller",
     "type": "weapon",
-    "img": "icons/weapons/guns/pistol-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/fusioncutter.jpg",
     "system": {
       "description": "<p>Herramienta modificada para autodefensa</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},

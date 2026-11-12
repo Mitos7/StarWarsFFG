@@ -1,4 +1,4 @@
-param([string]$OutputPath = (Join-Path $env:TEMP 'sw-release-originals-13'))
+param([string]$OutputPath = (Join-Path $env:TEMP 'sw-release14'))
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.IO.Compression
 Add-Type -AssemblyName System.IO.Compression.FileSystem

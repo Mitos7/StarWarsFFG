@@ -169,8 +169,15 @@ export default class Vehicles {
 
             let silhouettePath = await ImportHelpers.getImageFilename(zip, "Vehicle", "", data.flags.starwarsffg.ffgimportid, "Silhouettes");
             if (silhouettePath) {
-              data.data.silhouetteImage = await ImportHelpers.importSilhouetteImage(silhouettePath.name, zip, pack);
+              data.system.silhouetteImage = await ImportHelpers.importSilhouetteImage(silhouettePath.name, zip, pack);
             }
+
+            data.prototypeToken = {
+              texture: {src: data.img || "systems/starwarsffg/images/defaults/actors/vehicle.png"},
+              actorLink: true,
+              bar1: {attribute: "stats.hullTrauma"},
+              bar2: {attribute: "stats.systemStrain"}
+            };
 
             await ImportHelpers.addImportItemToCompendium("Actor", data, pack);
 

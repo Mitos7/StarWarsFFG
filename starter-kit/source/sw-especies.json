@@ -451,7 +451,7 @@
     "_id": "1f0ff8bf228b9829",
     "name": "Droide jugador",
     "type": "species",
-    "img": "systems/starwarsffg/assets/starwars-original/protocol-droid.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-protocol.png",
     "system": {
       "description": "<p>Opción fan para representar un personaje mecánico; revisar reglas de tu mesa.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

@@ -118,17 +118,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "Mw0KRkrEfDnM4lLM",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "hAgCHJA8pBS8Yq5s",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "1eAwPC2eTH8r6Vod",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/x-wing-starfighter.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "fMSpsxVeHCJP9vkk",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "b3y500meo6q0drWq",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "T-65 X-wing",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/x-wing-starfighter.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-7a6d365effb0d4c2.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -141,12 +362,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -207,7 +428,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -332,17 +557,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "GWh6xnjjRsMTeMSJ",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "NZ2nVNnp7M4zSKqN",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "vRUOj9xvxreTPB0G",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/tie-fighter.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "aWcUVlGU3FCJsc2y",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "TyQmNRhTGeiPMFUx",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "TIE/ln Fighter",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/tie-fighter.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-55ecdc3163e58792.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -355,12 +801,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -421,7 +867,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -546,17 +996,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "Y6XH1Ru91I7kZuP1",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "5N95XRi6TtB7RzpE",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "ZLHdShRY3bR7zRHc",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/tie-interceptor.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "EU1D9Jenl4emAj8A",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "HUOpLsMS6UdcFneS",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "TIE Interceptor",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/tie-interceptor.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-e253e5961d50eecb.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -569,12 +1240,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -635,7 +1306,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -760,17 +1435,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "G85InxH8g0Q2fCS5",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "oBT2hYSc6UW9RQDX",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "f8F3XMA2AqNh6YJN",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/tie-bomber.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "Sas5UP92nG5kc5Uo",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "PjLrRJnBCy11uUkq",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "TIE Bomber",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/tie-bomber.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-0525c83de53827b5.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -783,12 +1679,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -849,7 +1745,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -974,17 +1874,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "Wm19YYo8IhwJq5JC",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "8lqgc6AqyY5Q3vAK",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "1oaP7JFyl0evUYP2",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/y-wing-starfighter.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "LTbdMYbKKLHnHGNp",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "yfP5PSJbUmSnPPGa",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "BTL Y-wing",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/y-wing-starfighter.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-5cd483966df34c08.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -997,12 +2118,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -1063,7 +2184,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -1188,17 +2313,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "jBqd0uxkZ9dbnNH2",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "yHfecKZ4bKhxESFr",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "pl0dRSf3YaWQJjWF",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/a-wing-fighter.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "wh52Iq3194zMUmQu",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "b6gxEaeirJJn1o1t",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "RZ-1 A-wing",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/a-wing-fighter.png",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-9ed0b66d5c6cd73d.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1211,12 +2557,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -1277,7 +2623,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -1402,17 +2752,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "17YloKaYLqsDB9Oq",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "xyRa62Wrx5juEiAk",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "59GO2EfVfGnPjKFb",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/b-wing-fighter.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "zYR445dgQV2yWwji",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "y5ipt4eH3XbAwj5k",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "A/SF-01 B-wing",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/b-wing-fighter.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-31ad47ac96e9ebbd.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1425,12 +2996,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -1491,7 +3062,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -1616,17 +3191,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "BY5SngxrsU69lCTk",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "KvhyF9CMDlBoyaA1",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "siqBuiz0BJsmDh96",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/yt-1300.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "qldremc89MeDsZcE",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "csOjivjLxrAHm5oI",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "YT-1300 Light Freighter",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/yt-1300.png",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-b9fdba9a28bf0a87.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1639,12 +3435,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -1705,7 +3501,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -1830,17 +3630,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "EgOQrliFX8CDQ5aD",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "WEZ3mAnpiZ68hxBR",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "8CHaqfdUIkYSS3Mr",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/millennium-falcon.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "jsUMd8sW0xStgiz9",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "s6zP4WIDqNz6ZIw4",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Millennium Falcon",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/millennium-falcon.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-e862d40ee83108e1.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1853,12 +3874,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -1919,7 +3940,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -2044,17 +4069,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "COWgSx5972DbnoY7",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "Aal5fUXWn8NL6ub7",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "urYZxDMg9m7HozCA",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/slave-i.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "0Sxv0YXGPrpjL2MV",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "pmoFezt3mqX9bC0k",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Firespray-31",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/slave-i.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-1572832693446c51.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2067,12 +4313,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -2133,7 +4379,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -2258,17 +4508,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "BC7b5Z5x31fqQkcd",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "QdvQWauaZtTQf7US",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "xhNDJgGHuOr7a0Sz",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/imperial-shuttle.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "OCTE3Y2l7NqX5smb",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "tvlhl26wl3Adzj5E",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Lambda-class Shuttle",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/imperial-shuttle.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-979f59e00d89820f.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2281,12 +4752,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -2347,7 +4818,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -2472,17 +4947,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "vSbqAJylkOLC5vmf",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "OAWskQtrpxxJABP9",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "eZuttx7oB0bIypfJ",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/tantive-iv.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "PYG5oDsJ1U5dqOIR",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "ZgmAw7KJMZrgfsqf",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "CR90 Corvette",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/tantive-iv.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-f1d558cbe7e2a4f3.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2495,12 +5191,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -2561,7 +5257,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -2686,17 +5386,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "BvkNwvSwrBAgxT4F",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "U3Ve8FSvY91SuFEY",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "NSeRVFcwlOvVHREJ",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/nebulon-b-frigate.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "5oOnpLzgEcFD7hLO",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "2Wj06wnVAa9yaGo4",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Nebulon-B Frigate",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/nebulon-b-frigate.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-a067685c7e13c5d7.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2709,12 +5630,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -2775,7 +5696,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -2900,17 +5825,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "12ITxqYH4PYTuLjg",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "9DiWGS9JMkFgTOgQ",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "kbti5v5ZMVNlrsxk",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/imperial-star-destroyer.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "KK7aEkYgliSyjym3",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "l8EhMlfo1L3bvJJB",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Imperial Star Destroyer",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/imperial-star-destroyer.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-8c41368d8a58a152.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2923,12 +6069,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -2989,7 +6135,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -3114,17 +6264,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "eOz5Z5IXXt0Kviij",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "919JRpUjTSbDazmn",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "naq4IjzVpbNAPK4d",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/republic-attack-cruiser.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "xtUJ05j5qjYVojPv",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "ToxirgNdYiAPuPRg",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Venator Star Destroyer",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/republic-attack-cruiser.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-a4f9ca4bbe55dee1.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3137,12 +6508,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -3203,7 +6574,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -3328,17 +6703,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "DPl4ltZgHH1d5ozf",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "lZJ4mlfJQOFdRQWn",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "4K9qQloyKFhFqcXO",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/arc-170-starfighter.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "q2X0r7zWM9C9ofmZ",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "bLTFoINVo1qcGgJr",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "ARC-170 Starfighter",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/arc-170-starfighter.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-1d5c89aa679aec11.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3351,12 +6947,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -3417,7 +7013,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -3542,17 +7142,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "YdZNdWSKiuuqZDEw",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "E5LNTl8GkCDn1FNc",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "sQX7dclUBXHpo2zO",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/republic-attack-gunship.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "ALgDE60fpcCT7kc1",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "8sel1d8Y4uVujOHL",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "LAAT/i Republic Gunship",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/republic-attack-gunship.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-6263ba3c76883b30.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3565,12 +7386,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -3631,7 +7452,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -3756,17 +7581,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "T0ChgfRAaWr9mfEy",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "nFgRXGRed2ydWAMj",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "PuP4MC8Yj1eA4gI7",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/at-st-walker.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "a5XYIVCqqJ7eZlvT",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "XcFpFe1o3qFwZk8A",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "AT-ST Walker",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/at-st-walker.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-15db7d4ccd726e4e.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3779,12 +7825,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -3845,7 +7891,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -3970,17 +8020,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "osdpgFElQ76Ty2UZ",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "MQTcJNon34wMBM9m",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "LAhTgkie6HXS96VS",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/at-at-walker.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "3YvCw3HVepCtSw0S",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "xLGHJHoCzNz7FqL6",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "AT-AT Walker",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/at-at-walker.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-0beda2b079d4ba98.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3993,12 +8264,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -4059,7 +8330,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -4184,17 +8459,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "wnykJ4ECCPwldOjZ",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "noN5cH3PmsMeDA3t",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "vdDuRXI9Rsc592D3",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/speeder-bike.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "NB7pQb5tKd8NB1BX",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "29eAm6f8C8lkYDzp",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "74-Z Speeder Bike",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/speeder-bike.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-c2c1023662e3ee41.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4207,12 +8703,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -4273,7 +8769,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -4398,17 +8898,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "Ospp6ZWS8zx9u8b2",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "4JcMy50G7tDs1NV4",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "BKmISyvDgrdegsU4",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/delta-7-jedi-starfighter.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "8r7TJ5noRpbTWNDu",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "iGnp1P5KmTQaMLan",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Jedi Starfighter Delta-7",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/delta-7-jedi-starfighter.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-6b74476f37e7fc11.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4421,12 +9142,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -4487,7 +9208,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -4612,17 +9337,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "9zKMQAQhp6StYR4s",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "O6jehgsUaAim0aJj",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "AxYVzZi1PAjLrIqe",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/u-wing.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "pHvsLXs8ye3NpCvy",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "2jpGb30lkRncQA3w",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "U-wing",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/u-wing.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-75741009df6602ef.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4635,12 +9581,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -4701,7 +9647,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -4826,17 +9776,238 @@
         "demo": true,
         "nonOfficialRules": true,
         "fanIndex": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "nT7aIjyzeQNMNWVl",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "6lG66gVrD5TWSSzf",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "b6rqsNjllrr8UB0U",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/razor-crest.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "Ov5rXL7sClpdNWvW",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "sYwIiIOZlBBxQfZ8",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Razor Crest",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/starwars-original/razor-crest.jpeg",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-42c9e93db3f0115b.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4849,12 +10020,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.hullTrauma"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.systemStrain"
       },
       "light": {
         "negative": false,
@@ -4915,7 +10086,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false

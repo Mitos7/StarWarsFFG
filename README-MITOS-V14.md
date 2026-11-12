@@ -2,7 +2,7 @@
 
 Community compatibility build for Foundry VTT V14, based on `salohcin714/StarWarsFFG` pull request [#2280](https://github.com/StarWarsFoundryVTT/StarWarsFFG/pull/2280), itself based on the original [StarWarsFoundryVTT/StarWarsFFG](https://github.com/StarWarsFoundryVTT/StarWarsFFG) project.
 
-Version: `2.0.5-mitos.13`  |  System ID: `starwarsffg`  |  Compatible generation: Foundry 14.
+Version: `2.0.5-mitos.14`  |  System ID: `starwarsffg`  |  Compatible generation: Foundry 14.
 
 ## Installation
 
@@ -61,12 +61,12 @@ No proprietary game rulebooks or premium rules content is included. Artwork cred
 
 ## Star Wars library included in the game system
 
-Version 2.0.5-mitos.13 includes **12 native system compendium packs, with
+Version 2.0.5-mitos.14 includes **12 native system compendium packs, with
 180 Star Wars fan reference entries**: weapons, gear, armour, species,
 careers, specializations, talents, Force concepts, adversaries, recognizable
 characters, vehicles/starships, and adventure journals.
 
-The 175 illustrated Star Wars items and actors use locally bundled existing Star Wars artwork under `assets/starwars-original/`. Prototype tokens use the same image as their actors. The remaining generic homebrew examples in the optional module retain their existing Foundry stock icons.
+The 175 illustrated Star Wars items and actors use locally bundled existing Star Wars artwork under `assets/starwars-original/`. The 60 native and 9 optional generic actor prototypes have separate circular tokens composed with Tokenizer 2. Generic NPCs use separate existing artwork rather than portraits of named heroes.
 
 All text and numerical values are **fan-made demonstration content**;
 they must not be confused with or substituted for official FFG/Edge
@@ -78,10 +78,16 @@ packs; if enabled, its 12 Star Wars packs duplicate the system's library,
 so disable it in a world where those duplicate lists are unwanted.
 See `docs/library-catalogue.md` for details.
 
-## Existing Star Wars artwork (v2.0.5-mitos.13)
+## Existing Star Wars artwork (v2.0.5-mitos.14)
 
-All 175 illustrated Star Wars documents now use locally bundled Star Wars images instead of generic Foundry stock icons. Named heroes, species, ships and equipment use their matching existing images where available; abstract powers, talents and careers use representative Star Wars scenes. Both the built-in compendia and optional starter module (1.1.4) are updated. No images were generated with AI.
+All 175 illustrated Star Wars documents now use locally bundled Star Wars images instead of generic Foundry stock icons. Named heroes, species, ships and equipment use their matching existing images where available; abstract powers, talents and careers use representative Star Wars scenes. Both the built-in compendia and optional starter module (1.1.5) are updated. No images were generated with AI.
 
-The 115 source images are unchanged downloads, predominantly from the official StarWars.com Databank. Some equipment and species use existing community artwork, game assets or replica photographs. Their exact origins, authors where known, and SHA-256 hashes are listed in `assets/starwars-original/sources.json`. Third-party artwork retains its respective ownership and is not covered by the code MIT license or the fan-data CC0 license.
+The 125 source images are unchanged downloads, predominantly from the official StarWars.com Databank. Some equipment and species use existing community artwork, game assets or replica photographs. Their exact origins, authors where known, and SHA-256 hashes are listed in `assets/starwars-original/sources.json`. Third-party artwork retains its respective ownership and is not covered by the code MIT license or the fan-data CC0 license.
 
 Portraits preserve the full image. The release archive includes both `assets/` and `packs/`, so images are served locally without depending on external links at play time.
+
+## Repairs in v2.0.5-mitos.14
+
+All 230 illustrated source entries have existing local artwork; all 69 actors have baked Tokenizer 2 tokens. Generic smugglers, medics, officers, ISB agents, hunters and inquisitors no longer use named screen characters. Editable wound/hull and strain resource bars are supported on Foundry V14. OggDude mount attachments use an existing icon and imported vehicle prototypes receive their image and correct resource paths. Vehicle silhouettes use the V14 system field. SW Adversaries imports use bundled data defaults and serialize embedded weapon qualities as plain document data, avoiding removed template.json requests and V14 validation failures. The optional hangar setup is safe to call again without replacing an existing scene unless rebuild is explicitly requested.
+
+OggDude and SW Adversaries data imported into a user world are not part of this system release. Imported source records without portraits retain type icons; do not mistake those for missing files.

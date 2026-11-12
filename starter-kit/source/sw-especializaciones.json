@@ -61,7 +61,7 @@
     "_id": "2e9a17b37569ce57",
     "name": "Pilot",
     "type": "specialization",
-    "img": "systems/starwarsffg/assets/starwars-original/rebel-pilots.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-rebel-pilot.png",
     "system": {
       "description": "<p>Se concentra en conducción de naves y maniobras de riesgo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

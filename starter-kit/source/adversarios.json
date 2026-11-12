@@ -3,7 +3,7 @@
     "_id": "4994963393bfcb0d",
     "name": "Guardia del puerto",
     "type": "minion",
-    "img": "icons/environment/people/infantry-armored.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/stormtroopers.jpeg",
     "system": {
       "biography": "<p>Patrullero que vigila las puertas</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "stats": {
@@ -385,17 +385,238 @@
     "flags": {
       "swffg-mitos-starter": {
         "demo": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "UeaUO5fRsjQUKoem",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "Ucsc3F6wAc48qxJS",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "Oz1FLgJizi3jt1Pn",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/stormtroopers.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1.7761194029850746,
+              "scaleY": 1.7761194029850746,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "CAy56UBCjeciMxWC",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "mj2V8AOrRgw3iaJJ",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Guardia del puerto",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/infantry-armored.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/repaired-4994963393bfcb0d.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -408,12 +629,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.wounds"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": null
       },
       "light": {
         "negative": false,
@@ -474,7 +695,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -484,7 +709,7 @@
     "_id": "3d10b8c649ee1138",
     "name": "Operario de chatarra",
     "type": "minion",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/jawa.jpeg",
     "system": {
       "biography": "<p>Trabajador atrapado entre dos facciones</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "stats": {
@@ -866,17 +1091,238 @@
     "flags": {
       "swffg-mitos-starter": {
         "demo": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "f8PDj0RnCmruF7Sd",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "ibSEV82nALldy3GM",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "ue3Qn0HTGcai6pyH",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/jawa.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1.7753120665742024,
+              "scaleY": 1.7753120665742024,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "SAQW9l8RfQdjkHgb",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "LvjS8RdH93uuBh8e",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Operario de chatarra",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/repaired-3d10b8c649ee1138.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -889,12 +1335,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.wounds"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": null
       },
       "light": {
         "negative": false,
@@ -955,7 +1401,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -965,7 +1415,7 @@
     "_id": "9db8561960a1ac38",
     "name": "Centinela mecánico",
     "type": "rival",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/super-battle-droid.jpeg",
     "system": {
       "biography": "<p>Autómata de seguridad del astillero</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "species": {
@@ -1336,17 +1786,238 @@
     "flags": {
       "swffg-mitos-starter": {
         "demo": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "I3BDdPq859nK8HO7",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "NFtz6Zh6UiAvaF0e",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "FztnakHpgAYyuqZC",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/super-battle-droid.jpeg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1.7777777777777777,
+              "scaleY": 1.7777777777777777,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "V3kKZ3mXhH8K1C6F",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "nrGCSiLfeE82eI2v",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Centinela mecánico",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/repaired-9db8561960a1ac38.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1359,12 +2030,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.wounds"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": null
       },
       "light": {
         "negative": false,
@@ -1425,7 +2096,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -1435,7 +2110,7 @@
     "_id": "3112a6187824ab1e",
     "name": "Contrabandista de muelle",
     "type": "rival",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-smuggler.jpg",
     "system": {
       "biography": "<p>Intermediario que conoce rutas ocultas</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "species": {
@@ -1806,17 +2481,238 @@
     "flags": {
       "swffg-mitos-starter": {
         "demo": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "1WXSRySC9dTH10zm",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "56o8QuCI7fUbOdYX",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "vmx38KFK7dQXv6zs",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/generic-smuggler.jpg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "lgdr6JkYScX8fdcf",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "lDG0VLvEqzC4Gzy4",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Contrabandista de muelle",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/generic-3112a6187824ab1e.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1829,12 +2725,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.wounds"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": null
       },
       "light": {
         "negative": false,
@@ -1895,7 +2791,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -1905,7 +2805,7 @@
     "_id": "5e18ceda9aec0df1",
     "name": "Capataz del sector oscuro",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-officer.png",
     "system": {
       "biography": "<p>Jefe corrupto que oculta la verdad de una avería</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "species": {
@@ -2282,17 +3182,238 @@
     "flags": {
       "swffg-mitos-starter": {
         "demo": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "9zLzYIDK41B0FxP1",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "uhHXtehtel9TNWHO",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "zAGnEIzx1AXRiry2",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/generic-officer.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "swNvCX7p9rMQGdjm",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "ibQg12NO24N1cONu",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Capataz del sector oscuro",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/generic-5e18ceda9aec0df1.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2305,12 +3426,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.wounds"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": "stats.strain"
       },
       "light": {
         "negative": false,
@@ -2371,7 +3492,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false
@@ -2381,7 +3506,7 @@
     "_id": "ebe7731cf1ca03f8",
     "name": "Rescatadora civil",
     "type": "rival",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-medic.jpg",
     "system": {
       "biography": "<p>Piloto que puede auxiliar a los personajes</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "species": {
@@ -2752,17 +3877,238 @@
     "flags": {
       "swffg-mitos-starter": {
         "demo": true
+      },
+      "tokenizer-2": {
+        "layerStack": [
+          {
+            "id": "UUWlpsrIpmVOHxry",
+            "type": "image",
+            "name": "Background",
+            "src": "modules/tokenizer-2/img/dark-texture.webp",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "8nrLwfFVT6yb8uU3",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isBackground": true
+          },
+          {
+            "id": "pPN2snxK4sokBMkG",
+            "type": "image",
+            "name": "Token Image",
+            "src": "systems/starwarsffg/assets/starwars-original/generic-medic.jpg",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.82008,
+              "scaleY": 0.82008,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [
+              {
+                "id": "FAQvxCC88zNREvWP",
+                "type": "frame-ray",
+                "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+                "ringConfig": null
+              }
+            ],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false
+          },
+          {
+            "id": "jA5ggT92q31033Ko",
+            "type": "image",
+            "name": "plain marble frame grey",
+            "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
+            "visible": true,
+            "locked": false,
+            "blendMode": "source-over",
+            "transform": {
+              "x": 0,
+              "y": 0,
+              "scaleX": 1,
+              "scaleY": 1,
+              "rotation": 0
+            },
+            "adjustments": {
+              "brightness": 1,
+              "contrast": 1,
+              "opacity": 1,
+              "blur": 0,
+              "tint": null,
+              "hue": 0,
+              "saturation": 100,
+              "grayscale": 0,
+              "temperature": 0,
+              "lineArt": {
+                "enabled": false,
+                "blurSize": 25
+              },
+              "ringStyle": {
+                "enabled": false,
+                "style": null
+              },
+              "rimLight": {
+                "enabled": false,
+                "color": "#ffffff",
+                "size": 4,
+                "intensity": 0.8
+              },
+              "vignette": {
+                "enabled": false,
+                "intensity": 50,
+                "size": 30
+              },
+              "filmGrain": {
+                "enabled": false,
+                "intensity": 20,
+                "size": 1
+              },
+              "chromaticAberration": {
+                "enabled": false,
+                "intensity": 5
+              },
+              "unsharpMask": {
+                "enabled": false,
+                "amount": 100,
+                "radius": 1
+              }
+            },
+            "masks": [],
+            "lasso": {
+              "regions": []
+            },
+            "paintMask": null,
+            "animation": null,
+            "isVideo": false,
+            "isFrame": true
+          }
+        ]
       }
     },
     "prototypeToken": {
       "name": "Rescatadora civil",
-      "displayName": 0,
+      "displayName": 30,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/generic-ebe7731cf1ca03f8.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2775,12 +4121,12 @@
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
-      "displayBars": 0,
+      "displayBars": 40,
       "bar1": {
-        "attribute": "wounds"
+        "attribute": "stats.wounds"
       },
       "bar2": {
-        "attribute": "strain"
+        "attribute": null
       },
       "light": {
         "negative": false,
@@ -2841,7 +4187,11 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
+      "flags": {
+        "tokenizer-2": {
+          "oversizedScale": 1
+        }
+      },
       "randomImg": false,
       "appendNumber": false,
       "prependAdjective": false

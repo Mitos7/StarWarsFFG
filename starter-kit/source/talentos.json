@@ -3,7 +3,7 @@
     "_id": "758c35d8dc43babb",
     "name": "Manos firmes",
     "type": "talent",
-    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/slicing-tools.png",
     "system": {
       "description": "<p>Talento narrativo de ejemplo para reparaciones difíciles; decide cualquier bonificación con el DJ</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -44,7 +44,7 @@
     "_id": "0d7446ede98a2191",
     "name": "Ojo técnico",
     "type": "talent",
-    "img": "icons/tools/hand/wrench-adjustable.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/tools.png",
     "system": {
       "description": "<p>El personaje distingue componentes fuera de lugar; sin bonificaciones oficiales</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -85,7 +85,7 @@
     "_id": "6b7d0ddc5c899ac8",
     "name": "Pulso sereno",
     "type": "talent",
-    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/obi-wan-kenobi.jpeg",
     "system": {
       "description": "<p>Mantiene la calma ante una amenaza repentina; uso sujeto al DJ</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -126,7 +126,7 @@
     "_id": "231df85667ff87af",
     "name": "Paso silencioso",
     "type": "talent",
-    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/the-mandalorian.jpeg",
     "system": {
       "description": "<p>Aprendió a pasar desapercibido en talleres y pasillos</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -167,7 +167,7 @@
     "_id": "6e0be8827bbe8e46",
     "name": "Contacto en el muelle",
     "type": "talent",
-    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-smuggler.jpg",
     "system": {
       "description": "<p>Conoce a un trabajador en un asentamiento de paso</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -208,7 +208,7 @@
     "_id": "0fbfb3454a9aa381",
     "name": "Memoria cartográfica",
     "type": "talent",
-    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/star-map.png",
     "system": {
       "description": "<p>Recuerda rutas y señalizaciones inusuales</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -249,7 +249,7 @@
     "_id": "0632603dc9d903fb",
     "name": "Observador paciente",
     "type": "talent",
-    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/macrobinoculars.png",
     "system": {
       "description": "<p>Puede examinar con calma una escena antes de actuar</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -290,7 +290,7 @@
     "_id": "7bf8d11d59d9960c",
     "name": "Improvisador mecánico",
     "type": "talent",
-    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/droid-repair-kit.png",
     "system": {
       "description": "<p>Busca usos no previstos para herramientas corrientes</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},

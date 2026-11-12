@@ -8,6 +8,7 @@
 import { FFG } from "./swffg-config.js";
 import { ActorFFG } from "./actors/actor-ffg.js";
 import { TokenFFG } from "./tokens/token-ffg.js";
+import { TokenDocumentFFG } from "./tokens/token-document-ffg.js";
 import CombatantFFG, {
   CombatFFG,
   CombatTrackerFFG,
@@ -347,6 +348,8 @@ Hooks.once("init", async function () {
     type: Boolean,
     onChange: (rule) => window.location.reload()
   });
+
+  CONFIG.Token.documentClass = TokenDocumentFFG;
 
   if (game.settings.get("starwarsffg", "useGenericSlots")) {
     CONFIG.ui.combat = CombatTrackerFFG;

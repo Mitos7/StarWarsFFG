@@ -1,3 +1,4 @@
+import {getImportTemplate} from "./document-defaults.js";
 import Helpers from "../helpers/common.js";
 import {migrateDataToSystem} from "../helpers/migration.js";
 import {ItemFFG} from "../items/item-ffg.js";
@@ -3015,21 +3016,7 @@ export default class ImportHelpers {
   }
 
   static async getTemplate(type) {
-    const response = await fetch("systems/starwarsffg/template.json");
-    const template = await response.json();
-
-    const obj = Object.values(template).find((i) => i.types.includes(type));
-
-    let item = obj[type];
-
-    if (item.templates) {
-      item.templates.forEach((i) => {
-        item = foundry.utils.mergeObject(item, obj.templates[i]);
-      });
-      delete item.templates;
-    }
-
-    return item;
+    return getImportTemplate(type);
   }
 
   static async createActiveEffects(item) {

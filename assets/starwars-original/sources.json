@@ -1150,6 +1150,98 @@
       "credit": "Lucasfilm and respective image creators; see linked source",
       "sha256": "ce5b706f651f764dd24673bea35ef08f9c90c123ba2927da621c527550796a67",
       "bytes": 97425
+    },
+    {
+      "id": "generic-smuggler",
+      "file": "assets/starwars-original/generic-smuggler.jpg",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/Characters/commission___the_dealer_by_tanathiel-d51suho.jpg",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/Characters/commission___the_dealer_by_tanathiel-d51suho.jpg",
+      "author": "Tanathiel",
+      "kind": "Existing original-character commission; smuggler archetype",
+      "bytes": 119117,
+      "sha256": "ef371634f646f92bf927232992c20e76f1f42b4d34d1b26941c2a31aade35374"
+    },
+    {
+      "id": "generic-medic",
+      "file": "assets/starwars-original/generic-medic.jpg",
+      "download": "https://i.pinimg.com/originals/6a/51/59/6a5159f38702f248264c336402de5e9a.jpg",
+      "source": "https://pl.pinterest.com/pin/672584525572961025/",
+      "author": "Ian Llanas (signature on original)",
+      "kind": "Existing science-fiction medic illustration",
+      "bytes": 97526,
+      "sha256": "5bcbf2448c1c735edfae756820ab417b70e9a3847819b965f3d2b97e8c7d97e8"
+    },
+    {
+      "id": "generic-officer",
+      "file": "assets/starwars-original/generic-officer.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Armor/Imperial%20Amrors/Imperial%20Navy%20officer.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Armor/Imperial%20Amrors/Imperial%20Navy%20officer.png",
+      "kind": "Existing generic Imperial officer game illustration",
+      "bytes": 17482,
+      "sha256": "83cfb644ae2c653807252bd33c17e5accb32df5676932397ec624b3e5b62671e"
+    },
+    {
+      "id": "generic-isb",
+      "file": "assets/starwars-original/generic-isb.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Armor/Imperial%20Amrors/Imperial%20ISB%20Operator.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Armor/Imperial%20Amrors/Imperial%20ISB%20Operator.png",
+      "kind": "Existing helmeted generic ISB operator game illustration",
+      "bytes": 30213,
+      "sha256": "042eaa38b3dd67343d2886fd5334e253217f8c3b8d169e89c7315a5b2b6bd786"
+    },
+    {
+      "id": "generic-hunter",
+      "file": "assets/starwars-original/generic-hunter.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/Characters/HumanCEAVornskyrDwarf.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/Characters/HumanCEAVornskyrDwarf.png",
+      "kind": "Existing original-character hunter illustration",
+      "bytes": 326240,
+      "sha256": "f9e2eb53ff2a1a46431f64d5fbad2be80f09ac7b3cc5f129480963b756c58936"
+    },
+    {
+      "id": "generic-inquisitor",
+      "file": "assets/starwars-original/generic-inquisitor.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Characters/sith%20inquistor.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Characters/sith%20inquistor.png",
+      "kind": "Existing anonymous masked Inquisitor token",
+      "bytes": 146672,
+      "sha256": "0a92470a7dfed785f88f09a819f1759ab036710698e5e17641dd65c781438047"
+    },
+    {
+      "id": "generic-protocol",
+      "file": "assets/starwars-original/generic-protocol.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Characters/Droid_Shiny_02_hi.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Characters/Droid_Shiny_02_hi.png",
+      "kind": "Existing generic character artwork; no named screen character",
+      "bytes": 117820,
+      "sha256": "8170e55655e96e2d448d9582c3a3da477fd11536179d3a0820c0f4071762ebc1"
+    },
+    {
+      "id": "generic-rebel-pilot",
+      "file": "assets/starwars-original/generic-rebel-pilot.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Characters/Rebel%20Pilot%202.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Characters/Rebel%20Pilot%202.png",
+      "kind": "Existing generic character artwork; no named screen character",
+      "bytes": 122530,
+      "sha256": "7cd756a7112b296a801d4cb7f60484bbeefe514c302533da19974b00f40ff2be"
+    },
+    {
+      "id": "generic-medic-droid",
+      "file": "assets/starwars-original/generic-medic-droid.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Characters/MedicDroid.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Characters/MedicDroid.png",
+      "kind": "Existing generic character artwork; no named screen character",
+      "bytes": 111798,
+      "sha256": "572552f3cf6c2805dc724699ec3a7237b82c267e5ee9286daf941112618b6100"
+    },
+    {
+      "id": "generic-jedi",
+      "file": "assets/starwars-original/generic-jedi.jpg",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/Characters/460bf1c53aa321f68b07cb6712c28b17.jpg",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/Characters/460bf1c53aa321f68b07cb6712c28b17.jpg",
+      "kind": "Existing generic character artwork; no named screen character",
+      "bytes": 33522,
+      "sha256": "408c50369964803dbabaf955e4780c498aa16894dbf07bb9fbeec1fb46ea70e5"
     }
   ]
 }

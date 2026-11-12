@@ -138,7 +138,7 @@ export default class SWAImporter extends FormApplication {
     }
   }
 
-  async _handleAdversaries(zip, filter) {
+  async _handleAdversaries(zip, filter, sourceFilename) {
     this._importLogger(`Starting Adversary Import`);
     const adversaryFiles = Object.values(zip.files).filter((file) => {
       return !file.dir && file.name.split(".").pop() === "json" && file.name.includes("/adversaries/");
@@ -153,7 +153,7 @@ export default class SWAImporter extends FormApplication {
 
       let compendiumName = `Star Wars Adversaries`;
 
-      const filename = $("form.data-importer-window")[0].data.files[0].name;
+      const filename = sourceFilename ?? $("form.data-importer-window")[0]?.data?.files?.[0]?.name ?? "sw-adversaries.zip";
 
       if (!filename.includes("sw-adversaries")) {
         compendiumName = filename.replace(/\.[^/.]+$/, "");
@@ -414,6 +414,8 @@ export default class SWAImporter extends FormApplication {
                   items: [],
                 };
 
+                adversary.system = foundry.utils.mergeObject(await ImportHelpers.getTemplate(importType), adversary.system);
+
                 if (item?.tags) {
                   adversary.system.metadata.tags = item.tags.filter(t => !t.includes("book:"));
                   adversary.system.metadata.sources = item.tags.filter(t => t.includes("book:"));
@@ -525,7 +527,7 @@ export default class SWAImporter extends FormApplication {
 
                       adversary.items.push(adversaryTalent);
                     } else {
-                      const swaTalentKey = Object.keys(CONFIG.temporary.swa.talents).find((t) => talent.substr(0, talent.lastIndexOf(' ')) === t);
+                      const swaTalentKey = Object.keys(CONFIG.temporary.swa.talents).sort((a, b) => b.length - a.length).find((t) => talent === t || (talent.startsWith(t + ' ') && /^\d+$/.test(talent.slice(t.length + 1))));
 
                       if (swaTalentKey) {
                         const swaTalent = CONFIG.temporary.swa.talents[swaTalentKey];
@@ -667,12 +669,12 @@ export default class SWAImporter extends FormApplication {
                             },
                           };
                           const descriptor = new CONFIG.Item.documentClass(unique, { temporary: true });
-                          templatedData.system.itemmodifier.push(descriptor);
+                          templatedData.system.itemmodifier.push(descriptor.toObject());
                         });
                       }
 
                       let w = new CONFIG.Item.documentClass(templatedData, { temporary: true });
-                      adversary.items.push(foundry.utils.duplicate(w));
+                      adversary.items.push(w.toObject());
                     }
                   });
                 }

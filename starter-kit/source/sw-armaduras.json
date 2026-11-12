@@ -570,7 +570,7 @@
     "_id": "410a715abcd63818",
     "name": "Traje de piloto espacial",
     "type": "armour",
-    "img": "systems/starwarsffg/assets/starwars-original/rebel-pilots.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-rebel-pilot.png",
     "system": {
       "description": "<p>Traje para cabinas y maniobras prolongadas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

@@ -3,7 +3,7 @@
     "_id": "63cd6df175ac52ca",
     "name": "Analista de frecuencias",
     "type": "specialization",
-    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/scanner.png",
     "system": {
       "description": "<p>Especialización original para investigar transmisiones y rastrear emisores</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -59,7 +59,7 @@
     "_id": "fb21ba44b255fc47",
     "name": "Mecánico de rescate",
     "type": "specialization",
-    "img": "icons/tools/hand/wrench-mechanical-heal-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/droid-repair-kit.png",
     "system": {
       "description": "<p>Especialización original para reparar bajo presión y evacuar civiles</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -115,7 +115,7 @@
     "_id": "a6ce95b6a35e65cf",
     "name": "Explorador de ruinas",
     "type": "specialization",
-    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-hunter.png",
     "system": {
       "description": "<p>Especialización original para orientarse y sobrevivir lejos de rutas seguras</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -171,7 +171,7 @@
     "_id": "1631424f0d6af581",
     "name": "Mediador de fronteras",
     "type": "specialization",
-    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-protocol.png",
     "system": {
       "description": "<p>Especialización original para negociar acuerdos entre colonias</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},

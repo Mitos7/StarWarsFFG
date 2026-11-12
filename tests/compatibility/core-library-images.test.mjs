@@ -37,7 +37,7 @@ test("all 175 Star Wars illustrated entries use attributed local Star Wars image
   const used=new Set();
   for(const doc of all.filter(d=>d.img)){
     assert.ok(existsSync(localFile(doc.img)),doc.name+" "+doc.img);
-    if(doc.prototypeToken)assert.equal(doc.prototypeToken.texture.src,doc.img,doc.name);
+    if(doc.prototypeToken){assert.match(doc.prototypeToken.texture.src,/^systems\/starwarsffg\/assets\/tokens-tokenizer2\//,doc.name);assert.ok(existsSync(localFile(doc.prototypeToken.texture.src)),doc.name);assert.equal(doc.prototypeToken.ring.enabled,false);}
   }
   for(const doc of sw){
     assert.match(doc.img,/^systems\/starwarsffg\/assets\/starwars-original\//);

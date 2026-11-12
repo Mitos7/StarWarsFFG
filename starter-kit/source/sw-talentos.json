@@ -261,7 +261,7 @@
     "_id": "a770b750556801b0",
     "name": "Skilled Jockey",
     "type": "talent",
-    "img": "systems/starwarsffg/assets/starwars-original/rebel-pilots.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-rebel-pilot.png",
     "system": {
       "description": "<p>Propuesta fan: habilidad intuitiva con vehículos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -347,7 +347,7 @@
     "_id": "b14a2f68aa17d6e7",
     "name": "Natural Pilot",
     "type": "talent",
-    "img": "systems/starwarsffg/assets/starwars-original/rebel-pilots.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-rebel-pilot.png",
     "system": {
       "description": "<p>Propuesta fan: facilidad innata para comprender maniobras.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
