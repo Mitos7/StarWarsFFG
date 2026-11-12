@@ -6,6 +6,9 @@ export default class ItemOptions {
   }
 
   init(html) {
+      // A compendium sheet is a read-only document even for the GM.
+      // Do not offer an editor which would attempt writes to a locked pack.
+      if (this.data.object.pack || !this.data.object.isOwner) return;
       const options = $(`.starwarsffg.sheet.item[data-appid='${this.data.appId}'] .ffg-sheet-options`);
       if (options.length === 0) {
         const button = $(`<a class="ffg-sheet-options"><i class="fas fa-wrench"></i>${game.i18n.localize("SWFFG.SheetOptions")}</a>`);
@@ -74,15 +77,13 @@ export default class ItemOptions {
     if (!this.options[optionName]) {
       this.options[optionName] = { ...options };
     }
-    if (typeof this.data.object.flags?.starwarsffg?.config == "undefined") {
-      await this.data.object.setFlag("starwarsffg", "config", {});
-    }
-
-    if (typeof this.data.object.flags?.starwarsffg?.config[optionName] !== "undefined") {
-      this.options[optionName].value = this.data.object.flags?.starwarsffg?.config[optionName];
-    } else {
-      this.options[optionName].value = this.options[optionName].default;
-    }
+    // Registering sheet options is a read operation. The old implementation
+    // created a config flag when opening a sheet, which fails for every
+    // locked Foundry V14 compendium document and caused multiple red errors.
+    const storedValue = this.data.object.flags?.starwarsffg?.config?.[optionName];
+    this.options[optionName].value = storedValue === undefined
+      ? this.options[optionName].default
+      : storedValue;
   }
 
   registerMany(optionsArray) {

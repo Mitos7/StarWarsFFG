@@ -1,6 +1,6 @@
 # Biblioteca integrada de Star Wars FFG
 
-Desde la versión 2.0.5-mitos.10, el sistema incluye **12 compendios nativos**
+Desde la versión 2.0.5-mitos.11, el sistema incluye **12 compendios nativos**
 y **180 referencias fan no oficiales de Star Wars**: armas, equipo, armaduras,
 especies, carreras, especializaciones, talentos, conceptos de la Fuerza,
 adversarios, personajes, vehículos, naves y guías.

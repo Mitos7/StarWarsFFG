@@ -44,10 +44,10 @@ test("Foundry setup restores exact classic Star Wars logo from prior release",()
 });
 
 test("public Foundry installer includes Star Wars library directly and keeps optional addon installer",()=>{
-  assert.equal(manifest.version,"2.0.5-mitos.10");
+  assert.equal(manifest.version,"2.0.5-mitos.11");
   assert.equal(manifest.id,"starwarsffg");
   assert.equal(manifest.manifest,"https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json");
-  assert.equal(manifest.download,"https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.10/system.zip");
+  assert.equal(manifest.download,"https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.11/system.zip");
   assert.equal(manifest.compatibility.verified,14);
   assert.equal(manifest.relationships?.recommends?.length,1);
   assert.equal(manifest.relationships.recommends[0].id,"swffg-mitos-addons");

@@ -17,7 +17,7 @@ Install the main **Star Wars FFG + Genesys** system using this manifest in Found
 
 `https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json`
 
-The current stable version is **2.0.5-mitos.10**. It retains the original Star Wars title logo, previous Foundry V14 fixes, and Genesys game mechanics.
+The current stable version is **2.0.5-mitos.11**. It retains the original Star Wars title logo, previous Foundry V14 fixes, and Genesys game mechanics.
 
 For third-party add-ons, Foundry can offer the optional **Star Wars FFG - Mitos Add-on Collection** during system installation. It can also be installed manually using the **Add-on Modules -> Install Module -> Manifest URL** field:
 
