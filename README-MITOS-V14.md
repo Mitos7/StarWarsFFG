@@ -1,8 +1,8 @@
-# Star Wars FFG ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ Mitos V14 build
+# Star Wars FFG - Mitos V14 build
 
 Community compatibility build for Foundry VTT V14, based on `salohcin714/StarWarsFFG` pull request [#2280](https://github.com/StarWarsFoundryVTT/StarWarsFFG/pull/2280), itself based on the original [StarWarsFoundryVTT/StarWarsFFG](https://github.com/StarWarsFoundryVTT/StarWarsFFG) project.
 
-Version: `2.0.5-mitos.12`  |  System ID: `starwarsffg`  |  Compatible generation: Foundry 14.
+Version: `2.0.5-mitos.13`  |  System ID: `starwarsffg`  |  Compatible generation: Foundry 14.
 
 ## Installation
 
@@ -14,7 +14,7 @@ Or download the release `system.zip` and extract its contents into `FoundryVTT/D
 
 ## Testing and limits
 
-The source PR reports runtime checks on Foundry V14 build 366, and this fork has passed 20 compatibility unit tests and JavaScript syntax tests. A clean Foundry 14 build 369 world was created and an Actor was created and its character sheet opened successfully. The legacy root `template.json` warning is removed by registering transitional TypeDataModels for all 26 Actor/Item types; the original template is retained under `scripts/legacy-template.json` for reference. It is not an official upstream release, and later Foundry updates are not automatically guaranteed. Backup worlds before migration. This repo contains no copyrighted game rulebook content.
+The source PR reports runtime checks on Foundry V14 build 366, and this fork has passed 29 compatibility unit tests and JavaScript syntax tests. A clean Foundry 14 build 369 world was created and an Actor was created and its character sheet opened successfully. The legacy root `template.json` warning is removed by registering transitional TypeDataModels for all 26 Actor/Item types; the original template is retained under `scripts/legacy-template.json` for reference. It is not an official upstream release, and later Foundry updates are not automatically guaranteed. Backup worlds before migration. This repo contains no copyrighted game rulebook content.
 
 ## Credits and license
 
@@ -57,20 +57,16 @@ UI alternatives conflict. Activate and test selected addons one at a time.
 Six licensed addons are mirrored with V14-era manifest syntax fixes. Other
 addons retain their original publisher downloads; their internal legacy
 manifests or code are not silently patched on the recipient's machine.
-No proprietary game rulebooks, source art or premium content is included.
+No proprietary game rulebooks or premium rules content is included. Artwork credits and source URLs are recorded separately.
 
 ## Star Wars library included in the game system
 
-Version 2.0.5-mitos.12 includes **12 native system compendium packs, with
+Version 2.0.5-mitos.13 includes **12 native system compendium packs, with
 180 Star Wars fan reference entries**: weapons, gear, armour, species,
 careers, specializations, talents, Force concepts, adversaries, recognizable
 characters, vehicles/starships, and adventure journals.
 
-The Star Wars pack items use only pre-existing stock icons bundled with
-the StarWarsFFG core system under `images/defaults/items/` and
-`images/defaults/actors/`. No AI-generated or procedural image files are
-created or distributed. All prototype tokens use the same valid original
-icon path as their actors.
+The 175 illustrated Star Wars items and actors use locally bundled existing Star Wars artwork under `assets/starwars-original/`. Prototype tokens use the same image as their actors. The remaining generic homebrew examples in the optional module retain their existing Foundry stock icons.
 
 All text and numerical values are **fan-made demonstration content**;
 they must not be confused with or substituted for official FFG/Edge
@@ -82,6 +78,10 @@ packs; if enabled, its 12 Star Wars packs duplicate the system's library,
 so disable it in a world where those duplicate lists are unwanted.
 See `docs/library-catalogue.md` for details.
 
-## Existing illustration references (Foundry V14)
+## Existing Star Wars artwork (v2.0.5-mitos.13)
 
-This version selects images by category from the preinstalled Foundry V14 `icons/` library when possible. No individual Star Wars character/ship official portraits are bundled; those without matching stock illustrations retain generic system icons. No procedural graphics are created.
+All 175 illustrated Star Wars documents now use locally bundled Star Wars images instead of generic Foundry stock icons. Named heroes, species, ships and equipment use their matching existing images where available; abstract powers, talents and careers use representative Star Wars scenes. Both the built-in compendia and optional starter module (1.1.4) are updated. No images were generated with AI.
+
+The 115 source images are unchanged downloads, predominantly from the official StarWars.com Databank. Some equipment and species use existing community artwork, game assets or replica photographs. Their exact origins, authors where known, and SHA-256 hashes are listed in `assets/starwars-original/sources.json`. Third-party artwork retains its respective ownership and is not covered by the code MIT license or the fan-data CC0 license.
+
+Portraits preserve the full image. The release archive includes both `assets/` and `packs/`, so images are served locally without depending on external links at play time.

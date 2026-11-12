@@ -1,20 +1,8 @@
+## Existing Star Wars artwork
 
-**Image assets:** All 180 Star Wars entries included directly in this game
-system now use verified stock item/actor icons already bundled by StarWarsFFG.
-No original portrait/cover art or procedurally generated artwork is provided
-for individual entries.
+The system includes 180 Star Wars fan reference entries in 12 native compendia. All **175 illustrated items and actors** use locally bundled existing Star Wars imagery, predominantly from the official StarWars.com Databank, with additional community artwork and replica photographs for some equipment and species. Abstract careers, talents and powers use representative Star Wars scenes. No images were generated with AI.
 
-## Existing artwork — what the system really includes
-
-All 230 item/actor sample entries now use verified preinstalled **Foundry V14**
-stock imagery selected by object type where possible. Datapads use a tablet
-image, blaster pistols/rifles use energy-weapon artwork, and medical equipment
-uses medical images. No images were generated or copied into the repository.
-
-**Important:** These are stock category illustrations, not authentic individual
-Star Wars portraits or ship renders. The original system bundle does not include
-the official illustrations for each named character, weapon or starship. Ships
-without suitable stock art use the original StarWarsFFG vehicle icon.
+The 115 unchanged source images have origins, credits and SHA-256 hashes in [the source catalog](assets/starwars-original/sources.json). Third-party artwork is owned by its respective rights holders, separately from the code MIT license and fan-data license. The optional module has the same Star Wars imagery; its 11 generic homebrew packs retain existing Foundry stock illustrations.
 
 ## Original starter compendia (optional)
 
@@ -29,7 +17,7 @@ Install the main **Star Wars FFG + Genesys** system using this manifest in Found
 
 `https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json`
 
-The current stable version is **2.0.5-mitos.12**. It retains the original Star Wars title logo, previous Foundry V14 fixes, and Genesys game mechanics.
+The current stable version is **2.0.5-mitos.13**. It retains the original Star Wars title logo, previous Foundry V14 fixes, and Genesys game mechanics.
 
 For third-party add-ons, Foundry can offer the optional **Star Wars FFG - Mitos Add-on Collection** during system installation. It can also be installed manually using the **Add-on Modules -> Install Module -> Manifest URL** field:
 

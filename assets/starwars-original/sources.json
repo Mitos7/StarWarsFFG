@@ -1,0 +1,1155 @@
+{
+  "note": "Existing images from the linked sources. No AI-generated or recreated images. Third-party images are not covered by the system code MIT license. Archetypes, species and abstract abilities may use representative Star Wars artwork.",
+  "images": [
+    {
+      "id": "luke-skywalker",
+      "file": "assets/starwars-original/luke-skywalker.jpeg",
+      "source": "https://www.starwars.com/databank/luke-skywalker",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/luke-skywalker-main_7ffe21c7.jpeg?region=130%2C147%2C1417%2C796",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "fda1968d78e3bd4803e896c39e2f5e1501d62bbaf2156ce39983d6d44b8e0f32",
+      "bytes": 134489
+    },
+    {
+      "id": "darth-vader",
+      "file": "assets/starwars-original/darth-vader.jpeg",
+      "source": "https://www.starwars.com/databank/darth-vader",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/maul-shadow-lord-season-1-finale-darth-vader_9d1e251b.jpeg?region=238%2C0%2C1444%2C812",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "5f64d08976922909c8bbbf95fab69923e544ab5650cdef32843144fb19739e9b",
+      "bytes": 151468
+    },
+    {
+      "id": "leia-organa",
+      "file": "assets/starwars-original/leia-organa.jpeg",
+      "source": "https://www.starwars.com/databank/leia-organa",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=187%2C157%2C1400%2C786",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "530297c7419a9033fbc2c4c0324437302fe4122d4783629911b40ed640446227",
+      "bytes": 115941
+    },
+    {
+      "id": "han-solo",
+      "file": "assets/starwars-original/han-solo.jpeg",
+      "source": "https://www.starwars.com/databank/han-solo",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/han-solo-main_a4c8ff79.jpeg?region=0%2C0%2C1920%2C1080",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "a11c8ad0297ce7f8a68e5d9f49bd4ffc52a8f5e45bdbb3180a9292189039bb94",
+      "bytes": 260432
+    },
+    {
+      "id": "chewbacca",
+      "file": "assets/starwars-original/chewbacca.jpeg",
+      "source": "https://www.starwars.com/databank/chewbacca",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/chewie-main_e1968a8a.jpeg?region=131%2C0%2C951%2C536",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "dd7dd09c18702088e133a7b467e0163e24a46dc7e9474045ff118b27fe7741f2",
+      "bytes": 120624
+    },
+    {
+      "id": "obi-wan-kenobi",
+      "file": "assets/starwars-original/obi-wan-kenobi.jpeg",
+      "source": "https://www.starwars.com/databank/obi-wan-kenobi",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-main_3286c63c.jpeg?region=0%2C0%2C1280%2C721",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "e5447508fc00c6003b0f8308129e0a085ae8816eda0a09bfd3c8a7e1ec0388dd",
+      "bytes": 112110
+    },
+    {
+      "id": "the-mandalorian",
+      "file": "assets/starwars-original/the-mandalorian.jpeg",
+      "source": "https://www.starwars.com/databank/the-mandalorian",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/din-djarin-the-mandalorian-main_66f8a62f.jpeg?region=98%2C0%2C1821%2C1023",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c3abc744924b482a8f5e558aa6746af9d07d730128fcd2bf1082be65563ffb3b",
+      "bytes": 182360
+    },
+    {
+      "id": "boba-fett",
+      "file": "assets/starwars-original/boba-fett.jpeg",
+      "source": "https://www.starwars.com/databank/boba-fett",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/boba-fett-main_a8fade4d.jpeg?region=203%2C34%2C1077%2C606",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "d0c923d2c7c51ebe2fa02ab04beff31747b8182e485dd0a78ceefaa94a8e83ce",
+      "bytes": 108857
+    },
+    {
+      "id": "ahsoka-tano",
+      "file": "assets/starwars-original/ahsoka-tano.jpeg",
+      "source": "https://www.starwars.com/databank/ahsoka-tano",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/ahsoka-main_88c206d7.jpeg?region=420%2C60%2C1500%2C843",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "098f97288a4282bdb1d2054c1b07e8f430242ce4d985f5c09611c38c30afd8fe",
+      "bytes": 209685
+    },
+    {
+      "id": "rey",
+      "file": "assets/starwars-original/rey.jpeg",
+      "source": "https://www.starwars.com/databank/rey",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/rey-main_ca4bb0d7.jpeg?region=180%2C0%2C951%2C536",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c3997b26aa5a4185771ed7bd2ab49c6683ebfb089602874e56bd6ba14464fece",
+      "bytes": 53779
+    },
+    {
+      "id": "darth-sidious",
+      "file": "assets/starwars-original/darth-sidious.jpeg",
+      "source": "https://www.starwars.com/databank/darth-sidious",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/emperor-palpatine_9a0e992d.jpeg?region=0%2C25%2C1280%2C718",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "4f954c93a2d7b195e7751cfcbcd5f1c2d472694b265eadd0c0ddb0f691f5b0db",
+      "bytes": 66729
+    },
+    {
+      "id": "yoda",
+      "file": "assets/starwars-original/yoda.jpeg",
+      "source": "https://www.starwars.com/databank/yoda",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/Yoda-Retina_2a7ecc26.jpeg?region=0%2C0%2C1536%2C864",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "3d71087e031bf81c1a69c401efc233c90d52fab9131b9048089147db0da3d20a",
+      "bytes": 182096
+    },
+    {
+      "id": "kylo-ren",
+      "file": "assets/starwars-original/kylo-ren.jpeg",
+      "source": "https://www.starwars.com/databank/kylo-ren",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/kylo-ren-main-tros-a_6d77fd1e.jpeg?region=0%2C0%2C1280%2C720",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "2408c54bceb571bdfefaa0261d630845a85e5a82c5daea8a21738c7336235ad3",
+      "bytes": 140399
+    },
+    {
+      "id": "r2-d2",
+      "file": "assets/starwars-original/r2-d2.jpeg",
+      "source": "https://www.starwars.com/databank/r2-d2",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/r2-d2-main_f315b094.jpeg?region=273%2C0%2C951%2C536",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "00e1a2d8107336951b0aa922cf27b51f19122f0b86e3faabaa809b75c73af5a1",
+      "bytes": 93329
+    },
+    {
+      "id": "grogu",
+      "file": "assets/starwars-original/grogu.jpeg",
+      "source": "https://www.starwars.com/databank/grogu",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/grogu-main_25a0f2fe.jpeg?region=0%2C23%2C1919%2C1080",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "2f4958107c4adce96393ace7626ca9b8b98e0ff1ac237e92c0ec1b428e430365",
+      "bytes": 264401
+    },
+    {
+      "id": "c-3po",
+      "file": "assets/starwars-original/c-3po.jpeg",
+      "source": "https://www.starwars.com/databank/c-3po",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/c-3po-main_d6850e28.jpeg?region=176%2C0%2C951%2C536",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "79026d2fd4798c9b23579d8818d62c93a889b1c7557dd6be360deb565e456b1c",
+      "bytes": 70568
+    },
+    {
+      "id": "tie-fighter",
+      "file": "assets/starwars-original/tie-fighter.jpeg",
+      "source": "https://www.starwars.com/databank/tie-fighter",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/TIE-Fighter_25397c64.jpeg?region=0%2C1%2C2048%2C1152",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "ed76dac6a3fd8cdf3a4a6cef36a331968a7fa32931f35e48b3dc3d46cf94f3c3",
+      "bytes": 122405
+    },
+    {
+      "id": "x-wing-starfighter",
+      "file": "assets/starwars-original/x-wing-starfighter.jpeg",
+      "source": "https://www.starwars.com/databank/x-wing-starfighter",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/x-wing-main_9416f762.jpeg?region=1%2C211%2C1544%2C869",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "194279e5a9a3b25583e902f9192cdbd2e88abcca4e07084f574c8eb710c30326",
+      "bytes": 99586
+    },
+    {
+      "id": "tie-interceptor",
+      "file": "assets/starwars-original/tie-interceptor.jpeg",
+      "source": "https://www.starwars.com/databank/tie-interceptor",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/tie-interceptor-2_b2250e79.jpeg?region=0%2C42%2C1560%2C879",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "5b768035001960a00542d17966055ae23f824026c94fc44aa2419f55bd6b44fd",
+      "bytes": 175831
+    },
+    {
+      "id": "tie-bomber",
+      "file": "assets/starwars-original/tie-bomber.jpeg",
+      "source": "https://www.starwars.com/databank/tie-bomber",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/tie-bomber-main_d4d9b979.jpeg?region=424%2C0%2C632%2C356",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "7d46c69b5f90c00a43d92a352b2fb53c3647d5337a9ec1adfb1ff4d903f561ec",
+      "bytes": 32293
+    },
+    {
+      "id": "a-wing-fighter",
+      "file": "assets/starwars-original/a-wing-fighter.png",
+      "source": "https://www.starwars.com/databank/a-wing-fighter",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/screen_shot_2015-05-26_at_5_16a39e17.png?region=0%2C71%2C812%2C457",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "b7e3bbf74a3e02f96ebe44e837553fa377083ad395be5f0ddbb74fe4db59d390",
+      "bytes": 84073
+    },
+    {
+      "id": "y-wing-starfighter",
+      "file": "assets/starwars-original/y-wing-starfighter.jpeg",
+      "source": "https://www.starwars.com/databank/y-wing-starfighter",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/y-wing-main_1eac4125.jpeg?region=0%2C132%2C1920%2C1080",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c3a47c56df12ee5f4f90c53d5ed3bf5ef2a9d01ff8a984668b0906276e217f82",
+      "bytes": 223327
+    },
+    {
+      "id": "millennium-falcon",
+      "file": "assets/starwars-original/millennium-falcon.jpeg",
+      "source": "https://www.starwars.com/databank/millennium-falcon",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/millennium-falcon-main-tlj-a_7cf89d3a.jpeg?region=0%2C0%2C1280%2C720",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "130c02b38a4e20b34eca7b841a299dbf1c56359100b3ccd5c2d622c64708befd",
+      "bytes": 233756
+    },
+    {
+      "id": "slave-i",
+      "file": "assets/starwars-original/slave-i.jpeg",
+      "source": "https://www.starwars.com/databank/slave-i",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/slave-1-main_81d5c1c7.jpeg?region=160%2C0%2C960%2C540",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "9428bd2c27636b90b0c65eb6579d8a0aca5eb064bf213c1dc7f5306a74998ff5",
+      "bytes": 65158
+    },
+    {
+      "id": "imperial-star-destroyer",
+      "file": "assets/starwars-original/imperial-star-destroyer.jpeg",
+      "source": "https://www.starwars.com/databank/imperial-star-destroyer",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/Star-Destroyer_ab6b94bb.jpeg?region=0%2C0%2C1600%2C900",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "1d6da56c37ca8297bd072540b85fcd4fe1073de91d548c4b8da9ff065f07816c",
+      "bytes": 142970
+    },
+    {
+      "id": "b-wing-fighter",
+      "file": "assets/starwars-original/b-wing-fighter.jpeg",
+      "source": "https://www.starwars.com/databank/b-wing-fighter",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_bwingfighter_01_169_460cc528.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "adce09722d5bf7d1ba05ba4ba1d4b80bef47dd9714b763e46f8ff3b76a149719",
+      "bytes": 261395
+    },
+    {
+      "id": "imperial-shuttle",
+      "file": "assets/starwars-original/imperial-shuttle.jpeg",
+      "source": "https://www.starwars.com/databank/imperial-shuttle",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/veh_ia_1752_040381b2.jpeg?region=0%2C70%2C1280%2C720",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "b1fa3228632b3034845e1a4656502dc6993868bbce9f441c7d9a8424df187384",
+      "bytes": 169822
+    },
+    {
+      "id": "republic-attack-cruiser",
+      "file": "assets/starwars-original/republic-attack-cruiser.jpeg",
+      "source": "https://www.starwars.com/databank/republic-attack-cruiser",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_republicattackcruiser_01_169_812f153d.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "6dc56e5d4b8d545240f4048f639c2ccd886011821e319f572a6fff249af45a6f",
+      "bytes": 187154
+    },
+    {
+      "id": "arc-170-starfighter",
+      "file": "assets/starwars-original/arc-170-starfighter.jpeg",
+      "source": "https://www.starwars.com/databank/arc-170-starfighter",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_arc170starfighter_01_169_f932abcb.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "f45ddbc552024afab91922c33b33585e8e2c8263a2a1fb9bf19b7c0de803b87b",
+      "bytes": 57832
+    },
+    {
+      "id": "republic-attack-gunship",
+      "file": "assets/starwars-original/republic-attack-gunship.jpeg",
+      "source": "https://www.starwars.com/databank/republic-attack-gunship",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/republic-attack-gunship-main_6dc2f24e.jpeg?region=237%2C0%2C1445%2C813",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "0f1462784ddd16cd4b5f54d76bd77e1ac244dffc557eee9a7ee6b791f3cfed20",
+      "bytes": 140295
+    },
+    {
+      "id": "at-st-walker",
+      "file": "assets/starwars-original/at-st-walker.jpeg",
+      "source": "https://www.starwars.com/databank/at-st-walker",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/e6d_ia_5724_a150e6d4.jpeg?region=124%2C0%2C1424%2C802",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "195fef5d4e39045477be4fcbaacfb1bd1a4a335ef129c91e30e89dad5b40d99b",
+      "bytes": 256240
+    },
+    {
+      "id": "at-at-walker",
+      "file": "assets/starwars-original/at-at-walker.jpeg",
+      "source": "https://www.starwars.com/databank/at-at-walker",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/at-at-walker-main_3d58fb95.jpeg?region=1%2C106%2C1544%2C870",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "0cd756fb02bbbd01690f6fc00d88bf0c56e9896409823316eaf4758a01d5a66c",
+      "bytes": 281675
+    },
+    {
+      "id": "speeder-bike",
+      "file": "assets/starwars-original/speeder-bike.jpeg",
+      "source": "https://www.starwars.com/databank/speeder-bike",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/speeder-bike-main_954f3273.jpeg?region=0%2C132%2C1280%2C721",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "38d7a6d2bdcf8dddfa60d20b0bd44c583d4361a7593ab1f47bfa420184832a82",
+      "bytes": 226093
+    },
+    {
+      "id": "u-wing",
+      "file": "assets/starwars-original/u-wing.jpeg",
+      "source": "https://www.starwars.com/databank/u-wing",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/u-wing-main_d6dc6848.jpeg?region=0%2C105%2C1545%2C870",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "40a41f408b55be12793db90f53c16c8f01a701728ca4efe02fb3f505ca767370",
+      "bytes": 169149
+    },
+    {
+      "id": "razor-crest",
+      "file": "assets/starwars-original/razor-crest.jpeg",
+      "source": "https://www.starwars.com/databank/razor-crest",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/star-wars-the-mandalorian-and-grogu-razor-crest-razor-c_728b4dc0.jpeg?region=0%2C100%2C1920%2C1080",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "b7f7401a078daab359c7e7362db577d22e7d512eeb3327e820b6bde1e52f73d7",
+      "bytes": 377985
+    },
+    {
+      "id": "rodian",
+      "file": "assets/starwars-original/rodian.jpeg",
+      "source": "https://www.starwars.com/databank/rodian",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/rodian-main_de29c78f.jpeg?region=0%2C0%2C1280%2C721",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "e55ff7d1ec6112a1d1701973c390f2bf03767b146da8cf7fa6fd962744ccbf79",
+      "bytes": 118816
+    },
+    {
+      "id": "wookiee",
+      "file": "assets/starwars-original/wookiee.jpeg",
+      "source": "https://www.starwars.com/databank/wookiee",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/wookiees-main-b_fc850c5b.jpeg?region=8%2C0%2C1543%2C868",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "1c73cb54519789ad83518b177eca3b3e4e346e9ad1806e49cffeefd419dc7a54",
+      "bytes": 218820
+    },
+    {
+      "id": "zabrak",
+      "file": "assets/starwars-original/zabrak.jpeg",
+      "source": "https://www.starwars.com/databank/zabrak",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_zabarak_01_169_250565fc.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "3065e39daa4f924909f09902ce76b36dedc41beea81c60ffc49134282b9e5b7c",
+      "bytes": 114704
+    },
+    {
+      "id": "twi-lek",
+      "file": "assets/starwars-original/twi-lek.jpeg",
+      "source": "https://www.starwars.com/databank/twi-lek",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/twi-lek-main_93917d40.jpeg?region=93%2C0%2C951%2C536",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "ca39e52a67706819a351d63ee72026eb7814bc6141707aaaa39daaec508c983b",
+      "bytes": 70654
+    },
+    {
+      "id": "togruta",
+      "file": "assets/starwars-original/togruta.jpeg",
+      "source": "https://www.starwars.com/databank/togruta",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_togruta_01_169_4618d329.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c8fc6f5e4d68a21e52678fe00a298a0ff9648d3afbd87901f879c56bee4b50f7",
+      "bytes": 167130
+    },
+    {
+      "id": "nautolan",
+      "file": "assets/starwars-original/nautolan.jpeg",
+      "source": "https://www.starwars.com/databank/nautolan",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_nautolan_01_169_9be3d603.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "82688f40d7baeeda8333b94495b02d5efcafd2df7c3a278d24fc6df1618507eb",
+      "bytes": 104114
+    },
+    {
+      "id": "trandoshan",
+      "file": "assets/starwars-original/trandoshan.jpeg",
+      "source": "https://www.starwars.com/databank/trandoshan",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/trandoshian-main_19804be7.jpeg?region=0%2C67%2C1280%2C720",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "96358e4a3534ebf5f8fbfea46b89b9ff9c750f2c441a406aa10a52e75866e781",
+      "bytes": 110680
+    },
+    {
+      "id": "mon-calamari",
+      "file": "assets/starwars-original/mon-calamari.jpeg",
+      "source": "https://www.starwars.com/databank/mon-calamari",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_moncalamari_01_169_135967d9.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "fc6beda1541acc1e56b75fa46fa27a44dcdafd04abc344bda61d27312f0c1569",
+      "bytes": 281174
+    },
+    {
+      "id": "ithorian",
+      "file": "assets/starwars-original/ithorian.jpeg",
+      "source": "https://www.starwars.com/databank/ithorian",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/ithorian-main_0cc7f24e.jpeg?region=0%2C0%2C1280%2C721",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "3ad8ef34024da6416e3a5cc46425a8745d146154020eb51d1404f64e05905576",
+      "bytes": 130778
+    },
+    {
+      "id": "duros",
+      "file": "assets/starwars-original/duros.jpeg",
+      "source": "https://www.starwars.com/databank/duros",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_duros_01_169_9a7854b9.jpeg?region=0%2C0%2C1530%2C862",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "9275e0a58f941e6d37b759c38561fa3601edc699383ad99c6ec5580902f6ddcf",
+      "bytes": 137926
+    },
+    {
+      "id": "mirialan",
+      "file": "assets/starwars-original/mirialan.jpeg",
+      "source": "https://www.starwars.com/databank/mirialan",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_mirialan_01_169_958106f8.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "d3897731702f0c6c8f77dff6d8d1079470ee4980527285d643850099f26f4396",
+      "bytes": 147789
+    },
+    {
+      "id": "stormtroopers",
+      "file": "assets/starwars-original/stormtroopers.jpeg",
+      "source": "https://www.starwars.com/databank/stormtroopers",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/stormtroopers-main_2506b369.jpeg?region=98%2C0%2C1428%2C804",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "749350133755e6a3d5d7c23ddf44b2c4b96cf536b42188741fab5a5a649c412c",
+      "bytes": 185952
+    },
+    {
+      "id": "jawa",
+      "file": "assets/starwars-original/jawa.jpeg",
+      "source": "https://www.starwars.com/databank/jawa",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/jawas-main_a668013b.jpeg?region=0%2C0%2C1280%2C721",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "794a69538cba63d7d166ffb9208dd8ed9192686ac7dca07f900a7b6e5e237b38",
+      "bytes": 235943
+    },
+    {
+      "id": "imperial-security-bureau",
+      "file": "assets/starwars-original/imperial-security-bureau.jpeg",
+      "source": "https://www.starwars.com/databank/dedra-meero",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/dedra-meero-main_45bd3b3e.jpeg?region=121%2C0%2C1413%2C798",
+      "kind": "Official Star Wars Databank portrait; Dedra Meero represents the ISB agent archetype",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "85015fedf43a8720d682683ad745093a118b191fad0e8a201ff295dea34bd70f",
+      "bytes": 86800
+    },
+    {
+      "id": "scout-troopers",
+      "file": "assets/starwars-original/scout-troopers.jpeg",
+      "source": "https://www.starwars.com/databank/scout-troopers",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/image_ff8262cd.jpeg?region=0%2C100%2C1920%2C1080",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c0e9a22efa510fdff05e9fb990da998739a0420c56a6c4beaacc9d3f3461624e",
+      "bytes": 453023
+    },
+    {
+      "id": "rebel-troopers",
+      "file": "assets/starwars-original/rebel-troopers.jpeg",
+      "source": "https://www.starwars.com/databank/rebel-troopers",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_rebeltroopers_01_169_3c33dfa2.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c58aa50a861aa857db60d2941567f017fe19180eccbfade6cf84f05bd1c3f5f2",
+      "bytes": 221216
+    },
+    {
+      "id": "rebel-pilots",
+      "file": "assets/starwars-original/rebel-pilots.jpeg",
+      "source": "https://www.starwars.com/databank/rebel-pilots",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/Rebel-Pilots_57e7b2f8.jpeg?region=0%2C1%2C1445%2C813",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c1701d00c8ce831a86ffc124e1d62f2ad93889ace2c86febe1101000f8ef57e1",
+      "bytes": 291083
+    },
+    {
+      "id": "battle-droid",
+      "file": "assets/starwars-original/battle-droid.jpeg",
+      "source": "https://www.starwars.com/databank/battle-droid",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_battledroid_01_169_1524f145.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c651587ff47ba288539a2e7767cbd994f279ffdd2a3f6e764bd7f47d37512b1c",
+      "bytes": 312778
+    },
+    {
+      "id": "clone-troopers",
+      "file": "assets/starwars-original/clone-troopers.jpeg",
+      "source": "https://www.starwars.com/databank/clone-troopers",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/Clone-Troopers_76eb5caf.jpeg?region=0%2C0%2C2048%2C1152",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "75ec02efe07118e33152e0c43900b15b7526a935d86b126684e913207a5a8be6",
+      "bytes": 239973
+    },
+    {
+      "id": "super-battle-droid",
+      "file": "assets/starwars-original/super-battle-droid.jpeg",
+      "source": "https://www.starwars.com/databank/super-battle-droid",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/Super-Battle-Droid_f8b9df0b.jpeg?region=35%2C0%2C1280%2C720",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "224d00d05672788d864ce15b2c42f9ff2fc593f6795b575132b0a26d157a3c9b",
+      "bytes": 199633
+    },
+    {
+      "id": "droideka",
+      "file": "assets/starwars-original/droideka.jpeg",
+      "source": "https://www.starwars.com/databank/droideka",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_droideka_01_169_48a22970.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "522de3c443705c4d99fcb14f0c30a513fb346b1cb77635d1befd107128f92940",
+      "bytes": 234050
+    },
+    {
+      "id": "tusken-raiders",
+      "file": "assets/starwars-original/tusken-raiders.jpeg",
+      "source": "https://www.starwars.com/databank/tusken-raiders",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/tusken-raiders-main-bobf-2_135f8e1e.jpeg?region=0%2C0%2C1280%2C720",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "b5927efdd4080b74bfbea27763b20abc2358b7cfa18f3a1a7c248c719fb4844f",
+      "bytes": 102531
+    },
+    {
+      "id": "astromech-droid",
+      "file": "assets/starwars-original/astromech-droid.jpeg",
+      "source": "https://www.starwars.com/databank/astromech-droid",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_astromechdroid_01_169_9d9b98b1.jpeg?region=155%2C238%2C1139%2C640",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "30116048378e71e1b2898d080d17f7f3b903f6ce2df2c40fd69c7478e4310324",
+      "bytes": 135703
+    },
+    {
+      "id": "the-inquisitor",
+      "file": "assets/starwars-original/the-inquisitor.jpeg",
+      "source": "https://www.starwars.com/databank/the-inquisitor",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/the-grand-inquisitor-main_aba95c9f.jpeg?region=0%2C0%2C1280%2C721",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "0d969c83f0af709b8ce6f2f81f75de71dd79bf63a397b0f2d9adb4fd7bb13e2c",
+      "bytes": 92693
+    },
+    {
+      "id": "rancor",
+      "file": "assets/starwars-original/rancor.jpeg",
+      "source": "https://www.starwars.com/databank/rancor",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/rancor-main_886815df.jpeg?region=204%2C0%2C952%2C536",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c31edd7e3c11110283996dfbb6a3906d377376259b8daefe820a4714324ae5f8",
+      "bytes": 111534
+    },
+    {
+      "id": "wampa",
+      "file": "assets/starwars-original/wampa.jpeg",
+      "source": "https://www.starwars.com/databank/wampa",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/image_c3ce73b0.jpeg?region=0%2C0%2C1920%2C1080",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "b230328289680a72696d282fc8541baaefbb074046926bbaaeb96faf9a005851",
+      "bytes": 276408
+    },
+    {
+      "id": "protocol-droid",
+      "file": "assets/starwars-original/protocol-droid.jpeg",
+      "source": "https://www.starwars.com/databank/protocol-droid",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/protocol_droid_6ddeb574.jpeg?region=243%2C0%2C1447%2C814",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "9f4f17f08be644f18530057607c4ee776ee93eb8147815380156346a14bf331c",
+      "bytes": 202958
+    },
+    {
+      "id": "delta-7-jedi-starfighter",
+      "file": "assets/starwars-original/delta-7-jedi-starfighter.jpeg",
+      "source": "https://www.starwars.com/databank/delta-7-jedi-starfighter",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/delta-7-starfighter_fe9a59bc.jpeg?region=0%2C304%2C1560%2C873",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "761f96cb597f299a0e0eacb250fcaab377f0ed4ff98b0dcc3189b04c87f63688",
+      "bytes": 136016
+    },
+    {
+      "id": "nebulon-b-frigate",
+      "file": "assets/starwars-original/nebulon-b-frigate.jpeg",
+      "source": "https://www.starwars.com/databank/nebulon-b-frigate",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/nebulon-b-frigate_dce53bc2.jpeg?region=0%2C0%2C1181%2C664",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "ea262ee67579eb24fc68d80ffa99a4b927ad09cef24b60b91d2e4fdc677d3b00",
+      "bytes": 109244
+    },
+    {
+      "id": "imperial-royal-guard",
+      "file": "assets/starwars-original/imperial-royal-guard.jpeg",
+      "source": "https://www.starwars.com/databank/imperial-royal-guard",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_emperorsroyalguard_01_169_4a88ce6c.jpeg?region=60%2C70%2C1435%2C808",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "2afb2485c251c4e3428724147b1d96e7ff8604dced0c1a595bf322ae8544d913",
+      "bytes": 247050
+    },
+    {
+      "id": "imperial-pilots",
+      "file": "assets/starwars-original/imperial-pilots.jpeg",
+      "source": "https://www.starwars.com/databank/imperial-pilots",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/CLA_IA_3533_R_copy_5bf5ddfb.jpeg?region=0%2C140%2C2197%2C1240",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "8b06fad00527d916309d5b543454877024cbf361e105c5fad0412884a58155ae",
+      "bytes": 161274
+    },
+    {
+      "id": "grand-moff-tarkin",
+      "file": "assets/starwars-original/grand-moff-tarkin.jpeg",
+      "source": "https://www.starwars.com/databank/grand-moff-tarkin",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/grand-moff-tarkin-main_10a4c888.jpeg?region=0%2C0%2C1403%2C790",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "da2d15f4b78bb2541b5c1587797f928844e135e90c2ac7f20dc550c08a1d2ea4",
+      "bytes": 81454
+    },
+    {
+      "id": "e-11-blaster-rifle",
+      "file": "assets/starwars-original/e-11-blaster-rifle.jpeg",
+      "source": "https://www.starwars.com/databank/e-11-blaster-rifle",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/e-11-blaster-rifle_c6d03948.jpeg?region=0%2C88%2C1560%2C875",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "efeb75f5eaa221cf9dc0f21224d26941ef0fb5bb3deb292be105c47850a2e1c5",
+      "bytes": 67471
+    },
+    {
+      "id": "death-watch",
+      "file": "assets/starwars-original/death-watch.jpeg",
+      "source": "https://www.starwars.com/databank/death-watch",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/Death-Watch_624f6efa.jpeg?region=69%2C0%2C1092%2C614",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "b52eacd9fdb9adc06a631cec312da9dd86c462ff6fcb0307bcc587c526ab8d14",
+      "bytes": 138072
+    },
+    {
+      "id": "a280-blaster-rifle",
+      "file": "assets/starwars-original/a280-blaster-rifle.jpeg",
+      "source": "https://www.starwars.com/databank/a280-blaster-rifle",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/a280-blaster-rifle_0d9d74a0.jpeg?region=0%2C87%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "3ec69daa1b4b641c2c6ab908cd51a9aeade2368199f1015db30505228260f360",
+      "bytes": 203703
+    },
+    {
+      "id": "vibroblade",
+      "file": "assets/starwars-original/vibroblade.jpeg",
+      "source": "https://www.starwars.com/databank/vibroblade",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/vibro-blade-main_ec04ec72.jpeg?region=164%2C0%2C953%2C536",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "b52bff5705bce0fed26f3b01a115490ec31de758fb7f9491dae51aefe03f9889",
+      "bytes": 34338
+    },
+    {
+      "id": "ion-blaster",
+      "file": "assets/starwars-original/ion-blaster.jpeg",
+      "source": "https://www.starwars.com/databank/ion-blaster",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/ion-blaster_62b30531.jpeg?region=0%2C83%2C1560%2C874",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "cac826cf67062ed435b2686b991e486f8d16c7a80c2a96c0973261d7338a51d2",
+      "bytes": 365983
+    },
+    {
+      "id": "bowcaster",
+      "file": "assets/starwars-original/bowcaster.jpeg",
+      "source": "https://www.starwars.com/databank/bowcaster",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_bowcaster_01_169_475a4a3b.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "506f31dd5d7eefd6fa5526fad929bc00d457dbae63a7eccf4dcb45693fdfd3a0",
+      "bytes": 327057
+    },
+    {
+      "id": "dlt-19-heavy-blaster-rifle",
+      "file": "assets/starwars-original/dlt-19-heavy-blaster-rifle.jpeg",
+      "source": "https://www.starwars.com/databank/dlt-19-heavy-blaster-rifle",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/dlt-19-heavy-blaster-rifle_60a77bd6.jpeg?region=0%2C47%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "04281c47a63da5fe351241dc09a0abf488765210e50302ebcfe73fd79b2dd276",
+      "bytes": 160672
+    },
+    {
+      "id": "electrostaff",
+      "file": "assets/starwars-original/electrostaff.jpeg",
+      "source": "https://www.starwars.com/databank/electrostaff",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_electrostaff_01_169_16d9e207.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "7c3b967f70f698d205b9aa4733a23d2d49d7769921ec1226dfe25c27e59e513d",
+      "bytes": 190794
+    },
+    {
+      "id": "blaster-pistol",
+      "file": "assets/starwars-original/blaster-pistol.jpeg",
+      "source": "https://www.starwars.com/databank/blaster-pistol",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/image_75ccd60e.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "6b19746377f4c3c31024af6f95e22567bb5f8d9729bc18858cca2fc3773af3a8",
+      "bytes": 180474
+    },
+    {
+      "id": "lightsaber",
+      "file": "assets/starwars-original/lightsaber.jpeg",
+      "source": "https://www.starwars.com/databank/lightsaber",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/Lightsaber_853fb596.jpeg?region=1%2C0%2C1444%2C812",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "967b1942d2b54738a52870bd6205dd95c59b573084696548c88e41d45f673967",
+      "bytes": 195227
+    },
+    {
+      "id": "thermal-detonator",
+      "file": "assets/starwars-original/thermal-detonator.jpeg",
+      "source": "https://www.starwars.com/databank/thermal-detonator",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_thermaldetonator_01_169_263981fd.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "bf116d1f94207c2844cb27ad2e499ff5d45518a5f5d78311e5d31558b83b2ea4",
+      "bytes": 91261
+    },
+    {
+      "id": "blaster-rifle",
+      "file": "assets/starwars-original/blaster-rifle.jpeg",
+      "source": "https://www.starwars.com/databank/blaster-rifle",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/image_2702e35a.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "98dd0eaf9655acdbd8cf5a36857d8d20b4b312becdcb4ec0e0ffb2b226392595",
+      "bytes": 130865
+    },
+    {
+      "id": "datapad",
+      "file": "assets/starwars-original/datapad.jpeg",
+      "source": "https://www.starwars.com/databank/datapad",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/solo-db-datapad-main-image_242966d0.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "acf7fbe0ef73c998e9f4144786f64b6e6fcbe4c42c3035d70921780655fbb29a",
+      "bytes": 126320
+    },
+    {
+      "id": "grand-admiral-thrawn",
+      "file": "assets/starwars-original/grand-admiral-thrawn.jpeg",
+      "source": "https://www.starwars.com/databank/grand-admiral-thrawn",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/grand-admiral-thrawn-main_d5ea2b8c.jpeg?region=245%2C0%2C1429%2C804",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "37104cea4bded24dcb5d764e70e2999b5618cb864d115bdcba183fdc794fcb91",
+      "bytes": 129487
+    },
+    {
+      "id": "clone-trooper-armor",
+      "file": "assets/starwars-original/clone-trooper-armor.jpeg",
+      "source": "https://www.starwars.com/databank/clone-trooper-armor",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/clone-trooper-armor_607fbd6a.jpeg?region=0%2C92%2C943%2C532",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c02cb0a07b180c661a93d04cbfd75392fd8ee2d2ab20a9141a22699743d8c837",
+      "bytes": 122421
+    },
+    {
+      "id": "tantive-iv",
+      "file": "assets/starwars-original/tantive-iv.jpeg",
+      "source": "https://www.starwars.com/databank/tantive-iv",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/tantive-iv-main_f1ea3fa5.jpeg?region=0%2C0%2C1281%2C720",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "85d5ddf7aba608431f1a4b1dda4c356c7f76e2528d2e14fbabf50beab3b02bea",
+      "bytes": 175424
+    },
+    {
+      "id": "comlink",
+      "file": "assets/starwars-original/comlink.jpeg",
+      "source": "https://www.starwars.com/databank/comlink",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/image_882c5d68.jpeg?region=656%2C94%2C1198%2C674",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "54da4398d6458c671127098c71892618d270290353028cd60c030b0d3257e168",
+      "bytes": 83128
+    },
+    {
+      "id": "bothan",
+      "file": "assets/starwars-original/bothan.jpg",
+      "source": "https://www.pinterest.com/pin/bothan-by-will-nunes--15199717485273610/",
+      "download": "https://i.pinimg.com/736x/83/96/fd/8396fdc097308e6d985e9c56ae15e1c1.jpg",
+      "kind": "Existing Star Wars species illustration",
+      "credit": "Will Nunes",
+      "sha256": "492e41e5c6de9ccb078dbf052cbe6141807ec8dbc8fdab4496af7194345cfff2",
+      "bytes": 48149
+    },
+    {
+      "id": "dc-15a",
+      "file": "assets/starwars-original/dc-15a.jpg",
+      "source": "https://crls.501st.com/ctd/heavy-clone-trooper-phase-i",
+      "download": "https://crls.501st.com/images/3/3/5/7/9/33579fcf7b9c0d547eea42c539e66e59dd5eae64-dc15rifle.jpg",
+      "kind": "Existing accurate replica photograph",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "1b607e738a923505d73544f5e258c6d3713bf20868820a48ca1a7cf116bc73c5",
+      "bytes": 37829
+    },
+    {
+      "id": "dl-44",
+      "file": "assets/starwars-original/dl-44.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Weapons/Pistols%20-%20Slugs/DL44.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Weapons/Pistols%20-%20Slugs/DL44.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c9daa46bab2aba024e7f77b8e439809af1be8cef1d545c2838d2381e4a5887b1",
+      "bytes": 263343
+    },
+    {
+      "id": "macrobinoculars",
+      "file": "assets/starwars-original/macrobinoculars.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Macrobinoculars.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Macrobinoculars.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "4e53250ba53ec0cbf6e32682c11a7e3e89b276b19e71f03603d5b1cd375d96da",
+      "bytes": 23772
+    },
+    {
+      "id": "ee-3",
+      "file": "assets/starwars-original/ee-3.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Weapons/Blaser%20Carabine/EE-3%20Carbine.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Weapons/Blaser%20Carabine/EE-3%20Carbine.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "5a94b0260baaccac85806378ba491c9cbeb6d1151026da871f069e5d70860251",
+      "bytes": 12546
+    },
+    {
+      "id": "droid-repair-kit",
+      "file": "assets/starwars-original/droid-repair-kit.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Mk-11%20Repair%20Diagnostic.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Mk-11%20Repair%20Diagnostic.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c4513dc81569b216c27fca51b90d8302aaa1b38f5390b37af9c0677e3af71f14",
+      "bytes": 31319
+    },
+    {
+      "id": "medpac",
+      "file": "assets/starwars-original/medpac.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Medpac-Stimpacks.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Medpac-Stimpacks.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "920a2e18bec4bfef44392540215059ad12d2326babf89b501a2d1d088d42339a",
+      "bytes": 12537
+    },
+    {
+      "id": "westar-34",
+      "file": "assets/starwars-original/westar-34.jpg",
+      "source": "https://www.autodesk.com/community/gallery/project/36933/the-westar-34-blaster-pistol",
+      "download": "https://dsuj2mkiosyd2.cloudfront.net/unified-gallery/160301/5904/38de4fd6/2w.jpg?t=1486640259",
+      "kind": "Existing artist model rendering",
+      "credit": "Sergey Kolesnik / 3dpicasso",
+      "sha256": "d50d6ea4a52f666204d65089a20e55592164a8438fff50cf722830858fb8c193",
+      "bytes": 1112694
+    },
+    {
+      "id": "stimpack",
+      "file": "assets/starwars-original/stimpack.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Stimpack.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Stimpack.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "15b61b5a307ddf820a46625ea3436abc7216ff9e363ef0261fe386abf210aeea",
+      "bytes": 16194
+    },
+    {
+      "id": "slicing-tools",
+      "file": "assets/starwars-original/slicing-tools.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Mastercraft%20Security%20Kit.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Mastercraft%20Security%20Kit.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "6a7e8c0c2e145e28fcf296692bedc706ad67e203bc50a8e07a1b2a178c3f7835",
+      "bytes": 22494
+    },
+    {
+      "id": "breath-mask",
+      "file": "assets/starwars-original/breath-mask.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Breath%20Mask.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Breath%20Mask.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "79e8d9a9418f3cbd3bfc10931d86321436e57f87044fcf421b8c7ab9b2c2c0e4",
+      "bytes": 26275
+    },
+    {
+      "id": "backpack",
+      "file": "assets/starwars-original/backpack.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Equipment/Backpacks/SW%20-%20Backpack.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Equipment/Backpacks/SW%20-%20Backpack.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "20d063e1c7c9e0b4e59b3ee213737d908883ca5db7cb47a793e3de3e680b16ce",
+      "bytes": 175905
+    },
+    {
+      "id": "emergency-beacon",
+      "file": "assets/starwars-original/emergency-beacon.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Portable%20Emergency%20Beacon.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Portable%20Emergency%20Beacon.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "8c7ad2451efecd7c005f97eb0c954b250ca41063363b2de5060e475ee2a91b78",
+      "bytes": 21679
+    },
+    {
+      "id": "data-cylinder",
+      "file": "assets/starwars-original/data-cylinder.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Military%20Code%20Cylinder.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Military%20Code%20Cylinder.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "6bdfebcd0b59fcd042c3d644d4433771b99e281557249de1454edf6eea830be6",
+      "bytes": 31550
+    },
+    {
+      "id": "star-map",
+      "file": "assets/starwars-original/star-map.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Coordinates%20to%20an%20Unknown%20Location.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Coordinates%20to%20an%20Unknown%20Location.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "d5671ebe464a90254575d3cf76cc82d7005175b4012ba304746fc7743ab4f8f6",
+      "bytes": 30462
+    },
+    {
+      "id": "spare-parts",
+      "file": "assets/starwars-original/spare-parts.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Scraps.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Scraps.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "fb90bee98b37db45501913a72577ff2a766cb8b2a70bad2cc4662d1db1924f8e",
+      "bytes": 26549
+    },
+    {
+      "id": "tools",
+      "file": "assets/starwars-original/tools.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Vehicle-Tool%20Kit.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Vehicle-Tool%20Kit.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "982485351c4f783273bf9b72a5ffa2a203e49f97e4e2595f616d1200047e6269",
+      "bytes": 25680
+    },
+    {
+      "id": "rations",
+      "file": "assets/starwars-original/rations.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Army%20Field%20Rations.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Army%20Field%20Rations.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "2578d7199b17222b3c8803ca9576d9279d9d17028dad402dccd2dbc0fe15edcb",
+      "bytes": 18052
+    },
+    {
+      "id": "flashlight",
+      "file": "assets/starwars-original/flashlight.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Glow%20rod.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Glow%20rod.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "c398ee72ea98ba5a9bd08ba94878622851502c24f92b96fd7b45527aee2eb77d",
+      "bytes": 19042
+    },
+    {
+      "id": "scanner",
+      "file": "assets/starwars-original/scanner.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Bioscan.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Bioscan.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "4e451f92a0c36efcc4ced18559fb4b1b79fe4446b60569df15382102cde4a523",
+      "bytes": 22065
+    },
+    {
+      "id": "rope",
+      "file": "assets/starwars-original/rope.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Fibra-Rope.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Fibra-Rope.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "197e65eb0c9b1abeb11bd9d4fb7ca39e9c9089dc862feef1b27ad3572111788d",
+      "bytes": 31359
+    },
+    {
+      "id": "access-card",
+      "file": "assets/starwars-original/access-card.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/ISB%20ID.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/ISB%20ID.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "00d4ac3e7f19c4e29bcf2a3c52db7c3f8d9314071f8a27a58c31c4ad13990ebf",
+      "bytes": 22153
+    },
+    {
+      "id": "yt-1300",
+      "file": "assets/starwars-original/yt-1300.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Ships/YT1300.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Ships/YT1300.png",
+      "kind": "Existing Star Wars community asset",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "99a2ca1a1d5f88d85dba63e5e6b1838fb1749fdb2c2fd5a9dbb234e10ff44086",
+      "bytes": 361858
+    },
+    {
+      "id": "the-force",
+      "file": "assets/starwars-original/the-force.jpeg",
+      "source": "https://www.starwars.com/databank/the-force",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/01_194dfed7.jpeg?region=0%2C0%2C1024%2C576",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "fd6b2f5f72303e6117542098426bb040e466cb74070af7029541f9d5c3964916",
+      "bytes": 99940
+    },
+    {
+      "id": "force-push",
+      "file": "assets/starwars-original/force-push.jpeg",
+      "source": "https://www.starwars.com/databank/force-push",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_forcepush_01_169_645aafe8.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "3a6b1fdd228c49c004186fc3afed2b36cf718776d86a981350b3f44e69b21d2e",
+      "bytes": 130156
+    },
+    {
+      "id": "jedi-mind-trick",
+      "file": "assets/starwars-original/jedi-mind-trick.jpeg",
+      "source": "https://www.starwars.com/databank/jedi-mind-trick",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_jedimindtrick_01_169_a491266d.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "22a65adb18e19d8c2c0d71a3e86b9f8f40713645ce3a48eddcf5781dac8130db",
+      "bytes": 197415
+    },
+    {
+      "id": "force-choke",
+      "file": "assets/starwars-original/force-choke.jpeg",
+      "source": "https://www.starwars.com/databank/force-choke",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_forcechoke_01_169_93e4b0cf.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "596970da0c453bb111e15bb1adf724346ee7891f60375ac93a4a6918ee6e4eb1",
+      "bytes": 269278
+    },
+    {
+      "id": "power-cell",
+      "file": "assets/starwars-original/power-cell.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Weapons/Upgrades/Energy%20Overclock.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Weapons/Upgrades/Energy%20Overclock.png",
+      "kind": "Representative existing Star Wars equipment icon",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "3177c56deded0e9fd52ebd04316abb1db19efe318e2e75cb3b01f2645053d33a",
+      "bytes": 26387
+    },
+    {
+      "id": "binders",
+      "file": "assets/starwars-original/binders.jpeg",
+      "source": "https://www.starwars.com/databank/jedi-binders",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/jedi-binders_3a0fb194.jpeg?region=83%2C1%2C959%2C719",
+      "kind": "Official Star Wars image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "13793ed7f3c853c212200aae8fdb69605d54883f0014931abbe71c8b2399e01d",
+      "bytes": 95419
+    },
+    {
+      "id": "force-lightning",
+      "file": "assets/starwars-original/force-lightning.jpeg",
+      "source": "https://www.starwars.com/databank/force-lightning",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_forcelightning_01_169_b1eb5a6f.jpeg?region=0%2C0%2C1560%2C878",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "715588d18a1f96c13023d17baa756f97fce99ed9a49abf39db9aa67eed5fea6b",
+      "bytes": 254980
+    },
+    {
+      "id": "fusioncutter",
+      "file": "assets/starwars-original/fusioncutter.jpg",
+      "source": "https://www.etsy.com/listing/880075243/fusion-cutter-mandalorian-cosplay-tool",
+      "download": "https://i.etsystatic.com/23131571/r/il/942288/5149627494/il_1140xN.5149627494_30jd.jpg",
+      "kind": "Existing replica rendering",
+      "credit": "Lucasfilm and respective image creators; see linked source",
+      "sha256": "ce5b706f651f764dd24673bea35ef08f9c90c123ba2927da621c527550796a67",
+      "bytes": 97425
+    }
+  ]
+}

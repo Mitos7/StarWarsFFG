@@ -16,6 +16,13 @@ def icon(path):
     return "icons/"+path.replace("\\","/")
 
 def assign(pack,doc):
+    if pack.startswith("sw-"):
+        mappings=json.loads((ROOT/"starter-kit/starwars-image-map.json").read_text(encoding="utf-8"))
+        catalog=json.loads((ROOT/"assets/starwars-original/sources.json").read_text(encoding="utf-8"))
+        asset=mappings[doc["name"]]
+        entry=next(x for x in catalog["images"] if x["id"]==asset)
+        assert (ROOT/entry["file"]).is_file()
+        return "systems/starwarsffg/"+entry["file"]
     name=clean(doc.get("name",""))
     typ=doc.get("type","")
     # Meaningful preinstalled icons for commonly used Star Wars objects.
@@ -110,7 +117,7 @@ for source in sorted(FILES.glob("*.json")):
     for doc in docs:
         if "img" not in doc:continue
         new=assign(source.stem,doc)
-        assert new.startswith("icons/") or new=="systems/starwarsffg/images/defaults/actors/vehicle.png"
+        assert new.startswith(("icons/", "systems/starwarsffg/assets/starwars-original/")) or new=="systems/starwarsffg/images/defaults/actors/vehicle.png"
         doc["img"]=new
         if isinstance(doc.get("prototypeToken"),dict):
             doc["prototypeToken"].setdefault("texture",{})["src"]=new

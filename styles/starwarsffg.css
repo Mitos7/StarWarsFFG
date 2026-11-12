@@ -2960,3 +2960,5 @@ img {
   background-color: #b8383b;
   color: white;
 }
+/* Preserve the full existing artwork in Star Wars portraits. */
+.starwarsffg.sheet img.profile-img[src*="/assets/starwars-original/"] { object-fit: contain; }

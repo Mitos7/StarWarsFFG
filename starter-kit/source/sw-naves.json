@@ -3,7 +3,7 @@
     "_id": "7a6d365effb0d4c2",
     "name": "T-65 X-wing",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/x-wing-starfighter.jpeg",
     "system": {
       "biography": "<p>Caza ligero polivalente usado en misiones de escolta.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -128,7 +128,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/x-wing-starfighter.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -217,7 +217,7 @@
     "_id": "55ecdc3163e58792",
     "name": "TIE/ln Fighter",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/tie-fighter.jpeg",
     "system": {
       "biography": "<p>Caza imperial monoplaza que prioriza maniobrabilidad.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -342,7 +342,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/tie-fighter.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -431,7 +431,7 @@
     "_id": "e253e5961d50eecb",
     "name": "TIE Interceptor",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/tie-interceptor.jpeg",
     "system": {
       "biography": "<p>Caza especializado en persecución de alta velocidad.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -556,7 +556,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/tie-interceptor.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -645,7 +645,7 @@
     "_id": "0525c83de53827b5",
     "name": "TIE Bomber",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/tie-bomber.jpeg",
     "system": {
       "biography": "<p>Caza pesado optimizado para ataques de apoyo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -770,7 +770,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/tie-bomber.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -859,7 +859,7 @@
     "_id": "5cd483966df34c08",
     "name": "BTL Y-wing",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/y-wing-starfighter.jpeg",
     "system": {
       "biography": "<p>Cazabombardero robusto para ataques prolongados.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -984,7 +984,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/y-wing-starfighter.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1073,7 +1073,7 @@
     "_id": "9ed0b66d5c6cd73d",
     "name": "RZ-1 A-wing",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/a-wing-fighter.png",
     "system": {
       "biography": "<p>Interceptor compacto y muy veloz.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1198,7 +1198,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/a-wing-fighter.png",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1287,7 +1287,7 @@
     "_id": "31ad47ac96e9ebbd",
     "name": "A/SF-01 B-wing",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/b-wing-fighter.jpeg",
     "system": {
       "biography": "<p>Caza de perfil irregular y gran potencia.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1412,7 +1412,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/b-wing-fighter.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1501,7 +1501,7 @@
     "_id": "b9fdba9a28bf0a87",
     "name": "YT-1300 Light Freighter",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/yt-1300.png",
     "system": {
       "biography": "<p>Carguero ligero configurable para transportar mercancía.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1626,7 +1626,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/yt-1300.png",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1715,7 +1715,7 @@
     "_id": "e862d40ee83108e1",
     "name": "Millennium Falcon",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/millennium-falcon.jpeg",
     "system": {
       "biography": "<p>Adaptación fan del carguero rápido pilotado por Han Solo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1840,7 +1840,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/millennium-falcon.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1929,7 +1929,7 @@
     "_id": "1572832693446c51",
     "name": "Firespray-31",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/slave-i.jpeg",
     "system": {
       "biography": "<p>Nave de patrulla con estructura peculiar y gran autonomía.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -2054,7 +2054,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/slave-i.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2143,7 +2143,7 @@
     "_id": "979f59e00d89820f",
     "name": "Lambda-class Shuttle",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/imperial-shuttle.jpeg",
     "system": {
       "biography": "<p>Lanzadera imperial de transporte y enlace.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -2268,7 +2268,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/imperial-shuttle.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2357,7 +2357,7 @@
     "_id": "f1d558cbe7e2a4f3",
     "name": "CR90 Corvette",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/tantive-iv.jpeg",
     "system": {
       "biography": "<p>Corbeta ligera para patrulla y transporte militar.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -2482,7 +2482,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/tantive-iv.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2571,7 +2571,7 @@
     "_id": "a067685c7e13c5d7",
     "name": "Nebulon-B Frigate",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/nebulon-b-frigate.jpeg",
     "system": {
       "biography": "<p>Fragata diseñada para escolta y servicios de flota.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -2696,7 +2696,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/nebulon-b-frigate.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2785,7 +2785,7 @@
     "_id": "8c41368d8a58a152",
     "name": "Imperial Star Destroyer",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/imperial-star-destroyer.jpeg",
     "system": {
       "biography": "<p>Gran nave capital imperial; usa reglas de escala de tu mesa.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -2910,7 +2910,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/imperial-star-destroyer.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2999,7 +2999,7 @@
     "_id": "a4f9ca4bbe55dee1",
     "name": "Venator Star Destroyer",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/republic-attack-cruiser.jpeg",
     "system": {
       "biography": "<p>Nave capital de la era de la República.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -3124,7 +3124,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/republic-attack-cruiser.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3213,7 +3213,7 @@
     "_id": "1d5c89aa679aec11",
     "name": "ARC-170 Starfighter",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/arc-170-starfighter.jpeg",
     "system": {
       "biography": "<p>Caza de largo alcance de la era de las Guerras Clon.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -3338,7 +3338,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/arc-170-starfighter.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3427,7 +3427,7 @@
     "_id": "6263ba3c76883b30",
     "name": "LAAT/i Republic Gunship",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/republic-attack-gunship.jpeg",
     "system": {
       "biography": "<p>Transporte aéreo de asalto de la República.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -3552,7 +3552,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/republic-attack-gunship.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3641,7 +3641,7 @@
     "_id": "15db7d4ccd726e4e",
     "name": "AT-ST Walker",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/at-st-walker.jpeg",
     "system": {
       "biography": "<p>Vehículo terrestre bípedo de patrulla.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -3766,7 +3766,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/at-st-walker.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3855,7 +3855,7 @@
     "_id": "0beda2b079d4ba98",
     "name": "AT-AT Walker",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/at-at-walker.jpeg",
     "system": {
       "biography": "<p>Vehículo terrestre de asalto pesado.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -3980,7 +3980,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/at-at-walker.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4069,7 +4069,7 @@
     "_id": "c2c1023662e3ee41",
     "name": "74-Z Speeder Bike",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/speeder-bike.jpeg",
     "system": {
       "biography": "<p>Moto deslizadora para exploración rápida.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -4194,7 +4194,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/speeder-bike.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4283,7 +4283,7 @@
     "_id": "6b74476f37e7fc11",
     "name": "Jedi Starfighter Delta-7",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/delta-7-jedi-starfighter.jpeg",
     "system": {
       "biography": "<p>Nave ligera de pilotaje intensivo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -4408,7 +4408,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/delta-7-jedi-starfighter.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4497,7 +4497,7 @@
     "_id": "75741009df6602ef",
     "name": "U-wing",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/u-wing.jpeg",
     "system": {
       "biography": "<p>Transporte militar ligero de desembarco.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -4622,7 +4622,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/u-wing.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4711,7 +4711,7 @@
     "_id": "42c9e93db3f0115b",
     "name": "Razor Crest",
     "type": "vehicle",
-    "img": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+    "img": "systems/starwarsffg/assets/starwars-original/razor-crest.jpeg",
     "system": {
       "biography": "<p>Transporte acorazado de un cazador de recompensas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -4836,7 +4836,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+        "src": "systems/starwarsffg/assets/starwars-original/razor-crest.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",

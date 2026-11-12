@@ -3,7 +3,7 @@
     "_id": "539ac6bd3e93fd26",
     "name": "Luke Skywalker",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/luke-skywalker.jpeg",
     "system": {
       "biography": "<p>Versión fan del héroe que descubre su relación con la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -392,7 +392,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/luke-skywalker.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -481,7 +481,7 @@
     "_id": "9c9dff20f1d38a95",
     "name": "Leia Organa",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/leia-organa.jpeg",
     "system": {
       "biography": "<p>Versión fan de la líder y diplomática de la resistencia.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -870,7 +870,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/leia-organa.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -959,7 +959,7 @@
     "_id": "e99287f61dbc6759",
     "name": "Han Solo",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/han-solo.jpeg",
     "system": {
       "biography": "<p>Versión fan de un piloto y contrabandista con gran instinto.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -1348,7 +1348,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/han-solo.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1437,7 +1437,7 @@
     "_id": "aa9f8001d0c80c0e",
     "name": "Chewbacca",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/chewbacca.jpeg",
     "system": {
       "biography": "<p>Versión fan del copiloto wookiee experto en reparaciones.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -1826,7 +1826,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/chewbacca.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1915,7 +1915,7 @@
     "_id": "01d847d6f0f61504",
     "name": "Darth Vader",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/darth-vader.jpeg",
     "system": {
       "biography": "<p>Versión fan de un poderoso antagonista imperial.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -2304,7 +2304,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/darth-vader.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2393,7 +2393,7 @@
     "_id": "87b90434625e2a83",
     "name": "Obi-Wan Kenobi",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/obi-wan-kenobi.jpeg",
     "system": {
       "biography": "<p>Versión fan de un maestro veterano y paciente.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -2782,7 +2782,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/obi-wan-kenobi.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2871,7 +2871,7 @@
     "_id": "5b3d2c31479a24d1",
     "name": "Ahsoka Tano",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/ahsoka-tano.jpeg",
     "system": {
       "biography": "<p>Versión fan de una viajera experimentada en la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -3260,7 +3260,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/ahsoka-tano.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3349,7 +3349,7 @@
     "_id": "e412e5df9ea4ee5c",
     "name": "Boba Fett",
     "type": "nemesis",
-    "img": "icons/environment/people/infantry-armored.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/boba-fett.jpeg",
     "system": {
       "biography": "<p>Versión fan de un reconocido cazador de recompensas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -3738,7 +3738,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/infantry-armored.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/boba-fett.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3827,7 +3827,7 @@
     "_id": "fb5b6d13b338c273",
     "name": "Din Djarin",
     "type": "nemesis",
-    "img": "icons/environment/people/infantry-armored.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/the-mandalorian.jpeg",
     "system": {
       "biography": "<p>Versión fan de un mandaloriano que trabaja por encargos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -4216,7 +4216,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/infantry-armored.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/the-mandalorian.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4305,7 +4305,7 @@
     "_id": "f9c709b39e92c314",
     "name": "Yoda",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/yoda.jpeg",
     "system": {
       "biography": "<p>Versión fan de un veterano maestro de la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -4694,7 +4694,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/yoda.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4783,7 +4783,7 @@
     "_id": "eb23fa711f3f1f0b",
     "name": "Rey",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/rey.jpeg",
     "system": {
       "biography": "<p>Versión fan de una exploradora con gran vínculo con la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -5172,7 +5172,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/rey.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -5261,7 +5261,7 @@
     "_id": "f6f5e3da9c13c72a",
     "name": "Kylo Ren",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/kylo-ren.jpeg",
     "system": {
       "biography": "<p>Versión fan de un antagonista atormentado.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -5650,7 +5650,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/kylo-ren.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -5739,7 +5739,7 @@
     "_id": "3e97c8f7a4c7f316",
     "name": "Emperador Palpatine",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/darth-sidious.jpeg",
     "system": {
       "biography": "<p>Versión fan de un estratega y adversario extraordinario.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -6128,7 +6128,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/darth-sidious.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -6217,7 +6217,7 @@
     "_id": "49c1867bdc244417",
     "name": "R2-D2",
     "type": "nemesis",
-    "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/r2-d2.jpeg",
     "system": {
       "biography": "<p>Versión fan de un droide de soporte astromecánico.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -6606,7 +6606,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/r2-d2.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -6695,7 +6695,7 @@
     "_id": "d6dd45cc5e1104ab",
     "name": "C-3PO",
     "type": "nemesis",
-    "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/c-3po.jpeg",
     "system": {
       "biography": "<p>Versión fan de un droide orientado a protocolo y traducción.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -7084,7 +7084,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/commodities/tech/robotics-frame-steel-blue.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/c-3po.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -7173,7 +7173,7 @@
     "_id": "4fd5d7f7cb97a6c6",
     "name": "Grogu",
     "type": "nemesis",
-    "img": "icons/environment/people/commoner.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/grogu.jpeg",
     "system": {
       "biography": "<p>Versión fan de un pequeño ser sensible a la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -7562,7 +7562,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "icons/environment/people/commoner.webp",
+        "src": "systems/starwarsffg/assets/starwars-original/grogu.jpeg",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",

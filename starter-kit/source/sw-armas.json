@@ -3,7 +3,7 @@
     "_id": "e4c3d7a4dad88069",
     "name": "Pistola bláster estándar",
     "type": "weapon",
-    "img": "icons/weapons/guns/pistol-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/blaster-pistol.jpeg",
     "system": {
       "description": "<p>Arma corta de energía útil para un personaje de aventuras.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -105,7 +105,7 @@
     "_id": "55dbdf24df2ccaaf",
     "name": "Pistola bláster pesada",
     "type": "weapon",
-    "img": "icons/weapons/guns/pistol-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/dl-44.png",
     "system": {
       "description": "<p>Arma corta de mayor peso, de fabricación común en regiones remotas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -207,7 +207,7 @@
     "_id": "e3fa0a370e6163a6",
     "name": "DL-44 bláster pesado",
     "type": "weapon",
-    "img": "icons/weapons/guns/pistol-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/dl-44.png",
     "system": {
       "description": "<p>Versión fan de una pistola potente de la saga.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -309,7 +309,7 @@
     "_id": "e180a3d6cbb365d7",
     "name": "E-11 fusil bláster",
     "type": "weapon",
-    "img": "icons/weapons/guns/rifle-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/e-11-blaster-rifle.jpeg",
     "system": {
       "description": "<p>Fusil de servicio asociado a tropas imperiales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -411,7 +411,7 @@
     "_id": "007d327e28aa9889",
     "name": "A280 fusil bláster",
     "type": "weapon",
-    "img": "icons/weapons/guns/rifle-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/a280-blaster-rifle.jpeg",
     "system": {
       "description": "<p>Arma larga empleada en enfrentamientos terrestres.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -513,7 +513,7 @@
     "_id": "762e40d95a78c063",
     "name": "DC-15A fusil bláster",
     "type": "weapon",
-    "img": "icons/weapons/guns/rifle-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/dc-15a.jpg",
     "system": {
       "description": "<p>Arma de época de la República, robusta y de gran tamaño.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -615,7 +615,7 @@
     "_id": "9635ffb65b99f0d2",
     "name": "EE-3 carabina bláster",
     "type": "weapon",
-    "img": "icons/weapons/guns/rifle-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/ee-3.png",
     "system": {
       "description": "<p>Carabina compacta apreciada por algunos cazarrecompensas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -717,7 +717,7 @@
     "_id": "35648fef12340c89",
     "name": "DLT-19 bláster pesado",
     "type": "weapon",
-    "img": "icons/weapons/guns/rifle-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/dlt-19-heavy-blaster-rifle.jpeg",
     "system": {
       "description": "<p>Arma de apoyo que exige preparación para su uso.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -819,7 +819,7 @@
     "_id": "935e9923262b87a0",
     "name": "WESTAR-34 pistola bláster",
     "type": "weapon",
-    "img": "icons/weapons/guns/pistol-energy-blaster.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/westar-34.jpg",
     "system": {
       "description": "<p>Diseño estilizado utilizado por tiradores especializados.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -921,7 +921,7 @@
     "_id": "d29e1c602a59c778",
     "name": "Bowcaster wookiee",
     "type": "weapon",
-    "img": "icons/weapons/crossbows/crossbow-loaded-black.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/bowcaster.jpeg",
     "system": {
       "description": "<p>Arma de energía de construcción compleja y agarre pesado.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1023,7 +1023,7 @@
     "_id": "edf6a184c6d85a23",
     "name": "Bláster de iones",
     "type": "weapon",
-    "img": "icons/weapons/guns/pistol-stun-energy-red.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/ion-blaster.jpeg",
     "system": {
       "description": "<p>Instrumento para interferir circuitos y mecanismos; efectos a juicio del DJ.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1125,7 +1125,7 @@
     "_id": "e8014789742612d2",
     "name": "Cuchillo vibratorio",
     "type": "weapon",
-    "img": "icons/weapons/daggers/dagger-black.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/vibroblade.jpeg",
     "system": {
       "description": "<p>Hoja equipada con un mecanismo de vibración.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1227,7 +1227,7 @@
     "_id": "3631ad74045f5de3",
     "name": "Espada vibratoria",
     "type": "weapon",
-    "img": "icons/weapons/swords/sword-katana.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/vibroblade.jpeg",
     "system": {
       "description": "<p>Arma de combate cercano que utiliza un borde oscilante.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1329,7 +1329,7 @@
     "_id": "f6668872b6f825ac",
     "name": "Bastón electrostático",
     "type": "weapon",
-    "img": "icons/weapons/staves/staff-engraved-wood.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/electrostaff.jpeg",
     "system": {
       "description": "<p>Arma de contacto con un extremo electrificado.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1431,7 +1431,7 @@
     "_id": "c6a0a1d901b9b064",
     "name": "Sable de luz de entrenamiento",
     "type": "weapon",
-    "img": "icons/weapons/swords/sword-runed-glowing.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/lightsaber.jpeg",
     "system": {
       "description": "<p>Réplicas de entrenamiento con energía limitada; reglas del DJ.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1533,7 +1533,7 @@
     "_id": "fc312029e51b9f7c",
     "name": "Sable de luz fan",
     "type": "weapon",
-    "img": "icons/weapons/swords/sword-runed-glowing.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/lightsaber.jpeg",
     "system": {
       "description": "<p>Representación no oficial para partidas con usuarios de la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1635,7 +1635,7 @@
     "_id": "a1f60cc825e8ff23",
     "name": "Detonador térmico de ejercicio",
     "type": "weapon",
-    "img": "icons/weapons/ammunition/ammunition-grenade.webp",
+    "img": "systems/starwarsffg/assets/starwars-original/thermal-detonator.jpeg",
     "system": {
       "description": "<p>Versión inerte simulada para entrenamientos; no reproduce reglas oficiales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

@@ -2,7 +2,7 @@
   "id": "starwarsffg",
   "title": "Star Wars FFG",
   "description": "A system for playing Star Wars FFG games.",
-  "version": "2.0.5-mitos.12",
+  "version": "2.0.5-mitos.13",
   "compatibility": {
     "minimum": 13,
     "verified": 14,
@@ -43,84 +43,84 @@
   "packs": [
     {
       "name": "sw-armas",
-      "label": "Armas de Star Wars Â· Datos no oficiales",
+      "label": "Armas de Star Wars - Datos no oficiales",
       "type": "Item",
       "path": "packs/sw-armas",
       "system": "starwarsffg"
     },
     {
       "name": "sw-equipo",
-      "label": "Equipo de Star Wars Â· Datos no oficiales",
+      "label": "Equipo de Star Wars - Datos no oficiales",
       "type": "Item",
       "path": "packs/sw-equipo",
       "system": "starwarsffg"
     },
     {
       "name": "sw-armaduras",
-      "label": "Armaduras de Star Wars Â· Datos no oficiales",
+      "label": "Armaduras de Star Wars - Datos no oficiales",
       "type": "Item",
       "path": "packs/sw-armaduras",
       "system": "starwarsffg"
     },
     {
       "name": "sw-especies",
-      "label": "Especies de Star Wars Â· Datos no oficiales",
+      "label": "Especies de Star Wars - Datos no oficiales",
       "type": "Item",
       "path": "packs/sw-especies",
       "system": "starwarsffg"
     },
     {
       "name": "sw-carreras",
-      "label": "Carreras de Star Wars Â· Datos no oficiales",
+      "label": "Carreras de Star Wars - Datos no oficiales",
       "type": "Item",
       "path": "packs/sw-carreras",
       "system": "starwarsffg"
     },
     {
       "name": "sw-especializaciones",
-      "label": "Especializaciones Â· Datos no oficiales",
+      "label": "Especializaciones - Datos no oficiales",
       "type": "Item",
       "path": "packs/sw-especializaciones",
       "system": "starwarsffg"
     },
     {
       "name": "sw-talentos",
-      "label": "Talentos de Star Wars Â· Datos no oficiales",
+      "label": "Talentos de Star Wars - Datos no oficiales",
       "type": "Item",
       "path": "packs/sw-talentos",
       "system": "starwarsffg"
     },
     {
       "name": "sw-poderes",
-      "label": "Poderes de la Fuerza Â· Datos no oficiales",
+      "label": "Poderes de la Fuerza - Datos no oficiales",
       "type": "Item",
       "path": "packs/sw-poderes",
       "system": "starwarsffg"
     },
     {
       "name": "sw-adversarios",
-      "label": "Adversarios de Star Wars Â· Datos no oficiales",
+      "label": "Adversarios de Star Wars - Datos no oficiales",
       "type": "Actor",
       "path": "packs/sw-adversarios",
       "system": "starwarsffg"
     },
     {
       "name": "sw-personajes",
-      "label": "Personajes de Star Wars Â· Datos no oficiales",
+      "label": "Personajes de Star Wars - Datos no oficiales",
       "type": "Actor",
       "path": "packs/sw-personajes",
       "system": "starwarsffg"
     },
     {
       "name": "sw-naves",
-      "label": "Naves y vehÃ­culos de Star Wars Â· Datos no oficiales",
+      "label": "Naves y vehículos de Star Wars - Datos no oficiales",
       "type": "Actor",
       "path": "packs/sw-naves",
       "system": "starwarsffg"
     },
     {
       "name": "sw-guias",
-      "label": "Escenarios y guÃ­as de Star Wars Â· Fan",
+      "label": "Escenarios y guías de Star Wars - Fan",
       "type": "JournalEntry",
       "path": "packs/sw-guias"
     }
@@ -139,27 +139,27 @@
     },
     {
       "lang": "fr",
-      "name": "FranÃ§ais (French)",
+      "name": "Français (French)",
       "path": "lang/fr.json"
     },
     {
       "lang": "es",
-      "name": "EspaÃ±ol (Spanish)",
+      "name": "Español (Spanish)",
       "path": "lang/es.json"
     },
     {
       "lang": "pt-BR",
-      "name": "PortuguÃªs (Brazilian Portuguese)",
+      "name": "Português (Brazilian Portuguese)",
       "path": "lang/pt-BR.json"
     },
     {
       "lang": "ca",
-      "name": "CatalÃ  (Catalan)",
+      "name": "Català (Catalan)",
       "path": "lang/ca.json"
     },
     {
       "lang": "ua",
-      "name": "Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ° Ð¼Ð¾Ð²Ð° (Ukrainian)",
+      "name": "Українська мова (Ukrainian)",
       "path": "lang/ua.json"
     }
   ],
@@ -171,7 +171,7 @@
   "secondaryTokenAttribute": "strain",
   "url": "https://github.com/Mitos7/StarWarsFFG",
   "manifest": "https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json",
-  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.12/system.zip",
+  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.13/system.zip",
   "license": "LICENSE.txt",
   "documentTypes": {
     "Actor": {
