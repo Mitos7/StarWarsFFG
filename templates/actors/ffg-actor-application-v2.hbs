@@ -1,0 +1,48 @@
+<section class="swffg-v2-body">
+  <header class="swffg-v2-header">
+    <img src="{{actor.img}}" alt="" width="72" height="72"/>
+    <div>
+      <label for="swffg-v2-actor-name">{{localize "Name"}}</label>
+      <input id="swffg-v2-actor-name" name="name" value="{{actor.name}}" {{#unless canEdit}}disabled{{/unless}} />
+      <small>{{actorType}} · Experimental native ApplicationV2 sheet</small>
+    </div>
+  </header>
+  <h2>Characteristics</h2>
+  <div class="swffg-v2-grid">
+    {{#each characteristics as |stat|}}
+    <label class="swffg-v2-stat">
+      <span>{{stat.label}}</span>
+      <input type="number" name="system.characteristics.{{stat.key}}.value" value="{{stat.value}}" min="0" max="12" {{#unless ../canEdit}}disabled{{/unless}}/>
+    </label>
+    {{/each}}
+  </div>
+  <h2>Resources</h2>
+  <div class="swffg-v2-grid">
+    {{#each stats as |stat|}}
+    <label class="swffg-v2-stat">
+      <span>{{stat.label}}</span>
+      <input type="number" name="system.stats.{{stat.key}}.value" value="{{stat.value}}" min="0" {{#unless ../canEdit}}disabled{{/unless}}/>
+    </label>
+    {{/each}}
+  </div>
+  <h2>Skills</h2>
+  <table><thead><tr><th>Skill</th><th>Attribute</th><th>Rank</th></tr></thead><tbody>
+  {{#each skills as |skill|}}
+    <tr><td>{{skill.label}}</td><td>{{skill.characteristic}}</td>
+      <td><input type="number" name="system.skills.{{skill.key}}.rank" value="{{skill.rank}}" min="0" max="6" {{#unless ../canEdit}}disabled{{/unless}}/></td>
+    </tr>
+  {{/each}}
+  </tbody></table>
+  <h2>Inventory</h2>
+  <ul class="swffg-v2-inventory">
+  {{#each items as |item|}}
+    <li data-item-id="{{item.id}}"><img src="{{item.img}}" alt="" width="28" height="28"/>
+       <button type="button" data-action="open-item" data-item-id="{{item.id}}">{{item.name}} ({{item.type}})</button>
+    </li>
+  {{else}}<li>No items yet</li>{{/each}}
+  </ul>
+  <footer class="swffg-v2-footer">
+    <button type="submit" {{#unless canEdit}}disabled{{/unless}}><i class="fas fa-save"></i> Save Character</button>
+    <span>Skill rolls, talents, XP and combat actions remain in the legacy sheet during migration.</span>
+  </footer>
+</section>

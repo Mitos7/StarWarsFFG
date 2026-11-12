@@ -6,10 +6,11 @@ Status: **IN PROGRESS**. Do not mark this system as compatible with V16 until te
 
 - Seven settings submenu classes from `modules/settings/ui-settings.js`: `rulesetSettings`, `uiSettings`, `combatSettings`, `actorSettings`, `xpSpendingSettings`, `localizationSettings`, `groupManagerSettings`. They now extend `HandlebarsApplicationMixin(ApplicationV2)` and use `_prepareContext`, `PARTS`, a native form handler and action callbacks. The ruleset submenu was opened and submitted in live Foundry V14 build 369 without an error.
 - Skill list importer from `modules/importer/skills-list-importer.js`: now extends `HandlebarsApplicationMixin(ApplicationV2)`, uses native actions and a template without inline JavaScript. Static tests pass; import/export actions still require interactive validation.
+- **Experimental Actor and Item native sheets**: modules/actors/actor-sheet-ffg-appv2.js and modules/items/item-sheet-ffg-appv2.js genuinely extend HandlebarsApplicationMixin(ActorSheetV2) and HandlebarsApplicationMixin(ItemSheetV2). They are registered as non-default alternatives, with editable basic characteristics, skills, core stats and item fields. They are *not* equivalent to legacy sheets yet: combat, rolls, force powers, talents, UI tabs and item attachments still need migration. Automated tests pass, but runtime sheet selection could not be verified because Foundry requested its administrator password after restart; the stable package was restored from backup without bypassing authentication.
 
 ## Still needs conversion
 
-- **Actor and Item sheets**: `modules/actors/actor-sheet-ffg.js`, `modules/actors/actor-sheet-ffg-v2.js`, `modules/actors/adversary-sheet-ffg.js`, `modules/actors/adversary-sheet-ffg-v2.js`, `modules/items/item-sheet-ffg.js`, `modules/items/item-sheet-ffg-v2.js`. The existing names suffixed `v2` are NOT Foundry ApplicationV2. They inherit legacy ActorSheet and ItemSheet classes. Migrate to `foundry.applications.sheets.ActorSheetV2` and `ItemSheetV2`, preserving draggable items, skill rolls, character creation, active effects, tab navigation, document editing and item drops.
+- **Complete Actor and Item sheet functionality**: `modules/actors/actor-sheet-ffg.js`, `modules/actors/actor-sheet-ffg-v2.js`, `modules/actors/adversary-sheet-ffg.js`, `modules/actors/adversary-sheet-ffg-v2.js`, `modules/items/item-sheet-ffg.js`, `modules/items/item-sheet-ffg-v2.js`. The existing names suffixed `v2` are NOT Foundry ApplicationV2. They inherit legacy ActorSheet and ItemSheet classes. Migrate to `foundry.applications.sheets.ActorSheetV2` and `ItemSheetV2`, preserving draggable items, skill rolls, character creation, active effects, tab navigation, document editing and item drops.
 - Destiny tracker: `modules/ffg-destiny-tracker.js`.
 - Roll builder: `modules/dice/roll-builder.js`.
 - Group manager: `modules/groupmanager-ffg.js`.
@@ -24,4 +25,4 @@ Status: **IN PROGRESS**. Do not mark this system as compatible with V16 until te
 - V16: re-run in an isolated disposable test world on a real V16 build; no `ApplicationV1` runtime usage, no console errors; explicit world migration backups.
 - **Do not replace the public V14 stable release with an incomplete V16 build.** The public release stays at `v2.0.5-mitos.2` while this branch is developed.
 
-Current automated tests: 23 pass under Node 24. They do not replace browser integration tests.
+Current automated tests: 26 pass under Node 24. They do not replace browser integration tests.

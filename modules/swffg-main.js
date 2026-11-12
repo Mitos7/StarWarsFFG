@@ -20,6 +20,8 @@ import { ItemSheetFFG } from "./items/item-sheet-ffg.js";
 import { ItemSheetFFGV2 } from "./items/item-sheet-ffg-v2.js";
 import { ActorSheetFFG } from "./actors/actor-sheet-ffg.js";
 import { ActorSheetFFGV2 } from "./actors/actor-sheet-ffg-v2.js";
+import { registerExperimentalActorSheet } from "./actors/actor-sheet-ffg-appv2.js";
+import { registerExperimentalItemSheet } from "./items/item-sheet-ffg-appv2.js";
 import { AdversarySheetFFG } from "./actors/adversary-sheet-ffg.js";
 import { AdversarySheetFFGV2 } from "./actors/adversary-sheet-ffg-v2.js";
 import { DicePoolFFG, RollFFG } from "./dice-pool-ffg.js";
@@ -849,6 +851,10 @@ Hooks.once("init", async function () {
   foundry.documents.collections.Items.unregisterSheet("core", foundry.appv1.sheets.ItemSheet);
   foundry.documents.collections.Items.registerSheet("ffg", ItemSheetFFG, { label: "Item Sheet v1" });
   foundry.documents.collections.Items.registerSheet("ffg", ItemSheetFFGV2, { makeDefault: true, label: "Item Sheet v2" });
+  // True native ApplicationV2 alternatives, intentionally not yet default.
+  // The old classes named *FFGV2 still derive from ApplicationV1.
+  registerExperimentalActorSheet();
+  registerExperimentalItemSheet();
 
   // Add utilities to the global scope, this can be useful for macro makers
   window.DicePoolFFG = DicePoolFFG;

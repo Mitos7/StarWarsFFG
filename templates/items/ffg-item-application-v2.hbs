@@ -1,0 +1,27 @@
+<section class="swffg-v2-body">
+  <header class="swffg-v2-header">
+    <img src="{{item.img}}" alt="" width="72" height="72"/>
+    <div>
+      <label for="swffg-v2-item-name">Item name</label>
+      <input id="swffg-v2-item-name" name="name" value="{{item.name}}" {{#unless canEdit}}disabled{{/unless}}/>
+      <small>{{item.type}} · Experimental native ApplicationV2 sheet</small>
+    </div>
+  </header>
+  <h2>Core item properties</h2>
+  <div class="swffg-v2-fields">
+    {{#each fields as |field|}}
+      <label class="swffg-v2-field">
+        <span>{{field.label}}</span>
+        {{#if field.number}}
+          <input type="number" name="system.{{field.key}}.value" value="{{field.value}}" {{#unless ../canEdit}}disabled{{/unless}}/>
+        {{else}}
+          <input type="text" name="system.{{field.key}}.value" value="{{field.value}}" {{#unless ../canEdit}}disabled{{/unless}}/>
+        {{/if}}
+      </label>
+    {{/each}}
+  </div>
+  <footer class="swffg-v2-footer">
+    <button type="submit" {{#unless canEdit}}disabled{{/unless}}><i class="fas fa-save"></i> Save Item</button>
+    <span>Item attachments and special effects remain in the legacy sheet during migration.</span>
+  </footer>
+</section>
