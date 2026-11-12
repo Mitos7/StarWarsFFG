@@ -51,7 +51,7 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
@@ -61,12 +61,12 @@
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
@@ -383,6 +383,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Luke Skywalker",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -437,17 +529,17 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
         "Agility": {
-          "value": 0,
+          "value": 2,
           "label": "Agility",
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
@@ -769,6 +861,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Leia Organa",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -823,7 +1007,7 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
@@ -833,7 +1017,7 @@
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
@@ -843,7 +1027,7 @@
           "abrev": "Cun"
         },
         "Willpower": {
-          "value": 0,
+          "value": 2,
           "label": "Willpower",
           "abrev": "Will"
         },
@@ -1155,6 +1339,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Han Solo",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -1214,7 +1490,7 @@
           "abrev": "Br"
         },
         "Agility": {
-          "value": 0,
+          "value": 2,
           "label": "Agility",
           "abrev": "Ag"
         },
@@ -1224,17 +1500,17 @@
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
         "Willpower": {
-          "value": 0,
+          "value": 2,
           "label": "Willpower",
           "abrev": "Will"
         },
         "Presence": {
-          "value": 0,
+          "value": 2,
           "label": "Presence",
           "abrev": "Pr"
         }
@@ -1541,6 +1817,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Chewbacca",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -1600,17 +1968,17 @@
           "abrev": "Br"
         },
         "Agility": {
-          "value": 0,
+          "value": 2,
           "label": "Agility",
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
@@ -1927,6 +2295,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Darth Vader",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -1981,7 +2441,7 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
@@ -1991,12 +2451,12 @@
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
@@ -2313,6 +2773,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Obi-Wan Kenobi",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -2367,7 +2919,7 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
@@ -2377,12 +2929,12 @@
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
@@ -2392,7 +2944,7 @@
           "abrev": "Will"
         },
         "Presence": {
-          "value": 0,
+          "value": 2,
           "label": "Presence",
           "abrev": "Pr"
         }
@@ -2699,6 +3251,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Ahsoka Tano",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -2753,7 +3397,7 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
@@ -2763,7 +3407,7 @@
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
@@ -2773,12 +3417,12 @@
           "abrev": "Cun"
         },
         "Willpower": {
-          "value": 0,
+          "value": 2,
           "label": "Willpower",
           "abrev": "Will"
         },
         "Presence": {
-          "value": 0,
+          "value": 2,
           "label": "Presence",
           "abrev": "Pr"
         }
@@ -3085,6 +3729,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Boba Fett",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -3149,22 +3885,22 @@
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
         "Willpower": {
-          "value": 0,
+          "value": 2,
           "label": "Willpower",
           "abrev": "Will"
         },
         "Presence": {
-          "value": 0,
+          "value": 2,
           "label": "Presence",
           "abrev": "Pr"
         }
@@ -3471,6 +4207,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Din Djarin",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -3525,12 +4353,12 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
         "Agility": {
-          "value": 0,
+          "value": 2,
           "label": "Agility",
           "abrev": "Ag"
         },
@@ -3540,7 +4368,7 @@
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
@@ -3550,7 +4378,7 @@
           "abrev": "Will"
         },
         "Presence": {
-          "value": 0,
+          "value": 2,
           "label": "Presence",
           "abrev": "Pr"
         }
@@ -3857,6 +4685,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Yoda",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -3911,7 +4831,7 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
@@ -3921,12 +4841,12 @@
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
@@ -3936,7 +4856,7 @@
           "abrev": "Will"
         },
         "Presence": {
-          "value": 0,
+          "value": 2,
           "label": "Presence",
           "abrev": "Pr"
         }
@@ -4243,6 +5163,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Rey",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -4302,17 +5314,17 @@
           "abrev": "Br"
         },
         "Agility": {
-          "value": 0,
+          "value": 2,
           "label": "Agility",
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
@@ -4322,7 +5334,7 @@
           "abrev": "Will"
         },
         "Presence": {
-          "value": 0,
+          "value": 2,
           "label": "Presence",
           "abrev": "Pr"
         }
@@ -4629,6 +5641,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Kylo Ren",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -4683,17 +5787,17 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
         "Agility": {
-          "value": 0,
+          "value": 2,
           "label": "Agility",
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
@@ -5015,6 +6119,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Emperador Palpatine",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -5069,7 +6265,7 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
@@ -5084,17 +6280,17 @@
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
         "Willpower": {
-          "value": 0,
+          "value": 2,
           "label": "Willpower",
           "abrev": "Will"
         },
         "Presence": {
-          "value": 0,
+          "value": 2,
           "label": "Presence",
           "abrev": "Pr"
         }
@@ -5401,6 +6597,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "R2-D2",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -5455,12 +6743,12 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
         "Agility": {
-          "value": 0,
+          "value": 2,
           "label": "Agility",
           "abrev": "Ag"
         },
@@ -5470,12 +6758,12 @@
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
         "Willpower": {
-          "value": 0,
+          "value": 2,
           "label": "Willpower",
           "abrev": "Will"
         },
@@ -5787,6 +7075,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "C-3PO",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   },
   {
@@ -5841,22 +7221,22 @@
       },
       "characteristics": {
         "Brawn": {
-          "value": 0,
+          "value": 2,
           "label": "Brawn",
           "abrev": "Br"
         },
         "Agility": {
-          "value": 0,
+          "value": 2,
           "label": "Agility",
           "abrev": "Ag"
         },
         "Intellect": {
-          "value": 0,
+          "value": 2,
           "label": "Intellect",
           "abrev": "Int"
         },
         "Cunning": {
-          "value": 0,
+          "value": 2,
           "label": "Cunning",
           "abrev": "Cun"
         },
@@ -6173,6 +7553,98 @@
         "nonOfficialRules": true,
         "fanIndex": true
       }
+    },
+    "prototypeToken": {
+      "name": "Grogu",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "depth": 1,
+      "texture": {
+        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "wounds"
+      },
+      "bar2": {
+        "attribute": "strain"
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": {},
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "randomImg": false,
+      "appendNumber": false,
+      "prependAdjective": false
     }
   }
 ]

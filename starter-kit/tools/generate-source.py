@@ -32,6 +32,11 @@ def item(pack,typ,name,desc,price=None,enc=None,rarity=None,damage=None,crit=Non
     put(pack,{"_id":uid(pack+name),"name":name,"type":typ,"img":"systems/starwarsffg/images/defaults/items/"+img,"system":d,"ownership":{"default":0},"flags":{"swffg-mitos-starter":{"demo":True}}})
 def actor(pack,typ,name,desc,chars,skills,wounds=0,strain=0,soak=0,quantity=1,other=None):
     d=defaults("Actor",typ)
+    # Our homebrew people start with sensible baseline characteristics rather
+    # than zeros inherited from the empty Foundry sheet template.
+    if typ != "vehicle":
+        for entry in d.get("characteristics",{}).values():
+            entry["value"]=2
     d["biography"]=f"<p>{desc}</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>"
     for key,value in chars.items():
         if key in d.get("characteristics",{}):d["characteristics"][key]["value"]=value

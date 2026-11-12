@@ -1,6 +1,12 @@
+
+**Image assets:** All 180 Star Wars entries included directly in this game
+system now use verified stock item/actor icons already bundled by StarWarsFFG.
+No original portrait/cover art or procedurally generated artwork is provided
+for individual entries.
+
 ## Original starter compendia (optional)
 
-We provide [11 original starter compendia with 59 playable demonstration entries](starter-kit/README.md): equipment, weapons, armour, species, careers, specializations, talents, narrative powers, adversaries, vehicles and an original short adventure. **No official commercial books are included.** Install as a module via: https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/starter-kit/module.json`n
+We provide [23 optional starter compendia with 239 fan/homebrew entries](starter-kit/README.md): equipment, weapons, armour, species, careers, specializations, talents, narrative powers, adversaries, vehicles and an original short adventure. **No official commercial books are included.** Install as a module via: https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/starter-kit/module.json
 To import your legally-owned official data, use StarWarsFFG's built-in **OggDude Dataset Importer** from the Compendiums sidebar with a ZIP of your local OggDude Data folder. Always back up your world first.
 
 ---
@@ -11,7 +17,7 @@ Install the main **Star Wars FFG + Genesys** system using this manifest in Found
 
 `https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json`
 
-The current stable version is **2.0.5-mitos.8**. It retains the original Star Wars title logo, previous Foundry V14 fixes, and Genesys game mechanics.
+The current stable version is **2.0.5-mitos.10**. It retains the original Star Wars title logo, previous Foundry V14 fixes, and Genesys game mechanics.
 
 For third-party add-ons, Foundry can offer the optional **Star Wars FFG - Mitos Add-on Collection** during system installation. It can also be installed manually using the **Add-on Modules -> Install Module -> Manifest URL** field:
 

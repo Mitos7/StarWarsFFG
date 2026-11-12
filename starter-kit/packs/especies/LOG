@@ -1,5 +1,5 @@
-2026/11/12-16:44:51.661 1d54 Recovering log #3
-2026/11/12-16:44:51.661 1d54 Level-0 table #5: started
-2026/11/12-16:44:51.665 1d54 Level-0 table #5: 1075 bytes OK
-2026/11/12-16:44:51.670 1d54 Delete type=0 #3
-2026/11/12-16:44:51.670 1d54 Delete type=3 #2
+2026/11/12-20:52:17.270 42f8 Recovering log #3
+2026/11/12-20:52:17.270 42f8 Level-0 table #5: started
+2026/11/12-20:52:17.275 42f8 Level-0 table #5: 1075 bytes OK
+2026/11/12-20:52:17.281 42f8 Delete type=0 #3
+2026/11/12-20:52:17.281 42f8 Delete type=3 #2

@@ -23,6 +23,7 @@ import {DicePoolFFG} from "../dice/pool.js";
 import {get_dice_pool} from "../helpers/dice-helpers.js";
 import {itemPillHover} from "../swffg-main.js";
 import {activeEffectCreateData} from "../compatibility/active-effects.js";
+import {canInitializeActorSheetFlags} from "./sheet-flags.js";
 
 export class ActorSheetFFG extends foundry.appv1.sheets.ActorSheet {
   constructor(...args) {
@@ -34,8 +35,13 @@ export class ActorSheetFFG extends foundry.appv1.sheets.ActorSheet {
     this._filters = {
       skills: new Set(),
     };
-    this.object.setFlag("starwarsffg", "config.enableEditMode", false);
-    this.object.setFlag("starwarsffg", "config.editModeActor", "");
+    // Rendering an Actor from a locked compendium must never try to write
+    // document flags. Foundry V14 rejects that operation and shows errors
+    // on every compendium sheet open. Defaults remain falsy for such actors.
+    if (canInitializeActorSheetFlags(this.object)) {
+      this.object.setFlag("starwarsffg", "config.enableEditMode", false);
+      this.object.setFlag("starwarsffg", "config.editModeActor", "");
+    }
   }
 
   pools = new Map();

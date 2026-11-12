@@ -46,6 +46,11 @@ def item(pack,typ,name,desc,*n,sk=None):
        "system":m,"ownership":{"default":0},"flags":{"swffg-mitos-starter":{"demo":True,"nonOfficialRules":True,"fanIndex":True}}})
 def actor(pack,typ,name,desc,attrs=None,skills=None,wounds=10,strain=0,soak=1,quantity=1,vehicle=None):
     m=default("Actor",typ)
+    # Empty Actor templates default to zero: set reasonable baseline values
+    # for the homebrew humanoid/creature NPCs, then apply character specifics.
+    if typ != "vehicle":
+        for entry in m.get("characteristics",{}).values():
+            entry["value"]=2
     m["biography"]=f"<p>{desc}</p><p><em>{NOTE}</em></p>"
     for k,v in (attrs or {}).items():
         if k in m.get("characteristics",{}):m["characteristics"][k]["value"]=v
@@ -315,11 +320,12 @@ descriptors=[
 ]
 for name,typ,label in descriptors:
     assert packs.get(name) and len(packs[name])>0,name
-    assert not (SRC/(name+".json")).exists(),f"Source file already exists: {name}"
+    # Regeneration is deliberate: stable document IDs preserve references,
+    # and generated sources are committed to Git for versioned backups.
     (SRC/(name+".json")).write_text(json.dumps(packs[name],ensure_ascii=False,indent=2)+"\n",encoding="utf8")
     module["packs"].append({"name":name,"type":typ,"label":label,"path":"packs/"+name,**({"system":"starwarsffg"} if typ in ("Actor","Item") else {})})
-module["version"]="1.1.0"
-module["download"]="https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-starter-1.1.0/swffg-mitos-starter.zip"
+module["version"]="1.1.1"
+module["download"]="https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-starter-1.1.1/swffg-mitos-starter.zip"
 module["description"]="23 compendios: material original y referencias fan no oficiales de Star Wars (naves, armas, especies, personajes y adversarios) con datos jugables caseros; no incluye manuales FFG."
 module["flags"]["swffg-mitos-starter"]["booksIncluded"]=False
 module["flags"]["swffg-mitos-starter"]["fanContent"]=True

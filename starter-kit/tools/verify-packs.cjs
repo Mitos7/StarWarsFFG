@@ -22,6 +22,15 @@ async function run() {
       if(info.type==="Item" && !allowedItem.has(doc.type))throw new Error("Unknown item subtype "+doc.type);
       if(info.type==="Actor" && !allowedActor.has(doc.type))throw new Error("Unknown actor subtype "+doc.type);
       if(["Item","Actor"].includes(info.type) && !doc.system)throw new Error("Missing system data");
+      if(info.type==="Actor" && doc.type!=="vehicle"){
+        const chars=doc.system.characteristics ?? {};
+        for(const key of ["Brawn","Agility","Intellect","Cunning","Willpower","Presence"]){
+          const val=chars[key]?.value;
+          if(!Number.isInteger(val) || val<1 || val>6){
+            throw new Error(`Invalid characteristic ${key}=${val} on actor ${doc.name}`);
+          }
+        }
+      }
       const key=expectedKeyPrefix[info.type]+doc._id;
       const parsed=JSON.parse(await db.get(key));
       if(parsed.name!==doc.name)throw new Error("Name mismatch");
