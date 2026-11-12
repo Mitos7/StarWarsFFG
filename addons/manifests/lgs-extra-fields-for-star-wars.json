@@ -1,0 +1,48 @@
+{
+  "id": "lgs-extra-fields-for-star-wars",
+  "title": "Lyinggods Extra Actor Fields for FFG Star Wars",
+  "description": "Adds custom fields to actors in the FFG Star Wars system.",
+  "version": "1.0.3",
+  "authors": [
+    {
+      "name": "Lyinggod",
+      "url": "https://github.com/Lyinggod"
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "maximum": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "type": "system",
+        "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
+        "compatibility": {
+          "minimum": "1.901",
+          "verified": "1.905"
+        }
+      }
+    ],
+    "requires": [],
+    "recommends": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "scripts/lgs-extra-fields-for-star-wars.js"
+  ],
+  "styles": [
+    "styles/styles.css"
+  ],
+  "flags": {
+    "lgs-genesys-actor-extra-tabs": {
+      "customFields": []
+    }
+  },
+  "languages": [],
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/lgs-extra-fields-for-star-wars.json",
+  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-lgs-extra-fields-for-star-wars.zip",
+  "url": "https://github.com/Lyinggod/FFG-Star-Wars-Extra-Fields",
+  "readme": "https://github.com/Lyinggod/lgs-ffg-star-wars-extra-fields/blob/main/README.md"
+}

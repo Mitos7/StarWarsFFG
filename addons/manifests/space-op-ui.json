@@ -1,0 +1,76 @@
+{
+  "id": "space-op-ui",
+  "title": "FFG Star Wars Space Opera Ui",
+  "description": "Overhauls the Foundry UI and  StarWarsFFG games. Based on a fork of LCARS UI. <p>*** Join the official Discord server: <a href=\"https://discord.gg/foundryvtt\"> Official Discord</a></p><p>*** Rejoignez la communauté Francophone: <a href=\"https://discord.gg/pPSDNJk\">Francophone Discord</a></p>",
+  "authors": [
+    {
+      "name": "Sasmira",
+      "email": "sasmyra@gmail.com",
+      "url": "https://foundryvtt.com/community/sasmira",
+      "flags": {}
+    }
+  ],
+  "version": "13.2",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.0",
+          "verified": "2.0.1"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/core.js"
+  ],
+  "styles": [
+    "styles/compatibility.css",
+    "styles/core.css"
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "caption": "Space Opera Ui",
+      "thumbnail": "/modules/space-op-ui/artwork/space-opera-thumb.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "French (Français)",
+      "path": "lang/fr.json",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "css",
+        "json"
+      ],
+      "paths": [
+        "styles/",
+        "lang/"
+      ]
+    }
+  },
+  "url": "https://gitlab.com/sasmira/space-op-ui",
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/space-op-ui.json",
+  "download": "https://gitlab.com/sasmira/space-op-ui/-/jobs/artifacts/v13.2/raw/space-op-ui.zip?job=build"
+}

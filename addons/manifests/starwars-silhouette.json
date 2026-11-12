@@ -1,0 +1,47 @@
+{
+  "title": "Star Wars - Silhouette",
+  "description": "Display a silhouette by starship type",
+  "version": "1.2.2",
+  "authors": [
+    {
+      "name": "Prolice",
+      "discord": ".Prolice",
+      "flags": {}
+    }
+  ],
+  "styles": [],
+  "scripts": [
+    "sw-silhouette.js"
+  ],
+  "languages": [],
+  "flags": {
+    "allowBugReporter": true
+  },
+  "persistentStorage": true,
+  "url": "https://github.com/prolice/starwars-silhouette",
+  "readme": "https://github.com/prolice/starwars-silhouette/blob/starwars-silhouette/README.md",
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/starwars-silhouette.json",
+  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-starwars-silhouette.zip",
+  "id": "starwars-silhouette",
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "_mathjs",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/_mathjs.json"
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12.331",
+    "maximum": "12"
+  }
+}

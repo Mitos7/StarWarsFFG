@@ -1,0 +1,40 @@
+{
+  "id": "lgs-token-range-bands",
+  "title": "Lyinggods Token Range Bands",
+  "description": "Supports abstracted ranges such as Close, Short, Far, etc instead fiddly numbers in feet or meters.",
+  "version": "1.1.3",
+  "authors": [
+    {
+      "name": "Lyinggod",
+      "url": "https://github.com/Lyinggod"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11.0.0",
+    "verified": "12.999",
+    "maximum": "12.999"
+  },
+  "socket": true,
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      }
+    ],
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "type": "system"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/lgs-token-range-bands.js"
+  ],
+  "languages": [],
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/lgs-token-range-bands.json",
+  "download": "https://github.com/Lyinggod/lgs-token-range-bands/releases/download/v1.1.3/lgs-token-range-bands.zip",
+  "url": "https://github.com/Lyinggod/lgs-token-range-bands",
+  "readme": "https://github.com/Lyinggod/lgs-token-range-bands/blob/main/README.md"
+}

@@ -1,0 +1,29 @@
+{
+  "title": "Math.js",
+  "description": "LIBRARY: Math.js - This module is just a dependency for other modules and does not offer any functionality on its own. This module includes the popular Math.js library.",
+  "version": "7.5.1-fvtt2",
+  "library": true,
+  "authors": [
+    {
+      "name": "The League of Extraodinary FVTT Developers",
+      "url": "https://github.com/League-of-Foundry-Developers"
+    },
+    {
+      "name": "Jos de Jong",
+      "url": "https://mathjs.org/"
+    }
+  ],
+  "scripts": [
+    "math.min.js"
+  ],
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/_mathjs.json",
+  "url": "https://github.com/League-of-Foundry-Developers/mathjs-lib",
+  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-_mathjs.zip",
+  "media": [
+    {
+      "type": "icon",
+      "link": "https://mathjs.org/css/img/mathjs_330x100.png"
+    }
+  ],
+  "id": "_mathjs"
+}

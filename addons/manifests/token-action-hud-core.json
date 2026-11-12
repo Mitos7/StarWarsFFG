@@ -1,0 +1,122 @@
+{
+  "id": "token-action-hud-core",
+  "title": "Token Action HUD Core",
+  "description": "Token Action HUD is a repositionable HUD of actions for a selected token",
+  "authors": [
+    {
+      "name": "Larkinabout",
+      "url": "https://github.com/Larkinabout"
+    },
+    {
+      "name": "Drental"
+    },
+    {
+      "name": "^ and stick"
+    }
+  ],
+  "url": "https://github.com/Larkinabout/fvtt-token-action-hud-core",
+  "flags": {},
+  "version": "2.1.2",
+  "compatibility": {
+    "minimum": "13.351",
+    "verified": "14.368"
+  },
+  "esmodules": [
+    "./dist/token-action-hud-core.min.mjs"
+  ],
+  "styles": [
+    "./styles/token-action-hud.css",
+    "./styles/tah-popover.css",
+    "./styles/tah-custom.css",
+    "./styles/tah-docked-left.css",
+    "./styles/tah-docked-left-v13.css",
+    "./styles/tah-docked-right.css",
+    "./styles/tah-docked-right-v13.css",
+    "./styles/tah-foundry-vtt-dark.css",
+    "./styles/tah-foundry-vtt-dark-compact.css",
+    "./styles/tah-foundry-vtt-light.css",
+    "./styles/tah-high-contrast.css",
+    "./styles/tah-pathfinder.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    },
+    {
+      "lang": "ko",
+      "name": "Korean",
+      "path": "languages/ko.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "languages/br.json"
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "languages/es.json"
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "languages/fr.json"
+    },
+    {
+      "lang": "pl",
+      "name": "Polish",
+      "path": "languages/pl.json"
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "languages/ja.json"
+    },
+    {
+      "lang": "cn",
+      "name": "中文",
+      "path": "languages/cn.json"
+    },
+    {
+      "lang": "it",
+      "name": "italiano",
+      "path": "languages/it.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "languages/de.json"
+    }
+  ],
+  "packs": [],
+  "relationships": {
+    "systems": [],
+    "requires": [
+      {
+        "id": "socketlib"
+      }
+    ],
+    "optional": [
+      {
+        "id": "color-picker",
+        "reason": "To enable color pickers in the module settings"
+      }
+    ],
+    "flags": {
+      "optional": [
+        {
+          "id": "color-picker",
+          "reason": "To enable color pickers in the module settings"
+        }
+      ]
+    }
+  },
+  "socket": true,
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/token-action-hud-core.json",
+  "download": "https://github.com/Larkinabout/fvtt-token-action-hud-core/releases/download/2.1.2/module.zip",
+  "protected": false,
+  "library": true,
+  "persistentStorage": true
+}

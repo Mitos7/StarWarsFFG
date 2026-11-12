@@ -1,0 +1,132 @@
+{
+  "id": "ffg-star-wars-enhancements",
+  "title": "FFG Star Wars Enhancements",
+  "description": "A collection of enhancements for the amazing FFG Star Wars system",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "French (Community)",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "ua",
+      "name": "Ukrainian (Українська)",
+      "path": "lang/ua.json"
+    }
+  ],
+  "authors": [
+    {
+      "name": "Wrycu"
+    },
+    {
+      "name": "x0d0a"
+    },
+    {
+      "name": "YeNov"
+    }
+  ],
+  "version": "3.0.0",
+  "compatibility": {
+    "minimum": 13,
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
+        "compatability": {
+          "minimum": "2.0.0",
+          "verified": "2.0.2"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "fxmaster",
+        "type": "module",
+        "compatability": {
+          "minimum": "7.4.2",
+          "verified": "7.4.2"
+        }
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatability": {
+          "minimum": "1.13.4.0",
+          "verified": "1.13.4.0"
+        }
+      },
+      {
+        "id": "statuscounter",
+        "type": "module",
+        "compatability": {
+          "minimum": "3.0.4",
+          "verified": "3.0.4"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "JB2A_DnD5e",
+        "type": "module",
+        "compatability": {
+          "minimum": "0.8.1",
+          "verified": "0.8.1"
+        }
+      },
+      {
+        "id": "tokenmagic",
+        "type": "module",
+        "compatability": {
+          "minimum": "0.7.6.3",
+          "verified": "0.7.6.3"
+        }
+      }
+    ]
+  },
+  "socket": true,
+  "url": "https://github.com/wrycu/StarWarsFFG-Enhancements",
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/ffg-star-wars-enhancements.json",
+  "download": "https://github.com/wrycu/StarWarsFFG-Enhancements/releases/download/3.0.0/module.zip",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "esmodules": [
+    "ffg-star-wars-enhancements.js"
+  ],
+  "styles": [
+    "styles/opening_crawl.css",
+    "styles/datapads.css",
+    "styles/dice_helper.css",
+    "styles/settings.css"
+  ],
+  "packs": [
+    {
+      "name": "ffg-sw-enhanced-scene-ideas",
+      "label": "eFFG.SceneIdeas",
+      "module": "ffg-star-wars-enhancements",
+      "path": "packs/sceneideas.db",
+      "type": "Scene"
+    },
+    {
+      "name": "ffg-sw-enhanced-community-macros",
+      "label": "eFFG.CommunityMacros",
+      "module": "ffg-star-wars-enhancements",
+      "path": "packs/communitymacros.db",
+      "type": "Macro"
+    },
+    {
+      "name": "ffg-sw-enhanced-cantina-patrons",
+      "label": "eFFG.CantinaPatrons",
+      "path": "packs/cantinapatrons.db",
+      "module": "ffg-star-wars-enhancements",
+      "type": "RollTable"
+    }
+  ]
+}

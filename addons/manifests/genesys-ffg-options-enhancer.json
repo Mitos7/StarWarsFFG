@@ -1,0 +1,81 @@
+{
+  "id": "genesys-ffg-options-enhancer",
+  "title": "Genesys FFG Options Enhancer",
+  "description": "Quality-of-life and combat enhancement module for Genesys / StarWarsFFG, including GM Roll Requests, Talent & Spell Search, Item and Currency Transfer, Spend Results, Character Pilot, weapon and damage automation, Critical Injury Manager, custom Defense skills, GM roll fudging, and a Genesys initiative Combat Carousel.",
+  "version": "1.1.1",
+  "authors": [
+    {
+      "name": "robert16444",
+      "url": "https://github.com/robert16444"
+    }
+  ],
+  "esmodules": [
+    "scripts/i18n.js",
+    "scripts/currency.js",
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/main.css"
+  ],
+  "socket": true,
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.0",
+          "verified": "2.0.4",
+          "maximum": "2.0.4"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "ffg-star-wars-enhancements",
+        "type": "module",
+        "manifest": "https://github.com/wrycu/StarWarsFFG-Enhancements/releases/latest/download/module.json",
+        "compatibility": {
+          "minimum": "3.0.0",
+          "verified": "3.0.0"
+        }
+      },
+      {
+        "id": "statuscounter",
+        "type": "module",
+        "compatibility": {
+          "minimum": "3.0.4",
+          "verified": "3.0.4"
+        }
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/genesys-ffg-options-enhancer.json",
+  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-genesys-ffg-options-enhancer.zip",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "flags": {
+    "mitosFoundryV14": {
+      "retainedLegacyTemplatePaths": [
+        "templates/request-ui.hbs",
+        "templates/result-spender-config.hbs",
+        "templates/defense-skills-config.hbs"
+      ]
+    }
+  }
+}

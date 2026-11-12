@@ -1,0 +1,56 @@
+{
+  "id": "ffg-star-wars-hud-enhancements",
+  "title": "Star Wars FFG HUD Enhancements",
+  "version": "1.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "description": "<p>Adds a compact HUD overlay to view and adjust wounds/strain from the canvas</p>",
+  "authors": [
+    {
+      "name": "YeNov",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    {
+      "src": "styles/hud.css"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "ua",
+      "name": "Ukrainian (Українська)",
+      "path": "lang/ua.json",
+      "flags": {}
+    }
+  ],
+  "socket": true,
+  "url": "https://github.com/YeNov/ffg-star-wars-hud-enhancements",
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/ffg-star-wars-hud-enhancements.json",
+  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-ffg-star-wars-hud-enhancements.zip",
+  "license": "LICENSE",
+  "readme": "README.md"
+}

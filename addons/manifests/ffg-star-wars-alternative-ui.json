@@ -1,0 +1,59 @@
+{
+  "id": "ffg-star-wars-alternative-ui",
+  "title": "FFG Star Wars - Alternative UI",
+  "description": "Add new sheet design",
+  "version": "12.6.2.1_905",
+  "authors": [
+    {
+      "name": "Balté",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.901",
+          "verified": "1.905"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/core.js"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "French (Français)",
+      "path": "lang/fr.json",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/ffg-star-wars-alternative-ui/artwork/FFGSW_logo.webp",
+      "thumbnail": "modules/ffg-star-wars-alternative-ui/artwork/FFGSW_logo.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/TeddyBears/StarWarsFFG-alternative-UI",
+  "readme": "https://github.com/TeddyBears/StarWarsFFG-alternative-UI/blob/main/README.md",
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/ffg-star-wars-alternative-ui.json",
+  "download": "https://github.com/TeddyBears/StarWarsFFG-alternative-UI/archive/refs/tags/12.6.2.1_905.zip"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "token-action-hud-ffgsw",
+  "title": "Token Action HUD for FFG Star Wars",
+  "description": "Token Action HUD is a repositionable HUD of actions for a selected token",
+  "authors": [
+    {
+      "name": "Balebos",
+      "flags": {}
+    }
+  ],
+  "version": "13.0.0.2_0_3",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13.351"
+  },
+  "esmodules": [
+    "scripts/init.js"
+  ],
+  "styles": [
+    "styles/tah-ffgsw.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "French (Français)",
+      "path": "lang/fr.json",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.0.3",
+          "verified": "2.0.3"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "token-action-hud-core",
+        "manifest": "https://github.com/Larkinabout/fvtt-token-action-hud-core/blob/main/module.json",
+        "type": "module",
+        "compatibility": {
+          "minimum": "2.1.0",
+          "verified": "2.1.1"
+        }
+      }
+    ],
+    "Recommended": [
+      {
+        "id": "statuscounter",
+        "type": "module",
+        "manifest": "https://gitlab.com/woodentavern/status-icon-counters/-/raw/master/src/module.json",
+        "compatibility": {
+          "minimum": "3.1.0",
+          "verified": "3.1.0"
+        }
+      }
+    ]
+  },
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/token-action-hud-ffgsw/artwork/FFGSW_logo.webp",
+      "thumbnail": "modules/token-action-hud-ffgsw/artwork/FFGSW_logo.webp",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/TeddyBears/token-action-hud-ffgsw",
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/token-action-hud-ffgsw.json",
+  "readme": "https://github.com/TeddyBears/token-action-hud-ffgsw/blob/main/README.md",
+  "download": "https://github.com/TeddyBears/token-action-hud-ffgsw/archive/refs/tags/13.0.0.2_0_3.zip"
+}

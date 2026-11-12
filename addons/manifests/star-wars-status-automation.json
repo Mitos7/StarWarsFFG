@@ -1,0 +1,82 @@
+{
+  "id": "star-wars-status-automation",
+  "version": "0.2.1",
+  "url": "https://github.com/Malven31/foundryVTT-SWFFG-status-automation",
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/star-wars-status-automation.json",
+  "download": "https://github.com/Malven31/foundryVTT-SWFFG-status-automation/releases/download/0.2.1/module.zip",
+  "title": "FFG Star Wars Status Automation",
+  "description": "Various quality-of-life status automations for the FFG Star Wars system",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Alix Deltour",
+      "url": "https://github.com/Malven31",
+      "discord": "malven31#0013"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json"
+    }
+  ],
+  "esmodules": [
+    "star-wars-status-automation.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "statuscounter",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "json"
+      ],
+      "paths": [
+        "lang"
+      ]
+    }
+  },
+  "packs": [
+    {
+      "name": "talents",
+      "label": "Auto-Talents",
+      "path": "packs/talents",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "starwarsffg"
+    }
+  ]
+}

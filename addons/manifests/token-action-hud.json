@@ -1,0 +1,256 @@
+{
+  "id": "token-action-hud",
+  "title": "Token Action HUD Classic",
+  "description": "Creates a HUD showing a selected token's common actions.",
+  "authors": [
+    {
+      "name": "Larkinabout",
+      "url": "https://github.com/Larkinabout"
+    },
+    {
+      "name": "Drental"
+    },
+    {
+      "name": "^ and stick"
+    }
+  ],
+  "url": "https://github.com/Drental/fvtt-tokenactionhud",
+  "flags": {},
+  "version": "3.0.21",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291"
+  },
+  "scripts": [
+    "./lib/tagify/tagify.min.js",
+    "./scripts/bundle.min.js"
+  ],
+  "styles": [
+    "./styles/tah-compact.css",
+    "./styles/token-action-hud.css",
+    "./styles/tah-dorako.css",
+    "./styles/lib/tagify/tagify.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "ko",
+      "name": "Korean",
+      "path": "lang/ko.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/br.json"
+    },
+    {
+      "lang": "es",
+      "name": "Spanish",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "pl",
+      "name": "Polish",
+      "path": "lang/pl.json"
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "lang/ja.json"
+    },
+    {
+      "lang": "cn",
+      "name": "中文",
+      "path": "lang/cn.json"
+    },
+    {
+      "lang": "zh-tw",
+      "name": "正體中文",
+      "path": "lang/zh-tw.json"
+    },
+    {
+      "lang": "it",
+      "name": "italiano",
+      "path": "lang/it.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    }
+  ],
+  "packs": [],
+  "relationships": {
+    "systems": [
+      {
+        "id": "alienrpg",
+        "type": "system"
+      },
+      {
+        "id": "blades-in-the-dark",
+        "type": "system"
+      },
+      {
+        "id": "cleenmain",
+        "type": "system"
+      },
+      {
+        "id": "coc",
+        "type": "system"
+      },
+      {
+        "id": "CoC7",
+        "type": "system"
+      },
+      {
+        "id": "cof",
+        "type": "system"
+      },
+      {
+        "id": "cthack",
+        "type": "system"
+      },
+      {
+        "id": "cyphersystem",
+        "type": "system"
+      },
+      {
+        "id": "D35E",
+        "type": "system"
+      },
+      {
+        "id": "demonlord",
+        "type": "system"
+      },
+      {
+        "id": "dnd4e",
+        "type": "system"
+      },
+      {
+        "id": "dnd5e",
+        "type": "system"
+      },
+      {
+        "id": "ds4",
+        "type": "system"
+      },
+      {
+        "id": "dungeonworld",
+        "type": "system"
+      },
+      {
+        "id": "earthdawn4e",
+        "type": "system"
+      },
+      {
+        "id": "forbidden-lands",
+        "type": "system"
+      },
+      {
+        "id": "gurps",
+        "type": "system"
+      },
+      {
+        "id": "kamigakari",
+        "type": "system"
+      },
+      {
+        "id": "lancer",
+        "type": "system"
+      },
+      {
+        "id": "od6s",
+        "type": "system"
+      },
+      {
+        "id": "pf1",
+        "type": "system"
+      },
+      {
+        "id": "pf2e",
+        "type": "system"
+      },
+      {
+        "id": "sfrpg",
+        "type": "system"
+      },
+      {
+        "id": "space1889",
+        "type": "system"
+      },
+      {
+        "id": "sw5e",
+        "type": "system"
+      },
+      {
+        "id": "swade",
+        "type": "system"
+      },
+      {
+        "id": "swnr",
+        "type": "system"
+      },
+      {
+        "id": "starwarsffg",
+        "type": "system"
+      },
+      {
+        "id": "symbaroum",
+        "type": "system"
+      },
+      {
+        "id": "tagmar",
+        "type": "system"
+      },
+      {
+        "id": "tagmar_rpg",
+        "type": "system"
+      },
+      {
+        "id": "tormenta20",
+        "type": "system"
+      },
+      {
+        "id": "wfrp4e",
+        "type": "system"
+      }
+    ],
+    "requires": [],
+    "optional": [
+      {
+        "id": "color-picker",
+        "reason": "To set colors within this module's settings. If both modules are enabled, Token Action HUD will use color-picker"
+      },
+      {
+        "id": "colorsettings",
+        "reason": "To set colors within this module's settings. If both modules are enabled, Token Action HUD will use color-picker"
+      }
+    ],
+    "flags": {
+      "optional": [
+        {
+          "id": "color-picker",
+          "reason": "To set colors within this module's settings. If both modules are enabled, Token Action HUD will use color-picker"
+        },
+        {
+          "id": "colorsettings",
+          "reason": "To set colors within this module's settings. If both modules are enabled, Token Action HUD will use color-picker"
+        }
+      ]
+    }
+  },
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/token-action-hud.json",
+  "download": "https://github.com/Drental/fvtt-tokenactionhud/releases/download/3.0.21/module.zip",
+  "protected": false,
+  "library": false
+}

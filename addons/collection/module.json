@@ -1,0 +1,130 @@
+{
+  "id": "swffg-mitos-addons",
+  "title": "Star Wars FFG — Mitos Add-on Collection (Installer)",
+  "description": "Optional install helper for independent Star Wars FFG add-on modules. Never enables modules in any game world. Choose recommended third-party packages individually. Some are legacy/untested on Foundry V14.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Mitos7"
+    }
+  ],
+  "compatibility": {
+    "minimum": 14,
+    "verified": 14,
+    "maximum": 14
+  },
+  "url": "https://github.com/Mitos7/StarWarsFFG/tree/foundry-v14-mitos/addons",
+  "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/collection/module.json",
+  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-mitos-addons.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "starwarsffg",
+        "type": "system"
+      }
+    ],
+    "recommends": [
+      {
+        "id": "ffg-star-wars-enhancements",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/ffg-star-wars-enhancements.json"
+      },
+      {
+        "id": "star-wars-status-automation",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/star-wars-status-automation.json"
+      },
+      {
+        "id": "genesys-ffg-options-enhancer",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/genesys-ffg-options-enhancer.json"
+      },
+      {
+        "id": "token-action-hud-ffgsw",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/token-action-hud-ffgsw.json"
+      },
+      {
+        "id": "statuscounter",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/statuscounter.json"
+      },
+      {
+        "id": "space-op-ui",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/space-op-ui.json"
+      },
+      {
+        "id": "swffgUI-cc",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/swffgUI-cc.json"
+      },
+      {
+        "id": "starwars-silhouette",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/starwars-silhouette.json"
+      },
+      {
+        "id": "ffg-star-wars-alternative-ui",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/ffg-star-wars-alternative-ui.json"
+      },
+      {
+        "id": "lgs-token-range-bands",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/lgs-token-range-bands.json"
+      },
+      {
+        "id": "lgs-extra-fields-for-star-wars",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/lgs-extra-fields-for-star-wars.json"
+      },
+      {
+        "id": "swrpg-karmic-dice",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/swrpg-karmic-dice.json"
+      },
+      {
+        "id": "ffg-star-wars-hud-enhancements",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/ffg-star-wars-hud-enhancements.json"
+      },
+      {
+        "id": "materialdeck-starwarsffg",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/materialdeck-starwarsffg.json"
+      },
+      {
+        "id": "swrpg-dice-helper-compendium",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/swrpg-dice-helper-compendium.json"
+      },
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/babele.json"
+      },
+      {
+        "id": "MaterialDeck",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/MaterialDeck.json"
+      },
+      {
+        "id": "token-action-hud-core",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/token-action-hud-core.json"
+      },
+      {
+        "id": "_mathjs",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/_mathjs.json"
+      }
+    ]
+  },
+  "flags": {
+    "swffg-mitos-addons": {
+      "role": "optional-collection-only",
+      "enablesThirdPartyModules": false
+    }
+  }
+}
