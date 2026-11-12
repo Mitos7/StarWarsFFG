@@ -3,7 +3,7 @@
     "_id": "03ad2ff0677c4810",
     "name": "Move",
     "type": "forcepower",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/magic/movement/acceleration-speed-tech-blue.webp",
     "system": {
       "description": "<p>Poder narrativo fan de manipulación de objetos mediante la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -51,7 +51,7 @@
     "_id": "1a5c8a591ccdf28f",
     "name": "Sense",
     "type": "forcepower",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/magic/perception/eye-slit-orange.webp",
     "system": {
       "description": "<p>Poder narrativo fan para percibir presencias y emociones.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -99,7 +99,7 @@
     "_id": "9f4a04fa707baf3d",
     "name": "Enhance",
     "type": "forcepower",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
     "system": {
       "description": "<p>Poder narrativo fan de concentración física extraordinaria.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -147,7 +147,7 @@
     "_id": "f5eab0b46ce9ee6c",
     "name": "Foresee",
     "type": "forcepower",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/magic/perception/eye-slit-orange.webp",
     "system": {
       "description": "<p>Poder narrativo fan de intuiciones acerca de posibles sucesos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -195,7 +195,7 @@
     "_id": "ae80c9999cbc92ed",
     "name": "Influence",
     "type": "forcepower",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
     "system": {
       "description": "<p>Poder narrativo fan de influencia emocional sutil.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -243,7 +243,7 @@
     "_id": "e0a79c8464d95fdc",
     "name": "Bind",
     "type": "forcepower",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
     "system": {
       "description": "<p>Poder narrativo fan para dificultar el movimiento de un enemigo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -291,7 +291,7 @@
     "_id": "c7200ad04339c539",
     "name": "Misdirect",
     "type": "forcepower",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
     "system": {
       "description": "<p>Poder narrativo fan basado en engaños sensoriales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -339,7 +339,7 @@
     "_id": "1f98755a7a2e719a",
     "name": "Heal / Harm",
     "type": "forcepower",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
     "system": {
       "description": "<p>Poder narrativo fan relacionado con energía vital.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -387,7 +387,7 @@
     "_id": "4fba1529a1bd0693",
     "name": "Protect / Unleash",
     "type": "forcepower",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/magic/defensive/barrier-shield-dome-blue-purple.webp",
     "system": {
       "description": "<p>Poder narrativo fan sobre energía defensiva y ofensiva.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -435,7 +435,7 @@
     "_id": "cdecbf3d3b0f6f57",
     "name": "Battle Meditation",
     "type": "forcepower",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/magic/defensive/shield-barrier-blue.webp",
     "system": {
       "description": "<p>Poder narrativo fan que representa concentración compartida.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

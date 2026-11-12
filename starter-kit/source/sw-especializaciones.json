@@ -3,7 +3,7 @@
     "_id": "0699a1393bfffa53",
     "name": "Slicer",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Se especializa en explorar sistemas informáticos y superar bloqueos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -61,7 +61,7 @@
     "_id": "2e9a17b37569ce57",
     "name": "Pilot",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/navigation/compass-plain-blue.webp",
     "system": {
       "description": "<p>Se concentra en conducción de naves y maniobras de riesgo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -119,7 +119,7 @@
     "_id": "eb61e9337f47489d",
     "name": "Scoundrel",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Aprovecha el ingenio social y la rapidez de reacción.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -177,7 +177,7 @@
     "_id": "2ec9a1f3483ba0f5",
     "name": "Gadgeteer",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/hand/wrench-mechanical-heal-blue.webp",
     "system": {
       "description": "<p>Utiliza soluciones técnicas y herramientas modificadas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -235,7 +235,7 @@
     "_id": "a3a638f8b75edbae",
     "name": "Assassin",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/weapons/swords/sword-katana.webp",
     "system": {
       "description": "<p>Emplea sigilo y preparación para interceptar objetivos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -293,7 +293,7 @@
     "_id": "5b1cfed334f1c385",
     "name": "Mechanic",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/hand/wrench-mechanical-heal-blue.webp",
     "system": {
       "description": "<p>Mantiene vehículos, droides y maquinaria pesada.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -351,7 +351,7 @@
     "_id": "93ad1c849665e9dc",
     "name": "Doctor",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/medical/medkit-white-red.webp",
     "system": {
       "description": "<p>Centra sus esfuerzos en asistencia sanitaria y rescate.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -409,7 +409,7 @@
     "_id": "906d7a03bac41423",
     "name": "Sharpshooter",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Entrena disparos precisos en situaciones complejas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -467,7 +467,7 @@
     "_id": "c5feccc1f1b7fe13",
     "name": "Marauder",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/weapons/swords/sword-katana.webp",
     "system": {
       "description": "<p>Se especializa en acciones físicas de primera línea.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -525,7 +525,7 @@
     "_id": "e03e8ee148d2e4c9",
     "name": "Politico",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Conoce negociaciones, discursos y relaciones de poder.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -583,7 +583,7 @@
     "_id": "197801ac9b97edce",
     "name": "Force-Sensitive Exile",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Concepto de usuario de la Fuerza que evita llamar la atención.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -641,7 +641,7 @@
     "_id": "2ca7ea80410e6d0e",
     "name": "Force-Sensitive Emergent",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Concepto de personaje que descubre una conexión inesperada con la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -699,7 +699,7 @@
     "_id": "0ba0d7b1c9ce7805",
     "name": "Guardian Protector",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Concepto fan de protector de personas vulnerables.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -757,7 +757,7 @@
     "_id": "392059da77fb7f72",
     "name": "Ataru Striker",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/weapons/swords/sword-katana.webp",
     "system": {
       "description": "<p>Concepto fan de duelista rápido con prácticas acrobáticas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -815,7 +815,7 @@
     "_id": "b3ca8988f5f5f74e",
     "name": "Aggressor",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Concepto fan de combatiente que intimida a sus rivales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -873,7 +873,7 @@
     "_id": "e8df32df05b674f3",
     "name": "Niman Disciple",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Concepto fan de usuario equilibrado de la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -931,7 +931,7 @@
     "_id": "dce20e7b5c1d698d",
     "name": "Artisan",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/hand/wrench-mechanical-heal-blue.webp",
     "system": {
       "description": "<p>Concepto fan de creador de herramientas avanzadas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -989,7 +989,7 @@
     "_id": "f2a2f02d4896a129",
     "name": "Shadow",
     "type": "specialization",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Concepto fan de infiltrador especializado.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

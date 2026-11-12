@@ -3,7 +3,7 @@
     "_id": "4994963393bfcb0d",
     "name": "Guardia del puerto",
     "type": "minion",
-    "img": "systems/starwarsffg/images/defaults/actors/minion.png",
+    "img": "icons/environment/people/infantry-armored.webp",
     "system": {
       "biography": "<p>Patrullero que vigila las puertas</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "stats": {
@@ -395,7 +395,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/minion.png",
+        "src": "icons/environment/people/infantry-armored.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -484,7 +484,7 @@
     "_id": "3d10b8c649ee1138",
     "name": "Operario de chatarra",
     "type": "minion",
-    "img": "systems/starwarsffg/images/defaults/actors/minion.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Trabajador atrapado entre dos facciones</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "stats": {
@@ -876,7 +876,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/minion.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -965,7 +965,7 @@
     "_id": "9db8561960a1ac38",
     "name": "Centinela mecánico",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Autómata de seguridad del astillero</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "species": {
@@ -1346,7 +1346,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1435,7 +1435,7 @@
     "_id": "3112a6187824ab1e",
     "name": "Contrabandista de muelle",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Intermediario que conoce rutas ocultas</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "species": {
@@ -1816,7 +1816,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1905,7 +1905,7 @@
     "_id": "5e18ceda9aec0df1",
     "name": "Capataz del sector oscuro",
     "type": "nemesis",
-    "img": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Jefe corrupto que oculta la verdad de una avería</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "species": {
@@ -2292,7 +2292,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2381,7 +2381,7 @@
     "_id": "ebe7731cf1ca03f8",
     "name": "Rescatadora civil",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Piloto que puede auxiliar a los personajes</p><p><em>Adversario o vehículo original del kit de prueba. Sus valores no son oficiales.</em></p>",
       "species": {
@@ -2762,7 +2762,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",

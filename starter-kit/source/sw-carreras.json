@@ -3,7 +3,7 @@
     "_id": "d46c12641c9b5aba",
     "name": "Contrabandista / Smuggler",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/weapons/guns/pistol-energy-blaster.webp",
     "system": {
       "description": "<p>Carrera centrada en viajes arriesgados y acuerdos improvisados.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -43,7 +43,7 @@
     "_id": "b5b1de30403606c8",
     "name": "Cazarrecompensas / Bounty Hunter",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/navigation/compass-plain-blue.webp",
     "system": {
       "description": "<p>Carrera dedicada a rastreo de objetivos y contratos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -83,7 +83,7 @@
     "_id": "c6ffa8ff13fc3c1e",
     "name": "Técnico / Technician",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/hand/wrench-adjustable.webp",
     "system": {
       "description": "<p>Carrera de sistemas, reparaciones y dispositivos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -123,7 +123,7 @@
     "_id": "6f6bd95b193ed900",
     "name": "Explorador / Explorer",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/navigation/compass-plain-blue.webp",
     "system": {
       "description": "<p>Carrera de supervivencia y rutas desconocidas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -163,7 +163,7 @@
     "_id": "5ae216b3573f59ed",
     "name": "Colono / Colonist",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/social/diplomacy-handshake-blue.webp",
     "system": {
       "description": "<p>Carrera de relaciones en asentamientos y comercio.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -203,7 +203,7 @@
     "_id": "8a06e8c7a0ba0918",
     "name": "Mercenario / Hired Gun",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/environment/people/infantry-armored.webp",
     "system": {
       "description": "<p>Carrera de seguridad y enfrentamientos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -243,7 +243,7 @@
     "_id": "6defaf66fd1f2906",
     "name": "As / Ace",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/navigation/compass-plain-blue.webp",
     "system": {
       "description": "<p>Carrera de pilotos de combate.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -283,7 +283,7 @@
     "_id": "8cd10f3c278af7a3",
     "name": "Comandante / Commander",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Carrera de mando y coordinación.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -323,7 +323,7 @@
     "_id": "445ed8e4a287f461",
     "name": "Diplomático / Diplomat",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/social/diplomacy-handshake-blue.webp",
     "system": {
       "description": "<p>Carrera para negociar con gobiernos y comunidades.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -363,7 +363,7 @@
     "_id": "eb79cbadf3f29741",
     "name": "Ingeniero / Engineer",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/hand/wrench-adjustable.webp",
     "system": {
       "description": "<p>Carrera para resolver averías y construir mecanismos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -403,7 +403,7 @@
     "_id": "6dd674738c624aae",
     "name": "Soldado / Soldier",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/environment/people/infantry-armored.webp",
     "system": {
       "description": "<p>Carrera para tropas disciplinadas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -443,7 +443,7 @@
     "_id": "e921c1f9e9650818",
     "name": "Espía / Spy",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/weapons/guns/pistol-energy-blaster.webp",
     "system": {
       "description": "<p>Carrera de infiltración y obtención de información.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -483,7 +483,7 @@
     "_id": "5e553d7b6ab4b6d5",
     "name": "Consular / Consular",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Carrera narrativa centrada en el diálogo y la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -523,7 +523,7 @@
     "_id": "82f04187a28c44cb",
     "name": "Guardián / Guardian",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/environment/people/infantry-armored.webp",
     "system": {
       "description": "<p>Carrera narrativa de protección y disciplina.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -563,7 +563,7 @@
     "_id": "3edbb269030d765b",
     "name": "Místico / Mystic",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Carrera narrativa de búsqueda de conocimientos de la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -603,7 +603,7 @@
     "_id": "241da0e22151b1fb",
     "name": "Buscador / Seeker",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/navigation/compass-plain-blue.webp",
     "system": {
       "description": "<p>Carrera narrativa de rastreo y exploración.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -643,7 +643,7 @@
     "_id": "75b4cbfe8dcd003c",
     "name": "Centinela / Sentinel",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Carrera narrativa que combina ingenio y discreción.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -683,7 +683,7 @@
     "_id": "945f5e2460e22da4",
     "name": "Guerrero / Warrior",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/environment/people/infantry-armored.webp",
     "system": {
       "description": "<p>Carrera narrativa de combate y práctica marcial.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

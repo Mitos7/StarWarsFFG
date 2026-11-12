@@ -3,7 +3,7 @@
     "_id": "bcc339bfb3783461",
     "name": "Stormtrooper imperial",
     "type": "minion",
-    "img": "systems/starwarsffg/images/defaults/actors/minion.png",
+    "img": "icons/environment/people/infantry-armored.webp",
     "system": {
       "biography": "<p>Soldado equipado para operaciones de control y patrulla.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "stats": {
@@ -397,7 +397,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/minion.png",
+        "src": "icons/environment/people/infantry-armored.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -486,7 +486,7 @@
     "_id": "578b1f458edbc982",
     "name": "Scout trooper imperial",
     "type": "minion",
-    "img": "systems/starwarsffg/images/defaults/actors/minion.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Unidad ligera de reconocimiento.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "stats": {
@@ -880,7 +880,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/minion.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -969,7 +969,7 @@
     "_id": "59ada3b77cb7e662",
     "name": "Piloto TIE imperial",
     "type": "minion",
-    "img": "systems/starwarsffg/images/defaults/actors/minion.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Tripulante de caza ligero.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "stats": {
@@ -1363,7 +1363,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/minion.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1452,7 +1452,7 @@
     "_id": "7f784b11552536f3",
     "name": "Oficial imperial",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Mando que coordina patrullas y controles.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -1835,7 +1835,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1924,7 +1924,7 @@
     "_id": "ee093377500a4329",
     "name": "Agente ISB",
     "type": "nemesis",
-    "img": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Investigador entrenado para interrogar y detectar riesgos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -2313,7 +2313,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2402,7 +2402,7 @@
     "_id": "e78272136b1c89ed",
     "name": "Guardia real imperial",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/environment/people/infantry-armored.webp",
     "system": {
       "biography": "<p>Soldado de élite con equipamiento singular.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -2785,7 +2785,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/environment/people/infantry-armored.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -2874,7 +2874,7 @@
     "_id": "d535719422971927",
     "name": "Soldado rebelde",
     "type": "minion",
-    "img": "systems/starwarsffg/images/defaults/actors/minion.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Combatiente de una unidad de resistencia.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "stats": {
@@ -3268,7 +3268,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/minion.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3357,7 +3357,7 @@
     "_id": "1bfa33b9c81ac533",
     "name": "Piloto rebelde",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Aviador habituado a naves de pequeño tamaño.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -3740,7 +3740,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3829,7 +3829,7 @@
     "_id": "df542575a04e2bc7",
     "name": "Soldado clon",
     "type": "minion",
-    "img": "systems/starwarsffg/images/defaults/actors/minion.png",
+    "img": "icons/environment/people/infantry-armored.webp",
     "system": {
       "biography": "<p>Soldado profesional de la era de las Guerras Clon.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "stats": {
@@ -4223,7 +4223,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/minion.png",
+        "src": "icons/environment/people/infantry-armored.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4312,7 +4312,7 @@
     "_id": "d6ae899c90e19d97",
     "name": "Droide de batalla B1",
     "type": "minion",
-    "img": "systems/starwarsffg/images/defaults/actors/minion.png",
+    "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
     "system": {
       "biography": "<p>Autómata militar básico con coordinación limitada.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "stats": {
@@ -4706,7 +4706,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/minion.png",
+        "src": "icons/commodities/tech/robotics-frame-steel-blue.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4795,7 +4795,7 @@
     "_id": "bf3b8b5bade84fc7",
     "name": "Superdroide B2",
     "type": "minion",
-    "img": "systems/starwarsffg/images/defaults/actors/minion.png",
+    "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
     "system": {
       "biography": "<p>Autómata pesado equipado para combate frontal.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "stats": {
@@ -5189,7 +5189,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/minion.png",
+        "src": "icons/commodities/tech/robotics-frame-steel-blue.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -5278,7 +5278,7 @@
     "_id": "98d73425dee3590e",
     "name": "Droideka",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
     "system": {
       "biography": "<p>Droide de combate con desplazamiento peculiar.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -5661,7 +5661,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/commodities/tech/robotics-frame-steel-blue.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -5750,7 +5750,7 @@
     "_id": "f5f584adc917b48a",
     "name": "Cazarrecompensas genérico",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Cazador independiente en busca de un objetivo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -6133,7 +6133,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -6222,7 +6222,7 @@
     "_id": "d85a85c6d73e4b9e",
     "name": "Guerrero mandaloriano",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/environment/people/infantry-armored.webp",
     "system": {
       "biography": "<p>Combatiente entrenado y protegido con armadura.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -6605,7 +6605,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/environment/people/infantry-armored.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -6694,7 +6694,7 @@
     "_id": "da4356dc89555ac0",
     "name": "Asaltante tusken",
     "type": "minion",
-    "img": "systems/starwarsffg/images/defaults/actors/minion.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Guerrero de los desiertos de Tatooine.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "stats": {
@@ -7088,7 +7088,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/minion.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -7177,7 +7177,7 @@
     "_id": "6b8a3c1e44ed2471",
     "name": "Comerciante jawa",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Recolector de piezas y comerciante itinerante.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -7560,7 +7560,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -7649,7 +7649,7 @@
     "_id": "6364c9cc7380dc9a",
     "name": "Droide de protocolo",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
     "system": {
       "biography": "<p>Autómata dedicado a traducción y mediación.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -8032,7 +8032,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/commodities/tech/robotics-frame-steel-blue.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -8121,7 +8121,7 @@
     "_id": "dcf56df23d6e6d3c",
     "name": "Droide astromecánico",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
     "system": {
       "biography": "<p>Autómata dedicado al diagnóstico y la navegación.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -8504,7 +8504,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/commodities/tech/robotics-frame-steel-blue.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -8593,7 +8593,7 @@
     "_id": "470e8cca50d2fac3",
     "name": "Inquisidor imperial fan",
     "type": "nemesis",
-    "img": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+    "img": "icons/environment/people/commoner.webp",
     "system": {
       "biography": "<p>Usuario antagonista de la Fuerza para una campaña original.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -8982,7 +8982,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "src": "icons/environment/people/commoner.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -9071,7 +9071,7 @@
     "_id": "12ce5837ac110665",
     "name": "Wampa",
     "type": "rival",
-    "img": "systems/starwarsffg/images/defaults/actors/rival.png",
+    "img": "icons/creatures/magical/construct-golem-robot-blue.webp",
     "system": {
       "biography": "<p>Gran criatura hostil de regiones heladas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -9454,7 +9454,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/rival.png",
+        "src": "icons/creatures/magical/construct-golem-robot-blue.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -9543,7 +9543,7 @@
     "_id": "a67ddc2351969526",
     "name": "Rancor",
     "type": "nemesis",
-    "img": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+    "img": "icons/creatures/magical/construct-golem-robot-blue.webp",
     "system": {
       "biography": "<p>Enorme depredador apropiado para un encuentro de alto peligro.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -9932,7 +9932,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/images/defaults/actors/nemesis.png",
+        "src": "icons/creatures/magical/construct-golem-robot-blue.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",

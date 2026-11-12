@@ -19,3 +19,11 @@ No incluimos libros, estadísticas oficiales, ilustraciones ni datos privados de
 ## Contenido de Star Wars reconocible (adaptación fan)
 
 Se añaden 12 compendios específicamente ambientados en Star Wars: 17 armas, 16 objetos de equipo, 8 armaduras, 16 especies, 18 carreras, 18 especializaciones, 12 talentos, 10 poderes narrativos, 21 adversarios, 16 personajes conocidos, 23 naves y vehículos, y 5 guías. Los nombres reconocibles pertenecen a sus respectivos titulares de derechos. **No se han copiado ni transcrito estadísticas ni textos de los libros de FFG/Edge**: todas las características son propuestas originales y no oficiales, que el director deberá contrastar con sus manuales. El kit no incluye retratos oficiales ni ficheros de datos privados.
+
+## Imágenes existentes
+
+Los iconos de armas, equipo, armaduras, habilidades y personajes
+se asignan por su categoría utilizando el catálogo preinstalado de
+Foundry V14 (ruta `icons/`) y el sistema StarWarsFFG. No se crea,
+copia ni descarga ninguna ilustración nueva. Las naves sin icono
+específico conservan el original de vehículo de StarWarsFFG.

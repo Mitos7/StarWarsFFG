@@ -3,7 +3,7 @@
     "_id": "1a2645b0cd6f4e60",
     "name": "Comunicador personal",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/tech/badge-communicator.webp",
     "system": {
       "description": "<p>Permite establecer contacto con compañeros a distancia variable.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -59,7 +59,7 @@
     "_id": "d0f25a15e71a6df3",
     "name": "Macrobinoculares",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/electronics-tech-sensor-blue.webp",
     "system": {
       "description": "<p>Visor óptico para identificar movimientos a distancia.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -115,7 +115,7 @@
     "_id": "6435331b1adc3007",
     "name": "Datapad",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/phone-smart-tablet.webp",
     "system": {
       "description": "<p>Ordenador portátil para leer mapas y ficheros.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -171,7 +171,7 @@
     "_id": "52b8d798377b11de",
     "name": "Kit de reparación de droide",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/hand/wrench-adjustable.webp",
     "system": {
       "description": "<p>Herramientas para mantener mecanismos y circuitos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -227,7 +227,7 @@
     "_id": "38c5847e515a2daa",
     "name": "Medpac",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/medical/medkit-steel.webp",
     "system": {
       "description": "<p>Equipo para una primera intervención sanitaria.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -283,7 +283,7 @@
     "_id": "b7f045ebf068fd8b",
     "name": "Estimulante médico",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/medical/medkit-pills-blue.webp",
     "system": {
       "description": "<p>Consumible narrativo de emergencia; su efecto lo establece el DJ.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -339,7 +339,7 @@
     "_id": "68c3234ac7c4b7b7",
     "name": "Herramientas de slicing",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/hand/wrench-adjustable.webp",
     "system": {
       "description": "<p>Accesorios informáticos para interactuar con terminales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -395,7 +395,7 @@
     "_id": "09f46cb6564d0929",
     "name": "Grilletes de seguridad",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/electronics-tech-interface-teal.webp",
     "system": {
       "description": "<p>Sujetadores empleados en instalaciones de control.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -451,7 +451,7 @@
     "_id": "6d939346c6f6870c",
     "name": "Máscara respiratoria",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/equipment/head/gas-mask.webp",
     "system": {
       "description": "<p>Dispositivo para filtrar aire hostil temporalmente.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -507,7 +507,7 @@
     "_id": "d871aaafbfbdf9f5",
     "name": "Mochila de supervivencia",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/containers/bags/pack-canvas-white-brown.webp",
     "system": {
       "description": "<p>Conjunto de herramientas y raciones para exploradores.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -563,7 +563,7 @@
     "_id": "44c84307ddcacdf7",
     "name": "Baliza de emergencia",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/communications-dish-tan.webp",
     "system": {
       "description": "<p>Emite una señal para facilitar la localización.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -619,7 +619,7 @@
     "_id": "8910f6a4ccf325a2",
     "name": "Unidad de datos imperial",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/phone-smart-tablet.webp",
     "system": {
       "description": "<p>Pequeño soporte electrónico recuperado de un terminal.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -675,7 +675,7 @@
     "_id": "2c63f66588e1323c",
     "name": "Mapa estelar parcial",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/navigation/map-marked-blue.webp",
     "system": {
       "description": "<p>Registro incompleto de sistemas y rutas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -731,7 +731,7 @@
     "_id": "176707cec0e46e9b",
     "name": "Célula energética",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/electronics-tech-battery-energy-blue.webp",
     "system": {
       "description": "<p>Recarga genérica de equipamiento electrónico.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -787,7 +787,7 @@
     "_id": "8069474e704ef966",
     "name": "Herramienta de fusión",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/tech/torch-welding-plasma-purple.webp",
     "system": {
       "description": "<p>Utensilio para cortes y soldaduras industriales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -843,7 +843,7 @@
     "_id": "ed43aec860e0cb98",
     "name": "Repuesto de motivador",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/robotics-frame-steel-blue.webp",
     "system": {
       "description": "<p>Componente de repuesto para vehículos ligeros.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

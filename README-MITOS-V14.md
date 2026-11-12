@@ -2,7 +2,7 @@
 
 Community compatibility build for Foundry VTT V14, based on `salohcin714/StarWarsFFG` pull request [#2280](https://github.com/StarWarsFoundryVTT/StarWarsFFG/pull/2280), itself based on the original [StarWarsFoundryVTT/StarWarsFFG](https://github.com/StarWarsFoundryVTT/StarWarsFFG) project.
 
-Version: `2.0.5-mitos.11`  |  System ID: `starwarsffg`  |  Compatible generation: Foundry 14.
+Version: `2.0.5-mitos.12`  |  System ID: `starwarsffg`  |  Compatible generation: Foundry 14.
 
 ## Installation
 
@@ -20,7 +20,7 @@ The source PR reports runtime checks on Foundry V14 build 366, and this fork has
 
 Original project and contributors are preserved; see README.md and LICENSE.txt (MIT). Compatibility work by `salohcin714` in upstream PR #2280. This fork packages that patch for standalone Foundry installation.
 
-## Setup card restored (v2.0.5-mitos.11)
+## Setup card restored (v2.0.5-mitos.12)
 
 The setup card and background were restored **byte for byte** from the previously published Mitos release v2.0.5-mitos.4: the classic yellow outlined Star Wars logo on black. The original logo SVG and source attribution remain in `assets/setup/`. This is NOT the procedural sci-fi drawing used in v2.0.5-mitos.3, nor the Imperial pause emblem used in v2.0.5-mitos.5.
 
@@ -61,7 +61,7 @@ No proprietary game rulebooks, source art or premium content is included.
 
 ## Star Wars library included in the game system
 
-Version 2.0.5-mitos.11 includes **12 native system compendium packs, with
+Version 2.0.5-mitos.12 includes **12 native system compendium packs, with
 180 Star Wars fan reference entries**: weapons, gear, armour, species,
 careers, specializations, talents, Force concepts, adversaries, recognizable
 characters, vehicles/starships, and adventure journals.

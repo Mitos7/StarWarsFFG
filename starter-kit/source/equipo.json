@@ -3,7 +3,7 @@
     "_id": "925018e7d25a12a2",
     "name": "Emisor de emergencia",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/communications-dish-tan.webp",
     "system": {
       "description": "<p>Baliza portátil para pedir ayuda</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -57,7 +57,7 @@
     "_id": "dd388e03bd643498",
     "name": "Herramientas de campo",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/hand/wrench-adjustable.webp",
     "system": {
       "description": "<p>Juego de microherramientas para reparar equipos</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -111,7 +111,7 @@
     "_id": "d97e879a0afef97d",
     "name": "Botiquín de campaña",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/medical/medkit-steel.webp",
     "system": {
       "description": "<p>Material básico para asistir heridos</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -165,7 +165,7 @@
     "_id": "de4a15d69b61f6cd",
     "name": "Linterna espectral",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/sundries/lights/lamp-tech-blue.webp",
     "system": {
       "description": "<p>Fuente de luz visible y ultravioleta</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -219,7 +219,7 @@
     "_id": "7e56c820fc03bb34",
     "name": "Cuerda magnética",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/cable-armored-reticulated.webp",
     "system": {
       "description": "<p>Cable de veinte metros con anclaje</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -273,7 +273,7 @@
     "_id": "5876026d6b1a70d1",
     "name": "Ración compacta",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/consumables/food/berries-ration-round-red.webp",
     "system": {
       "description": "<p>Comida y agua para una jornada</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -327,7 +327,7 @@
     "_id": "609b570b3ba78a04",
     "name": "Detector térmico",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/electronics-tech-interface-teal.webp",
     "system": {
       "description": "<p>Sensor portátil para localizar calor</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -381,7 +381,7 @@
     "_id": "e53e9c68048532b0",
     "name": "Tarjeta de acceso del puerto",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/electronics-tech-interface-teal.webp",
     "system": {
       "description": "<p>Credencial con una firma de seguridad antigua</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -435,7 +435,7 @@
     "_id": "c9304001f5f3ddb1",
     "name": "Filtro respiratorio",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/equipment/head/gas-mask.webp",
     "system": {
       "description": "<p>Filtro de emergencia para polvo industrial</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -489,7 +489,7 @@
     "_id": "a2e14c85b80fb951",
     "name": "Comunicador de taller",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/tech/badge-communicator.webp",
     "system": {
       "description": "<p>Radio de corto alcance para técnicos</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -543,7 +543,7 @@
     "_id": "b6319536d80697ed",
     "name": "Escáner de ondas",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/electronics-tech-sensor-blue.webp",
     "system": {
       "description": "<p>Localiza interferencias y transmisores próximos</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -597,7 +597,7 @@
     "_id": "f8630f2d33e10a26",
     "name": "Casco de trabajo",
     "type": "gear",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/commodities/tech/electronics-tech-interface-teal.webp",
     "system": {
       "description": "<p>Protección civil para el sector de máquinas</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},

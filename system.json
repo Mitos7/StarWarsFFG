@@ -1,279 +1,225 @@
 {
-    "id":  "starwarsffg",
-    "title":  "Star Wars FFG",
-    "description":  "A system for playing Star Wars FFG games.",
-    "version":  "2.0.5-mitos.11",
-    "compatibility":  {
-                          "minimum":  13,
-                          "verified":  14,
-                          "maximum":  14
-                      },
-    "authors":  [
-                    {
-                        "name":  "Esrin"
-                    },
-                    {
-                        "name":  "CStadther"
-                    },
-                    {
-                        "name":  "Wrycu"
-                    },
-                    {
-                        "name":  "Jaxxa"
-                    }
-                ],
-    "esmodules":  [
-                      "modules/dice-pool-ffg.js",
-                      "modules/swffg-main.js",
-                      "lib/slimselect/slimselect.js",
-                      "lib/datatables/datatables.min.js"
-                  ],
-    "styles":  [
-                   "styles/starwarsffg.css",
-                   "lib/pure/grids-min.css",
-                   "lib/slimselect/slimselect.css",
-                   "lib/datatables/datatables.min.css"
-               ],
-    "scripts":  [
-                    "lib/jszip/jszip.min.js",
-                    "lib/jxon/jxon.min.js",
-                    "lib/slimselect/slimselect.js"
-                ],
-    "socket":  true,
-    "packs":  [
-                  {
-                      "name":  "sw-armas",
-                      "label":  "Armas de Star Wars Â· Datos no oficiales",
-                      "type":  "Item",
-                      "path":  "packs/sw-armas",
-                      "system":  "starwarsffg"
-                  },
-                  {
-                      "name":  "sw-equipo",
-                      "label":  "Equipo de Star Wars Â· Datos no oficiales",
-                      "type":  "Item",
-                      "path":  "packs/sw-equipo",
-                      "system":  "starwarsffg"
-                  },
-                  {
-                      "name":  "sw-armaduras",
-                      "label":  "Armaduras de Star Wars Â· Datos no oficiales",
-                      "type":  "Item",
-                      "path":  "packs/sw-armaduras",
-                      "system":  "starwarsffg"
-                  },
-                  {
-                      "name":  "sw-especies",
-                      "label":  "Especies de Star Wars Â· Datos no oficiales",
-                      "type":  "Item",
-                      "path":  "packs/sw-especies",
-                      "system":  "starwarsffg"
-                  },
-                  {
-                      "name":  "sw-carreras",
-                      "label":  "Carreras de Star Wars Â· Datos no oficiales",
-                      "type":  "Item",
-                      "path":  "packs/sw-carreras",
-                      "system":  "starwarsffg"
-                  },
-                  {
-                      "name":  "sw-especializaciones",
-                      "label":  "Especializaciones Â· Datos no oficiales",
-                      "type":  "Item",
-                      "path":  "packs/sw-especializaciones",
-                      "system":  "starwarsffg"
-                  },
-                  {
-                      "name":  "sw-talentos",
-                      "label":  "Talentos de Star Wars Â· Datos no oficiales",
-                      "type":  "Item",
-                      "path":  "packs/sw-talentos",
-                      "system":  "starwarsffg"
-                  },
-                  {
-                      "name":  "sw-poderes",
-                      "label":  "Poderes de la Fuerza Â· Datos no oficiales",
-                      "type":  "Item",
-                      "path":  "packs/sw-poderes",
-                      "system":  "starwarsffg"
-                  },
-                  {
-                      "name":  "sw-adversarios",
-                      "label":  "Adversarios de Star Wars Â· Datos no oficiales",
-                      "type":  "Actor",
-                      "path":  "packs/sw-adversarios",
-                      "system":  "starwarsffg"
-                  },
-                  {
-                      "name":  "sw-personajes",
-                      "label":  "Personajes de Star Wars Â· Datos no oficiales",
-                      "type":  "Actor",
-                      "path":  "packs/sw-personajes",
-                      "system":  "starwarsffg"
-                  },
-                  {
-                      "name":  "sw-naves",
-                      "label":  "Naves y vehÃ­culos de Star Wars Â· Datos no oficiales",
-                      "type":  "Actor",
-                      "path":  "packs/sw-naves",
-                      "system":  "starwarsffg"
-                  },
-                  {
-                      "name":  "sw-guias",
-                      "label":  "Escenarios y guÃ­as de Star Wars Â· Fan",
-                      "type":  "JournalEntry",
-                      "path":  "packs/sw-guias"
-                  }
-              ],
-    "packFolders":  [
-
-                    ],
-    "languages":  [
-                      {
-                          "lang":  "en",
-                          "name":  "English",
-                          "path":  "lang/en.json"
-                      },
-                      {
-                          "lang":  "de",
-                          "name":  "Deutsch (German)",
-                          "path":  "lang/de.json"
-                      },
-                      {
-                          "lang":  "fr",
-                          "name":  "FranÃ§ais (French)",
-                          "path":  "lang/fr.json"
-                      },
-                      {
-                          "lang":  "es",
-                          "name":  "EspaÃ±ol (Spanish)",
-                          "path":  "lang/es.json"
-                      },
-                      {
-                          "lang":  "pt-BR",
-                          "name":  "PortuguÃªs (Brazilian Portuguese)",
-                          "path":  "lang/pt-BR.json"
-                      },
-                      {
-                          "lang":  "ca",
-                          "name":  "CatalÃ  (Catalan)",
-                          "path":  "lang/ca.json"
-                      },
-                      {
-                          "lang":  "ua",
-                          "name":  "Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ° Ð¼Ð¾Ð²Ð° (Ukrainian)",
-                          "path":  "lang/ua.json"
-                      }
-                  ],
-    "grid":  {
-                 "distance":  5,
-                 "units":  "ft"
-             },
-    "primaryTokenAttribute":  "wounds",
-    "secondaryTokenAttribute":  "strain",
-    "url":  "https://github.com/Mitos7/StarWarsFFG",
-    "manifest":  "https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json",
-    "download":  "https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.11/system.zip",
-    "license":  "LICENSE.txt",
-    "documentTypes":  {
-                          "Actor":  {
-                                        "character":  {
-
-                                                      },
-                                        "minion":  {
-
-                                                   },
-                                        "vehicle":  {
-
-                                                    },
-                                        "homestead":  {
-
-                                                      },
-                                        "rival":  {
-
-                                                  },
-                                        "nemesis":  {
-
-                                                    }
-                                    },
-                          "Item":  {
-                                       "ability":  {
-
-                                                   },
-                                       "armour":  {
-
-                                                  },
-                                       "career":  {
-
-                                                  },
-                                       "criticaldamage":  {
-
-                                                          },
-                                       "criticalinjury":  {
-
-                                                          },
-                                       "forcepower":  {
-
-                                                      },
-                                       "gear":  {
-
-                                                },
-                                       "itemattachment":  {
-
-                                                          },
-                                       "itemmodifier":  {
-
-                                                        },
-                                       "talent":  {
-
-                                                  },
-                                       "shipattachment":  {
-
-                                                          },
-                                       "shipweapon":  {
-
-                                                      },
-                                       "homesteadupgrade":  {
-
-                                                            },
-                                       "signatureability":  {
-
-                                                            },
-                                       "specialization":  {
-
-                                                          },
-                                       "species":  {
-
-                                                   },
-                                       "weapon":  {
-
-                                                  },
-                                       "background":  {
-
-                                                      },
-                                       "obligation":  {
-
-                                                      },
-                                       "motivation":  {
-
-                                                      }
-                                   }
-                      },
-    "background":  "systems/starwarsffg/assets/setup/star-wars-original-cover.webp",
-    "media":  [
-                  {
-                      "type":  "setup",
-                      "url":  "systems/starwarsffg/assets/setup/star-wars-original-cover.webp",
-                      "thumbnail":  "systems/starwarsffg/assets/setup/star-wars-original-thumbnail.webp"
-                  }
-              ],
-    "relationships":  {
-                          "recommends":  [
-                                             {
-                                                 "id":  "swffg-mitos-addons",
-                                                 "type":  "module",
-                                                 "manifest":  "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/collection/module.json"
-                                             }
-                                         ]
-                      }
+  "id": "starwarsffg",
+  "title": "Star Wars FFG",
+  "description": "A system for playing Star Wars FFG games.",
+  "version": "2.0.5-mitos.12",
+  "compatibility": {
+    "minimum": 13,
+    "verified": 14,
+    "maximum": 14
+  },
+  "authors": [
+    {
+      "name": "Esrin"
+    },
+    {
+      "name": "CStadther"
+    },
+    {
+      "name": "Wrycu"
+    },
+    {
+      "name": "Jaxxa"
+    }
+  ],
+  "esmodules": [
+    "modules/dice-pool-ffg.js",
+    "modules/swffg-main.js",
+    "lib/slimselect/slimselect.js",
+    "lib/datatables/datatables.min.js"
+  ],
+  "styles": [
+    "styles/starwarsffg.css",
+    "lib/pure/grids-min.css",
+    "lib/slimselect/slimselect.css",
+    "lib/datatables/datatables.min.css"
+  ],
+  "scripts": [
+    "lib/jszip/jszip.min.js",
+    "lib/jxon/jxon.min.js",
+    "lib/slimselect/slimselect.js"
+  ],
+  "socket": true,
+  "packs": [
+    {
+      "name": "sw-armas",
+      "label": "Armas de Star Wars Â· Datos no oficiales",
+      "type": "Item",
+      "path": "packs/sw-armas",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-equipo",
+      "label": "Equipo de Star Wars Â· Datos no oficiales",
+      "type": "Item",
+      "path": "packs/sw-equipo",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-armaduras",
+      "label": "Armaduras de Star Wars Â· Datos no oficiales",
+      "type": "Item",
+      "path": "packs/sw-armaduras",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-especies",
+      "label": "Especies de Star Wars Â· Datos no oficiales",
+      "type": "Item",
+      "path": "packs/sw-especies",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-carreras",
+      "label": "Carreras de Star Wars Â· Datos no oficiales",
+      "type": "Item",
+      "path": "packs/sw-carreras",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-especializaciones",
+      "label": "Especializaciones Â· Datos no oficiales",
+      "type": "Item",
+      "path": "packs/sw-especializaciones",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-talentos",
+      "label": "Talentos de Star Wars Â· Datos no oficiales",
+      "type": "Item",
+      "path": "packs/sw-talentos",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-poderes",
+      "label": "Poderes de la Fuerza Â· Datos no oficiales",
+      "type": "Item",
+      "path": "packs/sw-poderes",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-adversarios",
+      "label": "Adversarios de Star Wars Â· Datos no oficiales",
+      "type": "Actor",
+      "path": "packs/sw-adversarios",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-personajes",
+      "label": "Personajes de Star Wars Â· Datos no oficiales",
+      "type": "Actor",
+      "path": "packs/sw-personajes",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-naves",
+      "label": "Naves y vehÃ­culos de Star Wars Â· Datos no oficiales",
+      "type": "Actor",
+      "path": "packs/sw-naves",
+      "system": "starwarsffg"
+    },
+    {
+      "name": "sw-guias",
+      "label": "Escenarios y guÃ­as de Star Wars Â· Fan",
+      "type": "JournalEntry",
+      "path": "packs/sw-guias"
+    }
+  ],
+  "packFolders": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "de",
+      "name": "Deutsch (German)",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "fr",
+      "name": "FranÃ§ais (French)",
+      "path": "lang/fr.json"
+    },
+    {
+      "lang": "es",
+      "name": "EspaÃ±ol (Spanish)",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "PortuguÃªs (Brazilian Portuguese)",
+      "path": "lang/pt-BR.json"
+    },
+    {
+      "lang": "ca",
+      "name": "CatalÃ  (Catalan)",
+      "path": "lang/ca.json"
+    },
+    {
+      "lang": "ua",
+      "name": "Ð£ÐºÑ€Ð°Ñ—Ð½ÑÑŒÐºÐ° Ð¼Ð¾Ð²Ð° (Ukrainian)",
+      "path": "lang/ua.json"
+    }
+  ],
+  "grid": {
+    "distance": 5,
+    "units": "ft"
+  },
+  "primaryTokenAttribute": "wounds",
+  "secondaryTokenAttribute": "strain",
+  "url": "https://github.com/Mitos7/StarWarsFFG",
+  "manifest": "https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json",
+  "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/v2.0.5-mitos.12/system.zip",
+  "license": "LICENSE.txt",
+  "documentTypes": {
+    "Actor": {
+      "character": {},
+      "minion": {},
+      "vehicle": {},
+      "homestead": {},
+      "rival": {},
+      "nemesis": {}
+    },
+    "Item": {
+      "ability": {},
+      "armour": {},
+      "career": {},
+      "criticaldamage": {},
+      "criticalinjury": {},
+      "forcepower": {},
+      "gear": {},
+      "itemattachment": {},
+      "itemmodifier": {},
+      "talent": {},
+      "shipattachment": {},
+      "shipweapon": {},
+      "homesteadupgrade": {},
+      "signatureability": {},
+      "specialization": {},
+      "species": {},
+      "weapon": {},
+      "background": {},
+      "obligation": {},
+      "motivation": {}
+    }
+  },
+  "background": "systems/starwarsffg/assets/setup/star-wars-original-cover.webp",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/starwarsffg/assets/setup/star-wars-original-cover.webp",
+      "thumbnail": "systems/starwarsffg/assets/setup/star-wars-original-thumbnail.webp"
+    }
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "swffg-mitos-addons",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/collection/module.json"
+      }
+    ]
+  }
 }

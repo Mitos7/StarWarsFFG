@@ -3,7 +3,7 @@
     "_id": "753d0adc52ba4796",
     "name": "Vigilante Portuario",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/trades/electronics-tech-circuit-blue.webp",
     "system": {
       "description": "<p>Profesión de patrulla y protección civil</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -41,7 +41,7 @@
     "_id": "9a8cad6382321974",
     "name": "Cartógrafo de Rutas",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/navigation/compass-plain-blue.webp",
     "system": {
       "description": "<p>Explorador de mapas y señales remotas</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -79,7 +79,7 @@
     "_id": "4c752dff3e455cb5",
     "name": "Técnico de Sistemas",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/tools/hand/wrench-adjustable.webp",
     "system": {
       "description": "<p>Especialista en reparaciones y maquinaria</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -117,7 +117,7 @@
     "_id": "0c38c67bdd5cfddf",
     "name": "Negociador Itinerante",
     "type": "career",
-    "img": "systems/starwarsffg/images/defaults/items/gear.png",
+    "img": "icons/skills/social/diplomacy-handshake-blue.webp",
     "system": {
       "description": "<p>Mediador de conflictos comerciales</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},

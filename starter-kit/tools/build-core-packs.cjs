@@ -19,8 +19,10 @@ async function main(){
       const doc=structuredClone(document);
       if(!doc._id || !doc.name)throw new Error("Invalid document");
       if(doc.img){
-        const m=/^systems\/starwarsffg\/(.+)$/.exec(doc.img);
-        if(!m || !fs.existsSync(path.join(root,m[1])) || m[1].includes("catalog/"))throw new Error("Invalid native image: "+doc.img);
+        const core=doc.img.startsWith("icons/")
+          ? path.join("D:/Program Files/Foundry Virtual Tabletop/resources/app/public",doc.img)
+          : path.join(root,doc.img.replace(/^systems\/starwarsffg\//,""));
+        if(!fs.existsSync(core) || doc.img.includes("catalog/"))throw new Error("Missing preinstalled image: "+doc.img);
       }
       if(pack.type==="JournalEntry"){
         const pages=doc.pages||[];
