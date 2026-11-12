@@ -11,7 +11,7 @@ Install the main **Star Wars FFG + Genesys** system using this manifest in Found
 
 `https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json`
 
-The current stable version is **2.0.5-mitos.7**. It retains the original Star Wars title logo, previous Foundry V14 fixes, and Genesys game mechanics.
+The current stable version is **2.0.5-mitos.8**. It retains the original Star Wars title logo, previous Foundry V14 fixes, and Genesys game mechanics.
 
 For third-party add-ons, Foundry can offer the optional **Star Wars FFG - Mitos Add-on Collection** during system installation. It can also be installed manually using the **Add-on Modules -> Install Module -> Manifest URL** field:
 
@@ -40,7 +40,7 @@ The system for Foundry VTT contains no rules or proprietary content from the var
 For more info and documentation including various "How-To" guides, please check out the Wiki section of our GitHub repo.
 
 - For support on this game system : Discord [The Foundry](https://discord.gg/foundryvtt) #starwars-ffg
-- Read this document in another language : [FranÃ§ais](https://github.com/StarWarsFoundryVTT/StarWarsFFG/blob/main/README-fr.md), [CatalÃ ](https://github.com/StarWarsFoundryVTT/StarWarsFFG/blob/main/README-ca.md)
+- Read this document in another language : [FranÃƒÂ§ais](https://github.com/StarWarsFoundryVTT/StarWarsFFG/blob/main/README-fr.md), [CatalÃƒÂ ](https://github.com/StarWarsFoundryVTT/StarWarsFFG/blob/main/README-ca.md)
 - This system supports simulated dice rolls to determine success chance. Powered by [SWRPG Online](https://github.com/swrpg-online/monte-carlo)
 
 # Installing Star Wars FFG game system
