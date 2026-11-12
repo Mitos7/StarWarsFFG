@@ -1,6 +1,6 @@
 # ApplicationV2 migration: Foundry V16 preparation
 
-Status: **IN PROGRESS — do not claim V16 compatibility yet.** The public stable release remains untouched (`system.json` is still `2.0.5-mitos.3`). Test world work must remain disposable.
+Status: **IN PROGRESS — do not claim V16 compatibility yet.** The public stable release remains separately installable as `2.0.5-mitos.5`. This branch shares its version metadata and unchanged upstream imagery, but adds experimental ApplicationV2 code and is **not** a published V16-compatible release. Test world work must remain disposable.
 
 ## Native V2 work completed on `foundry-v16-application-v2`
 
@@ -24,4 +24,8 @@ Status: **IN PROGRESS — do not claim V16 compatibility yet.** The public stabl
 
 Foundry's published `ActorSheetV2` API documents native `_onDropItem`, `_onSortItem`, `_onDragStart`, form submission, `actions`, and tab support. This implementation overrides `_onDropItem` with the documented resolved-Item signature and uses `DocumentSheetV2` rather than custom jQuery drag/drop wiring. The V14/V16 runtime behavior has **not** been tested in a Foundry browser during this change, so this is API-verified code, not runtime-certified code.
 
-`D:\FoundryV14\node24\npm.cmd test` passed after the roll-builder and destiny-tracker migration: syntax check covered 98 modules and the Node compatibility suite passed 31 tests. The suite includes mocked native inheritance, roll form dispatch, and GM destiny-pool/queue coverage. It is not a substitute for a V14/V16 disposable-world sheet, visual roll dialog, chat, active-effect, combat, or multi-client test.
+`D:\FoundryV14\node24\npm.cmd test` passed after the roll-builder and destiny-tracker migration: syntax check covered 98 modules and the Node compatibility suite passed 33 tests (including Star Wars / Genesys and original-image regression checks). The suite includes mocked native inheritance, roll form dispatch, and GM destiny-pool/queue coverage. It is not a substitute for a V14/V16 disposable-world sheet, visual roll dialog, chat, active-effect, combat, or multi-client test.
+
+## Image and module audit safety
+
+This development branch has been synchronized with stable 2.0.5-mitos.5 for unchanged original StarWarsFFG setup artwork (images/paused.png, images/bgWindow.jpg), native Genesys support and the documentation of available add-ons. The previous custom/generated setup artwork is not included. No locally installed third-party module is enabled or bundled into the system archive.

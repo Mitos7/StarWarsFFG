@@ -1,8 +1,8 @@
-# Star Wars FFG – Mitos V14 build
+# Star Wars FFG â€“ Mitos V14 build
 
 Community compatibility build for Foundry VTT V14, based on `salohcin714/StarWarsFFG` pull request [#2280](https://github.com/StarWarsFoundryVTT/StarWarsFFG/pull/2280), itself based on the original [StarWarsFoundryVTT/StarWarsFFG](https://github.com/StarWarsFoundryVTT/StarWarsFFG) project.
 
-Version: `2.0.5-mitos.2`  |  System ID: `starwarsffg`  |  Compatible generation: Foundry 14.
+Version: `2.0.5-mitos.5`  |  System ID: `starwarsffg`  |  Compatible generation: Foundry 14.
 
 ## Installation
 
@@ -19,3 +19,9 @@ The source PR reports runtime checks on Foundry V14 build 366, and this fork has
 ## Credits and license
 
 Original project and contributors are preserved; see README.md and LICENSE.txt (MIT). Compatibility work by `salohcin714` in upstream PR #2280. This fork packages that patch for standalone Foundry installation.
+
+## Original package images and Genesys compatibility
+
+The Foundry setup preview now references `images/paused.png` (original Imperial insignia from the upstream project) and `images/bgWindow.jpg` (original sheet/window background). No generated or external replacement artwork is packaged. The original upstream manifest did not define setup media.
+
+StarWarsFFG also includes native Genesys support: selectable Genesys dice theme, Genesys skills and Genesys vehicle range settings. This support belongs to the core system, not to an external add-on. Please preserve both Star Wars and Genesys behaviors during ApplicationV2 migration.
