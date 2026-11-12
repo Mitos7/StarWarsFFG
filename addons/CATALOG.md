@@ -33,6 +33,10 @@ Individual manifest URLs, authors and compatible Foundry versions:
 | Token Action HUD Core | 2.1.2 | [Manifest](https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/token-action-hud-core.json) | publisher-direct | 14.368 |  |
 | Math.js | 7.5.1-fvtt2 | [Manifest](https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/_mathjs.json) | redistributable-mirror | not declared |  |
 
+## Not available from its original publisher
+
+Pool Party for FFG Star Wars is not included: its official release and manifest URLs return HTTP 404. No unlicensed replacement ZIP has been uploaded.
+
 ## Important conditions
 
 - All mirror ZIPs contain the upstream author's license and attribution files. No third-party code without a redistribution license was republished.

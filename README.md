@@ -1,3 +1,23 @@
+## Mitos7 - Public installation (Foundry V14)
+
+Install the main **Star Wars FFG + Genesys** system using this manifest in Foundry **Game Systems -> Install System -> Manifest URL**:
+
+`https://github.com/Mitos7/StarWarsFFG/releases/latest/download/system.json`
+
+The current stable version is **2.0.5-mitos.7**. It retains the original Star Wars title logo, previous Foundry V14 fixes, and Genesys game mechanics.
+
+For third-party add-ons, Foundry can offer the optional **Star Wars FFG - Mitos Add-on Collection** during system installation. It can also be installed manually using the **Add-on Modules -> Install Module -> Manifest URL** field:
+
+`https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/collection/module.json`
+
+See the [addon catalog](addons/CATALOG.md) for the 20 available modules and dependencies, their publisher links, patch provenance and compatibility warnings. Installation does not enable modules in any game world. Some older addons are verified only up to Foundry V10-V13 and may be incompatible with V14. Different UI replacements can conflict with each other.
+
+Six community add-on mirrors preserve their original software licenses. Other packages download directly from their authors; no non-redistributable third-party code is copied into this repository.
+
+This is an independent community fork, not endorsed by Lucasfilm, Disney, FFG, Edge Studio, Foundry VTT or the original system maintainers. This installation branch is for V14; ApplicationV2/V16 work remains on a separate experimental branch.
+
+---
+
 # StarWarsFFG
 
 # StarWarsFFG
