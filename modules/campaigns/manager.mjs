@@ -40,7 +40,8 @@ async function loadCatalogue(){
  return moduleCatalogue;
 }
 export class CampaignManager extends HandlebarsApplicationMixin(ApplicationV2){
- static DEFAULT_OPTIONS={id:"swffg-campaign-manager",tag:"form",classes:["swffg-campaign-manager"],window:{title:"Star Wars · Libros, combinaciones y homebrew",icon:"fas fa-book-journal-whills",resizable:true},position:{width:1020,height:760},form:{closeOnSubmit:false,submitOnChange:false},actions:{tab:CampaignManager.tab,saveBooks:CampaignManager.saveBooks,selectAll:CampaignManager.selectAll,clearBooks:CampaignManager.clearBooks,applyProfile:CampaignManager.applyProfile,applyModules:CampaignManager.applyModules,openEntry:CampaignManager.openEntry,more:CampaignManager.more,refresh:CampaignManager.refresh,saveCampaign:CampaignManager.saveCampaign,createWorkspace:CampaignManager.createWorkspace,openBible:CampaignManager.openBible}};
+ // ApplicationV2 reserves the action "tab" for its own tab-group implementation.
+ static DEFAULT_OPTIONS={id:"swffg-campaign-manager",tag:"form",classes:["swffg-campaign-manager"],window:{title:"Star Wars · Libros, combinaciones y homebrew",icon:"fas fa-book-journal-whills",resizable:true},position:{width:1020,height:760},form:{closeOnSubmit:false,submitOnChange:false},actions:{campaignTab:CampaignManager.switchSection,saveBooks:CampaignManager.saveBooks,selectAll:CampaignManager.selectAll,clearBooks:CampaignManager.clearBooks,applyProfile:CampaignManager.applyProfile,applyModules:CampaignManager.applyModules,openEntry:CampaignManager.openEntry,more:CampaignManager.more,refresh:CampaignManager.refresh,saveCampaign:CampaignManager.saveCampaign,createWorkspace:CampaignManager.createWorkspace,openBible:CampaignManager.openBible}};
  static PARTS={body:{template:"systems/starwarsffg/templates/campaigns/manager.hbs",scrollable:[".swc-scroll"]}};
  constructor(options={}){super(options);this.section=options.section??"books";this.bookDraft=null;this.profile=game.settings.get(NAMESPACE,"campaignProfile");this.book="";this.line="";this.kind="";this.search="";this.moduleSearch="";this.includeFan=false;this.limit=60;this.campaignDraft=null;}
  async _prepareContext(){
@@ -65,7 +66,7 @@ export class CampaignManager extends HandlebarsApplicationMixin(ApplicationV2){
   element.querySelectorAll('[data-campaign]').forEach(el=>el.addEventListener("input",()=>{this.campaignDraft??={...game.settings.get(NAMESPACE,"campaignDraft")};this.campaignDraft[el.dataset.campaign]=el.value;}));
   element.querySelectorAll('[draggable="true"][data-uuid]').forEach(el=>el.addEventListener("dragstart",event=>{event.dataTransfer.setData("text/plain",JSON.stringify({type:el.dataset.documentType,uuid:el.dataset.uuid}));}));
  }
- static async tab(event,target){this.section=target.dataset.tab;await this.render();}
+ static async switchSection(event,target){this.section=target.dataset.tab;await this.render();}
  static async selectAll(){this.bookDraft=new Set((await loadCampaignIndex()).books.map(b=>b.id));await this.render();}
  static async clearBooks(){this.bookDraft=new Set();await this.render();}
  static async saveBooks(){await game.settings.set(NAMESPACE,"campaignProfile","custom");await game.settings.set(NAMESPACE,"campaignBooks",[...this.bookDraft]);this.profile="custom";this.book="";this.section="library";await this.render();ui.notifications.info("Selección de libros guardada para este mundo.");}

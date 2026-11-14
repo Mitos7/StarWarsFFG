@@ -64,12 +64,12 @@ Este espacio se prepara dentro del mundo actual. No crea otro mundo ni modifica 
 
 ## Comprobaciones
 
-- Selector nativo y submenú visibles en Configurar opciones; botón de acceso en Compendios.
+- Selector nativo y apertura real del submenú en Configurar opciones; botón de acceso en Compendios. Las cinco pestañas se comprobaron mediante clics, corrigiendo el conflicto con la acción reservada `tab` de Foundry.
 - Perfil homebrew y fuentes conservados después de recargar Foundry.
 - Filtro de *Cyphers and Masks*: 89 resultados al seleccionar todas las fuentes; apertura de la ficha *A Step Ahead* e imagen cargada.
 - Catálogo de 91 módulos; búsqueda de Sabacc devuelve sus dos herramientas.
 - Arrastre del diario con tipo y UUID válidos.
-- Preparación homebrew ejecutada dos veces: un diario, siete páginas, doce carpetas, cinco compendios y una macro; sin duplicados, compendios editables y permisos comprobados.
+- Preparación homebrew repetida mediante API y botón real: un diario, siete páginas, doce carpetas, cinco compendios y una macro; sin duplicados, compendios editables y permisos comprobados. También se comprobó guardar una selección manual de libros desde su botón y se restauró el perfil homebrew.
 - Cero errores de lectura del índice y cero excepciones durante estos recorridos. Las advertencias de obsolescencia V1 de las fichas existentes son independientes del nuevo gestor V2.
 - 65 pruebas JavaScript y comprobación sintáctica de los módulos `.js` y `.mjs`. La revisión previa de módulos también incluye tres pruebas Python del instalador.
 

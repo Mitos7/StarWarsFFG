@@ -1,6 +1,6 @@
 <section class="swc-shell">
  <header class="swc-heading"><div><span class="swc-kicker">ARCHIVO DE CAMPAÑA</span><h1>Tu galaxia, tus historias</h1><p>Libros, herramientas y creación propia para Star Wars FFG.</p></div><button type="button" data-action="refresh" title="Volver a leer los compendios"><i class="fas fa-rotate"></i> Actualizar</button></header>
- <nav class="swc-tabs" aria-label="Secciones de campaña">{{#each tabs}}<button type="button" data-action="tab" data-tab="{{id}}" class="{{#if active}}active{{/if}}" aria-current="{{#if active}}page{{else}}false{{/if}}">{{label}}</button>{{/each}}</nav>
+ <nav class="swc-tabs" aria-label="Secciones de campaña">{{#each tabs}}<button type="button" data-action="campaignTab" data-tab="{{id}}" class="{{#if active}}active{{/if}}" aria-current="{{#if active}}page{{else}}false{{/if}}">{{label}}</button>{{/each}}</nav>
  <div class="swc-scroll">
  {{#if indexErrors}}<aside class="swc-warning">No se pudieron leer algunos compendios. Sus entradas no están incluidas en los recuentos. {{#each indexErrors}}<p>{{pack}}: {{message}}</p>{{/each}}</aside>{{/if}}
  {{#if isBooks}}

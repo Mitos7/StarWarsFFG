@@ -385,5 +385,19 @@
     "macros": 1,
     "idempotent": true,
     "private": true
+  },
+  "uiChecks": {
+    "nativeSettingsMenu": true,
+    "clickedTabs": [
+      "library",
+      "profiles",
+      "modules",
+      "homebrew",
+      "books"
+    ],
+    "bookCheckboxAndSave": true,
+    "homebrewButtonIdempotent": true,
+    "exceptionsInFinalRun": 0,
+    "finalSelectedProfile": "homebrew"
   }
 }
