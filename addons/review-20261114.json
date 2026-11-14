@@ -223,9 +223,9 @@
         "verified": "14.368"
       },
       "warning": "",
-      "review_status": "runtime-test-needed",
-      "review_notes": "Autor declara V14.368. Verificar integración con estados y contadores del mundo.",
-      "runtime_verified_this_review": false,
+      "review_status": "runtime-tested",
+      "review_notes": "Foundry 14.369: managed encumbrance counter changed from 2 to 0; unrelated ActiveEffect preserved in the status automation integration test.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "statuscounter",
         "url": "https://gitlab.com/api/v4/projects/21318592/packages/generic/statuscounters/3.1.3/statuscounter-v3.1.3.zip",
@@ -359,7 +359,7 @@
       },
       "warning": "Requires optional Math.js library and licensed user-supplied silhouette art.",
       "review_status": "patched-partial",
-      "review_notes": "Startup and vehicle sheet hook load in Foundry 14.369. Automatic scale/art features still need configured silhouette folders and full validation.",
+      "review_notes": "Foundry 14.369: disabled scaling preserved a 3x3 vehicle token; enabled scaling produced 6x6 and awaited the update. Temporary actor removed and original setting restored. Image import/attachment workflows remain pending.",
       "runtime_verified_this_review": false,
       "archive_audit": {
         "id": "starwars-silhouette",
@@ -600,9 +600,9 @@
         "verified": "13"
       },
       "warning": "",
-      "review_status": "runtime-test-needed",
-      "review_notes": "Verificado V13; comprobar macros del compendio con la ventana actual de tiradas.",
-      "runtime_verified_this_review": false,
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: repaired the all-skill journal name collision (34 skills); Mechanics suggestions produced in chat. Replaced the missing-template settings menu, preserved its selected journal and verified saving.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "swrpg-dice-helper-compendium",
         "url": "https://github.com/DukeVenator/swffg-data-compendiums/releases/download/v1.1.4/swrpg-dice-helper-compendium.zip",
@@ -699,9 +699,9 @@
         "verified": "14.368"
       },
       "warning": "",
-      "review_status": "runtime-test-needed",
-      "review_notes": "Declara V14.368. Verificar junto al proveedor FFGSW, excluyendo HUD clásico.",
-      "runtime_verified_this_review": false,
+      "review_status": "runtime-tested",
+      "review_notes": "Foundry 14.369: provider produced 37 common actions for two selected tokens and opened the skill dialog.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "token-action-hud-core",
         "url": "https://github.com/Larkinabout/fvtt-token-action-hud-core/releases/download/2.1.2/module.zip",
@@ -729,9 +729,9 @@
       "license": "Apache-2.0",
       "published_compatibility": null,
       "warning": "",
-      "review_status": "legacy-dependency",
-      "review_notes": "Biblioteca auxiliar antigua para siluetas. No presenta interfaz ni contenido propio.",
-      "runtime_verified_this_review": false,
+      "review_status": "runtime-tested",
+      "review_notes": "Dependency loaded; math.evaluate returned 14 for 2+3*4. No interface or content of its own.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "_mathjs",
         "url": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-_mathjs.zip",
@@ -1027,11 +1027,11 @@
   ],
   "live_audit": {
     "documents": 4908,
-    "image_paths": 1455,
+    "image_paths": 1445,
     "broken_image_paths": 0,
     "data_preparation_errors": 0,
-    "vehicle_default_portraits_remaining": 84,
-    "js_tests_passed": 52,
+    "vehicle_default_portraits_remaining": 82,
+    "js_tests_passed": 55,
     "patcher_tests_passed": 3,
     "active_modules": 24,
     "conflicts": 0

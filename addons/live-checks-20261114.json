@@ -1,0 +1,43 @@
+{
+  "sw-final-audit-state.json": {
+    "audit": {
+      "documents": 4908,
+      "images": 1445,
+      "activeModules": 24,
+      "conflicts": 0,
+      "errors": 0
+    },
+    "errors": [],
+    "journal": "dice_helper_all_skills",
+    "ready": true
+  },
+  "sw-scale-live-test.json": {
+    "disabled": 0,
+    "preserved": {
+      "width": 3,
+      "height": 3
+    },
+    "enabled": 1,
+    "scaled": {
+      "width": 6,
+      "height": 6
+    }
+  },
+  "sw-helper-chat-result.json": {
+    "content": "<span class=\"dice_helper\">\nSome <b>ideas</b> for spending results for <b>Mechanics</b>:<br>\n\n        [ad]\n        : \n        Reduce time required by 10-20%<br>\n        [ad][ad]\n        : \n        Superior Repairs: +[bo] using item for 1 session / Item gains Superior quality for 1 session<br>\n</span>",
+    "suggestions": true
+  },
+  "sw-helper-menu-verified.json": {
+    "options": [
+      {
+        "text": "dice_helper",
+        "selected": false
+      },
+      {
+        "text": "dice_helper_all_skills",
+        "selected": true
+      }
+    ],
+    "chosen": "dice_helper_all_skills"
+  }
+}

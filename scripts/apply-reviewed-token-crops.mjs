@@ -21,9 +21,12 @@ export async function applyReviewedTokenCrops(crops) {
     if(source)result.sourceActors[actor.name]={img:actor.img,prototypeToken:actor.prototypeToken.toObject(),flags:{'tokenizer-2':actor.flags['tokenizer-2']}};
   }
   for(const pack of game.packs){
-    if(pack.documentName!=='Actor'||!['starwarsffg.','swffg-mitos-starter.'].some(p=>pack.collection.startsWith(p)))continue;
+    const source=['starwarsffg.','swffg-mitos-starter.'].some(p=>pack.collection.startsWith(p));
+    if(pack.documentName!=='Actor'||(!source&&!pack.collection.startsWith('world.')))continue;
+    const documents=await pack.getDocuments();
+    if(!source&&!documents.some(a=>crops[a.img?.split('/').pop()]))continue;
     const locked=pack.locked;if(locked)await pack.configure({locked:false});
-    try{for(const a of await pack.getDocuments())await process(a,true);}finally{if(locked)await pack.configure({locked:true});}
+    try{for(const a of documents)await process(a,source);}finally{if(locked)await pack.configure({locked:true});}
   }
   for(const a of game.actors)await process(a);
   for(const scene of game.scenes){

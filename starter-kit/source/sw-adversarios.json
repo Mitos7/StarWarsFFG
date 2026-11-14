@@ -1807,7 +1807,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "K5Lnf4OzaAdvXzCX",
+            "id": "xO3OuPLXBhCRS6V3",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -1867,7 +1867,7 @@
             },
             "masks": [
               {
-                "id": "hxXyJIDK5CPdJYJC",
+                "id": "Ii0X5SkSKJE70JcR",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -1882,7 +1882,7 @@
             "isBackground": true
           },
           {
-            "id": "3GokcvjHXyZwKyy9",
+            "id": "CXiTlNmdko5eitjw",
             "type": "image",
             "name": "Token Image",
             "src": "systems/starwarsffg/assets/starwars-original/imperial-pilots.jpeg",
@@ -1942,7 +1942,7 @@
             },
             "masks": [
               {
-                "id": "EXd9fmJIihoe3yyl",
+                "id": "njQsOopQcJuGzEUf",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -1956,7 +1956,7 @@
             "isVideo": false
           },
           {
-            "id": "XOWqVriCIJ4OnPDg",
+            "id": "OV3dggKZs6T8BGNz",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -2034,7 +2034,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/crop-59ada3b77cb7e662.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/crop-1uSRPx14nYmedSRO.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4612,7 +4612,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "fMizDxVB87ghMgLi",
+            "id": "4nmmshBlVnSfOqTv",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -4672,7 +4672,7 @@
             },
             "masks": [
               {
-                "id": "WeGC243FSXYy5uOX",
+                "id": "JU7sGRsYiGH3NkTQ",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -4687,7 +4687,7 @@
             "isBackground": true
           },
           {
-            "id": "UBwYxlGCl1OAeCp1",
+            "id": "bUh94SCBK2xaIjU7",
             "type": "image",
             "name": "Token Image",
             "src": "systems/starwarsffg/assets/starwars-original/rebel-troopers.jpeg",
@@ -4747,7 +4747,7 @@
             },
             "masks": [
               {
-                "id": "tJgktahhCbTqU7AQ",
+                "id": "pzV7mQmS1fBz2aX4",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -4761,7 +4761,7 @@
             "isVideo": false
           },
           {
-            "id": "4gqVI5iTjEWA8ssT",
+            "id": "FXFWk3dcorCRJb34",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -4839,7 +4839,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d535719422971927.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -6725,7 +6725,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "8avIbFMYILbkNBZU",
+            "id": "0V8UDTqVNKulVVz9",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -6785,7 +6785,7 @@
             },
             "masks": [
               {
-                "id": "EYXct4Ez0uYwbYXP",
+                "id": "WJbEvdgotrnuzkVM",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -6800,7 +6800,7 @@
             "isBackground": true
           },
           {
-            "id": "SYuJQVVHxS8cBtXc",
+            "id": "ow7hQSRYi0hpRK4n",
             "type": "image",
             "name": "Token Image",
             "src": "systems/starwarsffg/assets/starwars-original/battle-droid.jpeg",
@@ -6860,7 +6860,7 @@
             },
             "masks": [
               {
-                "id": "R0uPdliRoxno1j5C",
+                "id": "0tVG1qPDxIRNoGK1",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -6874,7 +6874,7 @@
             "isVideo": false
           },
           {
-            "id": "HLtQ66mjie9CtiD2",
+            "id": "6SZTWgGDJEZW6HNW",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -6952,7 +6952,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/crop-pi4lssapkwKwVkuC.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",

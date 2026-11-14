@@ -33,6 +33,10 @@ class PatchTests(unittest.TestCase):
    previous=b'const value = 0;\n';(modules/'example/main.js').write_bytes(previous)
    path=patcher.PATCHES/'index.json';index=json.loads(path.read_text());entry=index['modules'][0]['files'][0]
    entry['previous_sha256']=[patcher.digest(previous)];entry['upgrade_replacements']=[{'old':'value = 0','new':'value = 2'}]
+   index['modules'][0]['patch_version']='1-mitos.2';index['modules'][0]['previous_patch_versions']=['1-mitos.1']
+   (modules/'example/module.json').write_text(json.dumps({'id':'example','version':'1-mitos.1'}))
    path.write_text(json.dumps(index));changes,_=patcher.prepare(modules,['example'])
    self.assertEqual(changes[0][2],after)
+   (modules/'example/module.json').write_text(json.dumps({'id':'example','version':'unrecognized'}))
+   with self.assertRaisesRegex(ValueError,'Different installed version'):patcher.prepare(modules,['example'])
 if __name__=='__main__':unittest.main()

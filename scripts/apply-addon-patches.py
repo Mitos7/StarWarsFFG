@@ -30,7 +30,8 @@ def prepare(modules_dir, selected):
         original_manifest = manifest_path.read_bytes()
         manifest = json.loads(original_manifest.decode("utf-8-sig"))
         if manifest.get("id") != ident or manifest.get("version") not in {
-            entry["source_version"], entry["patch_version"]
+            entry["source_version"], entry["patch_version"],
+            *entry.get("previous_patch_versions", [])
         }:
             raise ValueError(f"Different installed version: {ident}")
         changed = 0

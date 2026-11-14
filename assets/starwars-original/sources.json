@@ -1619,6 +1619,24 @@
       "credit": "DICE / EA / Lucasfilm",
       "sha256": "0be425d073dc8a333d43594be962c2bfd953baf5b198f4cf1b3fe9e7e7f53a2d",
       "bytes": 159512
+    },
+    {
+      "id": "vehicle-joben-t85",
+      "file": "assets/starwars-original/vehicle-joben-t85.jpeg",
+      "source": "https://www.starwars.com/databank/kanans-speeder-bike",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/Kanan's-Speeder-Bike2_162d9fd7.jpeg?region=217%2C84%2C1260%2C708",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image owners",
+      "sha256": "9abd082859ce6dca5ecb9b3f6566af0a43b08f73412bb5439ac93abd69800145"
+    },
+    {
+      "id": "ship-h-type-nubian",
+      "file": "assets/starwars-original/ship-h-type-nubian.jpeg",
+      "source": "https://www.starwars.com/databank/h-type-nubian-yacht",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/h-type-nubian-yacht_7d67bc00.jpeg?region=0%2C0%2C1181%2C663",
+      "kind": "Official Star Wars Databank image",
+      "credit": "Lucasfilm and respective image owners",
+      "sha256": "2c8ee9edc204f9759ad4157f313428e111f8ec8346855fc175acdae46ff177cb"
     }
   ]
 }

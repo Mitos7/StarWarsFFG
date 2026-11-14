@@ -337,13 +337,13 @@
     {
       "id": "starwars-silhouette",
       "source_version": "1.2.2",
-      "patch_version": "1.2.2-mitos.1",
+      "patch_version": "1.2.2-mitos.2",
       "verified_in_foundry": false,
       "files": [
         {
           "path": "sw-silhouette.js",
           "before_sha256": "1522909057e365ad651859ca95e1afda797c412dda7e05953df98c3a93f97cdc",
-          "after_sha256": "0a41ab95f97327fac68a8a801bdf3cc35992fd8c6e5639d10479da9331778c01",
+          "after_sha256": "498aba67779fca08730b1de8aa725cee4561207b4bc5f06b02f2a161a85ee4cb",
           "replacements": [
             {
               "old": "randomID(24)",
@@ -384,11 +384,39 @@
               "old": "    swSilouhetteModule.singleton.init();",
               "new": "    await swSilouhetteModule.singleton.init();\n    if (!game.user.isGM) return;",
               "count": 1
+            },
+            {
+              "old": "async function updateTokenScale(height, width, actor) {\n    await actor.update({\n        \"prototypeToken.height\": height\n    });\n    await actor.update({\n        \"prototypeToken.width\": width\n    });\n}\n\n",
+              "new": "async function updateTokenScale(height, width, actor) {\n    if (actor.prototypeToken.height === height && actor.prototypeToken.width === width) return;\n    await actor.update({\"prototypeToken.height\": height, \"prototypeToken.width\": width});\n}\n\n",
+              "count": 1
+            },
+            {
+              "old": "async function changeScaleOnSilhouette(actors) {\n    let scaleRatio = game.settings.get('starwars-silhouette', 'scaleSilhouetteRatio');\n\n    actors.forEach(actor => {\n        const ORIGINALSCALE = 1;\n        let silhouetteValue = actor.system.stats.silhouette.value;\n        let floorDivRatio = Math.floor(silhouetteValue / scaleRatio);\n        let newScale = ORIGINALSCALE + floorDivRatio;\n        if (silhouetteValue >= 9)\n            newScale = newScale + 3;\n        if (game.settings.get('starwars-silhouette', 'autoScaling') != true) {\n            newScale = 1;\n        } //get the orignal scale\n        updateTokenScale(newScale, newScale, actor);\n\n    });\n}\n\n",
+              "new": "async function changeScaleOnSilhouette(actors) {\n    // Disabling automatic scaling must preserve sizes chosen by the GM.\n    if (!game.user.isGM || !game.settings.get('starwars-silhouette', 'autoScaling')) return 0;\n    const configuredRatio = Number(game.settings.get('starwars-silhouette', 'scaleSilhouetteRatio'));\n    const scaleRatio = Number.isFinite(configuredRatio) && configuredRatio >= 1 ? configuredRatio : 4;\n    let changed = 0;\n    for (const actor of actors) {\n        if (actor.type !== 'vehicle') continue;\n        const silhouetteValue = Number(actor.system.stats?.silhouette?.value);\n        if (!Number.isFinite(silhouetteValue) || silhouetteValue < 0) continue;\n        const newScale = 1 + Math.floor(silhouetteValue / scaleRatio) + (silhouetteValue >= 9 ? 3 : 0);\n        if (actor.prototypeToken.height === newScale && actor.prototypeToken.width === newScale) continue;\n        await updateTokenScale(newScale, newScale, actor);\n        changed += 1;\n    }\n    return changed;\n}\n\n",
+              "count": 1
+            }
+          ],
+          "previous_sha256": [
+            "0a41ab95f97327fac68a8a801bdf3cc35992fd8c6e5639d10479da9331778c01"
+          ],
+          "upgrade_replacements": [
+            {
+              "old": "async function updateTokenScale(height, width, actor) {\n    await actor.update({\n        \"prototypeToken.height\": height\n    });\n    await actor.update({\n        \"prototypeToken.width\": width\n    });\n}\n\n",
+              "new": "async function updateTokenScale(height, width, actor) {\n    if (actor.prototypeToken.height === height && actor.prototypeToken.width === width) return;\n    await actor.update({\"prototypeToken.height\": height, \"prototypeToken.width\": width});\n}\n\n",
+              "count": 1
+            },
+            {
+              "old": "async function changeScaleOnSilhouette(actors) {\n    let scaleRatio = game.settings.get('starwars-silhouette', 'scaleSilhouetteRatio');\n\n    actors.forEach(actor => {\n        const ORIGINALSCALE = 1;\n        let silhouetteValue = actor.system.stats.silhouette.value;\n        let floorDivRatio = Math.floor(silhouetteValue / scaleRatio);\n        let newScale = ORIGINALSCALE + floorDivRatio;\n        if (silhouetteValue >= 9)\n            newScale = newScale + 3;\n        if (game.settings.get('starwars-silhouette', 'autoScaling') != true) {\n            newScale = 1;\n        } //get the orignal scale\n        updateTokenScale(newScale, newScale, actor);\n\n    });\n}\n\n",
+              "new": "async function changeScaleOnSilhouette(actors) {\n    // Disabling automatic scaling must preserve sizes chosen by the GM.\n    if (!game.user.isGM || !game.settings.get('starwars-silhouette', 'autoScaling')) return 0;\n    const configuredRatio = Number(game.settings.get('starwars-silhouette', 'scaleSilhouetteRatio'));\n    const scaleRatio = Number.isFinite(configuredRatio) && configuredRatio >= 1 ? configuredRatio : 4;\n    let changed = 0;\n    for (const actor of actors) {\n        if (actor.type !== 'vehicle') continue;\n        const silhouetteValue = Number(actor.system.stats?.silhouette?.value);\n        if (!Number.isFinite(silhouetteValue) || silhouetteValue < 0) continue;\n        const newScale = 1 + Math.floor(silhouetteValue / scaleRatio) + (silhouetteValue >= 9 ? 3 : 0);\n        if (actor.prototypeToken.height === newScale && actor.prototypeToken.width === newScale) continue;\n        await updateTokenScale(newScale, newScale, actor);\n        changed += 1;\n    }\n    return changed;\n}\n\n",
+              "count": 1
             }
           ]
         }
       ],
-      "verification_note": "Startup and vehicle sheet hook load in Foundry 14.369. Automatic scale/art features still need configured silhouette folders and full validation."
+      "verification_note": "Automatic scaling preserves GM sizes when disabled; enabled changes await a single atomic token update. Startup and vehicle sheet hook checked; image import and silhouette attachment workflows still need validation.",
+      "previous_patch_versions": [
+        "1.2.2-mitos.1"
+      ]
     },
     {
       "id": "lgs-token-range-bands",
@@ -516,6 +544,83 @@
             {
               "old": "  #resizeCanvas() {",
               "new": "  async _onClose(options) {\n    this.#resizeObserver?.disconnect();\n    this.#resizeObserver = null;\n    await super._onClose(options);\n  }\n\n  #resizeCanvas() {",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swrpg-dice-helper-compendium",
+      "source_version": "1.1.4",
+      "patch_version": "1.1.4-mitos.1",
+      "source": "https://github.com/DukeVenator/swffg-data-compendiums",
+      "verified_in_foundry": true,
+      "verification_note": "Foundry 14.369: repaired the all-skill journal name collision (34 skills); Mechanics suggestions produced in chat. Replaced the missing-template settings menu, preserved its selected journal and verified saving.",
+      "files": [
+        {
+          "path": "scripts/lib/setup-helpers.mjs",
+          "before_sha256": "a43846d9f3a2f325dc4e40786e746bc08a73fe6d05a22cc211e3d27ff36f68d3",
+          "after_sha256": "e5b7bb0cef6928ae062736670a0456ca79fce3d6807f7eb5dfc6032ed1ea3c03",
+          "replacements": [
+            {
+              "old": "DEFAULT_JOURNAL_NAME = \"dice_helper\"",
+              "new": "DEFAULT_JOURNAL_NAME = \"dice_helper_all_skills\""
+            },
+            {
+              "old": "export function setEnhancementsJournal(",
+              "new": "export async function setEnhancementsJournal("
+            },
+            {
+              "old": "    gameLike.settings.set(",
+              "new": "    await gameLike.settings.set("
+            }
+          ]
+        },
+        {
+          "path": "scripts/setup-wizard.mjs",
+          "before_sha256": "b6daf280bcfea5c094d81879bf9cf855fa2f28d20fed7cb692841d097c78aa50",
+          "after_sha256": "27d51b8e4277721054561d0f3b4f814f62a7425d4e113db3ee535840c1d5c20e",
+          "replacements": [
+            {
+              "old": "class PointEnhancementsMenu extends FormApplication {\n  static get defaultOptions() {\n    return foundry.utils.mergeObject(super.defaultOptions, {\n      title: \"Point Enhancements at journal\",\n      id: \"point-enhancements-menu\",\n      template: `modules/${MODULE_ID}/templates/point-enhancements.html`,\n      width: 360,\n      height: \"auto\"\n    });\n  }\n\n  getData(options = {}) {\n    const enhancementsActive = !!game.modules.get(ENHANCEMENTS_MODULE_ID)?.active;\n    const current = enhancementsActive\n      ? game.settings.get(ENHANCEMENTS_MODULE_ID, ENHANCEMENTS_SETTING_KEY)\n      : null;\n    const journals = game.journal.map((j) => ({\n      name: j.name,\n      key: `j-${j.name.replace(/\\W/g, \"_\")}`,\n      isCurrent: j.name === current\n    }));\n    console.log(\"[swrpg-dice-helper-compendium] PointEnhancementsMenu getData:\", { enhancementsActive, current, journalCount: journals.length });\n    return { enhancementsActive, journals };\n  }\n\n  activateListeners(html) {\n    super.activateListeners(html);\n    html.querySelectorAll(\"button.journal-choice\").forEach((btn) => {\n      btn.addEventListener(\"click\", (ev) => {\n        const name = ev.currentTarget.dataset.journalName;\n        if (name && setEnhancementsJournal(name)) {\n          ui.notifications.info(`Enhancements \"Dice Helper Data\" set to \"${name}\".`);\n          this.close();\n        } else {\n          ui.notifications.warn(\"FFG Star Wars Enhancements is not enabled.\");\n        }\n      });\n    });\n    html.querySelector(\"button[name='cancel']\")?.addEventListener(\"click\", () => this.close());\n  }\n\n  _updateObject(_event, _formData) {\n    // No form to submit; choices are applied via button clicks.\n  }\n\n  constructor(object = {}, options = {}) {\n    super(object, options);\n  }\n}\n\n",
+              "new": "class PointEnhancementsMenu extends foundry.appv1.api.FormApplication {\n  render() {\n    if (!game.user.isGM) return this;\n    const select = document.createElement(\"select\");\n    select.name = \"journal\";\n    const current = game.modules.get(ENHANCEMENTS_MODULE_ID)?.active\n      ? game.settings.get(ENHANCEMENTS_MODULE_ID, \"dice-helper-data\") : null;\n    for (const journal of game.journal) {\n      const option = document.createElement(\"option\");\n      option.value = journal.id;\n      option.textContent = journal.name;\n      option.selected = journal.name === current;\n      select.append(option);\n    }\n    this._chooser = new foundry.appv1.api.Dialog({\n      title: \"Datos para la ayuda de tiradas\",\n      content: `<p>Selecciona el diario de sugerencias.</p><label>Diario ${select.outerHTML}</label>`,\n      buttons: {\n        apply: {label: \"Usar este diario\", callback: async html => {\n          const root = html?.querySelector ? html : html?.[0];\n          const journal = game.journal.get(root?.querySelector('[name=\"journal\"]')?.value);\n          if (!journal) return;\n          if (game.journal.filter(j => j.name === journal.name).length !== 1) {\n            ui.notifications.warn(\"Hay varios diarios con ese nombre. Ponles nombres distintos para seleccionar el correcto.\");\n            return;\n          }\n          if (await setEnhancementsJournal(journal.name)) ui.notifications.info(`Ayuda de tiradas: ${journal.name}`);\n          else ui.notifications.warn(\"No se pudo configurar la ayuda. Comprueba que Enhancements esté activo.\");\n        }},\n        cancel: {label: \"Cancelar\"}\n      }, default: \"apply\"\n    }, {width: 420}).render(true);\n    return this;\n  }\n  async close(options) { await this._chooser?.close(options); return super.close(options); }\n  _updateObject() {}\n}\n\n"
+            },
+            {
+              "old": "const didSet = setEnhancementsJournal(DEFAULT_JOURNAL_NAME);",
+              "new": "const didSet = await setEnhancementsJournal(imported?.name ?? DEFAULT_JOURNAL_NAME);"
+            },
+            {
+              "old": "which matches the default setting in Enhancements.",
+              "new": "keeping it separate from the basic Enhancements journal."
+            },
+            {
+              "old": "const imported = await game.journal.importFromCompendium(pack, entry.id, { name: DEFAULT_JOURNAL_NAME });",
+              "new": "const journalName = game.journal.some(j => j.name === DEFAULT_JOURNAL_NAME) ? `${DEFAULT_JOURNAL_NAME}_${foundry.utils.randomID(6)}` : DEFAULT_JOURNAL_NAME;\n              const imported = await game.journal.importFromCompendium(pack, entry.id, { name: journalName });"
+            },
+            {
+              "old": "option.selected = journal.name === current;",
+              "new": "option.defaultSelected = journal.name === current;",
+              "count": 1
+            },
+            {
+              "old": "for (const journal of game.journal) {\n      const option",
+              "new": "for (const journal of game.journal) {\n      if (!journal.pages.some(page => page.name === \"dice_helper\")) continue;\n      const option",
+              "count": 1
+            }
+          ],
+          "previous_sha256": [
+            "b0137ae8b352eebe56a145393dc02afb8e32f287b054560c4a846f526c4fa686"
+          ],
+          "upgrade_replacements": [
+            {
+              "old": "option.selected = journal.name === current;",
+              "new": "option.defaultSelected = journal.name === current;",
+              "count": 1
+            },
+            {
+              "old": "for (const journal of game.journal) {\n      const option",
+              "new": "for (const journal of game.journal) {\n      if (!journal.pages.some(page => page.name === \"dice_helper\")) continue;\n      const option",
               "count": 1
             }
           ]
