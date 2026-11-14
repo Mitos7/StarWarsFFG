@@ -3,7 +3,7 @@
     "_id": "d46c12641c9b5aba",
     "name": "Contrabandista / Smuggler",
     "type": "career",
-    "img": "systems/starwarsffg/assets/starwars-original/han-solo.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-smuggler.jpg",
     "system": {
       "description": "<p>Carrera centrada en viajes arriesgados y acuerdos improvisados.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -43,7 +43,7 @@
     "_id": "b5b1de30403606c8",
     "name": "Cazarrecompensas / Bounty Hunter",
     "type": "career",
-    "img": "systems/starwarsffg/assets/starwars-original/boba-fett.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-hunter.png",
     "system": {
       "description": "<p>Carrera dedicada a rastreo de objetivos y contratos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -203,7 +203,7 @@
     "_id": "8a06e8c7a0ba0918",
     "name": "Mercenario / Hired Gun",
     "type": "career",
-    "img": "systems/starwarsffg/assets/starwars-original/the-mandalorian.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-hunter.png",
     "system": {
       "description": "<p>Carrera de seguridad y enfrentamientos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -483,7 +483,7 @@
     "_id": "5e553d7b6ab4b6d5",
     "name": "Consular / Consular",
     "type": "career",
-    "img": "systems/starwarsffg/assets/starwars-original/yoda.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-jedi.jpg",
     "system": {
       "description": "<p>Carrera narrativa centrada en el diálogo y la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -523,7 +523,7 @@
     "_id": "82f04187a28c44cb",
     "name": "Guardián / Guardian",
     "type": "career",
-    "img": "systems/starwarsffg/assets/starwars-original/obi-wan-kenobi.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-jedi.jpg",
     "system": {
       "description": "<p>Carrera narrativa de protección y disciplina.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

@@ -1242,6 +1242,106 @@
       "kind": "Existing generic character artwork; no named screen character",
       "bytes": 33522,
       "sha256": "408c50369964803dbabaf955e4780c498aa16894dbf07bb9fbeec1fb46ea70e5"
+    },
+    {
+      "id": "object-bowcaster-clear",
+      "file": "assets/starwars-original/object-bowcaster-clear.webp",
+      "source": "https://starwars.fandom.com/wiki/Bowcaster",
+      "download": "https://vignette1.wikia.nocookie.net/starwars/images/a/a9/Bowcaster_DICE.png/revision/latest?cb=20151106043017",
+      "kind": "Existing object photograph/render; visually reviewed 2026-11-14; no generated replacement",
+      "bytes": 64922,
+      "sha256": "4947de9faf564a53e692ffa41a5fdfc425c7311d6e91788cd1ee152423495116",
+      "width": 948,
+      "height": 675
+    },
+    {
+      "id": "object-vibroknife-clear",
+      "file": "assets/starwars-original/object-vibroknife-clear.jpg",
+      "source": "https://sketchfab.com/3d-models/modernized-vibroknife-0f8fbf25e9b340f8b147be79f4df5895",
+      "download": "https://media.sketchfab.com/models/0f8fbf25e9b340f8b147be79f4df5895/thumbnails/682214086692434b9b8ffa204e4b3f7e/2436691312804efcb2fb73b323ac120c.jpeg",
+      "kind": "Existing fan vibroknife model render by Wallace (@wALLEE), not an official weapon model",
+      "bytes": 84222,
+      "sha256": "6d34e36238b9b1406fa680d91dca2a7f539859c6a31e18806320fe63a6a89fc7",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "id": "armor-stormtrooper-full",
+      "file": "assets/starwars-original/armor-stormtrooper-full.jpg",
+      "source": "https://www.denuonovo.com/products/star-wars-classic-stormtrooper-ready-to-wear-armor",
+      "download": "https://www.denuonovo.com/cdn/shop/files/dn36504__1_1200x1200.jpg?v=1711380957",
+      "kind": "Existing object photograph/render; visually reviewed 2026-11-14; no generated replacement",
+      "bytes": 55634,
+      "sha256": "53cf2dc3ffed0ace6df2dc09ca971122e1728746812bcfd0225a6f947b306190",
+      "width": 900,
+      "height": 1200
+    },
+    {
+      "id": "object-e11-prop",
+      "file": "assets/starwars-original/object-e11-prop.jpg",
+      "source": "https://propsandpixels.com.au/products/star-wars-e-11-blaster-prop-or-replica",
+      "download": "https://propsandpixels.com.au/cdn/shop/files/E11-blaster-3.jpg?v=1768511700&width=1445",
+      "kind": "Existing object photograph/render; visually reviewed 2026-11-14; no generated replacement",
+      "bytes": 66354,
+      "sha256": "ac5ad3eb86972cede24e463fd58c861442887a87bea1a4a69df350fa60209550",
+      "width": 1445,
+      "height": 1445
+    },
+    {
+      "id": "object-a280-exact",
+      "file": "assets/starwars-original/object-a280-exact.jpg",
+      "source": "https://www.gamersdecide.com/articles/star-wars-battlefront-2-best-weapons-for-assault-class",
+      "download": "https://www.gamersdecide.com/sites/default/files/authors/u154568/a280-blaster-rifle.jpg",
+      "kind": "Existing object photograph/render; visually reviewed 2026-11-14; no generated replacement",
+      "bytes": 45063,
+      "sha256": "acf626c27bd5efc6f1c14b33178bf7765e8e5ce44f3ad4133cfe1e676fb7d949",
+      "width": 968,
+      "height": 413
+    },
+    {
+      "id": "object-thermal-detonator",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Weapons/Explosion/Thermal%20Detonator.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Weapons/Explosion/Thermal%20Detonator.png",
+      "bytes": 25230,
+      "sha256": "219f17daa9ea2b1a2a7ca7e398e32673997b39a7d239f881f350cbba64a6bd70",
+      "file": "assets/starwars-original/object-thermal-detonator.png",
+      "kind": "Existing object icon, visually reviewed; small source resolution, no invented upscale"
+    },
+    {
+      "id": "armor-scout",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Armor/Imperial%20Amrors/Imperial%20Scout%20Trooper.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Armor/Imperial%20Amrors/Imperial%20Scout%20Trooper.png",
+      "bytes": 26437,
+      "sha256": "a1d0132af7c62cb3a66e172cea66d22e67fa2b9a28127fcbd35ca018cf88df2e",
+      "file": "assets/starwars-original/armor-scout.png",
+      "kind": "Existing object icon, visually reviewed; small source resolution, no invented upscale"
+    },
+    {
+      "id": "armor-blast-vest",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Armor/Common%20Cloth/Blast%20Vest.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Armor/Common%20Cloth/Blast%20Vest.png",
+      "bytes": 22869,
+      "sha256": "2424f3a70bf7510e0ff89951c4e379ebe5156b6f0718870905c1c8272b6972e7",
+      "file": "assets/starwars-original/armor-blast-vest.png",
+      "kind": "Existing object icon, visually reviewed; small source resolution, no invented upscale"
+    },
+    {
+      "id": "armor-jedi-robes",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Armor/Jedi%20Armors/Basic%20Jedi%20Robes.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Armor/Jedi%20Armors/Basic%20Jedi%20Robes.png",
+      "bytes": 32804,
+      "sha256": "d6dda92dc2c8c94f4a00e877bf255b230245f4c7a2d2b1690eb8d462b5b02de8",
+      "file": "assets/starwars-original/armor-jedi-robes.png",
+      "kind": "Existing object icon, visually reviewed; small source resolution, no invented upscale"
+    },
+    {
+      "id": "armor-hunter",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Armor/Common%20Armor/Hunter%20Armor.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Armor/Common%20Armor/Hunter%20Armor.png",
+      "bytes": 28075,
+      "sha256": "b9c82f6b443a7823679a94c87222aa503b4e420958f452bea5a81c2e1a769186",
+      "file": "assets/starwars-original/armor-hunter.png",
+      "kind": "Existing object icon, visually reviewed; small source resolution, no invented upscale"
     }
   ]
 }

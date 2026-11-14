@@ -1,6 +1,6 @@
 const fs=require("node:fs");
 const path=require("node:path");
-const {ClassicLevel}=require("D:/Program Files/Foundry Virtual Tabletop/resources/app/node_modules/classic-level");
+const {ClassicLevel}=require("./resolve-classic-level.cjs");
 const root=path.resolve(__dirname,"..","..");
 const manifest=JSON.parse(fs.readFileSync(path.join(root,"system.json"),"utf8"));
 const prefix={Actor:"actors",Item:"items",JournalEntry:"journal"};
@@ -20,7 +20,7 @@ async function main(){
       if(!doc._id || !doc.name)throw new Error("Invalid document");
       if(doc.img){
         const core=doc.img.startsWith("icons/")
-          ? path.join("D:/Program Files/Foundry Virtual Tabletop/resources/app/public",doc.img)
+          ? path.join(process.env.FOUNDRY_APP_PATH || "D:/Program Files/Foundry Virtual Tabletop/resources/app", "public",doc.img)
           : path.join(root,doc.img.replace(/^systems\/starwarsffg\//,""));
         if(!fs.existsSync(core) || doc.img.includes("catalog/"))throw new Error("Missing preinstalled image: "+doc.img);
       }

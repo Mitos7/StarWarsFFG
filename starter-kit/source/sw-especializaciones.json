@@ -119,7 +119,7 @@
     "_id": "eb61e9337f47489d",
     "name": "Scoundrel",
     "type": "specialization",
-    "img": "systems/starwarsffg/assets/starwars-original/han-solo.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-smuggler.jpg",
     "system": {
       "description": "<p>Aprovecha el ingenio social y la rapidez de reacción.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -235,7 +235,7 @@
     "_id": "a3a638f8b75edbae",
     "name": "Assassin",
     "type": "specialization",
-    "img": "systems/starwarsffg/assets/starwars-original/boba-fett.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-hunter.png",
     "system": {
       "description": "<p>Emplea sigilo y preparación para interceptar objetivos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -583,7 +583,7 @@
     "_id": "197801ac9b97edce",
     "name": "Force-Sensitive Exile",
     "type": "specialization",
-    "img": "systems/starwarsffg/assets/starwars-original/obi-wan-kenobi.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-jedi.jpg",
     "system": {
       "description": "<p>Concepto de usuario de la Fuerza que evita llamar la atención.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -699,7 +699,7 @@
     "_id": "0ba0d7b1c9ce7805",
     "name": "Guardian Protector",
     "type": "specialization",
-    "img": "systems/starwarsffg/assets/starwars-original/obi-wan-kenobi.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-jedi.jpg",
     "system": {
       "description": "<p>Concepto fan de protector de personas vulnerables.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

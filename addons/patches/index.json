@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "modules": [
+    {
+      "id": "ffg-star-wars-hud-enhancements",
+      "source_version": "1.0.1",
+      "patch_version": "1.0.1-mitos.1",
+      "source": "https://github.com/YeNov/ffg-star-wars-hud-enhancements",
+      "verified_in_foundry": false,
+      "files": [
+        {
+          "path": "scripts/hud-panel.js",
+          "before_sha256": "572a471b020b2318b2b7890a76ca0c0524c43be5571f1495f7e1a9a2ee61b922",
+          "after_sha256": "a5d4997349466676c3322d12d1a52c78ddc5a578fa3bd1b76f0af7a9529d00cd"
+        },
+        {
+          "path": "scripts/main.js",
+          "before_sha256": "e2805e6ea3577bd845f8dcb4a0e4e96cd0c7fb1da41a2a3097ed17b4450afca5",
+          "after_sha256": "4ed89dfe76caca5a24f2cf45b138f52f3d34579262985039c11b40e6036d71ef"
+        }
+      ]
+    },
+    {
+      "id": "lgs-extra-fields-for-star-wars",
+      "source_version": "1.0.3",
+      "patch_version": "1.0.3-mitos.1",
+      "source": "https://github.com/Lyinggod/FFG-Star-Wars-Extra-Fields",
+      "verified_in_foundry": false,
+      "files": [
+        {
+          "path": "scripts/lgs-extra-fields-for-star-wars.js",
+          "before_sha256": "4c6d0a89962f0e10a7ddf6f6bc721c275925e5333999cb907ce53f0d2182434d",
+          "after_sha256": "4113c2aca625f19b3beadddb21756837dd289cda97f3c3dbc6f0fabba59ec969"
+        }
+      ]
+    },
+    {
+      "id": "star-wars-status-automation",
+      "source_version": "0.2.1",
+      "patch_version": "0.2.1-mitos.1",
+      "source": "https://github.com/Malven31/foundryVTT-SWFFG-status-automation",
+      "verified_in_foundry": false,
+      "files": [
+        {
+          "path": "scripts/encumbrance_automation.js",
+          "before_sha256": "7510fb20e79fd3f2188a30446d887890b756b492a7ebbd8c659893fd55d6379d",
+          "after_sha256": "7c5aed68e8ddde15936d3937c6e4c4f67846b1a175f824c548b8306cc6b14f7e"
+        },
+        {
+          "path": "scripts/status_icon.js",
+          "before_sha256": "87a367a37d78f0ca0cb328fa4f96d58619b25bacdeeb6174153f01197664e23b",
+          "after_sha256": "ff601be2829f09ebbd305f973f23f5b906a9f025a69f89c1a672d37dd1f3afbd"
+        },
+        {
+          "path": "scripts/talent.js",
+          "before_sha256": "7d9e339b001d128555d07b4b1236134bb55fd0d0c5fb0258f9de0f02acba97db",
+          "after_sha256": "7a9181a2384c69869874a6f9f7980a32df08e682c74abcb10d900c9c1beed3f6"
+        },
+        {
+          "path": "scripts/util.js",
+          "before_sha256": "1494632af8b31c91dbb995287d1bb206dfb62efcd2eb7593ef915ba14c54ef01",
+          "after_sha256": "49f45d0c0c52f19c4346479b997d1543148dd6a6abb0e6a9fcb4ee5b30ed87b3"
+        },
+        {
+          "path": "star-wars-status-automation.js",
+          "before_sha256": "8cf400b333e7b18e99e4f5f94bd2cfd57f55fc40fe8795016f9824eec58991b5",
+          "after_sha256": "433a36ed4a70b455450ac95c4032a10bd00ad1701809f12cc3aa3590688cf35b"
+        }
+      ]
+    }
+  ]
+}
