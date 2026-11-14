@@ -1022,7 +1022,13 @@
       },
       "review_status": "source-only",
       "review_notes": "Código recuperado de fork; manifiesto en public/module.json, sin ZIP ni bundle compilado ni licencia en el árbol. No se redistribuye código ni se marca compatible.",
-      "runtime_verified_this_review": false
+      "runtime_verified_this_review": false,
+      "discovery_update": {
+        "official_listing": "https://foundryvtt.com/packages/ffg-pool-party",
+        "listed_version": "3",
+        "manifest_http_status": 404,
+        "note": "The later discovery found the official v3 listing. The original archive review examined only the 1-dev fork; it did not verify v3. See discovery-20261114.json."
+      }
     }
   ],
   "live_audit": {
@@ -1035,5 +1041,6 @@
     "patcher_tests_passed": 3,
     "active_modules": 24,
     "conflicts": 0
-  }
+  },
+  "followup_discovery": "DISCOVERY-20261114.md"
 }
