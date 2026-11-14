@@ -717,7 +717,7 @@
     "_id": "35648fef12340c89",
     "name": "DLT-19 bláster pesado",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/dlt-19-heavy-blaster-rifle.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-dlt19.png",
     "system": {
       "description": "<p>Arma de apoyo que exige preparación para su uso.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1431,7 +1431,7 @@
     "_id": "c6a0a1d901b9b064",
     "name": "Sable de luz de entrenamiento",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/lightsaber.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-lightsaber.png",
     "system": {
       "description": "<p>Réplicas de entrenamiento con energía limitada; reglas del DJ.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1533,7 +1533,7 @@
     "_id": "fc312029e51b9f7c",
     "name": "Sable de luz fan",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/lightsaber.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-lightsaber.png",
     "system": {
       "description": "<p>Representación no oficial para partidas con usuarios de la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

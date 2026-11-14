@@ -1342,6 +1342,265 @@
       "sha256": "b9c82f6b443a7823679a94c87222aa503b4e420958f452bea5a81c2e1a769186",
       "file": "assets/starwars-original/armor-hunter.png",
       "kind": "Existing object icon, visually reviewed; small source resolution, no invented upscale"
+    },
+    {
+      "id": "object-dlt19",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Weapons/Blaster%20Heavy/DLT-19.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Weapons/Blaster%20Heavy/DLT-19.png",
+      "bytes": 16338,
+      "sha256": "1af5332d51c57a03d3efbb78fee5e4fb2e05af7c4fbc4fc96f883c3e5565d40e",
+      "file": "assets/starwars-original/object-dlt19.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "armor-clone",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Armor/Clones/Clone%20P1%20Armor%20-%201.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Armor/Clones/Clone%20P1%20Armor%20-%201.png",
+      "bytes": 720945,
+      "sha256": "7d79d1e8229970f3d0172914bcb072e643c9eca1a8af4c332a60881421f6a311",
+      "file": "assets/starwars-original/armor-clone.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "armor-mandalorian",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Armor/Mandalorian%20Armors/Mandalorian%20Medium%20Armor.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Armor/Mandalorian%20Armors/Mandalorian%20Medium%20Armor.png",
+      "bytes": 36924,
+      "sha256": "ea24c33fac248de02b864f076c6187fafb1d6cc5b437c94e655e72af0e547081",
+      "file": "assets/starwars-original/armor-mandalorian.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "armor-flight-suit",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Armor/New%20Republic%20Armors/Republic%20Pilot%20Flight%20Suit.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Armor/New%20Republic%20Armors/Republic%20Pilot%20Flight%20Suit.png",
+      "bytes": 19126,
+      "sha256": "26427cfe36494e358785fa36b7b4ba43b5ea839f31795b2f918dd7bb818ca318",
+      "file": "assets/starwars-original/armor-flight-suit.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "ship-tie-bomber",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Ships/Tie%20-%20Bomber/SW%20-%20Imperial%20Tie%20Bomber.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Ships/Tie%20-%20Bomber/SW%20-%20Imperial%20Tie%20Bomber.png",
+      "bytes": 621489,
+      "sha256": "7e6a2aabbc9d8b0ec47d190156eca60f6eded02d02541a18231d6c69474f5f77",
+      "file": "assets/starwars-original/ship-tie-bomber.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "ship-y-wing",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Ships/Y-Wing.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Ships/Y-Wing.png",
+      "bytes": 98002,
+      "sha256": "86f63f24a7d5754acb523d2b04611924111e45c2fe77ccf6180496fa524e8d6b",
+      "file": "assets/starwars-original/ship-y-wing.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "ship-millennium-falcon",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Ships/Freighters/Millenium%20Falcon.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Ships/Freighters/Millenium%20Falcon.png",
+      "bytes": 266317,
+      "sha256": "2568244bae23d5f8b168f3bebe2b2dda2450bcb125571c2b8229c125072647c3",
+      "file": "assets/starwars-original/ship-millennium-falcon.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "object-lightsaber",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Gear/AncientLightsaber.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Gear/AncientLightsaber.png",
+      "bytes": 153888,
+      "sha256": "976d1c00475c4cb5a2d12a962414be94f000a2c3051e3b2617f98fb2dc7c5482",
+      "file": "assets/starwars-original/object-lightsaber.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "ship-firespray",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Ships/FireSpray%201.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Ships/FireSpray%201.png",
+      "bytes": 480495,
+      "sha256": "e49432a5cf7f49d36558e53670b9fa9c5d64d461e7f23ecda02655e7ba9b598a",
+      "file": "assets/starwars-original/ship-firespray.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "ship-laat",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Ships/LAAT/Republic%20Assault%20Gunship.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Ships/LAAT/Republic%20Assault%20Gunship.png",
+      "bytes": 274364,
+      "sha256": "d5215668a4f463586a1d207d4e544246822611246f10ef89ce80a8e415a3fd42",
+      "file": "assets/starwars-original/ship-laat.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "vehicle-74z",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Vehicles/SW%2074Z.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Vehicles/SW%2074Z.png",
+      "bytes": 514983,
+      "sha256": "ea00857cb14a383734d384d87375d97ec78732cfdf1f91827761f3c36adf24b4",
+      "file": "assets/starwars-original/vehicle-74z.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "ship-cr90",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Ships/Freighters/CR-90%20Corvette.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Ships/Freighters/CR-90%20Corvette.png",
+      "bytes": 215726,
+      "sha256": "e1778f0b2f37eff088a6b7dd25153043a0cdafd0d5c4145e1d6463d9986d0497",
+      "file": "assets/starwars-original/ship-cr90.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "object-id-card",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/art/ICONS/Items/Picture%20ID%20Card.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/art/ICONS/Items/Picture%20ID%20Card.png",
+      "bytes": 32968,
+      "sha256": "58f8fc8ea51098971d357ae698569f9ee8c395e8578eff9a256cb5f34df6e6fd",
+      "file": "assets/starwars-original/object-id-card.png",
+      "credit": "Artwork distributed in LeeDurant/swrpg; Star Wars imagery belongs to Lucasfilm and the respective creators.",
+      "kind": "Existing object or vehicle artwork"
+    },
+    {
+      "id": "isb-agent-battlefront",
+      "file": "assets/starwars-original/isb-agent-battlefront.jpg",
+      "download": "https://pbs.twimg.com/media/ERuVFDhXsAIjgoj.jpg",
+      "source": "https://x.com/BattlefrontPics/status/1232742845611679744",
+      "credit": "Battlefront Pictures screenshot; DICE / EA / Lucasfilm",
+      "sha256": "4888422ac3e76c14723d3923ce007312805b87a0cb65890608ff8f53dd831f85",
+      "bytes": 83511,
+      "kind": "Existing Star Wars character/model image"
+    },
+    {
+      "id": "medical-2-1b",
+      "file": "assets/starwars-original/medical-2-1b.jpeg",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/2-1b-droid-main-image_546a90ad.jpeg?region=0%2C107%2C1560%2C880",
+      "source": "https://www.starwars.com/databank/2-1b-droid",
+      "credit": "Lucasfilm; 2-1B droid model",
+      "sha256": "a09f3d559779c0dc94425b9913a92f8736df79197d3c9ed9ab19a3897b306d19",
+      "bytes": 72597,
+      "kind": "Existing Star Wars character/model image"
+    },
+    {
+      "id": "protocol-ra7",
+      "file": "assets/starwars-original/protocol-ra7.jpg",
+      "download": "https://swurpg.com/species/ra-7-protocol-droid.jpg",
+      "source": "https://swurpg.com/species/ra-7-protocol-droid",
+      "credit": "RA-7 droid model; image via SWURPG",
+      "sha256": "eb97209e35c5b0a7ec71180a55a4d06f12b50daa5d32599dcd66864a05370be4",
+      "bytes": 142379,
+      "kind": "Existing Star Wars character/model image"
+    },
+    {
+      "id": "imperial-probe-droid",
+      "file": "assets/starwars-original/imperial-probe-droid.jpg",
+      "source": "https://www.starwars.com/databank/imperial-probe-droid",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_imperialprobedroid_01_169_9667313a.jpeg?region=0%2C0%2C1560%2C878",
+      "credit": "Lucasfilm / StarWars.com",
+      "sha256": "b255d41df9872f9c6f922bf8d998052254f4e77fe1503a2ab038bf5e81eb9022",
+      "bytes": 213088
+    },
+    {
+      "id": "snowtroopers",
+      "file": "assets/starwars-original/snowtroopers.jpg",
+      "source": "https://www.starwars.com/databank/snowtroopers",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/snowtroopers-main_fa5d1c54.jpeg?region=0%2C100%2C1920%2C1080",
+      "credit": "Lucasfilm / StarWars.com",
+      "sha256": "0703a0ce94d2b76a9218959218a404544dd87ce03c204add7f4979b0c7c7a6c9",
+      "bytes": 177624
+    },
+    {
+      "id": "interrogation-droid",
+      "file": "assets/starwars-original/interrogation-droid.jpg",
+      "source": "https://www.starwars.com/databank/interrogation-droid",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/image_2fc196dc.jpeg?region=0%2C0%2C1560%2C878",
+      "credit": "Lucasfilm / StarWars.com",
+      "sha256": "77f7d6fd174edf0aeddd6e85ef30d966199f25e839e6c6457ba19d64d303316a",
+      "bytes": 177995
+    },
+    {
+      "id": "death-star-troopers",
+      "file": "assets/starwars-original/death-star-troopers.jpg",
+      "source": "https://www.starwars.com/databank/death-star-troopers",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/death-star-troopers_250f8c36.jpeg?region=0%2C0%2C2975%2C1675",
+      "credit": "Lucasfilm / StarWars.com",
+      "sha256": "8e8597239e28bcf4b7ec1cbffa967ce91df026496f8985a27892b6a622704735",
+      "bytes": 476308
+    },
+    {
+      "id": "sandtroopers",
+      "file": "assets/starwars-original/sandtroopers.jpg",
+      "source": "https://www.starwars.com/databank/sandtroopers",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/image_3f4de5de.jpeg?region=0%2C112%2C1920%2C1080",
+      "credit": "Lucasfilm / StarWars.com",
+      "sha256": "d1801017f1c3f26176d8a2a18094670b6ea55b09447e8f54c493b035e7e80ed1",
+      "bytes": 249338
+    },
+    {
+      "id": "bongo",
+      "file": "assets/starwars-original/bongo.jpeg",
+      "source": "https://www.starwars.com/news/9-underrated-ships-and-vehicles-in-star-wars",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/image_340e4cf7.jpeg",
+      "credit": "Lucasfilm / StarWars.com",
+      "sha256": "2385e2eb7f398387714525a14fbef352f46fd716de211b876e30f5a8673d0018",
+      "bytes": 245147
+    },
+    {
+      "id": "magna-guard",
+      "file": "assets/starwars-original/magna-guard.jpg",
+      "source": "https://www.starwars.com/databank/magna-guard",
+      "download": "https://lumiere-a.akamaihd.net/v1/images/databank_magnaguard_01_169_6d6e4f53.jpeg?region=0%2C0%2C1560%2C878",
+      "credit": "Lucasfilm / StarWars.com",
+      "sha256": "e4ab112a826e04ccb17d7112bfe4e62067ef0622865a7a714beaf1b8b91dacf3",
+      "bytes": 241308
+    },
+    {
+      "id": "generic-slicer",
+      "file": "assets/starwars-original/generic-slicer.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Characters/Human_Slicer.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Characters/Human_Slicer.png",
+      "credit": "Community artwork via LeeDurant/swrpg; original creators retain rights",
+      "sha256": "7979bdc3691bcf512bff84bc4b4250f75c7c300ae6b2a0c4f6b72b277f0c36fd",
+      "bytes": 143075
+    },
+    {
+      "id": "generic-ugnaught-mechanic",
+      "file": "assets/starwars-original/generic-ugnaught-mechanic.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Characters/Alien_Mechanic_02_hi.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Characters/Alien_Mechanic_02_hi.png",
+      "credit": "Community artwork via LeeDurant/swrpg; original creators retain rights",
+      "sha256": "a4da99e7b8631dfdf8207464e157b22901443306462484fcb123716b6f6c9166",
+      "bytes": 125757
+    },
+    {
+      "id": "progress-clock-12-empty",
+      "file": "assets/starwars-original/progress-clock-12-empty.png",
+      "source": "https://github.com/troygoode/fvtt-clocks",
+      "download": "https://raw.githubusercontent.com/troygoode/fvtt-clocks/main/themes/dog_blink_blue/12clock_0.png",
+      "credit": "Tim Denee (@dog_blink); fvtt-clocks MIT license in progress-clock-LICENSE.txt",
+      "sha256": "fd76a5c3ee418a6ec4dc284e1a478374c36e92a4a490f2dbc65a8af7a86646dc",
+      "bytes": 202274
+    },
+    {
+      "id": "generic-security-droid",
+      "file": "assets/starwars-original/generic-security-droid.png",
+      "source": "https://github.com/LeeDurant/swrpg/blob/Prod/tokens/Characters/SecurityDroid.png",
+      "download": "https://raw.githubusercontent.com/LeeDurant/swrpg/Prod/tokens/Characters/SecurityDroid.png",
+      "credit": "Community artwork via LeeDurant/swrpg; original creators retain rights",
+      "sha256": "ea79a5a45e17a580843f80359831bd4bcb1253a29d16089a1d887ae184d8cb19",
+      "bytes": 141132
     }
   ]
 }

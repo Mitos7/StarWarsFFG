@@ -381,7 +381,7 @@
     "_id": "e53e9c68048532b0",
     "name": "Tarjeta de acceso del puerto",
     "type": "gear",
-    "img": "systems/starwarsffg/assets/starwars-original/access-card.png",
+    "img": "systems/starwarsffg/assets/starwars-original/object-id-card.png",
     "system": {
       "description": "<p>Credencial con una firma de seguridad antigua</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},

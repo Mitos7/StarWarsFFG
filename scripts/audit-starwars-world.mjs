@@ -13,6 +13,10 @@ export async function auditStarWarsWorld({compendia = true, checkImages = false}
     paths.get(src).push({owner, role});
   };
   const inspect = (doc, location) => {
+    if (["Actor", "Item"].includes(doc.documentName)) {
+      try { doc.prepareData(); }
+      catch (error) { report.errors.push({uuid: doc.uuid, issue: "data-preparation", message: String(error)}); }
+    }
     report.documents.push({uuid: doc.uuid, name: doc.name, type: doc.type, location, img: doc.img,
       token: doc.prototypeToken?.texture?.src});
     image(doc.img, doc.uuid, "portrait");
@@ -34,7 +38,9 @@ export async function auditStarWarsWorld({compendia = true, checkImages = false}
     report.modules.push({id: module.id, version: module.version, active: module.active,
       compatibility: module.compatibility, missingActiveDependencies: module.active ? missing : []});
   }
-  const interfaces = ["space-op-ui", "swffgUI-cc", "ffg-star-wars-alternative-ui"].filter(id => active.has(id));
+  // Alternative UI supplies actor/item sheets and was tested with Space Opera.
+  // Only these two modules replace the global application theme.
+  const interfaces = ["space-op-ui", "swffgUI-cc"].filter(id => active.has(id));
   if (interfaces.length > 1) report.conflicts.push({issue: "overlapping-interfaces", modules: interfaces});
   if (active.has("token-action-hud") && active.has("token-action-hud-core")) report.conflicts.push({issue: "classic-and-core-hud-active"});
   if (active.has("star-wars-status-automation") && active.has("ffg-star-wars-enhancements")) report.conflicts.push({issue: "check-overlapping-encumbrance-settings"});

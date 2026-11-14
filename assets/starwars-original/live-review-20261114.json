@@ -1,0 +1,333 @@
+{
+  "status": "complete",
+  "changed": [
+    {
+      "uuid": "Compendium.starwarsffg.sw-armas.Item.35648fef12340c89",
+      "name": "DLT-19 bláster pesado",
+      "before": "systems/starwarsffg/assets/starwars-original/dlt-19-heavy-blaster-rifle.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/object-dlt19.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-armas.Item.c6a0a1d901b9b064",
+      "name": "Sable de luz de entrenamiento",
+      "before": "systems/starwarsffg/assets/starwars-original/lightsaber.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/object-lightsaber.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-armas.Item.fc312029e51b9f7c",
+      "name": "Sable de luz fan",
+      "before": "systems/starwarsffg/assets/starwars-original/lightsaber.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/object-lightsaber.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-armaduras.Item.0d99e467816d8d82",
+      "name": "Armadura de soldado clon",
+      "before": "systems/starwarsffg/assets/starwars-original/clone-trooper-armor.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/armor-clone.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-armaduras.Item.410a715abcd63818",
+      "name": "Traje de piloto espacial",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-rebel-pilot.png",
+      "after": "systems/starwarsffg/assets/starwars-original/armor-flight-suit.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-armaduras.Item.8aedec2911ed2693",
+      "name": "Armadura mandaloriana fan",
+      "before": "systems/starwarsffg/assets/starwars-original/the-mandalorian.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/armor-mandalorian.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-especies.Item.1f0ff8bf228b9829",
+      "name": "Droide jugador",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-protocol.png",
+      "after": "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-adversarios.Actor.6364c9cc7380dc9a",
+      "name": "Droide de protocolo",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-protocol.png",
+      "after": "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-adversarios.Actor.ee093377500a4329",
+      "name": "Agente ISB",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-isb.png",
+      "after": "systems/starwarsffg/assets/starwars-original/isb-agent-battlefront.jpg"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-personajes.Actor.aa9f8001d0c80c0e",
+      "name": "Chewbacca",
+      "before": "systems/starwarsffg/assets/starwars-original/chewbacca.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/chewbacca.jpeg"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-naves.Actor.0525c83de53827b5",
+      "name": "TIE Bomber",
+      "before": "systems/starwarsffg/assets/starwars-original/tie-bomber.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-tie-bomber.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-naves.Actor.1572832693446c51",
+      "name": "Firespray-31",
+      "before": "systems/starwarsffg/assets/starwars-original/slave-i.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-firespray.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-naves.Actor.5cd483966df34c08",
+      "name": "BTL Y-wing",
+      "before": "systems/starwarsffg/assets/starwars-original/y-wing-starfighter.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-y-wing.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-naves.Actor.6263ba3c76883b30",
+      "name": "LAAT/i Republic Gunship",
+      "before": "systems/starwarsffg/assets/starwars-original/republic-attack-gunship.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-laat.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-naves.Actor.c2c1023662e3ee41",
+      "name": "74-Z Speeder Bike",
+      "before": "systems/starwarsffg/assets/starwars-original/speeder-bike.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/vehicle-74z.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-naves.Actor.e862d40ee83108e1",
+      "name": "Millennium Falcon",
+      "before": "systems/starwarsffg/assets/starwars-original/millennium-falcon.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-millennium-falcon.png"
+    },
+    {
+      "uuid": "Compendium.starwarsffg.sw-naves.Actor.f1d558cbe7e2a4f3",
+      "name": "CR90 Corvette",
+      "before": "systems/starwarsffg/assets/starwars-original/tantive-iv.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-cr90.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.equipo.Item.e53e9c68048532b0",
+      "name": "Tarjeta de acceso del puerto",
+      "before": "systems/starwarsffg/assets/starwars-original/access-card.png",
+      "after": "systems/starwarsffg/assets/starwars-original/object-id-card.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.armas.Item.131d5bbfe7452267",
+      "name": "Hoja de cerámica",
+      "before": "systems/starwarsffg/assets/starwars-original/vibroblade.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/object-vibroknife-clear.jpg"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.armas.Item.50dc3c5bc9cb490a",
+      "name": "Carabina de pulsos Mica",
+      "before": "systems/starwarsffg/assets/starwars-original/a280-blaster-rifle.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/object-a280-exact.jpg"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.armas.Item.b1a94f076cfd486f",
+      "name": "Pistola de descarga T-12",
+      "before": "systems/starwarsffg/assets/starwars-original/blaster-pistol.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/westar-34.jpg"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.armas.Item.db32689d30518f30",
+      "name": "Fusil de seguridad",
+      "before": "systems/starwarsffg/assets/starwars-original/e-11-blaster-rifle.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/object-e11-prop.jpg"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.armaduras.Item.05d1d302a0f44f04",
+      "name": "Mono reforzado",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-rebel-pilot.png",
+      "after": "systems/starwarsffg/assets/starwars-original/armor-flight-suit.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.armaduras.Item.2f06c67461b21367",
+      "name": "Chaleco de patrulla",
+      "before": "systems/starwarsffg/assets/starwars-original/clone-trooper-armor.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/armor-clone.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.carreras.Item.0c38c67bdd5cfddf",
+      "name": "Negociador Itinerante",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-protocol.png",
+      "after": "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.especializaciones.Item.1631424f0d6af581",
+      "name": "Mediador de fronteras",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-protocol.png",
+      "after": "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-armas.Item.35648fef12340c89",
+      "name": "DLT-19 bláster pesado",
+      "before": "systems/starwarsffg/assets/starwars-original/dlt-19-heavy-blaster-rifle.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/object-dlt19.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-armas.Item.c6a0a1d901b9b064",
+      "name": "Sable de luz de entrenamiento",
+      "before": "systems/starwarsffg/assets/starwars-original/lightsaber.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/object-lightsaber.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-armas.Item.fc312029e51b9f7c",
+      "name": "Sable de luz fan",
+      "before": "systems/starwarsffg/assets/starwars-original/lightsaber.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/object-lightsaber.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-armaduras.Item.0d99e467816d8d82",
+      "name": "Armadura de soldado clon",
+      "before": "systems/starwarsffg/assets/starwars-original/clone-trooper-armor.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/armor-clone.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-armaduras.Item.410a715abcd63818",
+      "name": "Traje de piloto espacial",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-rebel-pilot.png",
+      "after": "systems/starwarsffg/assets/starwars-original/armor-flight-suit.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-armaduras.Item.8aedec2911ed2693",
+      "name": "Armadura mandaloriana fan",
+      "before": "systems/starwarsffg/assets/starwars-original/the-mandalorian.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/armor-mandalorian.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-especies.Item.1f0ff8bf228b9829",
+      "name": "Droide jugador",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-protocol.png",
+      "after": "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-adversarios.Actor.6364c9cc7380dc9a",
+      "name": "Droide de protocolo",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-protocol.png",
+      "after": "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-adversarios.Actor.ee093377500a4329",
+      "name": "Agente ISB",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-isb.png",
+      "after": "systems/starwarsffg/assets/starwars-original/isb-agent-battlefront.jpg"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-personajes.Actor.aa9f8001d0c80c0e",
+      "name": "Chewbacca",
+      "before": "systems/starwarsffg/assets/starwars-original/chewbacca.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/chewbacca.jpeg"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-naves.Actor.0525c83de53827b5",
+      "name": "TIE Bomber",
+      "before": "systems/starwarsffg/assets/starwars-original/tie-bomber.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-tie-bomber.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-naves.Actor.1572832693446c51",
+      "name": "Firespray-31",
+      "before": "systems/starwarsffg/assets/starwars-original/slave-i.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-firespray.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-naves.Actor.5cd483966df34c08",
+      "name": "BTL Y-wing",
+      "before": "systems/starwarsffg/assets/starwars-original/y-wing-starfighter.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-y-wing.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-naves.Actor.6263ba3c76883b30",
+      "name": "LAAT/i Republic Gunship",
+      "before": "systems/starwarsffg/assets/starwars-original/republic-attack-gunship.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-laat.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-naves.Actor.c2c1023662e3ee41",
+      "name": "74-Z Speeder Bike",
+      "before": "systems/starwarsffg/assets/starwars-original/speeder-bike.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/vehicle-74z.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-naves.Actor.e862d40ee83108e1",
+      "name": "Millennium Falcon",
+      "before": "systems/starwarsffg/assets/starwars-original/millennium-falcon.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-millennium-falcon.png"
+    },
+    {
+      "uuid": "Compendium.swffg-mitos-starter.sw-naves.Actor.f1d558cbe7e2a4f3",
+      "name": "CR90 Corvette",
+      "before": "systems/starwarsffg/assets/starwars-original/tantive-iv.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/ship-cr90.png"
+    },
+    {
+      "uuid": "Actor.ee093377500a4329",
+      "name": "Agente ISB",
+      "before": "systems/starwarsffg/assets/starwars-original/generic-isb.png",
+      "after": "systems/starwarsffg/assets/starwars-original/isb-agent-battlefront.jpg"
+    },
+    {
+      "uuid": "Actor.aa9f8001d0c80c0e",
+      "name": "Chewbacca",
+      "before": "systems/starwarsffg/assets/starwars-original/chewbacca.jpeg",
+      "after": "systems/starwarsffg/assets/starwars-original/chewbacca.jpeg"
+    },
+    {
+      "uuid": "Scene.oRaxfWsIyXLQOwjP",
+      "sceneTokens": 1
+    }
+  ],
+  "errors": [],
+  "tokens": [
+    {
+      "name": "Droide de protocolo",
+      "img": "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg",
+      "path": "systems/starwarsffg/assets/tokens-tokenizer2/review-6364c9cc7380dc9a.webp"
+    },
+    {
+      "name": "Agente ISB",
+      "img": "systems/starwarsffg/assets/starwars-original/isb-agent-battlefront.jpg",
+      "path": "systems/starwarsffg/assets/tokens-tokenizer2/review-ee093377500a4329.webp"
+    },
+    {
+      "name": "Chewbacca",
+      "img": "systems/starwarsffg/assets/starwars-original/chewbacca.jpeg",
+      "path": "systems/starwarsffg/assets/tokens-tokenizer2/review-aa9f8001d0c80c0e.webp"
+    },
+    {
+      "name": "TIE Bomber",
+      "img": "systems/starwarsffg/assets/starwars-original/ship-tie-bomber.png",
+      "path": "systems/starwarsffg/assets/tokens-tokenizer2/review-0525c83de53827b5.webp"
+    },
+    {
+      "name": "Firespray-31",
+      "img": "systems/starwarsffg/assets/starwars-original/ship-firespray.png",
+      "path": "systems/starwarsffg/assets/tokens-tokenizer2/review-1572832693446c51.webp"
+    },
+    {
+      "name": "BTL Y-wing",
+      "img": "systems/starwarsffg/assets/starwars-original/ship-y-wing.png",
+      "path": "systems/starwarsffg/assets/tokens-tokenizer2/review-5cd483966df34c08.webp"
+    },
+    {
+      "name": "LAAT/i Republic Gunship",
+      "img": "systems/starwarsffg/assets/starwars-original/ship-laat.png",
+      "path": "systems/starwarsffg/assets/tokens-tokenizer2/review-6263ba3c76883b30.webp"
+    },
+    {
+      "name": "74-Z Speeder Bike",
+      "img": "systems/starwarsffg/assets/starwars-original/vehicle-74z.png",
+      "path": "systems/starwarsffg/assets/tokens-tokenizer2/review-c2c1023662e3ee41.webp"
+    },
+    {
+      "name": "Millennium Falcon",
+      "img": "systems/starwarsffg/assets/starwars-original/ship-millennium-falcon.png",
+      "path": "systems/starwarsffg/assets/tokens-tokenizer2/review-e862d40ee83108e1.webp"
+    },
+    {
+      "name": "CR90 Corvette",
+      "img": "systems/starwarsffg/assets/starwars-original/ship-cr90.png",
+      "path": "systems/starwarsffg/assets/tokens-tokenizer2/review-f1d558cbe7e2a4f3.webp"
+    }
+  ],
+  "processed": 438
+}

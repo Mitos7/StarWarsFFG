@@ -165,7 +165,7 @@
     "_id": "0d99e467816d8d82",
     "name": "Armadura de soldado clon",
     "type": "armour",
-    "img": "systems/starwarsffg/assets/starwars-original/clone-trooper-armor.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/armor-clone.png",
     "system": {
       "description": "<p>Protección integral inspirada en la época de las Guerras Clon.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -246,7 +246,7 @@
     "_id": "8aedec2911ed2693",
     "name": "Armadura mandaloriana fan",
     "type": "armour",
-    "img": "systems/starwarsffg/assets/starwars-original/the-mandalorian.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/armor-mandalorian.png",
     "system": {
       "description": "<p>Conjunto de placas personalizable; beneficios a definir por el DJ.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -570,7 +570,7 @@
     "_id": "410a715abcd63818",
     "name": "Traje de piloto espacial",
     "type": "armour",
-    "img": "systems/starwarsffg/assets/starwars-original/generic-rebel-pilot.png",
+    "img": "systems/starwarsffg/assets/starwars-original/armor-flight-suit.png",
     "system": {
       "description": "<p>Traje para cabinas y maniobras prolongadas.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

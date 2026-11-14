@@ -1,5 +1,3 @@
-
-starter-kit/packs/** -text
-
 starter-kit/packs/** -diff -text
 packs/** -diff -text
+addons/patches/** text eol=lf

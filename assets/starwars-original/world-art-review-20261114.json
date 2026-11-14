@@ -1,0 +1,210 @@
+{
+    "changed":  [
+                    {
+                        "uuid":  "Compendium.world.oggdudevehiclesplanetary.Actor.FTpPJFZnxGu7tHKL",
+                        "name":  "Bongo Submarine",
+                        "img":  "systems/starwarsffg/assets/starwars-original/bongo.jpeg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-FTpPJFZnxGu7tHKL.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.0MySKCn1hFjusav6",
+                        "name":  "Protocol Droid",
+                        "img":  "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-0MySKCn1hFjusav6.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.1vdhZewHN30ywbHR",
+                        "name":  "Stormtrooper: Sandtrooper",
+                        "img":  "systems/starwarsffg/assets/starwars-original/sandtroopers.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-1vdhZewHN30ywbHR.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.2KndmC6opablIy9M",
+                        "name":  "IT-O Interrogation Droid",
+                        "img":  "systems/starwarsffg/assets/starwars-original/interrogation-droid.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-2KndmC6opablIy9M.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.3n4UL0uu4P6JPHMP",
+                        "name":  "Shadowport Mechanic",
+                        "img":  "systems/starwarsffg/assets/starwars-original/generic-ugnaught-mechanic.png",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-3n4UL0uu4P6JPHMP.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.HFFdKhjnLM76QT5Y",
+                        "name":  "Mechanic",
+                        "img":  "systems/starwarsffg/assets/starwars-original/generic-ugnaught-mechanic.png",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-3n4UL0uu4P6JPHMP.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.JeyArYqIEwLMNgf9",
+                        "name":  "Imperial DeStab Agent",
+                        "img":  "systems/starwarsffg/assets/starwars-original/isb-agent-battlefront.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-JeyArYqIEwLMNgf9.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.Md8kIFbL0tRTticC",
+                        "name":  "Slicer",
+                        "img":  "systems/starwarsffg/assets/starwars-original/generic-slicer.png",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-Md8kIFbL0tRTticC.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.OmfAVmi55jI980oJ",
+                        "name":  "Security Droid",
+                        "img":  "systems/starwarsffg/assets/starwars-original/generic-security-droid.png",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-OmfAVmi55jI980oJ.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.V4w6kRslWgVoV1bH",
+                        "name":  "Interrogation Droid",
+                        "img":  "systems/starwarsffg/assets/starwars-original/interrogation-droid.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-2KndmC6opablIy9M.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.W68lcJJOF0sRgwzR",
+                        "name":  "IG-100 MagnaGuard",
+                        "img":  "systems/starwarsffg/assets/starwars-original/magna-guard.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-W68lcJJOF0sRgwzR.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.brbC1fP0xDRbD6l4",
+                        "name":  "Ugnaught Mechanic",
+                        "img":  "systems/starwarsffg/assets/starwars-original/generic-ugnaught-mechanic.png",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-3n4UL0uu4P6JPHMP.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.cVaQeLAwKd7IYQAg",
+                        "name":  "M226 Navy Trooper",
+                        "img":  "systems/starwarsffg/assets/starwars-original/death-star-troopers.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-cVaQeLAwKd7IYQAg.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.d3Gk4BkeWbVexqIa",
+                        "name":  "Stormtrooper: Snowtrooper",
+                        "img":  "systems/starwarsffg/assets/starwars-original/snowtroopers.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-d3Gk4BkeWbVexqIa.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.ilCzNRKqBppifOcB",
+                        "name":  "Accomplished Mechanic",
+                        "img":  "systems/starwarsffg/assets/starwars-original/generic-ugnaught-mechanic.png",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-3n4UL0uu4P6JPHMP.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.lcYfgeLgBI6ZMliO",
+                        "name":  "Medical Droid",
+                        "img":  "systems/starwarsffg/assets/starwars-original/medical-2-1b.jpeg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-lcYfgeLgBI6ZMliO.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.loNRo1yRBN4pu5DZ",
+                        "name":  "Imperial Intelligence Agent",
+                        "img":  "systems/starwarsffg/assets/starwars-original/isb-agent-battlefront.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-JeyArYqIEwLMNgf9.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.p01wViI9gwzFJSPS",
+                        "name":  "COMPNOR Agent",
+                        "img":  "systems/starwarsffg/assets/starwars-original/isb-agent-battlefront.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-JeyArYqIEwLMNgf9.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.rTOdVcQEeIQUBQok",
+                        "name":  "Imperial Navy Trooper",
+                        "img":  "systems/starwarsffg/assets/starwars-original/death-star-troopers.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-cVaQeLAwKd7IYQAg.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.uGUfMO8Gs0fT0z7W",
+                        "name":  "Viper Probe Droid",
+                        "img":  "systems/starwarsffg/assets/starwars-original/imperial-probe-droid.jpg",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-uGUfMO8Gs0fT0z7W.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.uRYkm8bu0j5uTzJ0",
+                        "name":  "CSA Intrusion Specialist",
+                        "img":  "systems/starwarsffg/assets/starwars-original/generic-slicer.png",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-Md8kIFbL0tRTticC.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.world.sw-adversaries-core.Actor.vok7teZFy0iPXC3A",
+                        "name":  "Sentry Droid",
+                        "img":  "systems/starwarsffg/assets/starwars-original/generic-security-droid.png",
+                        "token":  "systems/starwarsffg/assets/tokens-tokenizer2/role-OmfAVmi55jI980oJ.webp"
+                    },
+                    {
+                        "uuid":  "Compendium.ffg-star-wars-enhancements.ffg-sw-enhanced-scene-ideas.Scene.hH4iPXB3OPrv6F00.Token.NlTXqnRqRRVeei2I",
+                        "name":  "Original progress clock image restored"
+                    }
+                ],
+    "tokens":  [
+                   {
+                       "name":  "Bongo Submarine",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-FTpPJFZnxGu7tHKL.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/bongo.jpeg"
+                   },
+                   {
+                       "name":  "Protocol Droid",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-0MySKCn1hFjusav6.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg"
+                   },
+                   {
+                       "name":  "Stormtrooper: Sandtrooper",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-1vdhZewHN30ywbHR.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/sandtroopers.jpg"
+                   },
+                   {
+                       "name":  "IT-O Interrogation Droid",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-2KndmC6opablIy9M.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/interrogation-droid.jpg"
+                   },
+                   {
+                       "name":  "Shadowport Mechanic",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-3n4UL0uu4P6JPHMP.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/generic-ugnaught-mechanic.png"
+                   },
+                   {
+                       "name":  "Imperial DeStab Agent",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-JeyArYqIEwLMNgf9.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/isb-agent-battlefront.jpg"
+                   },
+                   {
+                       "name":  "Slicer",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-Md8kIFbL0tRTticC.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/generic-slicer.png"
+                   },
+                   {
+                       "name":  "Security Droid",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-OmfAVmi55jI980oJ.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/generic-security-droid.png"
+                   },
+                   {
+                       "name":  "IG-100 MagnaGuard",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-W68lcJJOF0sRgwzR.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/magna-guard.jpg"
+                   },
+                   {
+                       "name":  "M226 Navy Trooper",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-cVaQeLAwKd7IYQAg.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/death-star-troopers.jpg"
+                   },
+                   {
+                       "name":  "Stormtrooper: Snowtrooper",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-d3Gk4BkeWbVexqIa.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/snowtroopers.jpg"
+                   },
+                   {
+                       "name":  "Medical Droid",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-lcYfgeLgBI6ZMliO.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/medical-2-1b.jpeg"
+                   },
+                   {
+                       "name":  "Viper Probe Droid",
+                       "path":  "systems/starwarsffg/assets/tokens-tokenizer2/role-uGUfMO8Gs0fT0z7W.webp",
+                       "img":  "systems/starwarsffg/assets/starwars-original/imperial-probe-droid.jpg"
+                   }
+               ],
+    "errors":  [
+
+               ]
+}

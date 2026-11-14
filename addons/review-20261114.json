@@ -2,7 +2,7 @@
   "date": "2026-11-14",
   "target_foundry": "14.369",
   "target_system": "2.0.5-mitos.14",
-  "scope": "27 módulos y dependencias localizados; búsqueda pública, no garantía de exhaustividad. PC desconectado: estado activo y pruebas del mundo pendientes.",
+  "scope": "27 archivos de módulos y dependencias inspeccionados; revisión conectada en Foundry 14.369. Búsqueda pública sin garantía de exhaustividad.",
   "modules": [
     {
       "id": "ffg-star-wars-enhancements",
@@ -81,9 +81,9 @@
           }
         ]
       },
-      "review_status": "upgrade-candidate",
-      "review_notes": "Fork 3.2.1 declara V14.368. Reemplazo de 3.0.0 pendiente de prueba en el mundo; revisar solapamiento de carga/estimulantes.",
-      "runtime_verified_this_review": false,
+      "review_status": "installed-runtime-tested",
+      "review_notes": "Upgraded 3.0.0 to Saberofblue 3.2.1; startup and compendia checked.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "ffg-star-wars-enhancements",
         "url": "https://github.com/Saberofblue/StarWarsFFG-Enhancements/releases/download/3.2.1/module.zip",
@@ -117,9 +117,9 @@
         "maximum": "13"
       },
       "warning": "",
-      "review_status": "patch-ready",
-      "review_notes": "Parche local de estados, tokens sintéticos, escenas con PNJ y llamadas antiguas. Pruebas unitarias; integración pendiente.",
-      "runtime_verified_this_review": false,
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: managed encumbrance counter 2 -> 0; unrelated ActiveEffect preserved. World enablement remains optional.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "star-wars-status-automation",
         "url": "https://github.com/Malven31/foundryVTT-SWFFG-status-automation/releases/download/0.2.1/module.zip",
@@ -154,8 +154,8 @@
         "maximum": "13"
       },
       "warning": "",
-      "review_status": "migration-needed",
-      "review_notes": "Máximo declarado 13; controles todavía usan onClick en V14. Monedas y automatizaciones de Genesys requieren revisar configuración.",
+      "review_status": "patched-partial",
+      "review_notes": "V14 scene control callbacks patched. Module declares maximum system 2.0.4 and remains disabled with 2.0.5-mitos.14; full feature integration pending.",
       "runtime_verified_this_review": false,
       "archive_audit": {
         "id": "genesys-ffg-options-enhancer",
@@ -190,9 +190,9 @@
         "verified": "13.351"
       },
       "warning": "Publisher archive is a repository snapshot and may require manual extraction.",
-      "review_status": "runtime-test-needed",
-      "review_notes": "Verificado por autor en V13; selección múltiple accede a this.actor cuando puede no existir. Probar con Core 2.1.2.",
-      "runtime_verified_this_review": false,
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: two selected tokens produce common skill actions; skill dialog opens; synthetic actor dice pool regression-tested.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "token-action-hud-ffgsw",
         "url": "https://github.com/TeddyBears/token-action-hud-ffgsw/archive/refs/tags/13.0.0.2_0_3.zip",
@@ -256,9 +256,9 @@
         "verified": "13"
       },
       "warning": "Choose only one of the competing UI replacements.",
-      "review_status": "exclusive-ui",
-      "review_notes": "Tema para V13; no activar junto con otra sustitución de interfaz. Requiere revisión visual V14.",
-      "runtime_verified_this_review": false,
+      "review_status": "runtime-tested",
+      "review_notes": "Global interface and icons checked alongside Alternative actor sheets. CC global theme disabled.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "space-op-ui",
         "url": "https://gitlab.com/sasmira/space-op-ui/-/jobs/artifacts/v13.2/raw/space-op-ui.zip?job=build",
@@ -322,9 +322,9 @@
         "verified": "12.331"
       },
       "warning": "Choose only one of the competing UI replacements.",
-      "review_status": "exclusive-ui",
-      "review_notes": "Tema V12; compite con Space Opera UI y Alternative UI. Requiere migración y revisión visual.",
-      "runtime_verified_this_review": false,
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: startup, directories and Font Awesome icons checked. Alternative global theme; do not combine with Space Opera.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "swffgUI-cc",
         "url": "https://github.com/prolice/swffgUI-cc/releases/download/v2.6.3/module.zip",
@@ -358,8 +358,8 @@
         "maximum": "12"
       },
       "warning": "Requires optional Math.js library and licensed user-supplied silhouette art.",
-      "review_status": "migration-needed",
-      "review_notes": "Máximo V12, depende de Math.js y arte de siluetas aportado por usuario. Faltan pruebas de APIs y recursos.",
+      "review_status": "patched-partial",
+      "review_notes": "Startup and vehicle sheet hook load in Foundry 14.369. Automatic scale/art features still need configured silhouette folders and full validation.",
       "runtime_verified_this_review": false,
       "archive_audit": {
         "id": "starwars-silhouette",
@@ -394,9 +394,9 @@
         "verified": "12.331"
       },
       "warning": "Choose only one of the competing UI replacements. Publisher archive is a repository snapshot and may require manual extraction.",
-      "review_status": "exclusive-ui",
-      "review_notes": "Ficha/interfaz V12 y archivo ZIP de repositorio. Requiere migración y revisión visual.",
-      "runtime_verified_this_review": false,
+      "review_status": "runtime-tested",
+      "review_notes": "Actor sheet opened alongside Space Opera; custom numeric fields verified.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "ffg-star-wars-alternative-ui",
         "url": "https://github.com/TeddyBears/StarWarsFFG-alternative-UI/archive/refs/tags/12.6.2.1_905.zip",
@@ -428,9 +428,9 @@
         "maximum": "12.999"
       },
       "warning": "",
-      "review_status": "migration-needed",
-      "review_notes": "Máximo V12.999; medición de distancias y hooks de tokens necesitan prueba V14.",
-      "runtime_verified_this_review": false,
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: SceneConfig fields, Token HUD, range creation and token movement cleanup checked. Legacy template deprecation warnings remain; detailed ruler labels not fully checked.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "lgs-token-range-bands",
         "url": "https://github.com/Lyinggod/lgs-token-range-bands/releases/download/v1.1.3/lgs-token-range-bands.zip",
@@ -462,9 +462,9 @@
         "maximum": "12"
       },
       "warning": "",
-      "review_status": "patch-ready",
-      "review_notes": "Parche local: campo blank, ficha sin registro alternativo y fichas de solo lectura. Integración pendiente.",
-      "runtime_verified_this_review": false,
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: blank spacer and numeric field render once in standard V2 and Alternative actor sheets; read-only protection regression-tested.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "lgs-extra-fields-for-star-wars",
         "url": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-lgs-extra-fields-for-star-wars.zip",
@@ -497,9 +497,9 @@
         "verified": "12"
       },
       "warning": "Changes dice probabilities. Do not enable casually.",
-      "review_status": "optional-rule-change",
-      "review_notes": "Modifica probabilidades de dados. Mantener desactivado salvo elección expresa; solo verificado V12.",
-      "runtime_verified_this_review": false,
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: a temporary FFG roll rendered in chat without errors and was removed. Original probability preferences preserved.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "swrpg-karmic-dice",
         "url": "https://github.com/thompsdt/swrpg-karmic-dice/releases/latest/download/swrpg-karmic-dice.zip",
@@ -530,9 +530,9 @@
         "verified": "13"
       },
       "warning": "",
-      "review_status": "patch-ready",
-      "review_notes": "Parche local: edición numérica, permisos y botones de activación. Integración pendiente.",
-      "runtime_verified_this_review": false,
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: wounds +/-1 on nemesis, minion, rival and hull trauma on vehicle; restored original values.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "ffg-star-wars-hud-enhancements",
         "url": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-ffg-star-wars-hud-enhancements.zip",
@@ -565,8 +565,8 @@
         "verified": "11"
       },
       "warning": "Requires legacy MaterialDeck and external Stream Deck hardware.",
-      "review_status": "optional-hardware",
-      "review_notes": "Integración antigua V11. Depende de MaterialDeck y Stream Deck físico.",
+      "review_status": "patched-partial",
+      "review_notes": "Resource mappings, FFG rolls and condition preservation covered by regression tests. External MaterialDeck server/hardware unavailable.",
       "runtime_verified_this_review": false,
       "archive_audit": {
         "id": "materialdeck-starwarsffg",
@@ -1024,5 +1024,14 @@
       "review_notes": "Código recuperado de fork; manifiesto en public/module.json, sin ZIP ni bundle compilado ni licencia en el árbol. No se redistribuye código ni se marca compatible.",
       "runtime_verified_this_review": false
     }
-  ]
+  ],
+  "live_audit": {
+    "documents": 4909,
+    "image_paths": 1455,
+    "broken_image_paths": 0,
+    "data_preparation_errors": 0,
+    "vehicle_default_portraits_remaining": 84,
+    "js_tests_passed": 52,
+    "patcher_tests_passed": 3
+  }
 }

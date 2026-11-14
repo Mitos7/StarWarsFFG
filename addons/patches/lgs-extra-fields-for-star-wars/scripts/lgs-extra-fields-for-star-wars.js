@@ -130,7 +130,8 @@ Hooks.on("renderActorSheet", async (app, html, data) => {
   const customFieldGrid = `grid grid-${customFieldQty}col`
 
   let activeSheet = actor.getFlag("core", "sheetClass");
-  let activeAltSheet = CONFIG.Actor.sheetClasses?.character?.["starwarsffg.ffgalternateactorsheet"]?.default
+  const activeAltSheet = app.constructor?.name === "FFGAlternateActorSheet" ||
+    CONFIG.Actor.sheetClasses?.[actor.type]?.["starwarsffg.FFGAlternateActorSheet"]?.default;
   let anchorContainers = "";
   let extraPadding = "";
   if (activeAltSheet || (activeSheet && activeSheet.toLowerCase() === "starwarsffg.ffgalternateactorsheet")) {

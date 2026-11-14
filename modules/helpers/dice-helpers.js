@@ -306,9 +306,11 @@ export default class DiceHelpers {
  * @returns {DicePoolFFG}
  */
 export function get_dice_pool(actor_id, skill_name, incoming_roll) {
-  const actor = game.actors.get(actor_id);
-  const parsed_skill_name = convert_skill_name(skill_name);
+  // A synthetic token actor can share its ID with a different world actor.
+  const actor = typeof actor_id === "string" ? game.actors.get(actor_id) : actor_id;
+  const parsed_skill_name = actor?.system?.skills?.[skill_name] ? skill_name : convert_skill_name(skill_name);
   const skill = actor.system.skills[parsed_skill_name];
+  if (!skill) throw new Error(`Unknown skill: ${skill_name}`);
   const characteristic = actor.system.characteristics[skill.characteristic];
 
   const dicePool = new DicePoolFFG({
@@ -326,7 +328,7 @@ export function get_dice_pool(actor_id, skill_name, incoming_roll) {
     triumph: (skill.triumph ?? 0) + incoming_roll.triumph,
     despair: (skill.despair ?? 0) + incoming_roll.despair,
     upgrades: (skill.upgrades ?? 0) + incoming_roll.upgrades,
-    remsetback: skill?.remsetback ? skill.remsetback : 0 + incoming_roll.remsetback,
+    remsetback: (skill.remsetback ?? 0) + incoming_roll.remsetback,
     difficulty: +incoming_roll.difficulty,
     challenge: +incoming_roll.challenge,
   });

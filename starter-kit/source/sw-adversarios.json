@@ -2824,7 +2824,7 @@
     "_id": "ee093377500a4329",
     "name": "Agente ISB",
     "type": "nemesis",
-    "img": "systems/starwarsffg/assets/starwars-original/generic-isb.png",
+    "img": "systems/starwarsffg/assets/starwars-original/isb-agent-battlefront.jpg",
     "system": {
       "biography": "<p>Investigador entrenado para interrogar y detectar riesgos.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -3207,7 +3207,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "Y49qKNvrNkE2KqeJ",
+            "id": "Le02WGsMP2uYMOd7",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -3267,7 +3267,7 @@
             },
             "masks": [
               {
-                "id": "Lg8B5rI9ya7mP9EF",
+                "id": "SSMNLPUw8U2O4c6J",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -3282,18 +3282,18 @@
             "isBackground": true
           },
           {
-            "id": "HL6AltlhMpBidx8D",
+            "id": "AVsjOHA2LVynQ3jZ",
             "type": "image",
             "name": "Token Image",
-            "src": "systems/starwarsffg/assets/starwars-original/generic-isb.png",
+            "src": "systems/starwarsffg/assets/starwars-original/isb-agent-battlefront.jpg",
             "visible": true,
             "locked": false,
             "blendMode": "source-over",
             "transform": {
               "x": 0,
               "y": 0,
-              "scaleX": 0.82008,
-              "scaleY": 0.82008,
+              "scaleX": 1.7777777777777777,
+              "scaleY": 1.7777777777777777,
               "rotation": 0
             },
             "adjustments": {
@@ -3342,7 +3342,7 @@
             },
             "masks": [
               {
-                "id": "30SKnhFvrMSLpO2c",
+                "id": "RjvXK8nrBxgkbDMG",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -3356,7 +3356,7 @@
             "isVideo": false
           },
           {
-            "id": "y662uUCesyR6DrO9",
+            "id": "UcvNyWkroL5PV6cD",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -3434,7 +3434,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/generic-ee093377500a4329.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/review-ee093377500a4329.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -11249,7 +11249,7 @@
     "_id": "6364c9cc7380dc9a",
     "name": "Droide de protocolo",
     "type": "rival",
-    "img": "systems/starwarsffg/assets/starwars-original/generic-protocol.png",
+    "img": "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg",
     "system": {
       "biography": "<p>Autómata dedicado a traducción y mediación.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "species": {
@@ -11626,7 +11626,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "4Ef4LyC6DDYj9i2k",
+            "id": "X0wAGP2hUvTQRUyv",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -11686,7 +11686,7 @@
             },
             "masks": [
               {
-                "id": "aeiwH28bwfzsC44I",
+                "id": "cOpsEDcEiRcMXHA6",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -11701,18 +11701,18 @@
             "isBackground": true
           },
           {
-            "id": "bf3nRxKaSQZcZDBi",
+            "id": "5yyqilrykQfLlJTo",
             "type": "image",
             "name": "Token Image",
-            "src": "systems/starwarsffg/assets/starwars-original/generic-protocol.png",
+            "src": "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg",
             "visible": true,
             "locked": false,
             "blendMode": "source-over",
             "transform": {
               "x": 0,
               "y": 0,
-              "scaleX": 0.82008,
-              "scaleY": 0.82008,
+              "scaleX": 1,
+              "scaleY": 1,
               "rotation": 0
             },
             "adjustments": {
@@ -11761,7 +11761,7 @@
             },
             "masks": [
               {
-                "id": "Z75V3hpPgzfwWbqU",
+                "id": "ff8f3Cb3XaGDkrcJ",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -11775,7 +11775,7 @@
             "isVideo": false
           },
           {
-            "id": "Wj19DRico6Q7kDf9",
+            "id": "WNdbrBUQSSLPmZ5d",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -11853,7 +11853,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/generic-6364c9cc7380dc9a.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/review-6364c9cc7380dc9a.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",

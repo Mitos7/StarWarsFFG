@@ -17,7 +17,7 @@ test("all declared document subtypes receive a V14 TypeDataModel", () => {
   class MockArrayField extends MockField {
     constructor(member, options) { super(options); this.member = member; }
   }
-  class MockTypeDataModel {}
+  class MockTypeDataModel { static migrateData(source) { return source; } }
   globalThis.foundry = {
     abstract: {TypeDataModel: MockTypeDataModel},
     data: {fields: {
@@ -28,7 +28,7 @@ test("all declared document subtypes receive a V14 TypeDataModel", () => {
       ObjectField: MockField,
       StringField: MockField
     }},
-    utils: {deepClone: structuredClone}
+    utils: {deepClone: structuredClone, mergeObject: merge}
   };
   globalThis.CONFIG = {Actor: {dataModels: {}}, Item: {dataModels: {}}};
   registerStarWarsDataModels();
@@ -50,6 +50,27 @@ test("all declared document subtypes receive a V14 TypeDataModel", () => {
   }
   assert.equal(Object.keys(CONFIG.Actor.dataModels).length, 6);
   assert.equal(Object.keys(CONFIG.Item.dataModels).length, 20);
+});
+
+function merge(target, source) {
+  for (const [key, value] of Object.entries(source)) {
+    if (value && typeof value === "object" && !Array.isArray(value)) target[key] = merge(target[key] ?? {}, value);
+    else target[key] = value;
+  }
+  return target;
+}
+
+test("partial imported NPC stats retain values and acquire missing resources", () => {
+  for (const type of ["rival", "minion", "vehicle"]) {
+    const source = {stats: {wounds: {value: 3, max: 10}, customResource: {value: 7}}, skills: {CustomSkill: {rank: 4}}};
+    const migrated = CONFIG.Actor.dataModels[type].migrateData(source);
+    assert.equal(migrated.stats.encumbrance.value, 0);
+    assert.equal(migrated.stats.wounds.max, 10);
+    assert.equal(migrated.stats.wounds.value, 3);
+    assert.deepEqual(migrated.stats.customResource, {value: 7});
+    assert.deepEqual(migrated.skills, {CustomSkill: {rank: 4}});
+    assert.equal(SYSTEM_DEFAULTS.Actor[type].stats.encumbrance.value, 0);
+  }
 });
 
 test("root template.json is absent, and the old defaults are reproducible", () => {
