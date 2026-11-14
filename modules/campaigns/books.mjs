@@ -6,6 +6,7 @@ export const LINE_LABELS = {
   legacy: "Ediciones beta · referencia histórica",
   fan: "Material fan y ejemplos",
   homebrew: "Mi campaña homebrew",
+  tools: "Modificadores y recursos compartidos",
   unknown: "Pendiente de identificar"
 };
 
@@ -67,6 +68,7 @@ const rows = [
   ["usm","fan","Unofficial Species Menagerie","Suplemento fan"],
   ["fan-demo","fan","Ejemplos y adaptaciones fan de demostración","No son datos oficiales de los libros"],
   ["homebrew","homebrew","Homebrew de Mitos · historia propia","Personajes, equipo y relatos creados para tu campaña"],
+  ["oggdude-descriptors","tools","OggDude — ItemDescriptors.xml","Modificadores reutilizables; vinculados a los libros de los objetos que los usan"],
   ["unknown","unknown","Sin fuente identificada","No se atribuye un libro por semejanza"]
 ];
 export const BOOKS = rows.map(([id,line,title,detail]) => ({id,line,title,detail}));
@@ -96,7 +98,7 @@ export function sourcesFromDescription(description="") {
     }
   }
   const text=decodeText(html).trim();
-  if(/(?:^|\n)\s*Please see page\s+\d/i.test(text)){
+  if(/(?:^|\n)\s*(?:please\s+)?see\b[^\n]*\bpage\s+\d/i.test(text)){
     for(const book of BOOKS.filter(b=>!["homebrew","unknown","fan"].includes(b.line))){
       const title=book.title.replace(/[.*+?^${}()|[\]\\]/g,"\\$&");
       const pattern=new RegExp(`page\\s+(\\d+(?:[-–]\\d+)?)\\s+of\\s+(?:the\\s+)?${title}(?=\\s|[.,;]|$)`,"gi");
@@ -110,7 +112,8 @@ export function entryBookIds(entry) {
   if (entry.pack?.startsWith("starwarsffg.sw-") || entry.pack?.startsWith("swffg-mitos-starter.")) return ["fan-demo"];
   const sources = Array.isArray(entry.sources) ? entry.sources : [];
   const tags = (Array.isArray(entry.tags) ? entry.tags : []).filter(t=>String(t).startsWith("book:"));
-  const ids = [...new Set([...sources,...tags].filter(s=>typeof s==="string"&&s.trim()).map(bookIdForSource))];
+  const related=(entry.relatedBooks??[]).filter(id=>BOOKS.some(b=>b.id===id));
+  const ids = [...new Set([...sources,...tags].filter(s=>typeof s==="string"&&s.trim()).map(bookIdForSource).concat(related))];
   return ids.length ? ids : ["unknown"];
 }
 export function catalogueBooks(entries) {

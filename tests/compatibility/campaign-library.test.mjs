@@ -38,6 +38,20 @@ test("journal page citations recover explicit references but ordinary book menti
   assert.deepEqual(sourcesFromDescription('Please see page 20 of the Unknown Book for details.'),[]);
 });
 
+test("vehicle sidebars, holocron tables and adventure references retain book pages", () => {
+  for(const [text,expected] of [
+    ["Please see sidebar on page 272 of the Age of Rebellion Core Rulebook for details.","Age of Rebellion Core Rulebook pg.272"],
+    ["See <b>Table 2-7: Holocron Skills</b> on page 109 of the Force and Destiny Core Rulebook for details.","Force and Destiny Core Rulebook pg.109"],
+    ["See page 19 of the Chronicles of the Gatekeeper adventure module for details.","Chronicles of the Gatekeeper pg.19"]
+  ])assert.deepEqual(sourcesFromDescription(text),[expected]);
+});
+
+test("shared descriptors have an explicit technical source and separately evidenced book relationships", () => {
+  const entry={sources:["OggDude — ItemDescriptors.xml"],relatedBooks:["eote","aor","invented"]};
+  assert.deepEqual(entryBookIds(entry),["oggdude-descriptors","eote","aor"]);
+  assert.deepEqual(filterEntries([entry],{selected:["eote"]}),[entry]);
+});
+
 test("library filters intersect saved books, line, type and search without mutating entries", () => {
   const entries=[
     {name:"Stormtrooper",type:"minion",documentName:"Actor",books:["aor","eote"],sources:["book:aor"]},

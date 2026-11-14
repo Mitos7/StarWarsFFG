@@ -1,0 +1,1564 @@
+[
+  {
+    "file": "ItemAttachments.xml",
+    "key": "ATA",
+    "name": "Advanced Targeting Array",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "UPGUNN",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "UPGUNN",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "ECDA",
+    "name": "Enhanced Carbon-Durasteel Armor",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "ARMORADD",
+          "Count": "1"
+        },
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "HCC",
+    "name": "Hydraulic Control Circuits",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SSTRAINADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "RSG",
+    "name": "Reinforced Shield Generator",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "DEFZONEADD",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "DEFZONEADD",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "SMUG",
+    "name": "Smuggling Compartments",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SMUGENC",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SMUGENC",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "HANGAR",
+    "name": "Retrofitted Hangar Bay",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANGER",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "HANGERSIZE",
+          "Count": "5"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "HYPERDRIVE",
+    "name": "Hyperdrive Generator",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HYPERDRIVESUB",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "HYPERDRIVESUB5",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "IONTURBINE",
+    "name": "High-Output Ion Turbine",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "1"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "UCA",
+    "name": "Upgraded Comms Array",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "CRANGEADD",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "CRANGEADD",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "SWOOPSPEED",
+    "name": "Swoop Speed Modification",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "1"
+        },
+        {
+          "Key": "HULLSUB",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SSTRAINADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "OEWM",
+    "name": "Oversized External Weapons Mount",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "ADDSILWEAP",
+          "Count": "1",
+          "Index": "0",
+          "MiscDesc": null,
+          "DefZone": null
+        },
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1",
+          "Index": "0",
+          "MiscDesc": null,
+          "DefZone": null
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "4",
+          "Index": "0",
+          "MiscDesc": null,
+          "DefZone": null
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "BOARDTUBE",
+    "name": "T9 Stinger Assault Boarding Tube",
+    "groups": {
+      "AddedMods": [
+        {
+          "Key": "BOARDTUBETIME",
+          "Count": "4",
+          "Index": "0",
+          "MiscDesc": null,
+          "DefZone": null
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "AUGBUFF",
+    "name": "Augmented Buffer",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SSTRAINADD",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SSTRAINADD",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "UPGFIRE",
+    "name": "Upgraded Firepower",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "DAMWEAPSYSADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "MANTHRUST",
+    "name": "Maneuvering Thrusters",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "HARDCIRC",
+    "name": "Hardened Circuits",
+    "groups": {
+      "BaseMods": [
+        {
+          "Count": "2",
+          "Key": "SSTRAINADD"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Count": "2",
+          "Key": "SSTRAINADD"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "HULLREINF",
+    "name": "Hull/Keel Reinforcement",
+    "groups": {
+      "BaseMods": [
+        {
+          "Count": "2",
+          "Key": "HULLADD"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Count": "2",
+          "Key": "HULLADD"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CLOAKSMUGG",
+    "name": "Cloaked Smuggling Compartments",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SMUGENC",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SMUGENC",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "STARHWKSIDECAR",
+    "name": "Starhawk Sidecar",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "ENCCADD",
+          "Count": "10"
+        },
+        {
+          "Key": "PASSADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "ENGINERING",
+    "name": "Engine Ring Stabilizer",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGADD",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "AD1SCARGOPOD",
+    "name": "(AD-1S) Cargo Pod",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "ENCCADD",
+          "Count": "50"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "PASSADD2",
+          "Count": "3"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "AD1SMICROTHRUST",
+    "name": "(AD-1S) Fine-Tuned Microthrusters",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGADD",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "HANDLINGADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "AD1SHYPER8",
+    "name": "(AD-1S) Hyperdrive Class 8 Module",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HYPERDRIVEADD8"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "HYPERDRIVESUB5",
+          "Count": "4"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "AD1SHYPER4",
+    "name": "(AD-1S) Hyperdrive Class 4 Module",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HYPERDRIVEADD4"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "HYPERDRIVESUB5",
+          "Count": "4"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "AD1SSHIELD",
+    "name": "(AD-1S) Shield Generator Module",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "DEFZONEADD",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "DEFZONEADD",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "AD1SBOOSTTHRUST",
+    "name": "(AD-1S) Sublight Boost Thrusters",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "1"
+        },
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "ENHREPULS",
+    "name": "Enhanced Repulsorlift",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "1"
+        },
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "OVERCHIONENG",
+    "name": "Overcharged Ion Engines",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "1"
+        },
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PARAAIR",
+    "name": "Paramilitary Airspeeder",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        },
+        {
+          "Key": "ARMORADD",
+          "Count": "2"
+        },
+        {
+          "Key": "HULLADD",
+          "Count": "2"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PARACLOUD",
+    "name": "Paramilitary Cloud Car",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        },
+        {
+          "Key": "ARMORADD",
+          "Count": "1"
+        },
+        {
+          "Key": "HULLADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PARALAND",
+    "name": "Paramilitary Landspeeder",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        },
+        {
+          "Key": "ARMORADD",
+          "Count": "3"
+        },
+        {
+          "Key": "HULLADD",
+          "Count": "2"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PARAWALK",
+    "name": "Paramilitary Walker",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        },
+        {
+          "Key": "ARMORADD",
+          "Count": "2"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PARAWHEEL",
+    "name": "Paramilitary Wheeled/Tracked",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        },
+        {
+          "Key": "ARMORADD",
+          "Count": "3"
+        },
+        {
+          "Key": "HULLADD",
+          "Count": "2"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PARABIKE",
+    "name": "Paramilitary Speeder Bike/Swoop",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        },
+        {
+          "Key": "HULLADD",
+          "Count": "1"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PARALTFREIGHT",
+    "name": "Paramilitary Light Freighter",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        },
+        {
+          "Key": "DEFZONEADD",
+          "Count": "1"
+        },
+        {
+          "Key": "ARMORADD",
+          "Count": "1"
+        },
+        {
+          "Key": "HULLADD",
+          "Count": "2"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PARAMEDTRANS",
+    "name": "Paramilitary Medium Transport",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "DEFZONEADD",
+          "Count": "1"
+        },
+        {
+          "Key": "ARMORADD",
+          "Count": "2"
+        },
+        {
+          "Key": "HULLADD",
+          "Count": "3"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PARABULK",
+    "name": "Paramilitary Bulk Transport",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        },
+        {
+          "Key": "DEFZONEADD",
+          "Count": "2"
+        },
+        {
+          "Key": "ARMORADD",
+          "Count": "2"
+        },
+        {
+          "Key": "HULLADD",
+          "Count": "5"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "5"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PARASHUTTLE",
+    "name": "Paramilitary Shuttle",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        },
+        {
+          "Key": "DEFZONEADD",
+          "Count": "2"
+        },
+        {
+          "Key": "HULLADD",
+          "Count": "2"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "3"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PARAYACHT",
+    "name": "Paramilitary Yacht",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "DEFZONEADD",
+          "Count": "1"
+        },
+        {
+          "Key": "HULLADD",
+          "Count": "2"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "5"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PODENGINEBOOST",
+    "name": "Engine Boost System",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "1"
+        },
+        {
+          "Key": "SSTRAINSUB",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PODHAND",
+    "name": "Handling Upgrades",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGADD",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "HANDLINGADD",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PODCOILS",
+    "name": "High-Output Repulsor Coils",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "ADDALT50",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "ADDALT50",
+          "Count": "3"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PODSHIELD",
+    "name": "Podracer Shield Generator",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETDEFFORE",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "DEFZONEADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PODCONTCAB",
+    "name": "Podracer Control Cables",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETHAND",
+          "Count": "-1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PODENGINE",
+    "name": "Podracer Engines (pair)",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETSPEED",
+          "Count": "4"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "VAKSAI",
+    "name": "Vaksai Modification Package",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETARMOR",
+          "Count": "3"
+        },
+        {
+          "Key": "SETHAND",
+          "Count": "1"
+        },
+        {
+          "Key": "SETDEFAFT",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "VAKSAI"
+        },
+        {
+          "Key": "ADDDEFFORE",
+          "Count": "1"
+        },
+        {
+          "Key": "SSTRAINADD",
+          "Count": "3"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "PLASMADRILL",
+    "name": "Plasma Drill",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "2"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "HANDLINGADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "REINARMPLATE",
+    "name": "Reinforced Armor Plating",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "ARMORADD",
+          "Count": "2"
+        },
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "HULLADD3",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CRAFTENGINESINGION",
+    "name": "Single Ion Coil",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETSPEEDCRAFT",
+          "Count": "1"
+        },
+        {
+          "Key": "SETSSTRAINSILCRAFT",
+          "Count": "3"
+        },
+        {
+          "Key": "SETDEFFORECRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFAFTCRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFSTARCRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFPORTCRAFT",
+          "Count": "0"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "3"
+        },
+        {
+          "Key": "SSTRAINADDSIL",
+          "Count": "3"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CRAFTENGINEELECBAFF",
+    "name": "Electron Baffled Engine",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETSPEEDCRAFT",
+          "Count": "2"
+        },
+        {
+          "Key": "SETSSTRAINSILCRAFT",
+          "Count": "5"
+        },
+        {
+          "Key": "SETDEFFORECRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFAFTCRAFT",
+          "Count": "2"
+        },
+        {
+          "Key": "SETDEFSTARCRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFPORTCRAFT",
+          "Count": "0"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SPEEDADD2",
+          "Count": "2"
+        },
+        {
+          "Key": "SSTRAINADDSIL",
+          "Count": "2"
+        },
+        {
+          "Key": "ADDDEFAFT",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CRAFTENGINEIONTURBINE",
+    "name": "Ion Turbine Engine",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETSPEEDCRAFT",
+          "Count": "1"
+        },
+        {
+          "Key": "SETSSTRAINSILCRAFT",
+          "Count": "10"
+        },
+        {
+          "Key": "SETDEFFORECRAFT",
+          "Count": "1"
+        },
+        {
+          "Key": "SETDEFAFTCRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFSTARCRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFPORTCRAFT",
+          "Count": "0"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "1"
+        },
+        {
+          "Key": "SSTRAINADDSIL",
+          "Count": "5"
+        },
+        {
+          "Key": "ADDDEFFORE",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CRAFTENGINEFUSIALTHRUST",
+    "name": "Fusial Thrust Engine",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETSPEEDCRAFT",
+          "Count": "3"
+        },
+        {
+          "Key": "SETSSTRAINSILCRAFT",
+          "Count": "4"
+        },
+        {
+          "Key": "SETDEFFORECRAFT",
+          "Count": "1"
+        },
+        {
+          "Key": "SETDEFAFTCRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFSTARCRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFPORTCRAFT",
+          "Count": "0"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "2"
+        },
+        {
+          "Key": "ADDDEFAFT",
+          "Count": "2"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CRAFTENGINEREPCLUSTER",
+    "name": "High-Performance Repulsor Cluster",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETSPEEDCRAFT",
+          "Count": "4"
+        },
+        {
+          "Key": "SETSSTRAINSILCRAFT",
+          "Count": "5"
+        },
+        {
+          "Key": "SETDEFFORECRAFT",
+          "Count": "1"
+        },
+        {
+          "Key": "SETDEFAFTCRAFT",
+          "Count": "1"
+        },
+        {
+          "Key": "SETDEFSTARCRAFT",
+          "Count": "1"
+        },
+        {
+          "Key": "SETDEFPORTCRAFT",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CRAFTENGINEIONDRIVEARRAY",
+    "name": "Ion Drive Array",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETSPEEDCRAFT",
+          "Count": "4"
+        },
+        {
+          "Key": "SETSSTRAINSILCRAFT",
+          "Count": "2"
+        },
+        {
+          "Key": "SETDEFFORECRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFAFTCRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFSTARCRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETDEFPORTCRAFT",
+          "Count": "0"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "SPEEDADD",
+          "Count": "2"
+        },
+        {
+          "Key": "SSTRAINADDSIL",
+          "Count": "1"
+        },
+        {
+          "Key": "ADDDEFFORE",
+          "Count": "1"
+        },
+        {
+          "Key": "ADDDEFAFT",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CRAFTHULLSLEEK",
+    "name": "Sleek Carapace",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETARMORCRAFT",
+          "Count": "0"
+        },
+        {
+          "Key": "SETHANDCRAFT",
+          "Count": "2"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "ARMORADD",
+          "Count": "1"
+        },
+        {
+          "Key": "ADDDEFAFT",
+          "Count": "1"
+        },
+        {
+          "Key": "HANDLINGADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CRAFTHULLEXPCAP",
+    "name": "Expanded-Capacity Holds",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETARMORCRAFT",
+          "Count": "1"
+        },
+        {
+          "Key": "SETHANDCRAFT",
+          "Count": "-2"
+        },
+        {
+          "Key": "ENCCADDCRAFT",
+          "Count": "25"
+        },
+        {
+          "Key": "PASSADDCRAFT",
+          "Count": "25"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "ARMORADD",
+          "Count": "2"
+        },
+        {
+          "Key": "ENCCADDSIL",
+          "Count": "10"
+        },
+        {
+          "Key": "PASSADDSIL",
+          "Count": "8"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CRAFTHULLLTARMOR",
+    "name": "Lightly Armored Hull",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETARMORCRAFT",
+          "Count": "1"
+        },
+        {
+          "Key": "SETHANDCRAFT",
+          "Count": "-1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "ARMORADD",
+          "Count": "2"
+        },
+        {
+          "Key": "ENCCADDSIL",
+          "Count": "1"
+        },
+        {
+          "Key": "PASSADD",
+          "Count": "2"
+        },
+        {
+          "Key": "HANDLINGADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CRAFTHULLDEFPLATE",
+    "name": "Deflective Plating",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETARMORCRAFT",
+          "Count": "2"
+        },
+        {
+          "Key": "SETHANDCRAFT",
+          "Count": "-2"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "ARMORADD",
+          "Count": "2"
+        },
+        {
+          "Key": "ADDDEFFORE",
+          "Count": "1"
+        },
+        {
+          "Key": "HULLADDSIL",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CRAFTHULLCOMBATPLATE",
+    "name": "Combat Plating",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SETARMORCRAFT",
+          "Count": "3"
+        },
+        {
+          "Key": "SETHANDCRAFT",
+          "Count": "-3"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "ARMORADD",
+          "Count": "3"
+        },
+        {
+          "Key": "MASSIVEADD",
+          "Count": "1"
+        },
+        {
+          "Key": "HULLADDSIL",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "HYPERMOD4",
+    "name": "Hyperdrive Module Class 4",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HYPERDRIVEADD4",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "HYPERDRIVESUB5",
+          "Count": "4"
+        },
+        {
+          "Key": "HYPERDRIVEADDBACK14"
+        },
+        {
+          "Key": "HYPERDRIVEBACKSUB5",
+          "Count": "4"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "HYPERMOD8",
+    "name": "Hyperdrive Module Class 8",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "HYPERDRIVEADD8",
+          "Count": "1"
+        }
+      ],
+      "AddedMods": [
+        {
+          "Key": "HYPERDRIVESUB5",
+          "Count": "4"
+        },
+        {
+          "Key": "HYPERDRIVEADDBACK14"
+        },
+        {
+          "Key": "HYPERDRIVEBACKSUB5",
+          "Count": "4"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "CIVRETRO",
+    "name": "Civilian Vehicle Retrofit",
+    "groups": {
+      "AddedMods": [
+        {
+          "Key": "HANDLINGSUB",
+          "Count": "1"
+        },
+        {
+          "Key": "SSTRAINSUB2",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "DUSTCRAWLER",
+    "name": "Additional Cars",
+    "groups": {
+      "AddedMods": [
+        {
+          "Key": "SILHADD",
+          "Count": "10"
+        },
+        {
+          "Key": "ENCCADD100",
+          "Count": "10"
+        },
+        {
+          "Key": "PASSADD10",
+          "Count": "10"
+        },
+        {
+          "Key": "HPADD2",
+          "Count": "10"
+        },
+        {
+          "Key": "PRICE20000",
+          "Count": "10"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "MOBLISTEN",
+    "name": "Mobile Listening Post",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "SRANGEADD",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "ItemAttachments.xml",
+    "key": "RETWEAPSYS",
+    "name": "Retractable Weapon System",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "RETRACTWEAPSYSTEM",
+          "Count": "1"
+        }
+      ]
+    }
+  },
+  {
+    "file": "Gear.xml",
+    "key": "DEMONMASK",
+    "name": "Demon Mask",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "DEMONMASK"
+        }
+      ]
+    }
+  },
+  {
+    "file": "Gear.xml",
+    "key": "MEDFOCUS",
+    "name": "Meditation Focus",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "MEDFOCUS"
+        }
+      ]
+    }
+  },
+  {
+    "file": "Gear.xml",
+    "key": "IRONFIST",
+    "name": "Talisman of Iron Fists",
+    "groups": {
+      "BaseMods": [
+        {
+          "Key": "IRONFIST"
+        }
+      ]
+    }
+  }
+]

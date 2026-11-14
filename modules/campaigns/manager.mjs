@@ -12,15 +12,17 @@ export async function loadCampaignIndex(){
   if(!pack.visible||!["Actor","Item","JournalEntry","Scene","RollTable"].includes(pack.documentName))continue;
   if(!/^(world\.|starwarsffg\.sw-|swffg-mitos-starter\.)/.test(pack.collection))continue;
   try{
-   const index=await pack.getIndex({fields:["img","type","system.metadata.sources","system.metadata.tags","system.description","pages"]});
+   const index=await pack.getIndex({fields:["img","type","system.metadata.sources","system.metadata.tags","system.description","system.biography","flags.starwarsffg.sourceReview","pages"]});
    // Journal indexes omit page bodies; imported skill references require their text pages.
    const sourceDocuments=pack.documentName==="JournalEntry"&&pack.collection.startsWith("world.oggdude")?new Map((await pack.getDocuments()).map(doc=>[doc.id,doc])):new Map();
    for(const doc of index){
     const entry={uuid:doc.uuid??`Compendium.${pack.collection}.${pack.documentName}.${doc._id}`,name:doc.name,type:doc.type??pack.documentName,documentName:pack.documentName,img:doc.img||"icons/svg/book.svg",pack:pack.collection,packLabel:pack.metadata.label,sources:doc.system?.metadata?.sources??[],tags:doc.system?.metadata?.tags??[]};
     if(!entry.sources.length&&!entry.tags.some(t=>String(t).startsWith("book:"))&&pack.collection.startsWith("world.")){
-      entry.sources=sourcesFromDescription([doc.system?.description??"",...(sourceDocuments.get(doc._id)?.pages??doc.pages??[]).map(p=>p.text?.content??"")].join("\n"));
+      entry.sources=sourcesFromDescription([doc.system?.description??"",doc.system?.biography??"",...(sourceDocuments.get(doc._id)?.pages??doc.pages??[]).map(p=>p.text?.content??"")].join("\n"));
       entry.recoveredSource=entry.sources.length>0;
     }
+    const review=doc.flags?.starwarsffg?.sourceReview;
+    entry.relatedBooks=review?.relatedBooks??[];entry.auxiliary=review?.kind==="descriptor";
     entry.books=entryBookIds(entry);entries.push(entry);
    }
   }catch(error){errors.push({pack:pack.collection,message:error.message});}

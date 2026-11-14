@@ -29,15 +29,19 @@ Seleccionar un perfil cambia el filtro de la biblioteca de campaña. No importa 
 
 Las fichas se agrupan mediante sus referencias y etiquetas `book:`. Una ficha que cite varios libros aparece al filtrar cualquiera de ellos, sin copiar el documento. Las referencias de página originales se conservan. El contador de un libro **no certifica que su contenido esté completo**.
 
-La revisión identificó 3.103 documentos importados en 25 compendios: 2.541 tienen referencias en sus metadatos y 562 carecían de ellas. El gestor recupera las citas explícitas del libro y la página que seguían escritas en 323 descripciones y diarios; quedan 239 entradas sin fuente identificable. El catálogo enumera 51 publicaciones oficiales; 38 tienen al menos una referencia local. Las ediciones beta, el material fan, el contenido propio y las referencias desconocidas se muestran por separado. No se atribuye una fuente por semejanza.
+La revisión inicial identificó 3.103 documentos importados en 25 compendios: 2.541 tenían referencias en sus metadatos y 562 carecían de ellas. El gestor recuperó las citas explícitas de 323 descripciones y diarios. La [revisión posterior de las 239 restantes](source-review-20261114.md) recuperó las fuentes de 36 vehículos y 10 holocrones, identificó 186 modificadores compartidos del archivo original `ItemDescriptors.xml` y eliminó siete plantillas genéricas sin uso tras comprobar sus referencias. Quedan **cero entradas sin identificar**. De los modificadores compartidos, 149 se relacionan con libros a través de los objetos que los utilizan; 37 solo tienen procedencia técnica comprobada. No se inventan citas ni páginas.
+
+El catálogo enumera 51 publicaciones oficiales; 38 tienen al menos una referencia local. Las ediciones beta, el material fan, el contenido propio y los recursos compartidos se muestran por separado.
 
 El índice inicial del gestor contiene 3.522 entradas: 3.103 importadas y 419 ejemplos de los compendios del sistema y del módulo de inicio. Al crear el diario homebrew, el índice pasa a 3.523. Los compendios de ejemplo pueden duplicar contenido entre sí y están excluidos del navegador hasta marcar **Incluir ejemplos y material fan**. *Unofficial Species Menagerie* se considera material fan aunque proceda de la importación.
+
+Después de retirar las siete plantillas sin uso, el índice local contiene **3.516 entradas**. Se conservó una copia completa de los documentos afectados antes de reparar o eliminar contenido.
 
 **Gadgets and Gear**, **Starships and Speeders**, **Dawn of Rebellion** y **Collapse of the Republic** no tienen referencias locales identificadas. Pueden seleccionarse como fuentes previstas, pero el gestor muestra esa ausencia y no crea fichas ficticias para cubrirla. El [inventario de referencias](../addons/book-audit-20261114.json) conserva la auditoría de importación.
 
 En Biblioteca se puede buscar por nombre o referencia, filtrar por línea, libro y tipo, abrir una ficha y arrastrarla al destino que acepte ese tipo de documento. La selección se guarda por mundo y no oculta ni borra los compendios originales. **Actualizar** vuelve a leer las fuentes; los cambios de documentos invalidan automáticamente el índice.
 
-El importador de accesorios OggDude conserva ahora las fuentes de futuras importaciones. El navegador recupera las referencias antiguas al leerlas, sin sobrescribir los documentos de origen; las 239 entradas restantes siguen sin atribuirse a un libro.
+El importador OggDude conserva las fuentes de futuras importaciones y crea los modificadores de vehículo como `itemmodifier`, dentro de su compendio correcto. La reparación local corrigió 73 tipos de documento, normalizó 15 destinos de armadura y restauró 62 opciones de mejora en 36 objetos. Las mejoras se guardan al arrastrarlas a accesorios de nave y armaduras. Las elecciones y condiciones narrativas siguen requiriendo la revisión de la mesa.
 
 ## Herramientas adicionales
 
@@ -45,11 +49,13 @@ Módulos muestra las 91 familias del [catálogo ampliado](../addons/DISCOVERY-20
 
 Combinaciones ofrece una base de 19 módulos y dependencias revisados: Space Opera, Alternative UI, dados visuales, Tokenizer 2, HUD, campos extra, ayudas de resultados y mapa galáctico. La acción comprueba las versiones instaladas y la pareja Foundry 14.369 / StarWarsFFG 2.0.5-mitos.14, presenta los cambios, conserva un respaldo de la configuración y recarga solo al aplicarlos. Si falta una dependencia o cambia una versión, pide una nueva revisión en lugar de activar una mezcla no comprobada.
 
-Solo se desactivan dos alternativas que entran en conflicto con esa base: el tema global CC y Token Action HUD Classic. Los demás módulos conservan su estado. Karmic Dice sigue siendo una preferencia opcional y sus ajustes no se modifican. En el mundo revisado los 19 componentes ya estaban activos; aplicar la base no requiere cambios. Continúan activos 24 módulos en total.
+La acción de combinación solo desactiva dos alternativas que entran en conflicto con esa base: el tema global CC y Token Action HUD Classic. Los demás módulos conservan su estado. Karmic Dice sigue siendo una preferencia opcional y sus ajustes no se modifican.
+
+En una revisión posterior de siete módulos activados por el usuario, se pasó de 31 a **28 activos**: se desactivó CC para mantener Space Opera como tema general, y MaterialDeck junto con su integración FFG porque su servidor externo rechazaba la conexión. Permanecen activos Bandas de alcance, Automatización de estados, Silhouette y Scene Packer. El arranque posterior no registró errores ni excepciones; persisten advertencias de APIs obsoletas de terceros. Los detalles y límites están en [la revisión de módulos](../addons/REVIEW-20261114.md).
 
 ## Mi homebrew
 
-La ficha permite guardar nombre, época, relación con el canon, tono, premisa, continuidad anterior y propuestas de reglas. Los campos narrativos quedan **por definir por Mitos**. No se impone una trama ni una época.
+La ficha permite guardar nombre, época, relación con el canon, tono, premisa, continuidad anterior y propuestas de reglas. El código no impone una trama ni una época. Las decisiones narrativas y páginas adicionales del mundo local se guardan de forma privada, fuera de este repositorio.
 
 **Preparar mi campaña homebrew** crea:
 
@@ -71,6 +77,7 @@ Este espacio se prepara dentro del mundo actual. No crea otro mundo ni modifica 
 - Arrastre del diario con tipo y UUID válidos.
 - Preparación homebrew repetida mediante API y botón real: un diario, siete páginas, doce carpetas, cinco compendios y una macro; sin duplicados, compendios editables y permisos comprobados. También se comprobó guardar una selección manual de libros desde su botón y se restauró el perfil homebrew.
 - Cero errores de lectura del índice y cero excepciones durante estos recorridos. Las advertencias de obsolescencia V1 de las fichas existentes son independientes del nuevo gestor V2.
-- 65 pruebas JavaScript y comprobación sintáctica de los módulos `.js` y `.mjs`. La revisión previa de módulos también incluye tres pruebas Python del instalador.
+- 72 pruebas JavaScript y comprobación sintáctica de 105 módulos `.js` y `.mjs`. La revisión previa de módulos también incluye tres pruebas Python del instalador.
+- Revisión final: 232 documentos conservados y válidos, 45 imágenes distintas accesibles, 62 opciones de mejora guardadas; cero fuentes desconocidas. Se comprobó la persistencia mediante una lectura nueva del servidor después de arrastrar una mejora a un accesorio de nave y otra a una armadura. Los objetos temporales se eliminaron.
 
 La revisión general de imágenes sigue teniendo pendientes documentados en [REVIEW-20261114.md](../addons/REVIEW-20261114.md); el selector no convierte esos pendientes en trabajo terminado.

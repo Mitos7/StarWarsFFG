@@ -33,11 +33,7 @@ export default class ItemDescriptors {
       try {
         let data;
         if (Array.isArray(item.Type)) item.Type = item.Type[0];
-        if (item?.Type?.toLowerCase() === "vehicle") {
-          data = ImportHelpers.prepareBaseObject(item, "shipattachment");
-        } else {
-          data = ImportHelpers.prepareBaseObject(item, "itemmodifier");
-        }
+        data = ImportHelpers.prepareBaseObject(item, "itemmodifier");
 
         item.Description = ImportHelpers.cleanDescription(item.Description?.length ? item.Description : item.ModDesc);
 
@@ -51,14 +47,11 @@ export default class ItemDescriptors {
           rank: 1,
           metadata: {
             tags: [],
+            sources: ["OggDude — ItemDescriptors.xml", ...ImportHelpers.getSourcesAsArray(item?.Sources ?? item?.Source)],
           },
         };
 
-        if (item?.Type?.toLowerCase() === "vehicle") {
-          data.data.metadata.tags.push("shipattachment");
-        } else {
-          data.data.metadata.tags.push("itemmodifier");
-        }
+        data.data.metadata.tags.push("itemmodifier");
         if (item?.Type) {
           data.data.metadata.tags.push(item.Type.toLowerCase());
         }
@@ -76,13 +69,8 @@ export default class ItemDescriptors {
           );
         }
 
-        try {
-          // attempt to select the specific compendium for this type of mod
-          pack = packMap[data.data.type];
-        } catch (err) {
-          // but fail back to the generic compendium
-          pack = packMap["all"];
-        }
+        pack = packMap[data.data.type] ?? packMap.all;
+        if (data.data.type === "armor") data.data.type = "armour";
 
         await ImportHelpers.addImportItemToCompendium("Item", data, pack);
 
