@@ -1,5 +1,5 @@
 {
-  "note": "Existing images from the linked sources. No AI-generated or recreated images. Third-party images are not covered by the system code MIT license. Archetypes, species and abstract abilities may use representative Star Wars artwork.",
+  "note": "Existing source artwork except explicitly labeled reference edits. Third-party artwork is not covered by the code MIT license. Archetypes can use representative unnamed Star Wars illustrations; these do not set species, gender or affiliation in the rules.",
   "images": [
     {
       "id": "luke-skywalker",
@@ -1637,6 +1637,86 @@
       "kind": "Official Star Wars Databank image",
       "credit": "Lucasfilm and respective image owners",
       "sha256": "2c8ee9edc204f9759ad4157f313428e111f8ec8346855fc175acdae46ff177cb"
+    },
+    {
+      "id": "role-diplomat",
+      "file": "assets/starwars-original/role-diplomat.png",
+      "source": "https://starwars.archivum.wiki/article/diplomat",
+      "download": "https://static.wikia.nocookie.net/starwars/images/b/b7/Mirialan_Diplomat.png",
+      "kind": "Existing illustration of an unnamed Star Wars role",
+      "credit": "Lucasfilm / Fantasy Flight Games and respective artist; see source",
+      "sha256": "41c07ed599e8abf840635f1445e99353c207bca464ded3dca890f87577860f3a",
+      "bytes": 184242
+    },
+    {
+      "id": "role-con-artist",
+      "file": "assets/starwars-original/role-con-artist.png",
+      "source": "https://starwars.archivum.wiki/article/con_artist",
+      "download": "https://static.wikia.nocookie.net/starwars/images/a/a2/TwilekConArtist-DC.png",
+      "kind": "Existing illustration of an unnamed Star Wars role",
+      "credit": "Lucasfilm / Fantasy Flight Games and respective artist; see source",
+      "sha256": "4f2c07df0eb2937a53e0b31837c2b8f68b7cf6ea9982aa199925994acd24a7fe",
+      "bytes": 154484
+    },
+    {
+      "id": "role-arms-dealer",
+      "file": "assets/starwars-original/role-arms-dealer.png",
+      "source": "https://starwars.archivum.wiki/article/arms_dealer",
+      "download": "https://static.wikia.nocookie.net/starwars/images/a/a0/ArmsDeal-SoR.png",
+      "kind": "Existing illustration of an unnamed Star Wars role",
+      "credit": "Lucasfilm / Fantasy Flight Games and respective artist; see source",
+      "sha256": "46dc52b99a995df88b7315bc436e18b5e55e4692aeee2f44f0f56d098f85f748",
+      "bytes": 177124
+    },
+    {
+      "id": "role-information-broker",
+      "file": "assets/starwars-original/role-information-broker.png",
+      "source": "https://starwars.archivum.wiki/article/information_broker",
+      "download": "https://static.wikia.nocookie.net/starwars/images/3/3e/RodianInfoBroker-ND.png",
+      "kind": "Existing illustration of an unnamed Star Wars role",
+      "credit": "Lucasfilm / Fantasy Flight Games and respective artist; see source",
+      "sha256": "99aa3c15d409911a4c2522702c3a45893874ecadb4476fa7198e0dbf254e748d",
+      "bytes": 95796
+    },
+    {
+      "id": "role-technician",
+      "file": "assets/starwars-original/role-technician.png",
+      "source": "https://starwars.archivum.wiki/article/technician",
+      "download": "https://static.wikia.nocookie.net/starwars/images/2/22/ConvertingShips-FO.png",
+      "kind": "Existing illustration of an unnamed Star Wars role",
+      "credit": "Lucasfilm / Fantasy Flight Games and respective artist; see source",
+      "sha256": "607b15568dc517cf26b4ddc3cd463c947d8d9d9fee148d5a9cfd600365fb9f69",
+      "bytes": 446390
+    },
+    {
+      "id": "role-entrepreneur",
+      "file": "assets/starwars-original/role-entrepreneur.jpg",
+      "source": "https://christopherburdett.blogspot.com/2015/06/career-entrepreneur-process-far-horizons.html",
+      "download": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiR2Jv3iwVCvPd8iOWErzT4Ajod3o33Wpgv2Gd05_UIfueXEUi-Rtx40BHUIZ6rz14XEQBGMVZeZiuU2DJFDjYfmvwfC5YcMdZdEQ41EJEW_AlOEV7KeHzzunHLJLZTX5jMYjZEy_51bZyh/s1600/Far-Horizons-Career-Entrepreneur.jpg",
+      "kind": "Existing illustration of an unnamed Star Wars role",
+      "credit": "Christopher Burdett / Fantasy Flight Games / Lucasfilm",
+      "sha256": "b56f32921c2079eef48011c1fc876b8869fddd593f6a8fa1153e89148691ee7e",
+      "bytes": 665608
+    },
+    {
+      "id": "role-rumor-monger",
+      "file": "assets/starwars-original/role-rumor-monger.jpg",
+      "source": "https://christopherburdett.blogspot.com/2020/04/smuggler-gambler-specialization-deck.html",
+      "download": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhHYj3AlZixFVYaN58-DSonzyId3y4IL6FEC4ZEMr6tseJq4XU08NVkusBZrsY5ipDqGeb3MNxzb3UWwYWq5AmPIll0ML8YlpKW8-azshh_8_A9qwehAV1EwwMf__FuFdd7sw2V4M4wa_l1/s1600/Arcona-Rumor-Monger_Balance-of-the-Force.jpg",
+      "kind": "Existing illustration of an unnamed Star Wars role",
+      "credit": "Christopher Burdett / Fantasy Flight Games / Lucasfilm",
+      "sha256": "da9c7038e2616ad40f2130a73150039457dc1496a11e8657c730d8a52aaacce4",
+      "bytes": 765876
+    },
+    {
+      "id": "vehicle-mc18",
+      "file": "assets/starwars-original/vehicle-mc18.jpg",
+      "source": "https://oakthorne.net/wiki/index.php?title=File:MC-18-LtFreighter-Ext.jpg",
+      "download": "https://oakthorne.net/wiki/images/MC-18-LtFreighter-Ext.jpg",
+      "kind": "Existing MC-18 ship reference",
+      "credit": "Lucasfilm and respective image creators; see source",
+      "sha256": "fdb407596564ea340d057910a1de7d3fdc3789ff2e3d1c85a21cdcbc90bc9b33",
+      "bytes": 115510
     }
   ]
 }
