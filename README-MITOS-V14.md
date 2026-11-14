@@ -14,6 +14,8 @@ Or download the release `system.zip` and extract its contents into `FoundryVTT/D
 
 ## Testing and limits
 
+The current review branch also includes a native, world-scoped book/profile selector and an editable homebrew workspace. Open **Game Settings → Star Wars FFG → Abrir biblioteca y opciones**, or **Compendiums → Libros y mi campaña**. See [the Spanish usage and validation guide](docs/campaign-library.md). These review-branch changes have been applied to the local test world; they are not yet included in the published release ZIP.
+
 The source PR reports runtime checks on Foundry V14 build 366, and this fork has passed 29 compatibility unit tests and JavaScript syntax tests. A clean Foundry 14 build 369 world was created and an Actor was created and its character sheet opened successfully. The legacy root `template.json` warning is removed by registering transitional TypeDataModels for all 26 Actor/Item types; the original template is retained under `scripts/legacy-template.json` for reference. It is not an official upstream release, and later Foundry updates are not automatically guaranteed. Backup worlds before migration. This repo contains no copyrighted game rulebook content.
 
 ## Credits and license

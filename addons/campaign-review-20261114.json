@@ -1,0 +1,389 @@
+{
+  "date": "2026-11-14",
+  "foundry": "14.369",
+  "system": "2.0.5-mitos.14",
+  "world": "starwars-ffg-pruebas-biblioteca",
+  "note": "Counts describe local references, not completeness of a book. Recovered citations are read from explicit description/page references; original documents are not rewritten.",
+  "total": 3523,
+  "unknown": 239,
+  "recovered": 323,
+  "recoveredByPack": {
+    "world.oggdudearmorattachments": 42,
+    "world.oggdudeweaponattachments": 121,
+    "world.oggdudevehicleattachments": 91,
+    "world.oggdudespecializations": 8,
+    "world.oggdudeskilldescriptions": 35,
+    "world.oggdudegenericattachments": 14,
+    "world.oggdudesignatureabilities": 8,
+    "world.oggdudetalents": 1,
+    "world.oggdudevehicleweapons": 1,
+    "world.oggdudespecies": 2
+  },
+  "books": [
+    {
+      "id": "eote",
+      "line": "eote",
+      "count": 514,
+      "title": "Edge of the Empire Core Rulebook"
+    },
+    {
+      "id": "eotebg",
+      "line": "eote",
+      "count": 1,
+      "title": "Edge of the Empire Beginner Game"
+    },
+    {
+      "id": "eotegm",
+      "line": "eote",
+      "count": 0,
+      "title": "Edge of the Empire Game Master's Kit"
+    },
+    {
+      "id": "etu",
+      "line": "eote",
+      "count": 76,
+      "title": "Enter the Unknown"
+    },
+    {
+      "id": "dc",
+      "line": "eote",
+      "count": 122,
+      "title": "Dangerous Covenants"
+    },
+    {
+      "id": "fh",
+      "line": "eote",
+      "count": 89,
+      "title": "Far Horizons"
+    },
+    {
+      "id": "fc",
+      "line": "eote",
+      "count": 97,
+      "title": "Fly Casual"
+    },
+    {
+      "id": "sm",
+      "line": "eote",
+      "count": 90,
+      "title": "Special Modifications"
+    },
+    {
+      "id": "nd",
+      "line": "eote",
+      "count": 89,
+      "title": "No Disintegrations"
+    },
+    {
+      "id": "sof",
+      "line": "eote",
+      "count": 70,
+      "title": "Suns of Fortune"
+    },
+    {
+      "id": "lonh",
+      "line": "eote",
+      "count": 26,
+      "title": "Lords of Nal Hutta"
+    },
+    {
+      "id": "btr",
+      "line": "eote",
+      "count": 9,
+      "title": "Beyond the Rim"
+    },
+    {
+      "id": "joy",
+      "line": "eote",
+      "count": 9,
+      "title": "The Jewel of Yavin"
+    },
+    {
+      "id": "mpq",
+      "line": "eote",
+      "count": 4,
+      "title": "Mask of the Pirate Queen"
+    },
+    {
+      "id": "lah",
+      "line": "eote",
+      "count": 5,
+      "title": "Long Arm of the Hutt"
+    },
+    {
+      "id": "uabs",
+      "line": "eote",
+      "count": 1,
+      "title": "Under a Black Sun"
+    },
+    {
+      "id": "aor",
+      "line": "aor",
+      "count": 524,
+      "title": "Age of Rebellion Core Rulebook"
+    },
+    {
+      "id": "aorbg",
+      "line": "aor",
+      "count": 0,
+      "title": "Age of Rebellion Beginner Game"
+    },
+    {
+      "id": "aorgm",
+      "line": "aor",
+      "count": 0,
+      "title": "Age of Rebellion Game Master's Kit"
+    },
+    {
+      "id": "sot",
+      "line": "aor",
+      "count": 109,
+      "title": "Stay on Target"
+    },
+    {
+      "id": "da",
+      "line": "aor",
+      "count": 65,
+      "title": "Desperate Allies"
+    },
+    {
+      "id": "lbe",
+      "line": "aor",
+      "count": 60,
+      "title": "Lead by Example"
+    },
+    {
+      "id": "fib",
+      "line": "aor",
+      "count": 72,
+      "title": "Forged in Battle"
+    },
+    {
+      "id": "fo",
+      "line": "aor",
+      "count": 98,
+      "title": "Fully Operational"
+    },
+    {
+      "id": "cam",
+      "line": "aor",
+      "count": 89,
+      "title": "Cyphers and Masks"
+    },
+    {
+      "id": "sor",
+      "line": "aor",
+      "count": 39,
+      "title": "Strongholds of Resistance"
+    },
+    {
+      "id": "oaa",
+      "line": "aor",
+      "count": 7,
+      "title": "Onslaught at Arda I"
+    },
+    {
+      "id": "flt",
+      "line": "aor",
+      "count": 15,
+      "title": "Friends Like These"
+    },
+    {
+      "id": "osp",
+      "line": "aor",
+      "count": 0,
+      "title": "Operation Shadowpoint"
+    },
+    {
+      "id": "ragp",
+      "line": "aor",
+      "count": 3,
+      "title": "Rescue at Glare Peak"
+    },
+    {
+      "id": "fad",
+      "line": "fad",
+      "count": 470,
+      "title": "Force and Destiny Core Rulebook"
+    },
+    {
+      "id": "fadbg",
+      "line": "fad",
+      "count": 0,
+      "title": "Force and Destiny Beginner Game"
+    },
+    {
+      "id": "fadgm",
+      "line": "fad",
+      "count": 1,
+      "title": "Force and Destiny Game Master's Kit"
+    },
+    {
+      "id": "ktp",
+      "line": "fad",
+      "count": 88,
+      "title": "Keeping the Peace"
+    },
+    {
+      "id": "ev",
+      "line": "fad",
+      "count": 94,
+      "title": "Endless Vigil"
+    },
+    {
+      "id": "ss",
+      "line": "fad",
+      "count": 128,
+      "title": "Savage Spirits"
+    },
+    {
+      "id": "up",
+      "line": "fad",
+      "count": 85,
+      "title": "Unlimited Power"
+    },
+    {
+      "id": "kof",
+      "line": "fad",
+      "count": 107,
+      "title": "Knights of Fate"
+    },
+    {
+      "id": "doh",
+      "line": "fad",
+      "count": 116,
+      "title": "Disciples of Harmony"
+    },
+    {
+      "id": "nop",
+      "line": "fad",
+      "count": 45,
+      "title": "Nexus of Power"
+    },
+    {
+      "id": "cotg",
+      "line": "fad",
+      "count": 4,
+      "title": "Chronicles of the Gatekeeper"
+    },
+    {
+      "id": "god",
+      "line": "fad",
+      "count": 0,
+      "title": "Ghosts of Dathomir"
+    },
+    {
+      "id": "lotl",
+      "line": "fad",
+      "count": 0,
+      "title": "Lure of the Lost"
+    },
+    {
+      "id": "dor",
+      "line": "shared",
+      "count": 0,
+      "title": "Dawn of Rebellion"
+    },
+    {
+      "id": "rots",
+      "line": "shared",
+      "count": 149,
+      "title": "Rise of the Separatists"
+    },
+    {
+      "id": "cor",
+      "line": "shared",
+      "count": 0,
+      "title": "Collapse of the Republic"
+    },
+    {
+      "id": "aaa",
+      "line": "shared",
+      "count": 72,
+      "title": "Allies and Adversaries"
+    },
+    {
+      "id": "gag",
+      "line": "shared",
+      "count": 0,
+      "title": "Gadgets and Gear"
+    },
+    {
+      "id": "sas",
+      "line": "shared",
+      "count": 0,
+      "title": "Starships and Speeders"
+    },
+    {
+      "id": "tfabg",
+      "line": "shared",
+      "count": 0,
+      "title": "The Force Awakens Beginner Game"
+    },
+    {
+      "id": "acfh",
+      "line": "shared",
+      "count": 0,
+      "title": "A Call for Heroes"
+    },
+    {
+      "id": "eotebeta",
+      "line": "legacy",
+      "count": 0,
+      "title": "Edge of the Empire Beta Rulebook"
+    },
+    {
+      "id": "aorbeta",
+      "line": "legacy",
+      "count": 12,
+      "title": "Age of Rebellion Beta Rulebook"
+    },
+    {
+      "id": "fadbeta",
+      "line": "legacy",
+      "count": 2,
+      "title": "Force and Destiny Beta Rulebook"
+    },
+    {
+      "id": "usm",
+      "line": "fan",
+      "count": 28,
+      "title": "Unofficial Species Menagerie"
+    },
+    {
+      "id": "fan-demo",
+      "line": "fan",
+      "count": 419,
+      "title": "Ejemplos y adaptaciones fan de demostración"
+    },
+    {
+      "id": "homebrew",
+      "line": "homebrew",
+      "count": 1,
+      "title": "Homebrew de Mitos · historia propia"
+    },
+    {
+      "id": "unknown",
+      "line": "unknown",
+      "count": 239,
+      "title": "Sin fuente identificada"
+    }
+  ],
+  "cyphersFilter": "89 resultados al seleccionar todas las fuentes",
+  "errors": [],
+  "profile": "homebrew",
+  "modules": 24,
+  "tests": {
+    "javascript": 65,
+    "syntaxModules": 104
+  },
+  "workspace": {
+    "journals": 1,
+    "pages": 7,
+    "folders": 12,
+    "compendiums": 5,
+    "macros": 1,
+    "idempotent": true,
+    "private": true
+  }
+}

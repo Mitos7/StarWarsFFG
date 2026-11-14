@@ -5,6 +5,7 @@
  */
 
 // Import Modules
+import "./campaigns/main.mjs";
 import { FFG } from "./swffg-config.js";
 import { ActorFFG } from "./actors/actor-ffg.js";
 import { TokenFFG } from "./tokens/token-ffg.js";

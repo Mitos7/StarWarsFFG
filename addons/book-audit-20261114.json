@@ -1,0 +1,234 @@
+{
+  "date": "2026-11-14",
+  "world": "starwars-ffg-pruebas-biblioteca",
+  "importedDocuments": 3103,
+  "withoutSource": 562,
+  "packs": [
+    {
+      "id": "world.oggdudeskilldescriptions",
+      "label": "SkillDescriptions",
+      "type": "JournalEntry",
+      "count": 35,
+      "withSources": 0
+    },
+    {
+      "id": "world.oggdudebackgrounds",
+      "label": "Backgrounds",
+      "type": "Item",
+      "count": 104,
+      "withSources": 104
+    },
+    {
+      "id": "world.oggdudearmormods",
+      "label": "ArmorMods",
+      "type": "Item",
+      "count": 15,
+      "withSources": 0
+    },
+    {
+      "id": "world.oggdudemotivations",
+      "label": "Motivations",
+      "type": "Item",
+      "count": 283,
+      "withSources": 283
+    },
+    {
+      "id": "world.oggdudeweaponmods",
+      "label": "WeaponMods",
+      "type": "Item",
+      "count": 69,
+      "withSources": 0
+    },
+    {
+      "id": "world.oggdudeobligations",
+      "label": "Obligations",
+      "type": "Item",
+      "count": 174,
+      "withSources": 174
+    },
+    {
+      "id": "world.oggdudegenericmods",
+      "label": "GenericMods",
+      "type": "Item",
+      "count": 29,
+      "withSources": 0
+    },
+    {
+      "id": "world.oggdudevehiclemods",
+      "label": "VehicleMods",
+      "type": "Item",
+      "count": 73,
+      "withSources": 0
+    },
+    {
+      "id": "world.oggdudearmor",
+      "label": "Armor",
+      "type": "Item",
+      "count": 29,
+      "withSources": 29
+    },
+    {
+      "id": "world.oggdudeforcepowers",
+      "label": "ForcePowers",
+      "type": "Item",
+      "count": 20,
+      "withSources": 20
+    },
+    {
+      "id": "world.oggdudegear",
+      "label": "Gear",
+      "type": "Item",
+      "count": 328,
+      "withSources": 311
+    },
+    {
+      "id": "world.oggdudearmorattachments",
+      "label": "ArmorAttachments",
+      "type": "Item",
+      "count": 42,
+      "withSources": 0
+    },
+    {
+      "id": "world.oggdudetalents",
+      "label": "Talents",
+      "type": "Item",
+      "count": 548,
+      "withSources": 547
+    },
+    {
+      "id": "world.oggdudeweaponattachments",
+      "label": "WeaponAttachments",
+      "type": "Item",
+      "count": 121,
+      "withSources": 0
+    },
+    {
+      "id": "world.oggdudegenericattachments",
+      "label": "GenericAttachments",
+      "type": "Item",
+      "count": 14,
+      "withSources": 0
+    },
+    {
+      "id": "world.oggdudeweapons",
+      "label": "Weapons",
+      "type": "Item",
+      "count": 251,
+      "withSources": 251
+    },
+    {
+      "id": "world.oggdudevehicleattachments",
+      "label": "VehicleAttachments",
+      "type": "Item",
+      "count": 91,
+      "withSources": 0
+    },
+    {
+      "id": "world.oggdudevehicleweapons",
+      "label": "VehicleWeapons",
+      "type": "Item",
+      "count": 61,
+      "withSources": 60
+    },
+    {
+      "id": "world.oggdudespecies",
+      "label": "Species",
+      "type": "Item",
+      "count": 113,
+      "withSources": 111
+    },
+    {
+      "id": "world.oggdudespecializations",
+      "label": "Specializations",
+      "type": "Item",
+      "count": 114,
+      "withSources": 106
+    },
+    {
+      "id": "world.oggdudecareers",
+      "label": "Careers",
+      "type": "Item",
+      "count": 20,
+      "withSources": 20
+    },
+    {
+      "id": "world.oggdudevehiclesplanetary",
+      "label": "Planetary",
+      "type": "Actor",
+      "count": 161,
+      "withSources": 145
+    },
+    {
+      "id": "world.oggdudevehiclesspace",
+      "label": "Space",
+      "type": "Actor",
+      "count": 231,
+      "withSources": 211
+    },
+    {
+      "id": "world.oggdudesignatureabilities",
+      "label": "SignatureAbilities",
+      "type": "Item",
+      "count": 36,
+      "withSources": 28
+    },
+    {
+      "id": "world.sw-adversaries-core",
+      "label": "PNJ — SW Adversaries (comunidad)",
+      "type": "Actor",
+      "count": 141,
+      "withSources": 141
+    }
+  ],
+  "sourceReferences": {
+    "Endless Vigil": 79,
+    "Cyphers and Masks": 73,
+    "Knights of Fate": 103,
+    "Keeping the Peace": 77,
+    "Edge of the Empire Core Rulebook": 381,
+    "Enter the Unknown": 72,
+    "Far Horizons": 89,
+    "Fully Operational": 75,
+    "Force and Destiny Core Rulebook": 359,
+    "Unlimited Power": 77,
+    "Fly Casual": 84,
+    "Stay on Target": 101,
+    "Forged in Battle": 63,
+    "Special Modifications": 58,
+    "Age of Rebellion Core Rulebook": 388,
+    "No Disintegrations": 78,
+    "Dangerous Covenants": 98,
+    "Lead by Example": 60,
+    "Disciples of Harmony": 111,
+    "Savage Spirits": 114,
+    "Desperate Allies": 59,
+    "Age of Rebellion Beta Rulebook": 12,
+    "Nexus of Power": 45,
+    "Suns of Fortune": 66,
+    "Rise of the Separatists": 136,
+    "Lords of Nal Hutta": 22,
+    "Chronicles of the Gatekeeper": 3,
+    "Beyond the Rim": 9,
+    "Force and Destiny Beta Rulebook": 1,
+    "Strongholds of Resistance": 33,
+    "Friends Like These": 14,
+    "Unofficial Species Menagerie": 28,
+    "Jewel of Yavin": 5,
+    "Long Arm of the Hutt": 5,
+    "Under a Black Sun": 1,
+    "Onslaught at Arda I": 1,
+    "Mask of the Pirate Queen": 3,
+    "book:eote": 61,
+    "book:aor": 65,
+    "book:ragp": 3,
+    "book:aaa": 72,
+    "book:fad": 38,
+    "book:oaa": 5,
+    "book:eotebg": 1,
+    "book:sof": 2,
+    "book:rots": 1,
+    "book:lonh": 1,
+    "book:flt": 1
+  },
+  "note": "Source counts are citations, not completeness of each book. Multi-source entries are listed under each source; original entries are not copied."
+}
