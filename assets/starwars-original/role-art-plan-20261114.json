@@ -260,6 +260,76 @@
         0.5
       ],
       "scale": 0.82
+    },
+    {
+      "name": "Cargohopper 102 Cargo Lifter",
+      "asset": "vehicle-cargohopper-102",
+      "img": "systems/starwarsffg/assets/starwars-original/vehicle-cargohopper-102.png",
+      "expectedImg": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+      "width": 650,
+      "height": 445,
+      "scale": 0.8,
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "note": "Ilustración existente identificada por modelo."
+    },
+    {
+      "name": "WUD-500 Star Yacht",
+      "asset": "vehicle-wud-500",
+      "img": "systems/starwarsffg/assets/starwars-original/vehicle-wud-500.png",
+      "expectedImg": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+      "width": 650,
+      "height": 445,
+      "scale": 0.8,
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "note": "Ilustración de Rabbit's Foot, variante modificada identificada como WUD-500; conserva estadísticas de la ficha original."
+    },
+    {
+      "name": "Blade-32 Superiority Fighter",
+      "asset": "vehicle-blade-32",
+      "img": "systems/starwarsffg/assets/starwars-original/vehicle-blade-32.png",
+      "expectedImg": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+      "width": 650,
+      "height": 445,
+      "scale": 0.8,
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "note": "Ilustración existente identificada por modelo."
+    },
+    {
+      "name": "Wander-Class Jump Freighter",
+      "asset": "vehicle-wander",
+      "img": "systems/starwarsffg/assets/starwars-original/vehicle-wander.jpg",
+      "expectedImg": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+      "width": 607,
+      "height": 474,
+      "scale": 0.8,
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "note": "Ilustración existente identificada por modelo."
+    },
+    {
+      "name": "Herd Ship",
+      "asset": "vehicle-herd",
+      "img": "systems/starwarsffg/assets/starwars-original/vehicle-herd.png",
+      "expectedImg": "systems/starwarsffg/images/defaults/actors/vehicle.png",
+      "width": 800,
+      "height": 600,
+      "scale": 0.8,
+      "focus": [
+        0.5,
+        0.5
+      ],
+      "note": "Representación existente de Ithorian Herdship de Star Wars Combine; no es ilustración oficial de FFG."
     }
   ]
 }

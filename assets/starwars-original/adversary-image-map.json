@@ -42,5 +42,10 @@
   "Expert Forger": "generic-slicer",
   "Forger": "generic-slicer",
   "Naval Engineer": "generic-officer",
-  "MC-18 Light Freighter": "vehicle-mc18"
+  "MC-18 Light Freighter": "vehicle-mc18",
+  "Cargohopper 102 Cargo Lifter": "vehicle-cargohopper-102",
+  "Herd Ship": "vehicle-herd",
+  "WUD-500 Star Yacht": "vehicle-wud-500",
+  "Wander-Class Jump Freighter": "vehicle-wander",
+  "Blade-32 Superiority Fighter": "vehicle-blade-32"
 }

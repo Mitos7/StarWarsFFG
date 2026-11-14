@@ -93,3 +93,26 @@ test("root template.json is absent, and the old defaults are reproducible", () =
     }
   }
 });
+
+
+test("partial sheet updates preserve omitted vehicle and NPC statistics", () => {
+  const examples = [
+    ["vehicle", {stats:{speed:{value:1}}}, {stats:{speed:{value:0,max:4},handling:{value:-2},hullTrauma:{value:0,max:12},armour:{value:4},customResource:{value:17}}}],
+    ["rival", {stats:{wounds:{value:2}}}, {stats:{wounds:{value:0,max:19},soak:{value:5},customResource:{value:8}}}],
+    ["minion", {stats:{wounds:{value:3}}}, {stats:{wounds:{value:0,max:24},soak:{value:4}}}]
+  ];
+  for (const [type,patch,existing] of examples) {
+    const expectedPatch=structuredClone(patch);
+    const migrated=CONFIG.Actor.dataModels[type].migrateData(patch,{partial:true});
+    assert.deepEqual(migrated,expectedPatch,type+": partial updates must not introduce defaults");
+    const updated=merge(structuredClone(existing),migrated);
+    assert.equal(updated.stats.wounds?.max ?? updated.stats.hullTrauma.max,
+      existing.stats.wounds?.max ?? existing.stats.hullTrauma.max);
+    if(type==="vehicle"){
+      assert.equal(updated.stats.speed.max,4);
+      assert.equal(updated.stats.handling.value,-2);
+      assert.equal(updated.stats.armour.value,4);
+      assert.equal(updated.stats.customResource.value,17);
+    }
+  }
+});

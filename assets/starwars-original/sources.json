@@ -1717,6 +1717,66 @@
       "credit": "Lucasfilm and respective image creators; see source",
       "sha256": "fdb407596564ea340d057910a1de7d3fdc3789ff2e3d1c85a21cdcbc90bc9b33",
       "bytes": 115510
+    },
+    {
+      "id": "vehicle-cargohopper-102",
+      "file": "vehicle-cargohopper-102.png",
+      "source": "https://swrpggm.com/cargohopper-102/",
+      "download": "https://swrpggm.com/wp-content/uploads/2023/10/Cargohopper-102_FE.png",
+      "kind": "vehicle",
+      "credit": "Ilustración de Star Wars reproducida por SWRPGGM; derechos de sus respectivos autores.",
+      "sha256": "35aeae2e4f0168af2b4c23c2a2460fb78785912f701ee37b3119d1a89dc2d709",
+      "bytes": 163316,
+      "reviewedModel": "Cargohopper 102 Cargo Lifter",
+      "variant": null
+    },
+    {
+      "id": "vehicle-wud-500",
+      "file": "vehicle-wud-500.png",
+      "source": "https://swrpggm.com/the-rabbits-foot/",
+      "download": "https://swrpggm.com/wp-content/uploads/2021/02/TRabbitfoot_FE.png",
+      "kind": "vehicle",
+      "credit": "Ilustración de Star Wars reproducida por SWRPGGM; derechos de sus respectivos autores.",
+      "sha256": "e3629f616b436d70cd4082f81468a60977f27f49a9be4e7df1fbf68e75c21ba4",
+      "bytes": 478313,
+      "reviewedModel": "WUD-500 Star Yacht",
+      "variant": "Rabbit's Foot"
+    },
+    {
+      "id": "vehicle-blade-32",
+      "file": "vehicle-blade-32.png",
+      "source": "https://swrpggm.com/blade-32-superiority-fighter/",
+      "download": "https://swrpggm.com/wp-content/uploads/2022/01/Blade-32-Superiority-Fighter_FE.png",
+      "kind": "vehicle",
+      "credit": "Ilustración de Star Wars reproducida por SWRPGGM; derechos de sus respectivos autores.",
+      "sha256": "28c53ed3fa7b0fc6d0671d5812ec330411b569446db85ffae16f0a58ce022959",
+      "bytes": 125406,
+      "reviewedModel": "Blade-32 Superiority Fighter",
+      "variant": null
+    },
+    {
+      "id": "vehicle-wander",
+      "file": "vehicle-wander.jpg",
+      "source": "https://durosector.wordpress.com/2018/12/30/long-range-starship-for-a-couple/",
+      "download": "https://durosector.wordpress.com/wp-content/uploads/2020/10/3d976-wander.jpg?w=1100",
+      "kind": "vehicle",
+      "credit": "Ilustración atribuida a Tatooine Manhunt, West End Games, reproducida en Duro Sector.",
+      "sha256": "a1ecedfab0071d6cec32c0b070c80434f2bce1bf0bdf26a8cc9d596be9a6a4e3",
+      "bytes": 103180,
+      "reviewedModel": "Wander-Class Jump Freighter",
+      "variant": null
+    },
+    {
+      "id": "vehicle-herd",
+      "file": "vehicle-herd.png",
+      "source": "https://www.swcombine.com/rules/?Capital_Ships=&ID=70",
+      "download": "https://images.swcombine.com//ships/70/large.png",
+      "kind": "vehicle",
+      "credit": "Representación existente de Ithorian Herdship de Star Wars Combine; no es ilustración oficial de FFG.",
+      "sha256": "2306e261e74938c651995af27c06425e4e93e2e98ee113567f64e2e772527c94",
+      "bytes": 389875,
+      "reviewedModel": "Herd Ship",
+      "variant": null
     }
   ]
 }

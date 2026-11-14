@@ -45,13 +45,15 @@ export function registerStarWarsDataModels() {
     }
     for (const [type, defaults] of Object.entries(typeDefaults)) {
       class StarWarsTypeData extends foundry.abstract.TypeDataModel {
-        static migrateData(source) {
-          source = super.migrateData(source);
+        static migrateData(source, options = {}) {
+          source = super.migrateData(source, options);
           // Old compendium imports may contain a partial stats object. ObjectField
           // supplies defaults only when the entire field is absent, unlike the
           // legacy template merge. Restore missing stats without losing existing
           // thresholds, custom resources or user-defined skill lists.
-          if (defaults.stats && source.stats && typeof source.stats === "object" && !Array.isArray(source.stats)) {
+          // Partial form updates must not refill omitted fields with defaults.
+          // Disabled controls are absent on submit, not requests to reset their values.
+          if (!options.partial && defaults.stats && source.stats && typeof source.stats === "object" && !Array.isArray(source.stats)) {
             source.stats = foundry.utils.mergeObject(foundry.utils.deepClone(defaults.stats), source.stats);
           }
           return source;

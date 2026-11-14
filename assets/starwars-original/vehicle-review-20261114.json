@@ -1,0 +1,499 @@
+{
+  "date": "2026-11-14",
+  "reviewed": 81,
+  "resolved": [
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.CC18t7uAlXIpdy8C",
+      "name": "Cargohopper 102 Cargo Lifter",
+      "img": "systems/starwarsffg/assets/starwars-original/vehicle-cargohopper-102.png",
+      "note": "Ilustración existente identificada por modelo."
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.GNvEnd8twkxRBiFm",
+      "name": "Herd Ship",
+      "img": "systems/starwarsffg/assets/starwars-original/vehicle-herd.png",
+      "note": "Representación existente de Ithorian Herdship de Star Wars Combine; no es ilustración oficial de FFG."
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.LXgfUShokHSKRGbz",
+      "name": "WUD-500 Star Yacht",
+      "img": "systems/starwarsffg/assets/starwars-original/vehicle-wud-500.png",
+      "note": "Ilustración de Rabbit's Foot, variante modificada identificada como WUD-500; conserva estadísticas de la ficha original."
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.iMLcSDxeBBfRWvMX",
+      "name": "Wander-Class Jump Freighter",
+      "img": "systems/starwarsffg/assets/starwars-original/vehicle-wander.jpg",
+      "note": "Ilustración existente identificada por modelo."
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.kF878B65h5HcqhiO",
+      "name": "Blade-32 Superiority Fighter",
+      "img": "systems/starwarsffg/assets/starwars-original/vehicle-blade-32.png",
+      "note": "Ilustración existente identificada por modelo."
+    }
+  ],
+  "unverified": [
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.0jxEZmq8TPJY7tyv",
+      "name": "Ascendant Personal Stealth Flyer",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.1xEwxp7sCW3wc2VD",
+      "name": "Foot Speeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.23bY8O2h0wSwQP5O",
+      "name": "CAV-11 \"Condor\" Airspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.3LyP14dge2BiVdML",
+      "name": "610-AVA \"Dart\" Speeder Bike",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.CThSi6DHhlITT2zE",
+      "name": "Superflare/Modified Flare-S Swoop",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.I7mKeNCFgDGLczkH",
+      "name": "XL-3C Guardsman Patrol Airspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.JPAKfyyzcRhdJE10",
+      "name": "Dustcrawler",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.MZyWx1ng78iPdOsD",
+      "name": "Model 90 Ranger",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.OGfBDHhjF93Tm1QQ",
+      "name": "Rufescent Cargo Hauler",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.ObCZ0nh0xKXaZTET",
+      "name": "SU-40 High-Performance Airspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.R9nTKYVYH0MU3vXh",
+      "name": "AT-CE Combat Excavator",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.RBOd5SSpvVVbLe3W",
+      "name": "Armored Drop Suit",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.SWLP5ufuobVxGKIO",
+      "name": "9400 Grand Wanderer",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.TcjC8YMfhIGbvUpc",
+      "name": "8880 Luxury Landspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.UMCJ7XyLL7T3YJqD",
+      "name": "I-C4a Combat Construction Droid",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.UR5b4lE0tmQ9gzgK",
+      "name": "A-19 \"Iron Crawler\" Armored Transport",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.Uj4w5JRJh9LOeKOJ",
+      "name": "Arrow 7 Airspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.Vh7JpcBDDBy6avne",
+      "name": "D-22 \"Screamer\" Speeder Bike",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.WYN1yCCWpiIQ5rVE",
+      "name": "Hauler Air Skiff",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.YNmBiwPb4blyTBQE",
+      "name": "A-A5m Emergency Response Vehicle",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.c2Zed8HjFHm7jOJk",
+      "name": "HSP-10 Pursuit Airspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.c4l0qJy3rPomhLiQ",
+      "name": "Whelik All-Terrain Explorer",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.eO8yMqsbrhxVDQqG",
+      "name": "BR.549 FasTrak High-Altitude Scout Speeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.fQ3ZQob7xHlraGfL",
+      "name": "Versatile-Athletic Walker",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.ida00QnoSch0R2kI",
+      "name": "HA-5 Aerial Retreat",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.ih8n4vzdtBKZeU1D",
+      "name": "IML-2C Aquatic Scout Ship",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.jaUV66u5VHNONS4o",
+      "name": "D-45 Projection Platform",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.kdRGMNF6LAicJXBT",
+      "name": "G35 \"Silver Cloud\" Airspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.kwwRBgkayDkUkK7m",
+      "name": "A-A8 BackCountry Speeder Truck",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.lXzM8mEmdxhze9iJ",
+      "name": "S-5 \"Flashfury\" Swoop",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.m0Uq6offKVRPk7Sa",
+      "name": "Needle Ne-4 Cloud Car Interceptor",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.nBGbIgldbFipUajh",
+      "name": "Arrow-23 Landspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.niT5UlbgArSnXBZE",
+      "name": "XP-40 Luxury Coach",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.oVWhkI5R4Nhij2cB",
+      "name": "Rush Troop Transport Speeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.oslTIPI1KGYqaJVI",
+      "name": "A-11 Model III \"Burrower\"",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.oxMkGIfJ845udAJN",
+      "name": "Sunrunner ZX Landspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.qBjy9UA9nPXZZbQF",
+      "name": "KRI-80 Portable Store",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.qk6FVQEZR18SfmyW",
+      "name": "All-Terrain Exploration Transport",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.sPqOg6uMALGgw5eU",
+      "name": "88-R \"Nightscreamer\" Speeder Bike",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.suaz9JLXzMRY0yix",
+      "name": "Invader AA-9 Assault Airspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.tQggv2O3pFLBQKZI",
+      "name": "Tetan Guard Airspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.utitvdp31ivbMj5R",
+      "name": "Flasherfish Personal Watercraft",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.vuiZvqmdUIqhALbR",
+      "name": "S-K2 \"Skywing\" Personal Speeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.wVCGJFk0HqAQBghd",
+      "name": "MC-2 Moble Command Speeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.x7jZb8pcqMXqwPLt",
+      "name": "SCS-19 \"Sentinel\" Armored Landspeeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.xUsZmHAuapzZa7q6",
+      "name": "J-15 Rapid Service Speeder",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.0knl7fkDPvmZaZnt",
+      "name": "Y164 Slave Transport",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.7ddWSrcXi01pnvs4",
+      "name": "Legate-Class Courier",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.AMUvwtyutiYVeOIa",
+      "name": "Far*Reach Reconnaissance Ship",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.C6JHX7gMqAAQ8Usd",
+      "name": "Surveyor-Class Reconnaissance Frigate",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.IexNqZMdzjVMmCtU",
+      "name": "4R3 Light Assault Transport",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.JgzjK78iWyCiGLAP",
+      "name": "AD-1S Modular Multi-Role Starfighter",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.KwaWvtTT7atUJQrT",
+      "name": "Jedi Sojourner",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.LM2Yx4elLVLFG3EE",
+      "name": "ND-47 Stalwart Bulk Freighter",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.SQBEpoaxDFNX3qFb",
+      "name": "S-461-Series Scout Ship",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.YCIdi8AbL8jDNixO",
+      "name": "Starbolt Assault Carrier",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.YYGDVdlQUmGQQvJA",
+      "name": "Maelstrom-Class Battle Cruiser",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.cGTkLGmbgRmstLYb",
+      "name": "LH75 Specialty Live-Haul Freighter",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.fRWu4iM1FidE2ZQx",
+      "name": "S-Type Racing Sloop",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.g6XRYUksl6mo7Kcy",
+      "name": "Luxurious-class Yacht",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.imjRSs2qb0WlMCGG",
+      "name": "MK IX Orbital Maintenance Depot",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.kvpuLAJHkJ7tY8F6",
+      "name": "Armos Modular Transport",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.n1Xwh4CahSzQOovN",
+      "name": "Barrage Gunship",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.oBwUxaIsAmRifQ4b",
+      "name": "ARX-T3 \"Suncutter\" Light Interceptor",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.ohYIUhRiOOI5rFav",
+      "name": "Ainik-Class Scientific Survey Vessel",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.pDf768ZQkp2BQMbM",
+      "name": "ARC-40b Scout-Reconnaissance Fighter",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.q9n4luagqJezOZtp",
+      "name": "Courier-Class Yacht",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.rH3wPMGYwQAtmrg1",
+      "name": "Indulgent-class Luxury Starliner",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.rXV2N8sdQwJIGVzx",
+      "name": "D-Type Stealth Freighter",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.ujZjXUN4sp9zbzMp",
+      "name": "Xanter-class Deep-Space Exploration Frigate",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.vgu7oBuDMmT93G1q",
+      "name": "Penumbra Stealth Freighter",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.vit81M2dXZDeOZ0U",
+      "name": "Kossak-Class Frigate",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.wQCvTSRpeaWtCWi9",
+      "name": "Regulator-class Patrol-Vessel",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.xJCQuv9uaedX2sZy",
+      "name": "Q-Signal Messenger Drone",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.yor32HEFweDpw7HC",
+      "name": "Gymsnor-4 Light Freighter",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    },
+    {
+      "uuid": "Compendium.world.oggdudevehiclesspace.Actor.zpyM9Zaem86LtKm3",
+      "name": "Tallanx-Class Stealth Fighter",
+      "status": "unverified-artwork",
+      "img": "systems/starwarsffg/images/defaults/actors/vehicle.png"
+    }
+  ],
+  "notes": [
+    "Búsqueda de los 81 modelos en Archivum y SWRPGGM, más búsquedas específicas. Coincidencias por palabras y marcadores genéricos descartados.",
+    "Sin coincidencia verificable no significa que no exista una ilustración; se conserva el icono provisional.",
+    "Las fichas conservan las reglas originales. Rabbit’s Foot es una variante WUD-500. El Herdship es una representación de SWCombine."
+  ]
+}
