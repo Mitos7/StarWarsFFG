@@ -1,0 +1,169 @@
+[
+  {
+    "status": "complete",
+    "changed": [
+      {
+        "uuid": "Compendium.starwarsffg.sw-armas.Item.3631ad74045f5de3",
+        "name": "Espada vibratoria",
+        "before": "systems/starwarsffg/assets/starwars-original/vibroblade.jpeg",
+        "after": "systems/starwarsffg/assets/starwars-original/object-vibrosword-clear.jpg"
+      },
+      {
+        "uuid": "Compendium.starwarsffg.sw-naves.Actor.c2c1023662e3ee41",
+        "name": "74-Z Speeder Bike",
+        "before": "systems/starwarsffg/assets/starwars-original/vehicle-74z.png",
+        "after": "systems/starwarsffg/assets/starwars-original/vehicle-74z-clear.png"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-armas.Item.3631ad74045f5de3",
+        "name": "Espada vibratoria",
+        "before": "systems/starwarsffg/assets/starwars-original/vibroblade.jpeg",
+        "after": "systems/starwarsffg/assets/starwars-original/object-vibrosword-clear.jpg"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-naves.Actor.c2c1023662e3ee41",
+        "name": "74-Z Speeder Bike",
+        "before": "systems/starwarsffg/assets/starwars-original/vehicle-74z.png",
+        "after": "systems/starwarsffg/assets/starwars-original/vehicle-74z-clear.png"
+      }
+    ],
+    "errors": [],
+    "tokens": [
+      {
+        "name": "74-Z Speeder Bike",
+        "img": "systems/starwarsffg/assets/starwars-original/vehicle-74z-clear.png",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/final-c2c1023662e3ee41.webp"
+      }
+    ],
+    "processed": 438
+  },
+  {
+    "changed": [
+      {
+        "uuid": "Compendium.starwarsffg.sw-adversarios.Actor.59ada3b77cb7e662",
+        "name": "Piloto TIE imperial",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-59ada3b77cb7e662.webp"
+      },
+      {
+        "uuid": "Compendium.starwarsffg.sw-adversarios.Actor.d535719422971927",
+        "name": "Soldado rebelde",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d535719422971927.webp"
+      },
+      {
+        "uuid": "Compendium.starwarsffg.sw-adversarios.Actor.d6ae899c90e19d97",
+        "name": "Droide de batalla B1",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp"
+      },
+      {
+        "uuid": "Compendium.starwarsffg.sw-adversarios.Actor.d85a85c6d73e4b9e",
+        "name": "Guerrero mandaloriano",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d85a85c6d73e4b9e.webp"
+      },
+      {
+        "uuid": "Compendium.starwarsffg.sw-personajes.Actor.87b90434625e2a83",
+        "name": "Obi-Wan Kenobi",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-87b90434625e2a83.webp"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-adversarios.Actor.59ada3b77cb7e662",
+        "name": "Piloto TIE imperial",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-59ada3b77cb7e662.webp"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-adversarios.Actor.d535719422971927",
+        "name": "Soldado rebelde",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d535719422971927.webp"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-adversarios.Actor.d6ae899c90e19d97",
+        "name": "Droide de batalla B1",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-adversarios.Actor.d85a85c6d73e4b9e",
+        "name": "Guerrero mandaloriano",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d85a85c6d73e4b9e.webp"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-personajes.Actor.87b90434625e2a83",
+        "name": "Obi-Wan Kenobi",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-87b90434625e2a83.webp"
+      },
+      {
+        "uuid": "Actor.d6ae899c90e19d97",
+        "name": "Droide de batalla B1",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp"
+      },
+      {
+        "uuid": "Actor.87b90434625e2a83",
+        "name": "Obi-Wan Kenobi",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-87b90434625e2a83.webp"
+      },
+      {
+        "uuid": "Scene.oRaxfWsIyXLQOwjP.Token.pGhLQQo8yPxfZtHI.Actor.d6ae899c90e19d97",
+        "name": "Droide de seguridad",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "Piloto TIE imperial",
+        "img": "systems/starwarsffg/assets/starwars-original/imperial-pilots.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-59ada3b77cb7e662.webp"
+      },
+      {
+        "name": "Soldado rebelde",
+        "img": "systems/starwarsffg/assets/starwars-original/rebel-troopers.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d535719422971927.webp"
+      },
+      {
+        "name": "Droide de batalla B1",
+        "img": "systems/starwarsffg/assets/starwars-original/battle-droid.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp"
+      },
+      {
+        "name": "Guerrero mandaloriano",
+        "img": "systems/starwarsffg/assets/starwars-original/death-watch.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d85a85c6d73e4b9e.webp"
+      },
+      {
+        "name": "Obi-Wan Kenobi",
+        "img": "systems/starwarsffg/assets/starwars-original/obi-wan-kenobi.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-87b90434625e2a83.webp"
+      }
+    ],
+    "errors": []
+  },
+  {
+    "changed": [
+      {
+        "uuid": "Compendium.starwarsffg.sw-adversarios.Actor.d6ae899c90e19d97",
+        "name": "Droide de batalla B1",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-adversarios.Actor.d6ae899c90e19d97",
+        "name": "Droide de batalla B1",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp"
+      },
+      {
+        "uuid": "Actor.d6ae899c90e19d97",
+        "name": "Droide de batalla B1",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp"
+      },
+      {
+        "uuid": "Scene.oRaxfWsIyXLQOwjP.Token.pGhLQQo8yPxfZtHI.Actor.d6ae899c90e19d97",
+        "name": "Droide de seguridad",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "Droide de batalla B1",
+        "img": "systems/starwarsffg/assets/starwars-original/battle-droid.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp"
+      }
+    ],
+    "errors": []
+  }
+]

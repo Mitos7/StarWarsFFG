@@ -1890,10 +1890,10 @@
             "locked": false,
             "blendMode": "source-over",
             "transform": {
-              "x": 0,
-              "y": 0,
-              "scaleX": 1.771774193548387,
-              "scaleY": 1.771774193548387,
+              "x": -287.488,
+              "y": 25.6,
+              "scaleX": 2.197,
+              "scaleY": 2.197,
               "rotation": 0
             },
             "adjustments": {
@@ -2034,7 +2034,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-59ada3b77cb7e662.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/crop-59ada3b77cb7e662.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4695,10 +4695,10 @@
             "locked": false,
             "blendMode": "source-over",
             "transform": {
-              "x": 0,
-              "y": 0,
-              "scaleX": 1.7767653758542141,
-              "scaleY": 1.7767653758542141,
+              "x": 389.12,
+              "y": 173.056,
+              "scaleX": 3.12,
+              "scaleY": 3.12,
               "rotation": 0
             },
             "adjustments": {
@@ -4839,7 +4839,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-d535719422971927.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d535719422971927.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -6808,10 +6808,10 @@
             "locked": false,
             "blendMode": "source-over",
             "transform": {
-              "x": 0,
-              "y": 0,
-              "scaleX": 1.7767653758542141,
-              "scaleY": 1.7767653758542141,
+              "x": 417.4769230769231,
+              "y": 70.10461538461539,
+              "scaleX": 2.4,
+              "scaleY": 2.4,
               "rotation": 0
             },
             "adjustments": {
@@ -6952,7 +6952,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-d6ae899c90e19d97.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d6ae899c90e19d97.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -9607,10 +9607,10 @@
             "locked": false,
             "blendMode": "source-over",
             "transform": {
-              "x": 0,
-              "y": 0,
-              "scaleX": 1.7785016286644952,
-              "scaleY": 1.7785016286644952,
+              "x": -248.32,
+              "y": -80.64,
+              "scaleX": 2.73,
+              "scaleY": 2.73,
               "rotation": 0
             },
             "adjustments": {
@@ -9751,7 +9751,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-d85a85c6d73e4b9e.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d85a85c6d73e4b9e.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",

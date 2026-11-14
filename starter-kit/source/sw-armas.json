@@ -1227,7 +1227,7 @@
     "_id": "3631ad74045f5de3",
     "name": "Espada vibratoria",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/vibroblade.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-vibrosword-clear.jpg",
     "system": {
       "description": "<p>Arma de combate cercano que utiliza un borde oscilante.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

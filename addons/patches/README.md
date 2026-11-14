@@ -1,6 +1,6 @@
 # Parches de módulos para Foundry 14
 
-Diez parches locales aplicados en Foundry 14.369. La columna de comprobación describe el alcance real; MaterialDeck, Silhouette y Genesys conservan limitaciones pendientes.
+Once parches locales aplicados en Foundry 14.369. La columna de comprobación describe el alcance real; MaterialDeck, Silhouette y Genesys conservan limitaciones pendientes.
 
 | Complemento | Parche | Comprobación |
 |---|---|---|
@@ -14,6 +14,7 @@ Diez parches locales aplicados en Foundry 14.369. La columna de comprobación de
 | genesys-ffg-options-enhancer | 1.1.1-mitos.1 | V14 scene control callbacks patched. Module declares maximum system 2.0.4 and remains disabled with 2.0.5-mitos.14; full feature integration pending. |
 | starwars-silhouette | 1.2.2-mitos.1 | Startup and vehicle sheet hook load in Foundry 14.369. Automatic scale/art features still need configured silhouette folders and full validation. |
 | lgs-token-range-bands | 1.1.3-mitos.1 | Foundry 14.369: SceneConfig fields, Token HUD, range creation and token movement cleanup checked. Legacy template deprecation warnings remain; detailed ruler labels not fully checked. |
+| swgalaxy-map | 0.1.0-mitos.1 | Encuadre inicial corregido; búsqueda, 6.757 sistemas y calculadora probados en Foundry 14.369. |
 
 El instalador rechaza versiones distintas y cambios locales desconocidos. Normaliza los payloads a LF para Windows, verifica el resultado por SHA-256 y respalda cada archivo antes de escribir. Solo admite una actualización de un parche anterior cuando su hash está enumerado expresamente.
 

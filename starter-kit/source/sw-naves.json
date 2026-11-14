@@ -8344,7 +8344,7 @@
     "_id": "c2c1023662e3ee41",
     "name": "74-Z Speeder Bike",
     "type": "vehicle",
-    "img": "systems/starwarsffg/assets/starwars-original/vehicle-74z.png",
+    "img": "systems/starwarsffg/assets/starwars-original/vehicle-74z-clear.png",
     "system": {
       "biography": "<p>Moto deslizadora para exploración rápida.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -8463,7 +8463,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "TDXKwHu1tzCapxvh",
+            "id": "wM4P9Y2pgdhhZmjC",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -8523,7 +8523,7 @@
             },
             "masks": [
               {
-                "id": "JKfzehP7yG4rHkIj",
+                "id": "1KifAWlSVl07kADD",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -8538,10 +8538,10 @@
             "isBackground": true
           },
           {
-            "id": "X08zsb2zLY3oPA8U",
+            "id": "w1PSGS3VynPO46HY",
             "type": "image",
             "name": "Token Image",
-            "src": "systems/starwarsffg/assets/starwars-original/vehicle-74z.png",
+            "src": "systems/starwarsffg/assets/starwars-original/vehicle-74z-clear.png",
             "visible": true,
             "locked": false,
             "blendMode": "source-over",
@@ -8598,7 +8598,7 @@
             },
             "masks": [
               {
-                "id": "uR4JtYyj6YKcEtzV",
+                "id": "9nFxRSoszdPbsLyW",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -8612,7 +8612,7 @@
             "isVideo": false
           },
           {
-            "id": "WGN2BctD6wmTa9WL",
+            "id": "gtvbLdAjp8I1dJG4",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -8690,7 +8690,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/review-c2c1023662e3ee41.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/final-c2c1023662e3ee41.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",

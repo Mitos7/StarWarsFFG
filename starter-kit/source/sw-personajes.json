@@ -3984,14 +3984,14 @@
             "locked": false,
             "blendMode": "source-over",
             "transform": {
-              "x": 0,
-              "y": 0,
-              "scaleX": 1.7753120665742024,
-              "scaleY": 1.7753120665742024,
+              "x": 215.04,
+              "y": 113.152,
+              "scaleX": 2.56,
+              "scaleY": 2.56,
               "rotation": 0
             },
             "adjustments": {
-              "brightness": 1,
+              "brightness": 1.15,
               "contrast": 1,
               "opacity": 1,
               "blur": 0,
@@ -4128,7 +4128,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-87b90434625e2a83.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/crop-87b90434625e2a83.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",

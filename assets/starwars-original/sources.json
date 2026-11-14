@@ -1601,6 +1601,24 @@
       "credit": "Community artwork via LeeDurant/swrpg; original creators retain rights",
       "sha256": "ea79a5a45e17a580843f80359831bd4bcb1253a29d16089a1d887ae184d8cb19",
       "bytes": 141132
+    },
+    {
+      "id": "object-vibrosword-clear",
+      "file": "assets/starwars-original/object-vibrosword-clear.jpg",
+      "download": "https://i.etsystatic.com/38624280/r/il/e990d7/5344550331/il_fullxfull.5344550331_qj9b.jpg",
+      "source": "https://www.etsy.com/listing/1567756997/112186-kotor-vibro-sword-star-wars-black",
+      "credit": "Broken Arrow / KOTOR vibrosword model; Lucasfilm Star Wars design",
+      "sha256": "846ee105f6ad4228a887e63f9a7f28870d33450f8be88f5c4198a4d84e7f45af",
+      "bytes": 50102
+    },
+    {
+      "id": "vehicle-74z-clear",
+      "file": "assets/starwars-original/vehicle-74z-clear.png",
+      "download": "https://vignette.wikia.nocookie.net/starwars/images/4/47/Speeder_Bike_DICE.png/revision/latest?cb=20171102044625",
+      "source": "https://starwars.wikia.com/wiki/74-Z_speeder_bike",
+      "credit": "DICE / EA / Lucasfilm",
+      "sha256": "0be425d073dc8a333d43594be962c2bfd953baf5b198f4cf1b3fe9e7e7f53a2d",
+      "bytes": 159512
     }
   ]
 }

@@ -495,8 +495,8 @@
       "id": "swgalaxy-map",
       "source_version": "0.1.0",
       "patch_version": "0.1.0-mitos.1",
-      "verified_in_foundry": false,
-      "verification_note": "Initial canvas fit and observer cleanup patch; runtime validation pending.",
+      "verified_in_foundry": true,
+      "verification_note": "Foundry 14.369: initial map framing corrected and visually checked; 6757 systems loaded; Coruscant search and Coruscant-Tatooine calculation tested. Travel times remain approximate.",
       "files": [
         {
           "path": "scripts/galaxy-map-app.js",

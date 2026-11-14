@@ -950,9 +950,9 @@
         "maximum": "14"
       },
       "relationships": {},
-      "review_status": "runtime-test-needed",
-      "review_notes": "Máximo declarado V14; datos y calculadora galáctica. Tiempo de viaje aproximado, no regla oficial FFG.",
-      "runtime_verified_this_review": false,
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Installed 0.1.0-mitos.1 in place of incompatible Traveller Map. Initial fit fixed; map, search and travel calculator tested; time is an approximation.",
+      "runtime_verified_this_review": true,
       "archive_audit": {
         "id": "swgalaxy-map",
         "url": "https://github.com/tomjdr4-hub/foundry-swgalaxy-map/releases/latest/download/module.zip",
@@ -1026,12 +1026,14 @@
     }
   ],
   "live_audit": {
-    "documents": 4909,
+    "documents": 4908,
     "image_paths": 1455,
     "broken_image_paths": 0,
     "data_preparation_errors": 0,
     "vehicle_default_portraits_remaining": 84,
     "js_tests_passed": 52,
-    "patcher_tests_passed": 3
+    "patcher_tests_passed": 3,
+    "active_modules": 24,
+    "conflicts": 0
   }
 }
