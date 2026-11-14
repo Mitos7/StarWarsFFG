@@ -1,0 +1,208 @@
+{
+  "art": {
+    "changed": [
+      {
+        "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.CqW06mQ86HsHJS5A",
+        "name": "Joben T-85 Speeder Bik",
+        "img": "systems/starwarsffg/assets/starwars-original/vehicle-joben-t85.jpeg",
+        "token": "systems/starwarsffg/assets/tokens-tokenizer2/role-CqW06mQ86HsHJS5A.webp"
+      },
+      {
+        "uuid": "Compendium.world.oggdudevehiclesspace.Actor.ZEz6M5vPtzfhOk27",
+        "name": "H-Type Nubian Yacht",
+        "img": "systems/starwarsffg/assets/starwars-original/ship-h-type-nubian.jpeg",
+        "token": "systems/starwarsffg/assets/tokens-tokenizer2/role-ZEz6M5vPtzfhOk27.webp"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "Joben T-85 Speeder Bik",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/role-CqW06mQ86HsHJS5A.webp",
+        "img": "systems/starwarsffg/assets/starwars-original/vehicle-joben-t85.jpeg"
+      },
+      {
+        "name": "H-Type Nubian Yacht",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/role-ZEz6M5vPtzfhOk27.webp",
+        "img": "systems/starwarsffg/assets/starwars-original/ship-h-type-nubian.jpeg"
+      }
+    ],
+    "errors": []
+  },
+  "framing": {
+    "changed": [
+      {
+        "uuid": "Compendium.world.oggdudevehiclesplanetary.Actor.CqW06mQ86HsHJS5A",
+        "name": "Joben T-85 Speeder Bik",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-CqW06mQ86HsHJS5A.webp"
+      },
+      {
+        "uuid": "Compendium.world.oggdudevehiclesspace.Actor.ZEz6M5vPtzfhOk27",
+        "name": "H-Type Nubian Yacht",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-ZEz6M5vPtzfhOk27.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.1uSRPx14nYmedSRO",
+        "name": "TIE Pilot",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-1uSRPx14nYmedSRO.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.7B4mPWcik1kLtXg3",
+        "name": "Campus Security",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.BWzEDqMkH3ZGHVH2",
+        "name": "Rebel Specforce Infiltrator",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.CLp2L5t10puBqGAQ",
+        "name": "Alliance Infantry",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.D7jpjuQJ0FKOuZZk",
+        "name": "TIE Ace",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-1uSRPx14nYmedSRO.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.OwLXRNUL7bkNVRMV",
+        "name": "Spaceport Security Officer",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.RvGnCgpqnIaaEjRL",
+        "name": "Spaceport Security Detail",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.S8n880hioJ1QyTiB",
+        "name": "CSA Security Captain",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.l78sNuNaF6hWCaFe",
+        "name": "CSA Security Police",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.pi4lssapkwKwVkuC",
+        "name": "Antiquated Battle Droid",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-pi4lssapkwKwVkuC.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.roFWKE4fSjurfSt5",
+        "name": "Armed Security Guard",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "uuid": "Compendium.world.sw-adversaries-core.Actor.xIbtnolLFkyKwDGt",
+        "name": "Planetary Defence Trooper",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "uuid": "Compendium.starwarsffg.sw-adversarios.Actor.59ada3b77cb7e662",
+        "name": "Piloto TIE imperial",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-1uSRPx14nYmedSRO.webp"
+      },
+      {
+        "uuid": "Compendium.starwarsffg.sw-adversarios.Actor.d535719422971927",
+        "name": "Soldado rebelde",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "uuid": "Compendium.starwarsffg.sw-adversarios.Actor.d6ae899c90e19d97",
+        "name": "Droide de batalla B1",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-pi4lssapkwKwVkuC.webp"
+      },
+      {
+        "uuid": "Compendium.starwarsffg.sw-adversarios.Actor.d85a85c6d73e4b9e",
+        "name": "Guerrero mandaloriano",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d85a85c6d73e4b9e.webp"
+      },
+      {
+        "uuid": "Compendium.starwarsffg.sw-personajes.Actor.87b90434625e2a83",
+        "name": "Obi-Wan Kenobi",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-87b90434625e2a83.webp"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-adversarios.Actor.59ada3b77cb7e662",
+        "name": "Piloto TIE imperial",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-1uSRPx14nYmedSRO.webp"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-adversarios.Actor.d535719422971927",
+        "name": "Soldado rebelde",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-adversarios.Actor.d6ae899c90e19d97",
+        "name": "Droide de batalla B1",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-pi4lssapkwKwVkuC.webp"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-adversarios.Actor.d85a85c6d73e4b9e",
+        "name": "Guerrero mandaloriano",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d85a85c6d73e4b9e.webp"
+      },
+      {
+        "uuid": "Compendium.swffg-mitos-starter.sw-personajes.Actor.87b90434625e2a83",
+        "name": "Obi-Wan Kenobi",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-87b90434625e2a83.webp"
+      },
+      {
+        "uuid": "Actor.d6ae899c90e19d97",
+        "name": "Droide de batalla B1",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-pi4lssapkwKwVkuC.webp"
+      },
+      {
+        "uuid": "Actor.87b90434625e2a83",
+        "name": "Obi-Wan Kenobi",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-87b90434625e2a83.webp"
+      },
+      {
+        "uuid": "Scene.oRaxfWsIyXLQOwjP.Token.pGhLQQo8yPxfZtHI.Actor.d6ae899c90e19d97",
+        "name": "Droide de seguridad",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-pi4lssapkwKwVkuC.webp"
+      }
+    ],
+    "tokens": [
+      {
+        "name": "Joben T-85 Speeder Bik",
+        "img": "systems/starwarsffg/assets/starwars-original/vehicle-joben-t85.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-CqW06mQ86HsHJS5A.webp"
+      },
+      {
+        "name": "H-Type Nubian Yacht",
+        "img": "systems/starwarsffg/assets/starwars-original/ship-h-type-nubian.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-ZEz6M5vPtzfhOk27.webp"
+      },
+      {
+        "name": "TIE Pilot",
+        "img": "systems/starwarsffg/assets/starwars-original/imperial-pilots.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-1uSRPx14nYmedSRO.webp"
+      },
+      {
+        "name": "Campus Security",
+        "img": "systems/starwarsffg/assets/starwars-original/rebel-troopers.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-7B4mPWcik1kLtXg3.webp"
+      },
+      {
+        "name": "Antiquated Battle Droid",
+        "img": "systems/starwarsffg/assets/starwars-original/battle-droid.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-pi4lssapkwKwVkuC.webp"
+      },
+      {
+        "name": "Guerrero mandaloriano",
+        "img": "systems/starwarsffg/assets/starwars-original/death-watch.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-d85a85c6d73e4b9e.webp"
+      },
+      {
+        "name": "Obi-Wan Kenobi",
+        "img": "systems/starwarsffg/assets/starwars-original/obi-wan-kenobi.jpeg",
+        "path": "systems/starwarsffg/assets/tokens-tokenizer2/crop-87b90434625e2a83.webp"
+      }
+    ],
+    "errors": []
+  }
+}

@@ -1,0 +1,631 @@
+{
+  "schema": 1,
+  "modules": [
+    {
+      "id": "ffg-star-wars-hud-enhancements",
+      "source_version": "1.0.1",
+      "patch_version": "1.0.1-mitos.1",
+      "source": "https://github.com/YeNov/ffg-star-wars-hud-enhancements",
+      "verified_in_foundry": true,
+      "files": [
+        {
+          "path": "scripts/hud-panel.js",
+          "before_sha256": "572a471b020b2318b2b7890a76ca0c0524c43be5571f1495f7e1a9a2ee61b922",
+          "after_sha256": "a5d4997349466676c3322d12d1a52c78ddc5a578fa3bd1b76f0af7a9529d00cd"
+        },
+        {
+          "path": "scripts/main.js",
+          "before_sha256": "e2805e6ea3577bd845f8dcb4a0e4e96cd0c7fb1da41a2a3097ed17b4450afca5",
+          "after_sha256": "4ed89dfe76caca5a24f2cf45b138f52f3d34579262985039c11b40e6036d71ef"
+        }
+      ],
+      "verification_note": "Foundry 14.369: wounds +/-1 on nemesis, minion, rival and hull trauma on vehicle; restored original values."
+    },
+    {
+      "id": "lgs-extra-fields-for-star-wars",
+      "source_version": "1.0.3",
+      "patch_version": "1.0.3-mitos.1",
+      "source": "https://github.com/Lyinggod/FFG-Star-Wars-Extra-Fields",
+      "verified_in_foundry": true,
+      "files": [
+        {
+          "path": "scripts/lgs-extra-fields-for-star-wars.js",
+          "before_sha256": "4c6d0a89962f0e10a7ddf6f6bc721c275925e5333999cb907ce53f0d2182434d",
+          "after_sha256": "237d663757a7c683176798775bf48e34bb9e1bab86d6749c8970bf665cee8d1d",
+          "previous_sha256": [
+            "4113c2aca625f19b3beadddb21756837dd289cda97f3c3dbc6f0fabba59ec969"
+          ]
+        }
+      ],
+      "verification_note": "Foundry 14.369: blank spacer and numeric field render once in standard V2 and Alternative actor sheets; read-only protection regression-tested."
+    },
+    {
+      "id": "star-wars-status-automation",
+      "source_version": "0.2.1",
+      "patch_version": "0.2.1-mitos.1",
+      "source": "https://github.com/Malven31/foundryVTT-SWFFG-status-automation",
+      "verified_in_foundry": true,
+      "files": [
+        {
+          "path": "scripts/encumbrance_automation.js",
+          "before_sha256": "7510fb20e79fd3f2188a30446d887890b756b492a7ebbd8c659893fd55d6379d",
+          "after_sha256": "7c5aed68e8ddde15936d3937c6e4c4f67846b1a175f824c548b8306cc6b14f7e"
+        },
+        {
+          "path": "scripts/status_icon.js",
+          "before_sha256": "87a367a37d78f0ca0cb328fa4f96d58619b25bacdeeb6174153f01197664e23b",
+          "after_sha256": "ff601be2829f09ebbd305f973f23f5b906a9f025a69f89c1a672d37dd1f3afbd"
+        },
+        {
+          "path": "scripts/talent.js",
+          "before_sha256": "7d9e339b001d128555d07b4b1236134bb55fd0d0c5fb0258f9de0f02acba97db",
+          "after_sha256": "7a9181a2384c69869874a6f9f7980a32df08e682c74abcb10d900c9c1beed3f6"
+        },
+        {
+          "path": "scripts/util.js",
+          "before_sha256": "1494632af8b31c91dbb995287d1bb206dfb62efcd2eb7593ef915ba14c54ef01",
+          "after_sha256": "49f45d0c0c52f19c4346479b997d1543148dd6a6abb0e6a9fcb4ee5b30ed87b3"
+        },
+        {
+          "path": "star-wars-status-automation.js",
+          "before_sha256": "8cf400b333e7b18e99e4f5f94bd2cfd57f55fc40fe8795016f9824eec58991b5",
+          "after_sha256": "433a36ed4a70b455450ac95c4032a10bd00ad1701809f12cc3aa3590688cf35b"
+        }
+      ],
+      "verification_note": "Foundry 14.369: managed encumbrance counter 2 -> 0; unrelated ActiveEffect preserved. World enablement remains optional."
+    },
+    {
+      "id": "token-action-hud-ffgsw",
+      "source_version": "13.0.0.2_0_3",
+      "patch_version": "13.0.0.2_0_3-mitos.1",
+      "verified_in_foundry": true,
+      "files": [
+        {
+          "path": "scripts/action-handler.js",
+          "before_sha256": "d69d9938c0b7bd903300be91d0bdaf822c7e9d53635ecc338c6c28dcded667b0",
+          "after_sha256": "e902b00104d993639fd2a7635167da9cd13fe8c23d091ee6cdbd84aeb4ef24d2",
+          "replacements": [
+            {
+              "old": "*/a\n",
+              "new": "*/\n",
+              "count": 1
+            },
+            {
+              "old": "this.#buildMultipleTokenActions()",
+              "new": "await this.#buildMultipleTokenActions()",
+              "count": 1
+            },
+            {
+              "old": "#buildMultipleTokenActions() {",
+              "new": "async #buildMultipleTokenActions() {",
+              "count": 1
+            },
+            {
+              "old": "this.#buildSkills()",
+              "new": "await this.#buildSkills()",
+              "count": 2
+            },
+            {
+              "old": "if (game.settings.get(MODULE.ID, \"displayDicepool\") == true)",
+              "new": "if (this.actor && game.settings.get(MODULE.ID, \"displayDicepool\") === true)",
+              "count": 1
+            },
+            {
+              "old": "get_dice_pool(actor.id,",
+              "new": "get_dice_pool(actor,",
+              "count": 2
+            },
+            {
+              "old": "const skills = this.actor?.system.skills\n            if (skills.length === 0) return;",
+              "new": "const actors = this.actor ? [this.actor] : this.actors;\n            if (!actors?.length) return;\n            const skills = Object.fromEntries(Object.entries(actors[0].system.skills ?? {})\n                .filter(([id]) => actors.every(actor => actor.system.skills?.[id])));\n            if (!Object.keys(skills).length) return;",
+              "count": 1
+            },
+            {
+              "old": "            const categoriesSkillsList = this.actor.system.skilltypes\n",
+              "new": "",
+              "count": 1
+            },
+            {
+              "old": "const allowedTypes = [\"character\", \"npc\"];",
+              "new": "const allowedTypes = [\"character\", \"minion\", \"rival\", \"nemesis\"];",
+              "count": 2
+            },
+            {
+              "old": "this.buildActions(data);",
+              "new": "await this.buildActions(data);",
+              "count": 2
+            },
+            {
+              "old": "await await this.buildActions(data);",
+              "new": "await this.buildActions(data);",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "path": "scripts/roll-handler.js",
+          "before_sha256": "c55bd064ffd1e82b672983b607db4d22053cc80739f65cdc1f2d01d501dae3ad",
+          "after_sha256": "082ea06f52578c40631178f08f2b803c680d4f61f54b9325e8f74236df19a1f1",
+          "replacements": [
+            {
+              "old": "this.crewAction(event, actor, actionId);",
+              "new": "await this.crewAction(event, actor, actionId);",
+              "count": 1
+            },
+            {
+              "old": "this.weaponAction(event, actor, actionId);",
+              "new": "await this.weaponAction(event, actor, actionId);",
+              "count": 1
+            },
+            {
+              "old": "this.vehicleWeaponAction(event, actor, actionId);",
+              "new": "await this.vehicleWeaponAction(event, actor, actionId);",
+              "count": 1
+            },
+            {
+              "old": "this.rollSkill(event, actor, actionId);",
+              "new": "await this.rollSkill(event, actor, actionId);",
+              "count": 1
+            },
+            {
+              "old": "            const weapon = coreModule.api.Utils.getItem(actor, actionId);\n\n            const cardData",
+              "new": "            const weapon = coreModule.api.Utils.getItem(actor, actionId);\n            if (!weapon) return;\n\n            const cardData",
+              "count": 1
+            },
+            {
+              "old": "            const weapon = coreModule.api.Utils.getItem(actor, actionId);\n            if (!weapon) return;\n\n            const cardData = {\n                \"crew\": {\n                    \"name\": this.actor.name,\n                    \"img\": this.actor.img,",
+              "new": "            const weapon = coreModule.api.Utils.getItem(actor, actionId);\n            if (!weapon) return;\n\n            const cardData = {\n                \"crew\": {\n                    \"name\": actor.name,\n                    \"img\": actor.img,",
+              "count": 1
+            },
+            {
+              "old": "this.rollSkill(event, this.actor, weapon.system.skill.value, foundry.utils.mergeObject(weapon, cardData)",
+              "new": "await this.rollSkill(event, actor, weapon.system.skill.value, foundry.utils.mergeObject(weapon.toObject(), cardData)",
+              "count": 1
+            },
+            {
+              "old": "get_dice_pool(actor.id,",
+              "new": "get_dice_pool(actor,",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "verification_note": "Foundry 14.369: two selected tokens produce common skill actions; skill dialog opens; synthetic actor dice pool regression-tested."
+    },
+    {
+      "id": "swffgUI-cc",
+      "source_version": "2.6.3",
+      "patch_version": "2.6.3-mitos.1",
+      "verified_in_foundry": true,
+      "files": [
+        {
+          "path": "swffg-ui.js",
+          "before_sha256": "b52dd49f2e9cda61727d631c95f228c1f937db3fe748a30538c68d06269b79df",
+          "after_sha256": "ca429c2ae3252adeadfcd7fd4aa253356ad7c8e8c6de9a44557218dbb370c5a1",
+          "replacements": [
+            {
+              "old": "extends SceneNavigation",
+              "new": "extends foundry.applications.ui.SceneNavigation",
+              "count": 1
+            },
+            {
+              "old": "extends Pause",
+              "new": "extends foundry.applications.ui.GamePause",
+              "count": 1
+            },
+            {
+              "old": "this.ID = randomID(24);",
+              "new": "this.ID = foundry.utils.randomID(24);",
+              "count": 1
+            },
+            {
+              "old": "\tCONFIG.ui.pause = PauseFFG;\n\tCONFIG.ui.nav = NavigationFFG;\n\tCONFIG.TinyMCE.content_css.push('modules/swffgUI-cc/css/mce.css');",
+              "new": "    // Keep the native ApplicationV2 navigation and pause controls.\n    if (Number(game.release.generation) < 13) {\n        CONFIG.ui.pause = PauseFFG;\n        CONFIG.ui.nav = NavigationFFG;\n    }\n    CONFIG.TinyMCE?.content_css?.push('modules/swffgUI-cc/css/mce.css');",
+              "count": 1
+            },
+            {
+              "old": "if(sheet.token !== null){",
+              "new": "if(sheet.token){",
+              "count": 1
+            },
+            {
+              "old": "let profileImg = $element.find('.profile-img');",
+              "new": "let profileImg = $($element).find('.profile-img');",
+              "count": 1
+            },
+            {
+              "old": "profileImg.before('<div class=\"auberesh-name\">' + tokenName + '</div>');",
+              "new": "profileImg.before($('<div>').addClass('auberesh-name').text(tokenName));",
+              "count": 1
+            },
+            {
+              "old": "Hooks.on(\"renderSidebarTab\", async (object, html) => {\n  if (object instanceof Settings) {\n    const details = html.find(\"#game-details\");\n    const swffgUIDetails = document.createElement(\"li\");\n    swffgUIDetails.classList.add(\"donation-link\");\n    //let swffgUiVersion = game.i18n.localize('SWFFG.Version');\n\tlet swffgUiVersion = game.modules.get(\"swffgUI-cc\").version\n\tlet swffgUiDonate = game.i18n.localize('SWFFG.donate');\n\tlet swffgUiThemeMaintenance = game.i18n.localize('SWFFG.thememaintenance');\n    let swffgUiReportThemeIssue = game.i18n.localize('SWFFG.reportthemeissue');\n\tswffgUIDetails.innerHTML = \"Star Wars UI (CC)<a style='animation: textShadow 1.6s infinite;' title='\"+swffgUiDonate+\"' href='https://ko-fi.com/prolice1403'><img src='https://storage.ko-fi.com/cdn/cup-border.png' height='12px'></a><span style='font-size:var(--major-button-font-size);'>\"+swffgUiVersion+\"</span>\";\n    details.append(swffgUIDetails);\n\t\n\tthis.section = document.createElement(\"section\");\n\tthis.section.classList.add(\"swffgui-maintenance\");\n\t// Add menu before directory header\n\tconst dirHeader = html[0].querySelector(\"#settings-game\").nextSibling;\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\n\t\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `\n\t\t  <h2>`+swffgUiThemeMaintenance+`</h2>\n\t\t  <button class=\"swffgui-maintenance\" onclick=\"window.open('https://github.com/prolice/swffgUI-cc/issues','_blank')\"><i class=\"fas fa-paint-roller\"></i>`+swffgUiReportThemeIssue+`</button>`\n\t\t);\n\t\n  }\n});\n\nHooks.on(\"renderActorDirectory\", (app, html, data) => {\n\tthis.section = document.createElement(\"section\");\n\tthis.section.classList.add(\"swffgui\");\n\t// Add menu before directory header\n\tconst dirHeader = html[0].querySelector(\".directory-header\");\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `<h3 class=\"auberesh\">Actors Directory</h3>`\n\t\t);\n});\n\nHooks.on(\"renderSceneDirectory\", (app, html, data) => {\n\tthis.section = document.createElement(\"section\");\n\tthis.section.classList.add(\"swffgui\");\n\t// Add menu before directory header\n\tconst dirHeader = html[0].querySelector(\".directory-header\");\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `<h3 class=\"auberesh\">Scenes Directory</h3>`\n\t\t);\n});\n\n\nHooks.on(\"renderJournalDirectory\", (app, html, data) => {\n\tthis.section = document.createElement(\"section\");\n\tthis.section.classList.add(\"swffgui\");\n\t// Add menu before directory header\n\tconst dirHeader = html[0].querySelector(\".directory-header\");\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `<h3 class=\"auberesh\">Journal Directory</h3>`\n\t\t);\n});\n\nHooks.on(\"renderItemDirectory\", (app, html, data) => {\n\tthis.section = document.createElement(\"section\");\n\tthis.section.classList.add(\"swffgui\");\n\t// Add menu before directory header\n\tconst dirHeader = html[0].querySelector(\".directory-header\");\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\n\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `<h3 class=\"auberesh\">Items Directory</h3>`\n\t\t);\n});\n\nHooks.on(\"renderRollTableDirectory\", (app, html, data) => {\n\tthis.section = document.createElement(\"section\");\n\tthis.section.classList.add(\"swffgui\");\n\t// Add menu before directory header\n\tconst dirHeader = html[0].querySelector(\".directory-header\");\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\n\t\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `<h3 class=\"auberesh\">RollTable Directory</h3>`\n\t\t);\n});\n\nHooks.on(\"renderCompendiumDirectory\", (app, html, data) => {\n\tthis.section = document.createElement(\"section\");\n\tthis.section.classList.add(\"swffgui\");\n\t// Add menu before directory header\n\tconst dirHeader = html[0].querySelector(\".directory-header\");\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\n\t\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `<h3 class=\"auberesh\">Compendium Directory</h3>`\n\t\t);\n});\n\nHooks.on(\"renderPlaylistDirectory\", (app, html, data) => {\n\tthis.section = document.createElement(\"section\");\n\tthis.section.classList.add(\"swffgui\");\n\t// Add menu before directory header\n\tconst dirHeader = html[0].querySelector(\".directory-header\");\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\n\t\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `<h3 class=\"auberesh\">Playlists Directory</h3>`\n\t\t);\n});\n\nHooks.on(\"renderChatLog\", (app, html, data) => {\n\tthis.section = document.createElement(\"section\");\n\tthis.section.classList.add(\"swffgui\");\n\t// Add menu before directory header\n\tconst dirHeader = html[0].querySelector(\"#chat-log\");\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\n\t\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `<h3 class=\"auberesh\">Chat Log</h3>`\n\t\t);\n});\n\nHooks.on(\"renderSettings\", (app, html, data) => {\n\tthis.section = document.createElement(\"section\");\n\tthis.section.classList.add(\"swffgui\");\n\t// Add menu before directory header\n\tconst dirHeader = html[0].querySelector(\"h2\");\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\n\t\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `<h3 class=\"auberesh\">Settings</h3>`\n\t\t);\n});\n\nHooks.on(\"renderCombatTracker\", (app, html, data) => {\n\tthis.section = document.createElement(\"section\");\n\tthis.section.classList.add(\"swffgui\");\n\t// Add menu before directory header\n\tconst dirHeader = html[0].querySelector(\"#combat-tracker\");\n\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\n\t\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `<h3 class=\"auberesh\">Combat Tracker</h3>`\n\t\t);\n});\n\nHooks.on(\"renderSettingsConfig\", (app, html, data) => {\n\tthis.section = document.createElement(\"div\");\n\tthis.section.classList.add(\"swffgui-settings\");\n\tconst dirHeader = html[0].querySelector(\"section\");\n\n\tdirHeader.parentNode.insertBefore(this.section, dirHeader);\n\t\tsection.insertAdjacentHTML(\n\t\t  \"afterbegin\",\n\t\t  `\n\t\t  <h3 class=\"auberesh\">Configure Game Settings</h3>\n\t\t  `\n\t\t);\n});\n\n\n",
+              "new": "// Foundry 13+ passes HTMLElement; older sheets still pass jQuery.\nfunction swffgRoot(html) { return html?.querySelector ? html : html?.[0]; }\nfunction swffgHeading(html, text, selector, className = \"swffgui\") {\n    const root = swffgRoot(html);\n    if (!root || root.querySelector(`.${className}`)) return;\n    const section = document.createElement(\"section\");\n    section.className = className;\n    const heading = document.createElement(\"h3\");\n    heading.className = \"auberesh\";\n    heading.textContent = text;\n    section.append(heading);\n    const anchor = root.querySelector(selector);\n    if (anchor) anchor.before(section); else root.prepend(section);\n}\nfor (const [hook, title, selector] of [\n    [\"renderActorDirectory\", \"Actors Directory\", \".directory-header\"],\n    [\"renderSceneDirectory\", \"Scenes Directory\", \".directory-header\"],\n    [\"renderJournalDirectory\", \"Journal Directory\", \".directory-header\"],\n    [\"renderItemDirectory\", \"Items Directory\", \".directory-header\"],\n    [\"renderRollTableDirectory\", \"RollTable Directory\", \".directory-header\"],\n    [\"renderCompendiumDirectory\", \"Compendium Directory\", \".directory-header\"],\n    [\"renderPlaylistDirectory\", \"Playlists Directory\", \".directory-header\"],\n    [\"renderChatLog\", \"Chat Log\", \"#chat-log\"],\n    [\"renderCombatTracker\", \"Combat Tracker\", \"#combat-tracker\"],\n    [\"renderSettings\", \"Settings\", \"h2\"],\n    [\"renderSettingsConfig\", \"Configure Game Settings\", \"section\"]\n]) Hooks.on(hook, (app, html) => swffgHeading(html, title, selector));\n\nHooks.on(\"renderSettings\", (app, html) => {\n    const root = swffgRoot(html);\n    const details = root?.querySelector(\"#game-details\");\n    if (!details || root.querySelector(\"[data-swffg-cc-credit]\")) return;\n    const credit = document.createElement(\"li\");\n    credit.dataset.swffgCcCredit = \"true\";\n    credit.textContent = `Star Wars UI (CC) ${game.modules.get(\"swffgUI-cc\").version} — Prolice `;\n    const link = document.createElement(\"a\");\n    link.href = \"https://github.com/prolice/swffgUI-cc/issues\";\n    link.target = \"_blank\"; link.rel = \"noopener\";\n    link.textContent = game.i18n.localize(\"SWFFG.reportthemeissue\");\n    credit.append(link); details.append(credit);\n});\n",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "path": "swffg-default.css",
+          "before_sha256": "38dd62c400c435bcb8b8751917a3a63e489ae712c5aa79a67b912e7f3dea2e19",
+          "after_sha256": "a9a1d8865797b651d6d606620ba380e0a7b2a2fc56dc114301758fc5a93bbc8d",
+          "replacements": [
+            {
+              "old": "button {",
+              "new": "button:not(.icon) {",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "path": "blackEmpire/css/swffg.css",
+          "before_sha256": "29507470ec8b90782cae18de36000a50db815d97ccb545ca0edd2616bcc3f8b4",
+          "after_sha256": "ed9ca8b4825e5b9a70ae637b9423f557c5423f44d66badf6f856448972212281",
+          "replacements": [
+            {
+              "old": "button {",
+              "new": "button:not(.icon) {",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "verification_note": "Foundry 14.369: startup, directories and Font Awesome icons checked. Alternative global theme; do not combine with Space Opera."
+    },
+    {
+      "id": "swrpg-karmic-dice",
+      "source_version": "1.0.1",
+      "patch_version": "1.0.1-mitos.1",
+      "verified_in_foundry": true,
+      "files": [
+        {
+          "path": "scripts/module.js",
+          "before_sha256": "471e70569cda21de57904700b17ab0309b9fe73fb4c74ba112f8c3d783c15181",
+          "after_sha256": "ff6a22caf5536ba1fb421a3edbb9a2b4e8a8a1957921a884bceeb5ccc4280d53",
+          "replacements": [
+            {
+              "old": "Hooks.on(\"renderChatMessage\", (message, html) => {",
+              "new": "Hooks.on(\"renderChatMessageHTML\", (message, html) => {",
+              "count": 1
+            },
+            {
+              "old": "const root = document.querySelector(`li.chat-message[data-message-id=\"${id}\"]`);",
+              "new": "const root = (html?.querySelector ? html : html?.[0]) ?? document.querySelector(`li.chat-message[data-message-id=\"${id}\"]`);",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "verification_note": "Foundry 14.369: a temporary FFG roll rendered in chat without errors and was removed. Original probability preferences preserved."
+    },
+    {
+      "id": "materialdeck-starwarsffg",
+      "source_version": "1.0.1",
+      "patch_version": "1.0.1-mitos.1",
+      "source": "https://github.com/MaterialFoundry/MaterialDeck_StarWarsFFG",
+      "verified_in_foundry": false,
+      "files": [
+        {
+          "path": "materialdeck-starwarsffg.js",
+          "before_sha256": "e3bb76adf9b4d6b181dd5c185723021d264e206b720369443598384edd5b2683",
+          "after_sha256": "755218d17891681d771fd47cc16371176a9212ac921ca51919185b5604d895cf"
+        }
+      ],
+      "verification_note": "Resource mappings, FFG rolls and condition preservation covered by regression tests. External MaterialDeck server/hardware unavailable."
+    },
+    {
+      "id": "genesys-ffg-options-enhancer",
+      "source_version": "1.1.1",
+      "patch_version": "1.1.1-mitos.1",
+      "verified_in_foundry": false,
+      "files": [
+        {
+          "path": "scripts/main.js",
+          "before_sha256": "7cbb0e983eb5d8c1873a618c062a3571478fab9817d51fb5ebd6114f21619ae3",
+          "after_sha256": "781aaaf4493a4a4a9c27322a1c1550d1121c09e9da9aa6a08c25192958982b10",
+          "replacements": [
+            {
+              "old": "onClick: () =>",
+              "new": "onChange: () =>",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "verification_note": "V14 scene control callbacks patched. Module declares maximum system 2.0.4 and remains disabled with 2.0.5-mitos.14; full feature integration pending."
+    },
+    {
+      "id": "starwars-silhouette",
+      "source_version": "1.2.2",
+      "patch_version": "1.2.2-mitos.2",
+      "verified_in_foundry": false,
+      "files": [
+        {
+          "path": "sw-silhouette.js",
+          "before_sha256": "1522909057e365ad651859ca95e1afda797c412dda7e05953df98c3a93f97cdc",
+          "after_sha256": "498aba67779fca08730b1de8aa725cee4561207b4bc5f06b02f2a161a85ee4cb",
+          "replacements": [
+            {
+              "old": "randomID(24)",
+              "new": "foundry.utils.randomID(24)",
+              "count": 1
+            },
+            {
+              "old": "return mergeObject(",
+              "new": "return foundry.utils.mergeObject(",
+              "count": 1
+            },
+            {
+              "old": "extends FormApplication",
+              "new": "extends foundry.appv1.api.FormApplication",
+              "count": 1
+            },
+            {
+              "old": "const dirHeader = html[0].querySelector(\".defense-block\");",
+              "new": "const dirHeader = (html?.querySelector ? html : html?.[0])?.querySelector(\".defense-block\");",
+              "count": 1
+            },
+            {
+              "old": "    let actor = game.actors.get(data.actor._id).prototypeToken;",
+              "new": "    if (!app.actor || app.actor.type !== \"vehicle\") return;",
+              "count": 1
+            },
+            {
+              "old": "    data.items.forEach(item => {",
+              "new": "    (data.items ?? []).forEach(item => {",
+              "count": 1
+            },
+            {
+              "old": "        folder.delete();",
+              "new": "        if (folder) await folder.delete();",
+              "count": 1
+            },
+            {
+              "old": "    swSilouhetteModule.singleton.init();",
+              "new": "    await swSilouhetteModule.singleton.init();\n    if (!game.user.isGM) return;",
+              "count": 1
+            },
+            {
+              "old": "async function updateTokenScale(height, width, actor) {\n    await actor.update({\n        \"prototypeToken.height\": height\n    });\n    await actor.update({\n        \"prototypeToken.width\": width\n    });\n}\n\n",
+              "new": "async function updateTokenScale(height, width, actor) {\n    if (actor.prototypeToken.height === height && actor.prototypeToken.width === width) return;\n    await actor.update({\"prototypeToken.height\": height, \"prototypeToken.width\": width});\n}\n\n",
+              "count": 1
+            },
+            {
+              "old": "async function changeScaleOnSilhouette(actors) {\n    let scaleRatio = game.settings.get('starwars-silhouette', 'scaleSilhouetteRatio');\n\n    actors.forEach(actor => {\n        const ORIGINALSCALE = 1;\n        let silhouetteValue = actor.system.stats.silhouette.value;\n        let floorDivRatio = Math.floor(silhouetteValue / scaleRatio);\n        let newScale = ORIGINALSCALE + floorDivRatio;\n        if (silhouetteValue >= 9)\n            newScale = newScale + 3;\n        if (game.settings.get('starwars-silhouette', 'autoScaling') != true) {\n            newScale = 1;\n        } //get the orignal scale\n        updateTokenScale(newScale, newScale, actor);\n\n    });\n}\n\n",
+              "new": "async function changeScaleOnSilhouette(actors) {\n    // Disabling automatic scaling must preserve sizes chosen by the GM.\n    if (!game.user.isGM || !game.settings.get('starwars-silhouette', 'autoScaling')) return 0;\n    const configuredRatio = Number(game.settings.get('starwars-silhouette', 'scaleSilhouetteRatio'));\n    const scaleRatio = Number.isFinite(configuredRatio) && configuredRatio >= 1 ? configuredRatio : 4;\n    let changed = 0;\n    for (const actor of actors) {\n        if (actor.type !== 'vehicle') continue;\n        const silhouetteValue = Number(actor.system.stats?.silhouette?.value);\n        if (!Number.isFinite(silhouetteValue) || silhouetteValue < 0) continue;\n        const newScale = 1 + Math.floor(silhouetteValue / scaleRatio) + (silhouetteValue >= 9 ? 3 : 0);\n        if (actor.prototypeToken.height === newScale && actor.prototypeToken.width === newScale) continue;\n        await updateTokenScale(newScale, newScale, actor);\n        changed += 1;\n    }\n    return changed;\n}\n\n",
+              "count": 1
+            }
+          ],
+          "previous_sha256": [
+            "0a41ab95f97327fac68a8a801bdf3cc35992fd8c6e5639d10479da9331778c01"
+          ],
+          "upgrade_replacements": [
+            {
+              "old": "async function updateTokenScale(height, width, actor) {\n    await actor.update({\n        \"prototypeToken.height\": height\n    });\n    await actor.update({\n        \"prototypeToken.width\": width\n    });\n}\n\n",
+              "new": "async function updateTokenScale(height, width, actor) {\n    if (actor.prototypeToken.height === height && actor.prototypeToken.width === width) return;\n    await actor.update({\"prototypeToken.height\": height, \"prototypeToken.width\": width});\n}\n\n",
+              "count": 1
+            },
+            {
+              "old": "async function changeScaleOnSilhouette(actors) {\n    let scaleRatio = game.settings.get('starwars-silhouette', 'scaleSilhouetteRatio');\n\n    actors.forEach(actor => {\n        const ORIGINALSCALE = 1;\n        let silhouetteValue = actor.system.stats.silhouette.value;\n        let floorDivRatio = Math.floor(silhouetteValue / scaleRatio);\n        let newScale = ORIGINALSCALE + floorDivRatio;\n        if (silhouetteValue >= 9)\n            newScale = newScale + 3;\n        if (game.settings.get('starwars-silhouette', 'autoScaling') != true) {\n            newScale = 1;\n        } //get the orignal scale\n        updateTokenScale(newScale, newScale, actor);\n\n    });\n}\n\n",
+              "new": "async function changeScaleOnSilhouette(actors) {\n    // Disabling automatic scaling must preserve sizes chosen by the GM.\n    if (!game.user.isGM || !game.settings.get('starwars-silhouette', 'autoScaling')) return 0;\n    const configuredRatio = Number(game.settings.get('starwars-silhouette', 'scaleSilhouetteRatio'));\n    const scaleRatio = Number.isFinite(configuredRatio) && configuredRatio >= 1 ? configuredRatio : 4;\n    let changed = 0;\n    for (const actor of actors) {\n        if (actor.type !== 'vehicle') continue;\n        const silhouetteValue = Number(actor.system.stats?.silhouette?.value);\n        if (!Number.isFinite(silhouetteValue) || silhouetteValue < 0) continue;\n        const newScale = 1 + Math.floor(silhouetteValue / scaleRatio) + (silhouetteValue >= 9 ? 3 : 0);\n        if (actor.prototypeToken.height === newScale && actor.prototypeToken.width === newScale) continue;\n        await updateTokenScale(newScale, newScale, actor);\n        changed += 1;\n    }\n    return changed;\n}\n\n",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "verification_note": "Automatic scaling preserves GM sizes when disabled; enabled changes await a single atomic token update. Startup and vehicle sheet hook checked; image import and silhouette attachment workflows still need validation.",
+      "previous_patch_versions": [
+        "1.2.2-mitos.1"
+      ]
+    },
+    {
+      "id": "lgs-token-range-bands",
+      "source_version": "1.1.3",
+      "patch_version": "1.1.3-mitos.1",
+      "verified_in_foundry": true,
+      "files": [
+        {
+          "path": "scripts/lgs-token-range-bands.js",
+          "before_sha256": "c82268b926bef0ec8c1033afee256a0fd3ed26f8a38064e629a21cc74848eed9",
+          "after_sha256": "220c8dfa9823cd7d26523f828d8b4830efa0afff110da8c7f9d8007f7f512a67",
+          "replacements": [
+            {
+              "old": "  libWrapper.register(\n    \"lgs-token-range-bands\",\n    \"Ruler.prototype._getSegmentLabel\",\n    function (wrapped, ...args) {\n      // Call the original method to get the label which includes the measured distance.\n      const originalLabel = wrapped(...args);\n      const distances = game.settings.get(\"lgs-token-range-bands\", \"distanceConfig\");\n      const exceedsRangeMessage = game.settings.get(\"lgs-token-range-bands\", \"exceedRangeMessage\");\n      let narrativeLabel = \"Range Exceeded\";\n\n      // Retrieve the Range Band Multiplier from the active scene (default to 1 if not set).\n      const multiplier = canvas.scene?.getFlag(\"lgs-token-range-bands\", \"rangeBandMultiplier\") || 1;\n\n      // Retrieve the measurement display option from the active scene flag (default to \"narrative\")\n      const measurementOption = canvas.scene?.getFlag(\"lgs-token-range-bands\", \"measurementOption\") || \"narrative\";\n\n      // Get the drag ruler approximation setting.\n      const useApprox = game.settings.get(\"lgs-token-range-bands\", \"dragRulerApproximation\");\n      const activeScene = game.scenes.active;\n      const gridtype = activeScene.grid.type;\n\n      let measuredDistance = parseFloat(originalLabel.match(/([\\d.]+)/)?.[1] || 0);\n\n      if (useApprox && gridtype == 1) {\n        // --- APPROXIMATION LOGIC FOR DIAGONALS ---\n        let angleAdjustment = 1;\n        const segment = args[0];\n        if (segment && segment.ray) {\n          const dx = Math.abs(segment.ray.dx);\n          const dy = Math.abs(segment.ray.dy);\n          if (dx !== 0 || dy !== 0) {\n            const angle = Math.atan2(dy, dx);\n            const diff = Math.min(angle, Math.abs(Math.PI / 2 - angle));\n            const t = diff / (Math.PI / 4);\n            angleAdjustment = 1 - t * (1 - 0.71875);\n          }\n        }\n        for (let { name, distance } of distances.sort((a, b) => a.distance - b.distance)) {\n          const effectiveThreshold = distance * multiplier * angleAdjustment;\n          if (measuredDistance <= effectiveThreshold) {\n            narrativeLabel = name;\n            break;\n          }\n        }\n      } else {\n        // --- ORIGINAL LOGIC (No Diagonal Compensation) ---\n        for (let { name, distance } of distances.sort((a, b) => a.distance - b.distance)) {\n          if (measuredDistance <= (distance * multiplier)) {\n            narrativeLabel = name;\n            break;\n          }\n        }\n      }\n\n      // set color if range exceeded\n      if (narrativeLabel == \"Range Exceeded\") {\n        args[0].label._tintRGB = 721024; // dark red\n        narrativeLabel = exceedsRangeMessage;\n      } else {\n        args[0].label._tintRGB = 16777215; // white\n      }\n\n      // Return the label based on the measurement option.\n      // \"narrative\"  => Narrative Drag Ruler Only (narrative text only)\n      // \"addToMeasurements\" => Add to Measurements (numeric + narrative)\n      // \"numeric\"    => Only Numeric Measurements Only (numeric only)\n      switch (measurementOption) {\n        case \"addToMeasurements\":\n          return `${originalLabel}\\n${narrativeLabel}`;\n        case \"numeric\":\n          return originalLabel;\n        case \"narrative\":\n        default:\n          return narrativeLabel;\n      }\n    },\n    \"WRAPPER\"\n  );",
+              "new": "  if (Number(game.release.generation) >= 14) {\n    const wrap = function(wrapped, waypoint, state) {\n      const context = wrapped(waypoint, state);\n      const config = game.settings.get(\"lgs-token-range-bands\", \"distanceConfig\");\n      if (!context?.distance || !Array.isArray(config) || !config.length) return context;\n      const mode = canvas.scene?.getFlag(\"lgs-token-range-bands\", \"measurementOption\") ?? \"narrative\";\n      if (mode === \"numeric\") return context;\n      const multiplier = Number(canvas.scene?.getFlag(\"lgs-token-range-bands\", \"rangeBandMultiplier\") || game.settings.get(\"lgs-token-range-bands\", \"sizeMultiplier\"));\n      let adjustment = 1;\n      if (game.settings.get(\"lgs-token-range-bands\", \"dragRulerApproximation\") && canvas.grid.type === 1 && waypoint.ray) {\n        const angle = Math.atan2(Math.abs(waypoint.ray.dy), Math.abs(waypoint.ray.dx));\n        adjustment -= Math.min(angle, Math.abs(Math.PI / 2 - angle)) / (Math.PI / 4) * (1 - 0.71875);\n      }\n      const band = [...config].sort((a,b)=>a.distance-b.distance).find(b=>waypoint.measurement.distance <= b.distance * multiplier * adjustment);\n      const label = band?.name ?? game.settings.get(\"lgs-token-range-bands\", \"exceedRangeMessage\");\n      context.distance.total = mode === \"addToMeasurements\" ? `${context.distance.total} ${context.units} (${label})` : label;\n      delete context.distance.delta;\n      context.units = \"\";\n      return context;\n    };\n    for (const target of [\"foundry.canvas.interaction.Ruler.prototype._getWaypointLabelContext\", \"foundry.canvas.placeables.tokens.TokenRuler.prototype._getWaypointLabelContext\"])\n      libWrapper.register(\"lgs-token-range-bands\", target, wrap, \"WRAPPER\");\n  } else {\n  libWrapper.register(\n    \"lgs-token-range-bands\",\n    \"Ruler.prototype._getSegmentLabel\",\n    function (wrapped, ...args) {\n      // Call the original method to get the label which includes the measured distance.\n      const originalLabel = wrapped(...args);\n      const distances = game.settings.get(\"lgs-token-range-bands\", \"distanceConfig\");\n      const exceedsRangeMessage = game.settings.get(\"lgs-token-range-bands\", \"exceedRangeMessage\");\n      let narrativeLabel = \"Range Exceeded\";\n\n      // Retrieve the Range Band Multiplier from the active scene (default to 1 if not set).\n      const multiplier = canvas.scene?.getFlag(\"lgs-token-range-bands\", \"rangeBandMultiplier\") || 1;\n\n      // Retrieve the measurement display option from the active scene flag (default to \"narrative\")\n      const measurementOption = canvas.scene?.getFlag(\"lgs-token-range-bands\", \"measurementOption\") || \"narrative\";\n\n      // Get the drag ruler approximation setting.\n      const useApprox = game.settings.get(\"lgs-token-range-bands\", \"dragRulerApproximation\");\n      const activeScene = game.scenes.active;\n      const gridtype = activeScene.grid.type;\n\n      let measuredDistance = parseFloat(originalLabel.match(/([\\d.]+)/)?.[1] || 0);\n\n      if (useApprox && gridtype == 1) {\n        // --- APPROXIMATION LOGIC FOR DIAGONALS ---\n        let angleAdjustment = 1;\n        const segment = args[0];\n        if (segment && segment.ray) {\n          const dx = Math.abs(segment.ray.dx);\n          const dy = Math.abs(segment.ray.dy);\n          if (dx !== 0 || dy !== 0) {\n            const angle = Math.atan2(dy, dx);\n            const diff = Math.min(angle, Math.abs(Math.PI / 2 - angle));\n            const t = diff / (Math.PI / 4);\n            angleAdjustment = 1 - t * (1 - 0.71875);\n          }\n        }\n        for (let { name, distance } of distances.sort((a, b) => a.distance - b.distance)) {\n          const effectiveThreshold = distance * multiplier * angleAdjustment;\n          if (measuredDistance <= effectiveThreshold) {\n            narrativeLabel = name;\n            break;\n          }\n        }\n      } else {\n        // --- ORIGINAL LOGIC (No Diagonal Compensation) ---\n        for (let { name, distance } of distances.sort((a, b) => a.distance - b.distance)) {\n          if (measuredDistance <= (distance * multiplier)) {\n            narrativeLabel = name;\n            break;\n          }\n        }\n      }\n\n      // set color if range exceeded\n      if (narrativeLabel == \"Range Exceeded\") {\n        args[0].label._tintRGB = 721024; // dark red\n        narrativeLabel = exceedsRangeMessage;\n      } else {\n        args[0].label._tintRGB = 16777215; // white\n      }\n\n      // Return the label based on the measurement option.\n      // \"narrative\"  => Narrative Drag Ruler Only (narrative text only)\n      // \"addToMeasurements\" => Add to Measurements (numeric + narrative)\n      // \"numeric\"    => Only Numeric Measurements Only (numeric only)\n      switch (measurementOption) {\n        case \"addToMeasurements\":\n          return `${originalLabel}\\n${narrativeLabel}`;\n        case \"numeric\":\n          return originalLabel;\n        case \"narrative\":\n        default:\n          return narrativeLabel;\n      }\n    },\n    \"WRAPPER\"\n  );\n  }",
+              "count": 1
+            },
+            {
+              "old": "extends FormApplication",
+              "new": "extends foundry.appv1.api.FormApplication",
+              "count": 1
+            },
+            {
+              "old": "return mergeObject(",
+              "new": "return foundry.utils.mergeObject(",
+              "count": 1
+            },
+            {
+              "old": "Hooks.on(\"renderSceneConfig\", (app, html, data) => {",
+              "new": "Hooks.on(\"renderSceneConfig\", (app, html, data) => {\n  html = html?.jquery ? html : $(html);",
+              "count": 1
+            },
+            {
+              "old": "if (app.id && app.id.startsWith(\"SceneConfig-Scene\")) {",
+              "new": "if ((app.document ?? app.object)?.documentName === \"Scene\") {",
+              "count": 1
+            },
+            {
+              "old": "html.find('div[data-tab=\"grid\"]')",
+              "new": "html.find('[data-tab=\"grid\"]')",
+              "count": 1
+            },
+            {
+              "old": "app.object.getFlag",
+              "new": "(app.document ?? app.object).getFlag",
+              "count": 2
+            },
+            {
+              "old": "const token = canvas.tokens.get(tokenData._id);",
+              "new": "html = html?.jquery ? html : $(html);\n  const token = hud.object ?? canvas.tokens.get(tokenData._id);",
+              "count": 1
+            },
+            {
+              "old": "const sizeX = token.hitArea.width || (token.hitArea.points && token.hitArea.points[2]);",
+              "new": "const sizeX = token.w;",
+              "count": 1
+            },
+            {
+              "old": "const sizeY = token.hitArea.height || (token.hitArea.points && token.hitArea.points[4]);",
+              "new": "const sizeY = token.h;",
+              "count": 1
+            },
+            {
+              "old": "scene.testUserPermission(game.user, \"UPDATE\")",
+              "new": "scene.testUserPermission(game.user, \"OWNER\")",
+              "count": 1
+            },
+            {
+              "old": "// =============== Remove Range Band Templates When a Token Moves ===============\nHooks.on(\"updateToken\", async (tokenDocument, updateData, options, userId) => {\n  // Only the primary GM should handle the deletion to avoid race conditions and permission errors.\n  if (!game.user.isGM) return;\n\n  // Only act if the token's position changes.\n  const positionChanged = (\"x\" in updateData) || (\"y\" in updateData);\n  if (!positionChanged) return;\n\n  // Find all range-band templates tied to this token on the current scene.\n  const existingTemplates = canvas.scene.templates.filter(t =>\n    t.flags[\"lgs-token-range-bands\"]?.tokenId === tokenDocument.id\n  );\n  if (!existingTemplates.length) return;\n\n  // Delete the templates.\n  const idsToDelete = existingTemplates.map(t => t.id);\n  await canvas.scene.deleteEmbeddedDocuments(\"MeasuredTemplate\", idsToDelete);\n});\n\n// =============== Remove Range Band Templates When a Token is Deleted ===============\nHooks.on(\"deleteToken\", async (tokenDocument, options, userId) => {\n  // Only the primary GM should handle the deletion to avoid race conditions.\n  if (!game.user.isGM) return;\n\n  // Find all range-band templates tied to this token on the current scene.\n  const existingTemplates = canvas.scene.templates.filter(t =>\n    t.flags[\"lgs-token-range-bands\"]?.tokenId === tokenDocument.id\n  );\n  if (!existingTemplates.length) return;\n\n  // Delete the templates.\n  const idsToDelete = existingTemplates.map(t => t.id);\n  await canvas.scene.deleteEmbeddedDocuments(\"MeasuredTemplate\", idsToDelete);\n});",
+              "new": "// Remove only this module's templates from the token's own scene.\nasync function clearTokenRangeBands(tokenDocument) {\n  if (!game.user.isGM || (game.users.activeGM && game.users.activeGM.id !== game.user.id)) return;\n  const scene = tokenDocument.parent;\n  if (!scene?.templates) return;\n  const ids = scene.templates.filter(t=>t.flags[\"lgs-token-range-bands\"]?.tokenId === tokenDocument.id).map(t=>t.id);\n  if (ids.length) await scene.deleteEmbeddedDocuments(\"MeasuredTemplate\", ids);\n}\nHooks.on(\"updateToken\", (token, changes)=>{\n  if (\"x\" in changes || \"y\" in changes) return clearTokenRangeBands(token);\n});\nHooks.on(\"moveToken\", clearTokenRangeBands);\nHooks.on(\"deleteToken\", clearTokenRangeBands);\n",
+              "count": 1
+            },
+            {
+              "old": "html.find('[data-tab=\"grid\"]')",
+              "new": "html.find('.tab[data-tab=\"grid\"]')",
+              "count": 1
+            },
+            {
+              "old": "if (\"x\" in changes || \"y\" in changes) return clearTokenRangeBands(token);",
+              "new": "if (Number(game.release.generation) < 14 && (\"x\" in changes || \"y\" in changes)) return clearTokenRangeBands(token);",
+              "count": 1
+            }
+          ],
+          "previous_sha256": [
+            "1fc0cab7a929daaa37cc576834eb3f09a020d578a2d53835d6d47f98b4aaee93"
+          ],
+          "upgrade_replacements": [
+            {
+              "old": "html.find('[data-tab=\"grid\"]')",
+              "new": "html.find('.tab[data-tab=\"grid\"]')",
+              "count": 1
+            },
+            {
+              "old": "if (\"x\" in changes || \"y\" in changes) return clearTokenRangeBands(token);",
+              "new": "if (Number(game.release.generation) < 14 && (\"x\" in changes || \"y\" in changes)) return clearTokenRangeBands(token);",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "verification_note": "Foundry 14.369: SceneConfig fields, Token HUD, range creation and token movement cleanup checked. Legacy template deprecation warnings remain; detailed ruler labels not fully checked."
+    },
+    {
+      "id": "swgalaxy-map",
+      "source_version": "0.1.0",
+      "patch_version": "0.1.0-mitos.1",
+      "verified_in_foundry": true,
+      "verification_note": "Foundry 14.369: initial map framing corrected and visually checked; 6757 systems loaded; Coruscant search and Coruscant-Tatooine calculation tested. Travel times remain approximate.",
+      "files": [
+        {
+          "path": "scripts/galaxy-map-app.js",
+          "before_sha256": "b07bfcbfa10f3cf7a18f977150d8e6f6a710559924cb8023072854a54d2288c3",
+          "after_sha256": "64fc9f0820122136815f5b7fd4d482db306d785fb20c95ac8ecb22d5b1e09336",
+          "replacements": [
+            {
+              "old": "  #systems = [];",
+              "new": "  #resizeObserver = null;\n  #needsInitialFit = true;\n  #systems = [];",
+              "count": 1
+            },
+            {
+              "old": "    const ro = new ResizeObserver(() => {\n      this.#resizeCanvas();\n      this.#draw();\n    });\n    ro.observe(this.#canvas.parentElement);",
+              "new": "    this.#resizeObserver?.disconnect();\n    this.#needsInitialFit = true;\n    this.#resizeObserver = new ResizeObserver(() => {\n      this.#resizeCanvas();\n      if (this.#needsInitialFit) {\n        this.#resetView();\n        this.#needsInitialFit = false;\n      }\n      this.#draw();\n    });\n    this.#resizeObserver.observe(this.#canvas.parentElement);",
+              "count": 1
+            },
+            {
+              "old": "  #resizeCanvas() {",
+              "new": "  async _onClose(options) {\n    this.#resizeObserver?.disconnect();\n    this.#resizeObserver = null;\n    await super._onClose(options);\n  }\n\n  #resizeCanvas() {",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "swrpg-dice-helper-compendium",
+      "source_version": "1.1.4",
+      "patch_version": "1.1.4-mitos.1",
+      "source": "https://github.com/DukeVenator/swffg-data-compendiums",
+      "verified_in_foundry": true,
+      "verification_note": "Foundry 14.369: repaired the all-skill journal name collision (34 skills); Mechanics suggestions produced in chat. Replaced the missing-template settings menu, preserved its selected journal and verified saving.",
+      "files": [
+        {
+          "path": "scripts/lib/setup-helpers.mjs",
+          "before_sha256": "a43846d9f3a2f325dc4e40786e746bc08a73fe6d05a22cc211e3d27ff36f68d3",
+          "after_sha256": "e5b7bb0cef6928ae062736670a0456ca79fce3d6807f7eb5dfc6032ed1ea3c03",
+          "replacements": [
+            {
+              "old": "DEFAULT_JOURNAL_NAME = \"dice_helper\"",
+              "new": "DEFAULT_JOURNAL_NAME = \"dice_helper_all_skills\""
+            },
+            {
+              "old": "export function setEnhancementsJournal(",
+              "new": "export async function setEnhancementsJournal("
+            },
+            {
+              "old": "    gameLike.settings.set(",
+              "new": "    await gameLike.settings.set("
+            }
+          ]
+        },
+        {
+          "path": "scripts/setup-wizard.mjs",
+          "before_sha256": "b6daf280bcfea5c094d81879bf9cf855fa2f28d20fed7cb692841d097c78aa50",
+          "after_sha256": "27d51b8e4277721054561d0f3b4f814f62a7425d4e113db3ee535840c1d5c20e",
+          "replacements": [
+            {
+              "old": "class PointEnhancementsMenu extends FormApplication {\n  static get defaultOptions() {\n    return foundry.utils.mergeObject(super.defaultOptions, {\n      title: \"Point Enhancements at journal\",\n      id: \"point-enhancements-menu\",\n      template: `modules/${MODULE_ID}/templates/point-enhancements.html`,\n      width: 360,\n      height: \"auto\"\n    });\n  }\n\n  getData(options = {}) {\n    const enhancementsActive = !!game.modules.get(ENHANCEMENTS_MODULE_ID)?.active;\n    const current = enhancementsActive\n      ? game.settings.get(ENHANCEMENTS_MODULE_ID, ENHANCEMENTS_SETTING_KEY)\n      : null;\n    const journals = game.journal.map((j) => ({\n      name: j.name,\n      key: `j-${j.name.replace(/\\W/g, \"_\")}`,\n      isCurrent: j.name === current\n    }));\n    console.log(\"[swrpg-dice-helper-compendium] PointEnhancementsMenu getData:\", { enhancementsActive, current, journalCount: journals.length });\n    return { enhancementsActive, journals };\n  }\n\n  activateListeners(html) {\n    super.activateListeners(html);\n    html.querySelectorAll(\"button.journal-choice\").forEach((btn) => {\n      btn.addEventListener(\"click\", (ev) => {\n        const name = ev.currentTarget.dataset.journalName;\n        if (name && setEnhancementsJournal(name)) {\n          ui.notifications.info(`Enhancements \"Dice Helper Data\" set to \"${name}\".`);\n          this.close();\n        } else {\n          ui.notifications.warn(\"FFG Star Wars Enhancements is not enabled.\");\n        }\n      });\n    });\n    html.querySelector(\"button[name='cancel']\")?.addEventListener(\"click\", () => this.close());\n  }\n\n  _updateObject(_event, _formData) {\n    // No form to submit; choices are applied via button clicks.\n  }\n\n  constructor(object = {}, options = {}) {\n    super(object, options);\n  }\n}\n\n",
+              "new": "class PointEnhancementsMenu extends foundry.appv1.api.FormApplication {\n  render() {\n    if (!game.user.isGM) return this;\n    const select = document.createElement(\"select\");\n    select.name = \"journal\";\n    const current = game.modules.get(ENHANCEMENTS_MODULE_ID)?.active\n      ? game.settings.get(ENHANCEMENTS_MODULE_ID, \"dice-helper-data\") : null;\n    for (const journal of game.journal) {\n      const option = document.createElement(\"option\");\n      option.value = journal.id;\n      option.textContent = journal.name;\n      option.selected = journal.name === current;\n      select.append(option);\n    }\n    this._chooser = new foundry.appv1.api.Dialog({\n      title: \"Datos para la ayuda de tiradas\",\n      content: `<p>Selecciona el diario de sugerencias.</p><label>Diario ${select.outerHTML}</label>`,\n      buttons: {\n        apply: {label: \"Usar este diario\", callback: async html => {\n          const root = html?.querySelector ? html : html?.[0];\n          const journal = game.journal.get(root?.querySelector('[name=\"journal\"]')?.value);\n          if (!journal) return;\n          if (game.journal.filter(j => j.name === journal.name).length !== 1) {\n            ui.notifications.warn(\"Hay varios diarios con ese nombre. Ponles nombres distintos para seleccionar el correcto.\");\n            return;\n          }\n          if (await setEnhancementsJournal(journal.name)) ui.notifications.info(`Ayuda de tiradas: ${journal.name}`);\n          else ui.notifications.warn(\"No se pudo configurar la ayuda. Comprueba que Enhancements esté activo.\");\n        }},\n        cancel: {label: \"Cancelar\"}\n      }, default: \"apply\"\n    }, {width: 420}).render(true);\n    return this;\n  }\n  async close(options) { await this._chooser?.close(options); return super.close(options); }\n  _updateObject() {}\n}\n\n"
+            },
+            {
+              "old": "const didSet = setEnhancementsJournal(DEFAULT_JOURNAL_NAME);",
+              "new": "const didSet = await setEnhancementsJournal(imported?.name ?? DEFAULT_JOURNAL_NAME);"
+            },
+            {
+              "old": "which matches the default setting in Enhancements.",
+              "new": "keeping it separate from the basic Enhancements journal."
+            },
+            {
+              "old": "const imported = await game.journal.importFromCompendium(pack, entry.id, { name: DEFAULT_JOURNAL_NAME });",
+              "new": "const journalName = game.journal.some(j => j.name === DEFAULT_JOURNAL_NAME) ? `${DEFAULT_JOURNAL_NAME}_${foundry.utils.randomID(6)}` : DEFAULT_JOURNAL_NAME;\n              const imported = await game.journal.importFromCompendium(pack, entry.id, { name: journalName });"
+            },
+            {
+              "old": "option.selected = journal.name === current;",
+              "new": "option.defaultSelected = journal.name === current;",
+              "count": 1
+            },
+            {
+              "old": "for (const journal of game.journal) {\n      const option",
+              "new": "for (const journal of game.journal) {\n      if (!journal.pages.some(page => page.name === \"dice_helper\")) continue;\n      const option",
+              "count": 1
+            }
+          ],
+          "previous_sha256": [
+            "b0137ae8b352eebe56a145393dc02afb8e32f287b054560c4a846f526c4fa686"
+          ],
+          "upgrade_replacements": [
+            {
+              "old": "option.selected = journal.name === current;",
+              "new": "option.defaultSelected = journal.name === current;",
+              "count": 1
+            },
+            {
+              "old": "for (const journal of game.journal) {\n      const option",
+              "new": "for (const journal of game.journal) {\n      if (!journal.pages.some(page => page.name === \"dice_helper\")) continue;\n      const option",
+              "count": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

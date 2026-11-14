@@ -1320,7 +1320,7 @@
     "_id": "0525c83de53827b5",
     "name": "TIE Bomber",
     "type": "vehicle",
-    "img": "systems/starwarsffg/assets/starwars-original/tie-bomber.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/ship-tie-bomber.png",
     "system": {
       "biography": "<p>Caza pesado optimizado para ataques de apoyo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1439,7 +1439,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "G85InxH8g0Q2fCS5",
+            "id": "ZbjRHZ6IAztptRhf",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -1499,7 +1499,7 @@
             },
             "masks": [
               {
-                "id": "oBT2hYSc6UW9RQDX",
+                "id": "UIThRc1J714jXbDi",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -1514,10 +1514,10 @@
             "isBackground": true
           },
           {
-            "id": "f8F3XMA2AqNh6YJN",
+            "id": "My0voUJNVEAVNyZ5",
             "type": "image",
             "name": "Token Image",
-            "src": "systems/starwarsffg/assets/starwars-original/tie-bomber.jpeg",
+            "src": "systems/starwarsffg/assets/starwars-original/ship-tie-bomber.png",
             "visible": true,
             "locked": false,
             "blendMode": "source-over",
@@ -1574,7 +1574,7 @@
             },
             "masks": [
               {
-                "id": "Sas5UP92nG5kc5Uo",
+                "id": "9YakPPaH88ARO37P",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -1588,7 +1588,7 @@
             "isVideo": false
           },
           {
-            "id": "PjLrRJnBCy11uUkq",
+            "id": "4HUwhIqUSEudjyUP",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -1666,7 +1666,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-0525c83de53827b5.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/review-0525c83de53827b5.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -1759,7 +1759,7 @@
     "_id": "5cd483966df34c08",
     "name": "BTL Y-wing",
     "type": "vehicle",
-    "img": "systems/starwarsffg/assets/starwars-original/y-wing-starfighter.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/ship-y-wing.png",
     "system": {
       "biography": "<p>Cazabombardero robusto para ataques prolongados.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1878,7 +1878,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "Wm19YYo8IhwJq5JC",
+            "id": "z4XGjFDbW1ndvdPh",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -1938,7 +1938,7 @@
             },
             "masks": [
               {
-                "id": "8lqgc6AqyY5Q3vAK",
+                "id": "IO1nYKlZseSbNPJP",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -1953,10 +1953,10 @@
             "isBackground": true
           },
           {
-            "id": "1oaP7JFyl0evUYP2",
+            "id": "X0inlD7Bb4JbEigv",
             "type": "image",
             "name": "Token Image",
-            "src": "systems/starwarsffg/assets/starwars-original/y-wing-starfighter.jpeg",
+            "src": "systems/starwarsffg/assets/starwars-original/ship-y-wing.png",
             "visible": true,
             "locked": false,
             "blendMode": "source-over",
@@ -2013,7 +2013,7 @@
             },
             "masks": [
               {
-                "id": "LTbdMYbKKLHnHGNp",
+                "id": "xkDK8rjiB3xLVWoB",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -2027,7 +2027,7 @@
             "isVideo": false
           },
           {
-            "id": "yfP5PSJbUmSnPPGa",
+            "id": "AHHEnbiHF6om0NsG",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -2105,7 +2105,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-5cd483966df34c08.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/review-5cd483966df34c08.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3515,7 +3515,7 @@
     "_id": "e862d40ee83108e1",
     "name": "Millennium Falcon",
     "type": "vehicle",
-    "img": "systems/starwarsffg/assets/starwars-original/millennium-falcon.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/ship-millennium-falcon.png",
     "system": {
       "biography": "<p>Adaptación fan del carguero rápido pilotado por Han Solo.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -3634,7 +3634,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "EgOQrliFX8CDQ5aD",
+            "id": "h1n49lUSd0uRVrOL",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -3694,7 +3694,7 @@
             },
             "masks": [
               {
-                "id": "WEZ3mAnpiZ68hxBR",
+                "id": "TYgh789xR0L2JKnJ",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -3709,10 +3709,10 @@
             "isBackground": true
           },
           {
-            "id": "8CHaqfdUIkYSS3Mr",
+            "id": "zj4wmTC56Qe3wZZi",
             "type": "image",
             "name": "Token Image",
-            "src": "systems/starwarsffg/assets/starwars-original/millennium-falcon.jpeg",
+            "src": "systems/starwarsffg/assets/starwars-original/ship-millennium-falcon.png",
             "visible": true,
             "locked": false,
             "blendMode": "source-over",
@@ -3769,7 +3769,7 @@
             },
             "masks": [
               {
-                "id": "jsUMd8sW0xStgiz9",
+                "id": "smvj31SPwcrqSsEF",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -3783,7 +3783,7 @@
             "isVideo": false
           },
           {
-            "id": "s6zP4WIDqNz6ZIw4",
+            "id": "74u1dVGszzO5EsJM",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -3861,7 +3861,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-e862d40ee83108e1.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/review-e862d40ee83108e1.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -3954,7 +3954,7 @@
     "_id": "1572832693446c51",
     "name": "Firespray-31",
     "type": "vehicle",
-    "img": "systems/starwarsffg/assets/starwars-original/slave-i.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/ship-firespray.png",
     "system": {
       "biography": "<p>Nave de patrulla con estructura peculiar y gran autonomía.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -4073,7 +4073,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "COWgSx5972DbnoY7",
+            "id": "uj6Z8pE9ZYJL9rbf",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -4133,7 +4133,7 @@
             },
             "masks": [
               {
-                "id": "Aal5fUXWn8NL6ub7",
+                "id": "Vq4qyilhrsBKtWER",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -4148,10 +4148,10 @@
             "isBackground": true
           },
           {
-            "id": "urYZxDMg9m7HozCA",
+            "id": "qZUAm25mYax7KYRz",
             "type": "image",
             "name": "Token Image",
-            "src": "systems/starwarsffg/assets/starwars-original/slave-i.jpeg",
+            "src": "systems/starwarsffg/assets/starwars-original/ship-firespray.png",
             "visible": true,
             "locked": false,
             "blendMode": "source-over",
@@ -4208,7 +4208,7 @@
             },
             "masks": [
               {
-                "id": "0Sxv0YXGPrpjL2MV",
+                "id": "SN4kMF9NE6MjVpIZ",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -4222,7 +4222,7 @@
             "isVideo": false
           },
           {
-            "id": "pmoFezt3mqX9bC0k",
+            "id": "f5RRFhJgXa1aj6Tx",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -4300,7 +4300,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-1572832693446c51.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/review-1572832693446c51.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -4832,7 +4832,7 @@
     "_id": "f1d558cbe7e2a4f3",
     "name": "CR90 Corvette",
     "type": "vehicle",
-    "img": "systems/starwarsffg/assets/starwars-original/tantive-iv.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/ship-cr90.png",
     "system": {
       "biography": "<p>Corbeta ligera para patrulla y transporte militar.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -4951,7 +4951,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "vSbqAJylkOLC5vmf",
+            "id": "EaDZDC4EDqqUGU69",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -5011,7 +5011,7 @@
             },
             "masks": [
               {
-                "id": "OAWskQtrpxxJABP9",
+                "id": "H5l9kKLFFCWJ4Dm1",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -5026,10 +5026,10 @@
             "isBackground": true
           },
           {
-            "id": "eZuttx7oB0bIypfJ",
+            "id": "yiQllop7ER4dlxqx",
             "type": "image",
             "name": "Token Image",
-            "src": "systems/starwarsffg/assets/starwars-original/tantive-iv.jpeg",
+            "src": "systems/starwarsffg/assets/starwars-original/ship-cr90.png",
             "visible": true,
             "locked": false,
             "blendMode": "source-over",
@@ -5086,7 +5086,7 @@
             },
             "masks": [
               {
-                "id": "PYG5oDsJ1U5dqOIR",
+                "id": "MLrJ3vxkFchTK8pB",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -5100,7 +5100,7 @@
             "isVideo": false
           },
           {
-            "id": "ZgmAw7KJMZrgfsqf",
+            "id": "aced9qLpOXWF52XW",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -5178,7 +5178,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-f1d558cbe7e2a4f3.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/review-f1d558cbe7e2a4f3.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -7027,7 +7027,7 @@
     "_id": "6263ba3c76883b30",
     "name": "LAAT/i Republic Gunship",
     "type": "vehicle",
-    "img": "systems/starwarsffg/assets/starwars-original/republic-attack-gunship.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/ship-laat.png",
     "system": {
       "biography": "<p>Transporte aéreo de asalto de la República.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -7146,7 +7146,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "YdZNdWSKiuuqZDEw",
+            "id": "BEgk3Uqba7oyWuTz",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -7206,7 +7206,7 @@
             },
             "masks": [
               {
-                "id": "E5LNTl8GkCDn1FNc",
+                "id": "8Cxq1bdCeczvq3O8",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -7221,10 +7221,10 @@
             "isBackground": true
           },
           {
-            "id": "sQX7dclUBXHpo2zO",
+            "id": "xUmM0S5ANED7Uptl",
             "type": "image",
             "name": "Token Image",
-            "src": "systems/starwarsffg/assets/starwars-original/republic-attack-gunship.jpeg",
+            "src": "systems/starwarsffg/assets/starwars-original/ship-laat.png",
             "visible": true,
             "locked": false,
             "blendMode": "source-over",
@@ -7281,7 +7281,7 @@
             },
             "masks": [
               {
-                "id": "ALgDE60fpcCT7kc1",
+                "id": "y8GqMBGAxtXv7IPQ",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -7295,7 +7295,7 @@
             "isVideo": false
           },
           {
-            "id": "8sel1d8Y4uVujOHL",
+            "id": "JV8dDr9Mj7pHDkog",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -7373,7 +7373,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-6263ba3c76883b30.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/review-6263ba3c76883b30.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",
@@ -8344,7 +8344,7 @@
     "_id": "c2c1023662e3ee41",
     "name": "74-Z Speeder Bike",
     "type": "vehicle",
-    "img": "systems/starwarsffg/assets/starwars-original/speeder-bike.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/vehicle-74z-clear.png",
     "system": {
       "biography": "<p>Moto deslizadora para exploración rápida.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -8463,7 +8463,7 @@
       "tokenizer-2": {
         "layerStack": [
           {
-            "id": "wnykJ4ECCPwldOjZ",
+            "id": "wM4P9Y2pgdhhZmjC",
             "type": "image",
             "name": "Background",
             "src": "modules/tokenizer-2/img/dark-texture.webp",
@@ -8523,7 +8523,7 @@
             },
             "masks": [
               {
-                "id": "noN5cH3PmsMeDA3t",
+                "id": "1KifAWlSVl07kADD",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -8538,10 +8538,10 @@
             "isBackground": true
           },
           {
-            "id": "vdDuRXI9Rsc592D3",
+            "id": "w1PSGS3VynPO46HY",
             "type": "image",
             "name": "Token Image",
-            "src": "systems/starwarsffg/assets/starwars-original/speeder-bike.jpeg",
+            "src": "systems/starwarsffg/assets/starwars-original/vehicle-74z-clear.png",
             "visible": true,
             "locked": false,
             "blendMode": "source-over",
@@ -8598,7 +8598,7 @@
             },
             "masks": [
               {
-                "id": "NB7pQb5tKd8NB1BX",
+                "id": "9nFxRSoszdPbsLyW",
                 "type": "frame-ray",
                 "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
                 "ringConfig": null
@@ -8612,7 +8612,7 @@
             "isVideo": false
           },
           {
-            "id": "29eAm6f8C8lkYDzp",
+            "id": "gtvbLdAjp8I1dJG4",
             "type": "image",
             "name": "plain marble frame grey",
             "src": "modules/tokenizer-2/img/plain-marble-frame-grey.png",
@@ -8690,7 +8690,7 @@
       "height": 1,
       "depth": 1,
       "texture": {
-        "src": "systems/starwarsffg/assets/tokens-tokenizer2/token-c2c1023662e3ee41.webp",
+        "src": "systems/starwarsffg/assets/tokens-tokenizer2/final-c2c1023662e3ee41.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "fit": "contain",

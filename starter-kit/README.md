@@ -14,16 +14,14 @@ Activa el módulo en un mundo StarWarsFFG. Arrastra el contenido de los compendi
 
 El sistema principal de StarWarsFFG ya incluye el importador **OggDude Dataset Importer** en la pestaña Compendios. Importa un ZIP con la carpeta `Data` de tu instalación de OggDude para obtener tus propios compendios basados en datos que poseas legalmente. Haz copia de seguridad del mundo antes de importar.
 
-No incluimos libros, estadísticas oficiales, ilustraciones ni datos privados de OggDude. La compatibilidad con Genesys ya viene en StarWarsFFG.
+No incluimos libros, estadísticas oficiales ni datos privados de OggDude. La compatibilidad con Genesys ya viene en StarWarsFFG.
 
 ## Contenido de Star Wars reconocible (adaptación fan)
 
-Se añaden 12 compendios específicamente ambientados en Star Wars: 17 armas, 16 objetos de equipo, 8 armaduras, 16 especies, 18 carreras, 18 especializaciones, 12 talentos, 10 poderes narrativos, 21 adversarios, 16 personajes conocidos, 23 naves y vehículos, y 5 guías. Los nombres reconocibles pertenecen a sus respectivos titulares de derechos. **No se han copiado ni transcrito estadísticas ni textos de los libros de FFG/Edge**: todas las características son propuestas originales y no oficiales, que el director deberá contrastar con sus manuales. El kit no incluye retratos oficiales ni ficheros de datos privados.
+Se añaden 12 compendios específicamente ambientados en Star Wars: 17 armas, 16 objetos de equipo, 8 armaduras, 16 especies, 18 carreras, 18 especializaciones, 12 talentos, 10 poderes narrativos, 21 adversarios, 16 personajes conocidos, 23 naves y vehículos, y 5 guías. Los nombres reconocibles pertenecen a sus respectivos titulares de derechos. **No se han copiado ni transcrito estadísticas ni textos de los libros de FFG/Edge**: todas las características son propuestas originales y no oficiales, que el director deberá contrastar con sus manuales. Las imágenes existentes tienen sus fuentes y atribuciones en `assets/starwars-original/sources.json`; no se incluyen ficheros de datos privados.
 
 ## Imágenes existentes
 
-Los iconos de armas, equipo, armaduras, habilidades y personajes
-se asignan por su categoría utilizando el catálogo preinstalado de
-Foundry V14 (ruta `icons/`) y el sistema StarWarsFFG. No se crea,
-copia ni descarga ninguna ilustración nueva. Las naves sin icono
-específico conservan el original de vehículo de StarWarsFFG.
+La rama de revisión usa imágenes existentes de personajes, modelos de vehículos y objetos, con fuentes, atribuciones y hashes en `assets/starwars-original/sources.json`. Las imágenes de terceros no están cubiertas por la licencia del código. Los retratos con nombre representan al personaje correspondiente; los genéricos se asignan por función o especie. Los tokens revisados se componen con Tokenizer 2.
+
+La revisión conectada de noviembre está documentada en `addons/REVIEW-20261114.md`, incluidos los límites pendientes. Los manifiestos de instalación anteriores siguen apuntando a la publicación anterior hasta preparar una nueva versión.

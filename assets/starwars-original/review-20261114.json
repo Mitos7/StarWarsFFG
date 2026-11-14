@@ -1,0 +1,126 @@
+{
+  "date": "2026-11-14",
+  "original_assets_visually_reviewed": 125,
+  "new_assets_selected": 10,
+  "source_changes": [
+    {
+      "name": "E-11 fusil bláster",
+      "before": "e-11-blaster-rifle",
+      "after": "object-e11-prop"
+    },
+    {
+      "name": "A280 fusil bláster",
+      "before": "a280-blaster-rifle",
+      "after": "object-a280-exact"
+    },
+    {
+      "name": "Bowcaster wookiee",
+      "before": "bowcaster",
+      "after": "object-bowcaster-clear"
+    },
+    {
+      "name": "Cuchillo vibratorio",
+      "before": "vibroblade",
+      "after": "object-vibroknife-clear"
+    },
+    {
+      "name": "Armadura de stormtrooper",
+      "before": "stormtroopers",
+      "after": "armor-stormtrooper-full"
+    },
+    {
+      "name": "Armadura de scout trooper",
+      "before": "scout-troopers",
+      "after": "armor-scout"
+    },
+    {
+      "name": "Chaleco de combatiente rebelde",
+      "before": "rebel-troopers",
+      "after": "armor-blast-vest"
+    },
+    {
+      "name": "Ropas de viaje jedi",
+      "before": "obi-wan-kenobi",
+      "after": "armor-jedi-robes"
+    },
+    {
+      "name": "Armadura de cazarrecompensas",
+      "before": "boba-fett",
+      "after": "armor-hunter"
+    },
+    {
+      "name": "Detonador térmico de ejercicio",
+      "before": "thermal-detonator",
+      "after": "object-thermal-detonator"
+    },
+    {
+      "name": "Pistola bláster estándar",
+      "before": "blaster-pistol",
+      "after": "westar-34"
+    },
+    {
+      "name": "Humano",
+      "before": "han-solo",
+      "after": "generic-smuggler"
+    },
+    {
+      "name": "Contrabandista / Smuggler",
+      "before": "han-solo",
+      "after": "generic-smuggler"
+    },
+    {
+      "name": "Cazarrecompensas / Bounty Hunter",
+      "before": "boba-fett",
+      "after": "generic-hunter"
+    },
+    {
+      "name": "Mercenario / Hired Gun",
+      "before": "the-mandalorian",
+      "after": "generic-hunter"
+    },
+    {
+      "name": "Scoundrel",
+      "before": "han-solo",
+      "after": "generic-smuggler"
+    },
+    {
+      "name": "Assassin",
+      "before": "boba-fett",
+      "after": "generic-hunter"
+    },
+    {
+      "name": "Consular / Consular",
+      "before": "yoda",
+      "after": "generic-jedi"
+    },
+    {
+      "name": "Guardián / Guardian",
+      "before": "obi-wan-kenobi",
+      "after": "generic-jedi"
+    },
+    {
+      "name": "Guardian Protector",
+      "before": "obi-wan-kenobi",
+      "after": "generic-jedi"
+    },
+    {
+      "name": "Force-Sensitive Exile",
+      "before": "obi-wan-kenobi",
+      "after": "generic-jedi"
+    }
+  ],
+  "world_applied": false,
+  "tokenizer_regeneration_pending": [
+    "TIE Bomber",
+    "BTL Y-wing",
+    "Millennium Falcon"
+  ],
+  "remaining": "Revisión completa de imágenes importadas y módulos activos pendiente de reconexión del PC. Las imágenes de objetos pequeñas necesitan mejores originales cuando estén disponibles.",
+  "rejected_candidates": {
+    "object-e11-clear": "cuadrícula de transparencia incrustada en la imagen",
+    "armor-clone": "coraza que no representa correctamente la armadura clon",
+    "object-e11": "icono oscuro",
+    "object-dlt19": "icono oscuro",
+    "armor-mandalorian": "composición confusa; falta una vista limpia del equipo"
+  }
+}

@@ -3,7 +3,7 @@
     "_id": "f39d218d9819a71a",
     "name": "Humano",
     "type": "species",
-    "img": "systems/starwarsffg/assets/starwars-original/han-solo.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/generic-smuggler.jpg",
     "system": {
       "description": "<p>Población presente en muchos sistemas del espacio conocido.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -451,7 +451,7 @@
     "_id": "1f0ff8bf228b9829",
     "name": "Droide jugador",
     "type": "species",
-    "img": "systems/starwarsffg/assets/starwars-original/generic-protocol.png",
+    "img": "systems/starwarsffg/assets/starwars-original/protocol-ra7.jpg",
     "system": {
       "description": "<p>Opción fan para representar un personaje mecánico; revisar reglas de tu mesa.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

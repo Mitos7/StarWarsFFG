@@ -3,7 +3,7 @@
     "_id": "e4c3d7a4dad88069",
     "name": "Pistola bláster estándar",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/blaster-pistol.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/westar-34.jpg",
     "system": {
       "description": "<p>Arma corta de energía útil para un personaje de aventuras.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -309,7 +309,7 @@
     "_id": "e180a3d6cbb365d7",
     "name": "E-11 fusil bláster",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/e-11-blaster-rifle.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-e11-prop.jpg",
     "system": {
       "description": "<p>Fusil de servicio asociado a tropas imperiales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -411,7 +411,7 @@
     "_id": "007d327e28aa9889",
     "name": "A280 fusil bláster",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/a280-blaster-rifle.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-a280-exact.jpg",
     "system": {
       "description": "<p>Arma larga empleada en enfrentamientos terrestres.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -717,7 +717,7 @@
     "_id": "35648fef12340c89",
     "name": "DLT-19 bláster pesado",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/dlt-19-heavy-blaster-rifle.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-dlt19.png",
     "system": {
       "description": "<p>Arma de apoyo que exige preparación para su uso.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -921,7 +921,7 @@
     "_id": "d29e1c602a59c778",
     "name": "Bowcaster wookiee",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/bowcaster.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-bowcaster-clear.webp",
     "system": {
       "description": "<p>Arma de energía de construcción compleja y agarre pesado.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1125,7 +1125,7 @@
     "_id": "e8014789742612d2",
     "name": "Cuchillo vibratorio",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/vibroblade.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-vibroknife-clear.jpg",
     "system": {
       "description": "<p>Hoja equipada con un mecanismo de vibración.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1227,7 +1227,7 @@
     "_id": "3631ad74045f5de3",
     "name": "Espada vibratoria",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/vibroblade.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-vibrosword-clear.jpg",
     "system": {
       "description": "<p>Arma de combate cercano que utiliza un borde oscilante.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1431,7 +1431,7 @@
     "_id": "c6a0a1d901b9b064",
     "name": "Sable de luz de entrenamiento",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/lightsaber.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-lightsaber.png",
     "system": {
       "description": "<p>Réplicas de entrenamiento con energía limitada; reglas del DJ.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1533,7 +1533,7 @@
     "_id": "fc312029e51b9f7c",
     "name": "Sable de luz fan",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/lightsaber.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-lightsaber.png",
     "system": {
       "description": "<p>Representación no oficial para partidas con usuarios de la Fuerza.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},
@@ -1635,7 +1635,7 @@
     "_id": "a1f60cc825e8ff23",
     "name": "Detonador térmico de ejercicio",
     "type": "weapon",
-    "img": "systems/starwarsffg/assets/starwars-original/thermal-detonator.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/object-thermal-detonator.png",
     "system": {
       "description": "<p>Versión inerte simulada para entrenamientos; no reproduce reglas oficiales.</p><p><em>Adaptación fan NO OFICIAL. Los valores de juego son originales y orientativos, NO son estadísticas de Fantasy Flight Games ni de Edge. Consultar los manuales adquiridos para las reglas reales.</em></p>",
       "attributes": {},

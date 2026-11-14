@@ -1924,11 +1924,10 @@ export class ItemSheetFFG extends foundry.appv1.sheets.ItemSheet {
     // for a rank-only update, we simply update the rank of an existing attr, not transfer AEs
     let rankOnlyUpdate = false;
 
-    if ((itemObject.type === "itemattachment" || itemObject.type === "itemmodifier") && ((obj.type === "shipweapon" && itemObject.system.type === "weapon") || obj.type === itemObject.system.type || itemObject.system.type === "all" || obj.type === "itemattachment")) {
-      let items = obj?.system[itemObject.type];
-      if (!items) {
-        items = [];
-      }
+    const vehicleModifier = itemObject.type === "itemmodifier" && obj.type === "shipattachment" && ["vehicle", "all"].includes(itemObject.system.type);
+    if ((itemObject.type === "itemattachment" || itemObject.type === "itemmodifier") && (vehicleModifier || (obj.type === "shipweapon" && itemObject.system.type === "weapon") || obj.type === itemObject.system.type || itemObject.system.type === "all" || obj.type === "itemattachment")) {
+      // Never mutate the prepared array before update: that can erase the persistence diff.
+      const items = foundry.utils.deepClone(obj?.system[itemObject.type] ?? []);
 
       const foundItem = items.find((i) => {
         return i?.name === itemObject.name || (i?.flags?.starwarsffg?.ffgimportid?.length ? i?.flags.starwarsffg.ffgimportid === itemObject.flags.starwarsffg.ffgimportid : false);
@@ -1940,7 +1939,7 @@ export class ItemSheetFFG extends foundry.appv1.sheets.ItemSheet {
             itemObject.system.rank = 1;
           }
 
-          if (foundItem && this.object.type !== "itemattachment") {
+          if (foundItem && !["itemattachment", "shipattachment"].includes(this.object.type)) {
             rankOnlyUpdate = true;
             foundItem.system.rank = (parseInt(foundItem.system.rank) + parseInt(itemObject.system.rank)).toString();
           } else {
@@ -1969,7 +1968,7 @@ export class ItemSheetFFG extends foundry.appv1.sheets.ItemSheet {
       let formData = {};
       foundry.utils.setProperty(formData, `data.${itemObject.type}`, items);
 
-      await obj.update(formData);
+      await obj.update(formData, {diff: false});
       // TODO: this happens even if there isn't enough HP (meaning the item gets rejected)
       if (rankOnlyUpdate) {
         await ItemHelpers.syncAEStatus(this.object, this.object.effects);
@@ -1994,7 +1993,7 @@ export class ItemSheetFFG extends foundry.appv1.sheets.ItemSheet {
     // note that abilities currently don't have a UI to add activeeffects, but we'll try to transfer them anyway
     if (
       (droppedType === "itemattachment" && ["armour", "weapon", "shipweapon"].includes(myType)) ||
-      (droppedType === "itemmodifier" && ["armour", "weapon", "shipweapon", "itemattachment"].includes(myType)) ||
+      (droppedType === "itemmodifier" && ["armour", "weapon", "shipweapon", "itemattachment", "shipattachment"].includes(myType)) ||
       (droppedType === "ability" && myType === "species") || (droppedType === "talent" && myType === "species") ||
       (droppedType === "talent" && myType === "specialization")
     ) {

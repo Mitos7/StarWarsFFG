@@ -3,7 +3,7 @@
     "_id": "2f06c67461b21367",
     "name": "Chaleco de patrulla",
     "type": "armour",
-    "img": "systems/starwarsffg/assets/starwars-original/clone-trooper-armor.jpeg",
+    "img": "systems/starwarsffg/assets/starwars-original/armor-clone.png",
     "system": {
       "description": "<p>Placas ligeras para guardias de paso</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},
@@ -82,7 +82,7 @@
     "_id": "05d1d302a0f44f04",
     "name": "Mono reforzado",
     "type": "armour",
-    "img": "systems/starwarsffg/assets/starwars-original/generic-rebel-pilot.png",
+    "img": "systems/starwarsffg/assets/starwars-original/armor-flight-suit.png",
     "system": {
       "description": "<p>Ropa de trabajo con tejido resistente</p><p><em>Contenido original y orientativo del kit Mitos. No procede de libros oficiales; el director de juego puede modificar sus valores.</em></p>",
       "attributes": {},

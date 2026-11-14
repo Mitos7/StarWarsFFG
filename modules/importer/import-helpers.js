@@ -2813,7 +2813,7 @@ export default class ImportHelpers {
 
             output.attributes[attribute.type] = attribute.value;
           } else {
-            const compendiumEntry = await ImportHelpers.findCompendiumEntityByImportId("Item", modifier.Key);
+            const compendiumEntry = await ImportHelpers.findCompendiumEntityByImportId("Item", modifier.Key, undefined, "itemmodifier");
             if (compendiumEntry) {
               if (compendiumEntry?.type === "itemmodifier") {
                 const descriptor = foundry.utils.duplicate(compendiumEntry);

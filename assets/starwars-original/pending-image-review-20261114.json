@@ -1,0 +1,380 @@
+{
+  "note": "Existing paths work. These vehicle records still use a default image; exact source artwork is not in the local OggDude image set. Shared NPC portraits below require a role-by-role visual review; this list does not assert all are incorrect.",
+  "vehicles_with_default_portraits": [
+    {
+      "name": "Ascendant Personal Stealth Flyer",
+      "import_key": "ASCENDFLY"
+    },
+    {
+      "name": "Foot Speeder",
+      "import_key": "FOOTSPEEDER"
+    },
+    {
+      "name": "CAV-11 \"Condor\" Airspeeder",
+      "import_key": "AIRSPEEDCAV11"
+    },
+    {
+      "name": "610-AVA \"Dart\" Speeder Bike",
+      "import_key": "610AVA"
+    },
+    {
+      "name": "Cargohopper 102 Cargo Lifter",
+      "import_key": "TAG102LIFTER"
+    },
+    {
+      "name": "Superflare/Modified Flare-S Swoop",
+      "import_key": "SUPERFLARE"
+    },
+    {
+      "name": "XL-3C Guardsman Patrol Airspeeder",
+      "import_key": "XL3CSPEED"
+    },
+    {
+      "name": "Dustcrawler",
+      "import_key": "DUSTCRAWLER"
+    },
+    {
+      "name": "Model 90 Ranger",
+      "import_key": "MODEL90RANG"
+    },
+    {
+      "name": "Rufescent Cargo Hauler",
+      "import_key": "RUFCARGO"
+    },
+    {
+      "name": "SU-40 High-Performance Airspeeder",
+      "import_key": "SU40SPEEDER"
+    },
+    {
+      "name": "AT-CE Combat Excavator",
+      "import_key": "ATCE"
+    },
+    {
+      "name": "Armored Drop Suit",
+      "import_key": "ARMDROPSUIT"
+    },
+    {
+      "name": "9400 Grand Wanderer",
+      "import_key": "9400GRAND"
+    },
+    {
+      "name": "8880 Luxury Landspeeder",
+      "import_key": "8880LAND"
+    },
+    {
+      "name": "I-C4a Combat Construction Droid",
+      "import_key": "IC4ADROID"
+    },
+    {
+      "name": "A-19 \"Iron Crawler\" Armored Transport",
+      "import_key": "APCA19"
+    },
+    {
+      "name": "Arrow 7 Airspeeder",
+      "import_key": "AIRSPEEDERARROW7"
+    },
+    {
+      "name": "D-22 \"Screamer\" Speeder Bike",
+      "import_key": "SPEEDERCECD22"
+    },
+    {
+      "name": "Hauler Air Skiff",
+      "import_key": "HAULERAIRSKIFF"
+    },
+    {
+      "name": "A-A5m Emergency Response Vehicle",
+      "import_key": "AA5M"
+    },
+    {
+      "name": "HSP-10 Pursuit Airspeeder",
+      "import_key": "HSP10PURSUIT"
+    },
+    {
+      "name": "Whelik All-Terrain Explorer",
+      "import_key": "WHELIKAT"
+    },
+    {
+      "name": "BR.549 FasTrak High-Altitude Scout Speeder",
+      "import_key": "BR549"
+    },
+    {
+      "name": "Versatile-Athletic Walker",
+      "import_key": "VERATHWALK"
+    },
+    {
+      "name": "HA-5 Aerial Retreat",
+      "import_key": "HA5RETREAT"
+    },
+    {
+      "name": "IML-2C Aquatic Scout Ship",
+      "import_key": "IML2C"
+    },
+    {
+      "name": "D-45 Projection Platform",
+      "import_key": "D45PROJPLAT"
+    },
+    {
+      "name": "G35 \"Silver Cloud\" Airspeeder",
+      "import_key": "AIRSPEEDG35"
+    },
+    {
+      "name": "A-A8 BackCountry Speeder Truck",
+      "import_key": "AA8BACK"
+    },
+    {
+      "name": "S-5 \"Flashfury\" Swoop",
+      "import_key": "SWOOPS5"
+    },
+    {
+      "name": "Needle Ne-4 Cloud Car Interceptor",
+      "import_key": "NE4CLOUDCAR"
+    },
+    {
+      "name": "Arrow-23 Landspeeder",
+      "import_key": "ARROW23LANDSPEEDER"
+    },
+    {
+      "name": "XP-40 Luxury Coach",
+      "import_key": "XP40COACH"
+    },
+    {
+      "name": "Rush Troop Transport Speeder",
+      "import_key": "RUSHTRNSPORT"
+    },
+    {
+      "name": "A-11 Model III \"Burrower\"",
+      "import_key": "A11BURR"
+    },
+    {
+      "name": "Sunrunner ZX Landspeeder",
+      "import_key": "SUNRUNZX"
+    },
+    {
+      "name": "KRI-80 Portable Store",
+      "import_key": "KRI80"
+    },
+    {
+      "name": "All-Terrain Exploration Transport",
+      "import_key": "ATETWALKER"
+    },
+    {
+      "name": "88-R \"Nightscreamer\" Speeder Bike",
+      "import_key": "88RSPEEDERBIKE"
+    },
+    {
+      "name": "Invader AA-9 Assault Airspeeder",
+      "import_key": "AA9ASSAULT"
+    },
+    {
+      "name": "Tetan Guard Airspeeder",
+      "import_key": "SEC22M"
+    },
+    {
+      "name": "Flasherfish Personal Watercraft",
+      "import_key": "FLASHWATER"
+    },
+    {
+      "name": "S-K2 \"Skywing\" Personal Speeder",
+      "import_key": "SK2SKYWING"
+    },
+    {
+      "name": "MC-2 Moble Command Speeder",
+      "import_key": "MC-2CMMNDSPDR"
+    },
+    {
+      "name": "SCS-19 \"Sentinel\" Armored Landspeeder",
+      "import_key": "S19ARMSPEED"
+    },
+    {
+      "name": "J-15 Rapid Service Speeder",
+      "import_key": "J15"
+    },
+    {
+      "name": "Y164 Slave Transport",
+      "import_key": "Y164SLAVE"
+    },
+    {
+      "name": "MC-18 Light Freighter",
+      "import_key": "MC18FREIGHT"
+    },
+    {
+      "name": "Legate-Class Courier",
+      "import_key": "LEGATECOUR"
+    },
+    {
+      "name": "Far*Reach Reconnaissance Ship",
+      "import_key": "FARREACH"
+    },
+    {
+      "name": "Surveyor-Class Reconnaissance Frigate",
+      "import_key": "SURVFRIG"
+    },
+    {
+      "name": "Herd Ship",
+      "import_key": "HERDSHIP"
+    },
+    {
+      "name": "4R3 Light Assault Transport",
+      "import_key": "4R3LIGHTASSAULT"
+    },
+    {
+      "name": "AD-1S Modular Multi-Role Starfighter",
+      "import_key": "AD1SMOD"
+    },
+    {
+      "name": "Jedi Sojourner",
+      "import_key": "JEDISOJO"
+    },
+    {
+      "name": "ND-47 Stalwart Bulk Freighter",
+      "import_key": "ND47STAL"
+    },
+    {
+      "name": "WUD-500 Star Yacht",
+      "import_key": "CECWUD500"
+    },
+    {
+      "name": "S-461-Series Scout Ship",
+      "import_key": "S461SCOUT"
+    },
+    {
+      "name": "Starbolt Assault Carrier",
+      "import_key": "STARBOLT"
+    },
+    {
+      "name": "Maelstrom-Class Battle Cruiser",
+      "import_key": "MAELSTROM"
+    },
+    {
+      "name": "LH75 Specialty Live-Haul Freighter",
+      "import_key": "LH75FREIGHT"
+    },
+    {
+      "name": "S-Type Racing Sloop",
+      "import_key": "STYPESLOOP"
+    },
+    {
+      "name": "Luxurious-class Yacht",
+      "import_key": "LUXURIOUS"
+    },
+    {
+      "name": "Wander-Class Jump Freighter",
+      "import_key": "WANDERFR"
+    },
+    {
+      "name": "MK IX Orbital Maintenance Depot",
+      "import_key": "MKIXORBDEPOT"
+    },
+    {
+      "name": "Blade-32 Superiority Fighter",
+      "import_key": "BLADE32"
+    },
+    {
+      "name": "Armos Modular Transport",
+      "import_key": "ARMOSMODULAR"
+    },
+    {
+      "name": "Barrage Gunship",
+      "import_key": "BARRGUN"
+    },
+    {
+      "name": "ARX-T3 \"Suncutter\" Light Interceptor",
+      "import_key": "ARX13"
+    },
+    {
+      "name": "Ainik-Class Scientific Survey Vessel",
+      "import_key": "AINIKSURVEY"
+    },
+    {
+      "name": "ARC-40b Scout-Reconnaissance Fighter",
+      "import_key": "ARC40B"
+    },
+    {
+      "name": "Courier-Class Yacht",
+      "import_key": "COURYACHT"
+    },
+    {
+      "name": "Indulgent-class Luxury Starliner",
+      "import_key": "INDULGENT"
+    },
+    {
+      "name": "D-Type Stealth Freighter",
+      "import_key": "DTYPEFREIGHTER"
+    },
+    {
+      "name": "Xanter-class Deep-Space Exploration Frigate",
+      "import_key": "XANTER"
+    },
+    {
+      "name": "Penumbra Stealth Freighter",
+      "import_key": "PENSTEALTH"
+    },
+    {
+      "name": "Kossak-Class Frigate",
+      "import_key": "KOSSAKFRIG"
+    },
+    {
+      "name": "Regulator-class Patrol-Vessel",
+      "import_key": "REGULATOR"
+    },
+    {
+      "name": "Q-Signal Messenger Drone",
+      "import_key": "QSIGNAL"
+    },
+    {
+      "name": "Gymsnor-4 Light Freighter",
+      "import_key": "GYMSNOR4"
+    },
+    {
+      "name": "Tallanx-Class Stealth Fighter",
+      "import_key": "TALLANX"
+    }
+  ],
+  "shared_smuggler_portraits_to_review": [
+    "Comm Operator",
+    "Spaceport Administrator",
+    "Wealthy Noble",
+    "Corporate Representative",
+    "Diplomat",
+    "Philanthropic Senator",
+    "Military Informant",
+    "Loan Shark",
+    "Sector Ranger",
+    "CSA Viceprex",
+    "Spaceport Overseer",
+    "Nerf Herder",
+    "Politician / Senator",
+    "Hyperlane Scout",
+    "Expert Forger",
+    "Alliance Commander",
+    "Smuggler",
+    "Shipjacker",
+    "Rebel Cell Leader",
+    "Con Artist",
+    "Black Sun Vigo",
+    "Quartermaster",
+    "Spaceport Urchin",
+    "Naval Engineer",
+    "Spice Pusher",
+    "Customs Inspector",
+    "Dandy Gambler",
+    "Corrupt Bureaucrat",
+    "Infochant",
+    "Incom Engineer",
+    "Smuggler Baron",
+    "Arms Dealer",
+    "Forger",
+    "Cyborg Administrator",
+    "Planetary Governor",
+    "Murderous Fugitive",
+    "Provincial Law Enforcement Officer",
+    "Swoop Ganger",
+    "Rebel Alliance Liaison",
+    "Cautious Smuggler",
+    "Martle Station Dockhand",
+    "BoSS Agent",
+    "Black Marketeer",
+    "Government Bureaucrat",
+    "Arrogant Heir"
+  ]
+}

@@ -1,0 +1,912 @@
+[
+  {
+    "id": "babele",
+    "title": "Babele",
+    "version": "2.9.1",
+    "source": "https://gitlab.com/riccisi/foundryvtt-babele",
+    "description": "Dependencia general; consulta la revisión conectada para las pruebas realizadas.",
+    "category": "dependency",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "MaterialDeck",
+    "title": "Material Deck",
+    "version": "1.7.2",
+    "source": "https://github.com/MaterialFoundry/MaterialDeck",
+    "description": "Dependencia general; consulta la revisión conectada para las pruebas realizadas.",
+    "category": "dependency",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "_mathjs",
+    "title": "Math.js",
+    "version": "7.5.1-fvtt2",
+    "source": "https://github.com/League-of-Foundry-Developers/mathjs-lib",
+    "description": "Biblioteca matemática necesaria para Silhouette; no aporta contenido por sí sola.",
+    "category": "dependency",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "statuscounter",
+    "title": "Status Icon Counters",
+    "version": "3.1.3",
+    "source": "https://gitlab.com/woodentavern/status-icon-counters",
+    "description": "Dependencia general; consulta la revisión conectada para las pruebas realizadas.",
+    "category": "dependency",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "token-action-hud",
+    "title": "Token Action HUD Classic",
+    "version": "3.0.21",
+    "source": "https://github.com/Drental/fvtt-tokenactionhud",
+    "description": "HUD clásico multijuego; sustituido en este mundo por Core + FFGSW.",
+    "category": "dependency",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "token-action-hud-core",
+    "title": "Token Action HUD Core",
+    "version": "2.1.0",
+    "source": "https://github.com/Larkinabout/fvtt-token-action-hud-core",
+    "description": "Base del HUD moderno; necesita el adaptador de cada sistema.",
+    "category": "dependency",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "genesys_compendiums",
+    "title": "Genesys compendiums",
+    "version": "0.5.0",
+    "source": "https://github.com/ndebogory/genesys_compendiums",
+    "description": "Arquetipos, críticos, cualidades y macros de Genesys para el sistema StarWarsFFG.",
+    "category": "genesys-on-starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "genesysref-api-for-swffg",
+    "title": "GenesysRef API Importer for StarWarsFFG",
+    "version": "0.1.3",
+    "source": "https://gitlab.com/rlnrln/genesysref-api-for-swffg",
+    "description": "Importador de colecciones JSON GenesysRef al modelo de StarWarsFFG; no incluye los datos de los libros.",
+    "category": "genesys-on-starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "lgs-genesys-actor-extra-tabs",
+    "title": "Lyinggods Genesys Extra Actor Tabs",
+    "version": "1.0.0",
+    "source": "https://github.com/Lyinggod/lgs-genesys-actor-extra-tabs",
+    "description": "Contactos, favores y habilidades heroicas de Genesys sobre StarWarsFFG.",
+    "category": "genesys-on-starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "lgs-genesys-spell-selector",
+    "title": "Lyinggods Genesys Spell Selector",
+    "version": "0.3.1",
+    "source": "https://github.com/Lyinggod/lgs-genesys-spell-selector",
+    "description": "Constructor de magia de Genesys sobre StarWarsFFG; no es un árbol de poderes de la Fuerza.",
+    "category": "genesys-on-starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "lgs-talent-pyramid",
+    "title": "Lyinggods Talent Pyramid + Ability Costs",
+    "version": "1.0.0",
+    "source": "https://github.com/Lyinggod/lgs-talent-pyramid",
+    "description": "Pirámide de talentos y costes de Genesys; reglas distintas a las especializaciones de Star Wars.",
+    "category": "genesys-on-starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "arbron-summoner",
+    "title": "Arbron’s Summoning",
+    "version": "1.1.6",
+    "source": "https://github.com/thenotoriousJeremy/fvtt-summoner-sw5e",
+    "description": "Fork de invocaciones/acompañantes para SW5E.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "enhancedcombathud-sw5e",
+    "title": "Argon - Combat HUD (SW5E)",
+    "version": "1.0",
+    "source": "https://github.com/sw5e-foundry/enhancedcombathud-sw5e",
+    "description": "HUD Argon adaptado a SW5E.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "aa-genesys",
+    "title": "Automated Animations – Genesys Support",
+    "version": "1.0.1",
+    "source": "https://github.com/Stormyvil/Genesys-Automated-Animations",
+    "description": "Integración de animaciones para el sistema genesys independiente.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "dawnofdefiance",
+    "title": "Dawn of Defiance",
+    "version": "1.0.0",
+    "source": "https://github.com/thenotoriousJeremy/dawnofdefiance",
+    "description": "Campaña Dawn of Defiance adaptada a SW5E; manifiesto antiguo con campos mal ubicados.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "foundry-vtt-content-parser",
+    "title": "Foundry VTT Content Parser",
+    "version": "0.2.40",
+    "source": "https://github.com/JackDCondon/foundryvtt-importer-genesys",
+    "description": "Fork de importación Genesys. El enlace de actualización apunta al proyecto genérico, no a este fork.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "genesys-combat-enhancements",
+    "title": "Genesys Combat Enhancements",
+    "version": "1.0.0",
+    "source": "https://github.com/Stosart/genesys-combat-enhancements",
+    "description": "Automatizaciones para el sistema genesys independiente.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "genesys-dice-forge",
+    "title": "Genesys Dice Forge",
+    "version": "1.0.2",
+    "source": "https://github.com/GuteboysFactory/Gutes-Dice-Forge",
+    "description": "Dados 3D Genesys; V14 declarado pero el propio autor indica falta de prueba real en V14.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "genesys-initiative-slots",
+    "title": "Genesys Initiative Slots",
+    "version": "0.2.5",
+    "source": "https://github.com/Nyliss/foundryvtt-genesys-initiative-slots",
+    "description": "Turnos por huecos de iniciativa del sistema genesys independiente.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "genesys-inventions",
+    "title": "Genesys Inventions",
+    "version": "0.3.2",
+    "source": "https://github.com/Nyliss/foundryvtt-genesys-inventions",
+    "description": "Inventos, componentes y esquemas del sistema genesys independiente.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "genesysref-importer",
+    "title": "Genesys Ref Importer",
+    "version": "0.1.1",
+    "source": "https://github.com/3darkman/foundryvtt-genesysref-importer",
+    "description": "Importador para el sistema genesys independiente; no declara StarWarsFFG.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "genesys-status-effects",
+    "title": "Genesys Status Effects",
+    "version": "1.0.1",
+    "source": "https://github.com/Stormyvil/Genesys-Status-Effects",
+    "description": "Iconos de estados para Genesys; no es automatización FFG.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "genesys-dice-helper",
+    "title": "Genesys Toolkit",
+    "version": "1.1.1",
+    "source": "https://github.com/Nyliss/foundryvtt-genesys-dice-helper",
+    "description": "Ayudas de dados y críticos para el sistema genesys independiente.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "genesys-weapon-qualities",
+    "title": "Genesys Weapon Qualities",
+    "version": "1.0.1",
+    "source": "https://github.com/Stormyvil/Genesys-Weapon-Qualities",
+    "description": "Modificadores de dados por cualidades de armas para el sistema genesys independiente.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "ready-set-roll-sw5e",
+    "title": "Ready Set Roll for sw5e",
+    "version": "1.0.0",
+    "source": "https://github.com/sw5e-foundry/fvtt-ready-set-roll-sw5e",
+    "description": "Tiradas mejoradas para el antiguo sistema sw5e.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "roll-new-character-stats-sw5e",
+    "title": "Roll New Character Stats (RNCS) SW5E",
+    "version": "3.1.4",
+    "source": "https://github.com/sw5e-foundry/roll-new-character-stats-sw5e",
+    "description": "Generación de atributos de personajes SW5E.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "swsw",
+    "title": "Savage Worlds Star Wars",
+    "version": "0.0.26",
+    "source": "https://github.com/Alex76g/swsw",
+    "description": "Contenido y macros para partidas de Star Wars con Savage Worlds; proyecto distinto a StarWarsFFG.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "swffgUI-cc-1138",
+    "title": "Star Wars - User Interface Creative Common 1138",
+    "version": "2.5.0",
+    "source": "https://github.com/Elek1138/swffgUI-cc-1138",
+    "description": "Variante del tema CC cuyo manifiesto exige OpenD6.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "starwarsd6-adventure-pirates-prexiar-fr",
+    "title": "Star Wars D6 - Aventure - Les pirates de Prexiar",
+    "version": "1.0.0",
+    "source": "https://gitlab.com/mich.michoui/starwarsd6-adventure-pirates-prexiar-fr",
+    "description": "Aventura Los piratas de Prexiar en francés, para Star Wars D6/OpenD6.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "od6s-star-wars",
+    "title": "Star Wars Sheets for OpenD6",
+    "version": "1.0.6",
+    "source": "https://github.com/algnc/od6s-star-wars",
+    "description": "Fichas para OpenD6; no corresponde a StarWarsFFG.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "sw5e-module",
+    "title": "SW5E",
+    "version": "1.4.3",
+    "source": "https://github.com/sw5e-foundry/sw5e-module",
+    "description": "Implementación SW5E sobre dnd5e; no activar en el mundo FFG.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "sw5e-companions",
+    "title": "SW5E Companions",
+    "version": "[version]",
+    "source": "https://github.com/sw5e-foundry/sw5e-companions",
+    "description": "Compendios de acompañantes para SW5E.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "sw5e-force-alignment",
+    "title": "sw5e Force Alignment",
+    "version": "0.0.1",
+    "source": "https://github.com/intuited/fvtt-sw5e-force-alignment",
+    "description": "Alineamiento de la Fuerza en SW5E.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "sw5e-variant-rules",
+    "title": "SW5e Variant Rules",
+    "version": "0.2.25",
+    "source": "https://github.com/DeviousFate/SW5e-Variant-Rules",
+    "description": "Reglas opcionales para SW5E sobre dnd5e.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "starwarsd6-essentialcompanion-od6s",
+    "title": "The Essential Companion to Star Wars D6 on OpenD6 Space",
+    "version": "12.0.3",
+    "source": "https://github.com/DarthBanjo/starwarsd6-essentialcompanion-od6s",
+    "description": "Contenido y configuración Star Wars D6 para OpenD6; se agrupan el original y el fork REUP.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "mandalorian-codex",
+    "title": "The Mandalorian Codex",
+    "version": "3.4.1.2.0.0",
+    "source": "https://github.com/sw5e-foundry/mandalorian-codex",
+    "description": "Compendios mandalorianos para SW5E.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "token-action-hud-swse",
+    "title": "Token Action HUD - Star Wars Saga Edition",
+    "version": "1.3.0",
+    "source": "https://github.com/Wes-l-eye/token-action-hud-swse",
+    "description": "HUD para Saga Edition; sistema distinto de StarWarsFFG.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "token-action-hud-sw5e",
+    "title": "Token Action HUD SW5e",
+    "version": "1.5.1.1",
+    "source": "https://github.com/sw5e-foundry/token-action-hud-sw5e",
+    "description": "HUD para SW5E.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "tristons-loot-generator",
+    "title": "Triston's Loot Generator",
+    "version": "1.0.4",
+    "source": "https://github.com/triston-dev/tristons-loot-generator",
+    "description": "Botín para dnd5e/SW5E; no declara FFG.",
+    "category": "other-system",
+    "otherSystem": true,
+    "previousReview": false
+  },
+  {
+    "id": "carte-galactique",
+    "title": "Carte Galactique",
+    "version": "1.0.0",
+    "source": "https://github.com/Acknar/Carte-Galactique",
+    "description": "Mapa galáctico con diarios de planetas; contenido en francés.",
+    "category": "shared",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "sabacc",
+    "title": "Corellian Spike Sabacc",
+    "version": "2.2.0",
+    "source": "https://github.com/thenotoriousJeremy/foundry-sabacc",
+    "description": "Corellian Spike Sabacc; revisar apuestas y permisos en FFG.",
+    "category": "shared",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "pazaak-fvtt",
+    "title": "Pazaak — Star Wars Card Game",
+    "version": "1.0.0",
+    "source": "https://github.com/rafkro632816/pazaak-fvtt",
+    "description": "Pazaak independiente del sistema; verificar el manejo de créditos en FFG.",
+    "category": "shared",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "special-dice-roller",
+    "title": "Special Dice Roller",
+    "version": "1.0.0",
+    "source": "https://github.com/BernhardPosselt/foundryvtt-special-dice-roller",
+    "description": "Dados especiales para varios juegos, incluidos Star Wars FFG y Genesys.",
+    "category": "shared",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "swgalaxy-map",
+    "title": "Star Wars Galaxy Map & Hyperspace Calculator",
+    "version": "0.1.0",
+    "source": "https://github.com/tomjdr4-hub/foundry-swgalaxy-map",
+    "description": "Mapa galáctico y calculadora aproximada de viajes.",
+    "category": "shared",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "story-points",
+    "title": "Story Points",
+    "version": "1.2.1",
+    "source": "https://github.com/ipmillar/story-points",
+    "description": "Contador genérico de monedas/puntos narrativos, inspirado en Genesys.",
+    "category": "shared",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "storyteller-star-wars-theme",
+    "title": "Storyteller Star Wars Theme",
+    "version": "1.0.10",
+    "source": "https://github.com/for-the-new-order/storyteller-star-wars-theme",
+    "description": "Apariencia de datapad para Storyteller; requiere ese módulo.",
+    "category": "shared",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "sw-card-games",
+    "title": "SW Card Games",
+    "version": "11.0.0",
+    "source": "https://github.com/awitteck/sw-card-games",
+    "description": "Barajas de juegos de Star Wars y reglas breves; compendios de cartas.",
+    "category": "shared",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "adversaires",
+    "title": "Adversaires",
+    "version": "1.0.0",
+    "source": "https://github.com/Acknar/SWFFG-Adversaires",
+    "description": "Compendio de adversarios en francés.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "bsa-starwarsffg",
+    "title": "Beaver's System Adapter for Star Wars FFG",
+    "version": "v2.0.3",
+    "source": "https://github.com/villain4hire78/bsa-starwarsffg",
+    "description": "Adaptador FFG para Beaver’s System Interface; no es contenido por sí solo.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "swffg-workshops",
+    "title": "Crafting Workshops — Star Wars FFG",
+    "version": "2.1.0",
+    "source": "https://github.com/wanoo/swffg-workshops",
+    "description": "Fabricación de sables, alquimia de la Fuerza y modificaciones de accesorios; inglés/francés.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "ffg-azecraft-addon",
+    "title": "FFG Azecraft Addon",
+    "version": "0.7.0",
+    "source": "https://github.com/tomalaci/ffg-azecraft-addon",
+    "description": "Utilidades FFG y panel de misiones de Mass Effect; mezcla contenido de otra ambientación.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "ffg-consumables",
+    "title": "FFG Consumables",
+    "version": "1.0.0",
+    "source": "https://github.com/villain4hire78/ffg-consumables",
+    "description": "Seguimiento y uso de consumibles. Comprobar solapamiento con estimulantes de Enhancements.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "ffg-party-boost",
+    "title": "FFG Party Boosts & Bonus Bar",
+    "version": "1.1.1",
+    "source": "https://github.com/Lyinggod/ffg-party-boost",
+    "description": "Bonificaciones y dados compartidos de grupo.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "ffg-roller",
+    "title": "FFG Roller",
+    "version": "0.3",
+    "source": "https://github.com/petepeg/FFG-Roller",
+    "description": "Lanzador histórico de dados FFG, anterior al sistema actual.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "ffg-star-wars-alternative-ui",
+    "title": "FFG Star Wars - Alternative UI",
+    "version": "12.6.2.1_905",
+    "source": "https://github.com/TeddyBears/StarWarsFFG-alternative-UI",
+    "description": "Diseño de fichas. Incluye la variante Genesys de Lyinggod bajo el mismo ID.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "ffg-star-wars-utilities",
+    "title": "FFG Star Wars - Utilities",
+    "version": "12.0.3.1_903",
+    "source": "https://github.com/TeddyBears/StarWarsFFG-utilities",
+    "description": "Macros de críticos, recuperación de tensión y ayudas de resultados; principalmente francés.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "ffg-swa",
+    "title": "FFG Star Wars Adversaries",
+    "version": "1.0.2",
+    "source": "https://github.com/nlx3647/ffg-swa",
+    "description": "Compendio de adversarios; Foundry 9 declarado.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "ffg-star-wars-char-creator",
+    "title": "FFG Star Wars Character Creator",
+    "version": "0.0.1",
+    "source": "https://github.com/wrycu/StarWarsFFG-Character-Creator",
+    "description": "Asistente antiguo para crear personajes; revisar estado de desarrollo.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "ffg-star-wars-enhancements",
+    "title": "FFG Star Wars Enhancements",
+    "version": "3.2.1",
+    "source": "https://github.com/Saberofblue/StarWarsFFG-Enhancements",
+    "description": "Introducciones, tiendas, datapads, transiciones y ayudas de tirada.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "ffg-crits",
+    "title": "FFG Star Wars RPG Crits for Foundry VTT",
+    "version": "1.0.0",
+    "source": "https://github.com/nlx3647/ffg-crits",
+    "description": "Otro paquete de críticos; no mezclar importaciones duplicadas.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "space-op-ui",
+    "title": "FFG Star Wars Space Opera Ui",
+    "version": "14.0.2",
+    "source": "https://github.com/Saberofblue/space-op-ui",
+    "description": "Tema global. Variante Saberofblue V14 localizada; no combinar con otro tema global.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "star-wars-status-automation",
+    "title": "FFG Star Wars Status Automation",
+    "version": "0.2.1",
+    "source": "https://github.com/Malven31/foundryVTT-SWFFG-status-automation",
+    "description": "Automatización de estados; necesita Status Icon Counters y Babele.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "starwarsffgJP",
+    "title": "FFG版スターウォーズ 日本語化MOD",
+    "version": "0.0.0",
+    "source": "https://github.com/dreamfv/starwarsffgJP",
+    "description": "Traducción japonesa de términos del sistema.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "flying-is-for-droids",
+    "title": "Flying is for Droids",
+    "version": "0.1",
+    "source": "https://github.com/LedtheTed/StarWarsFFG-FlyingIsForDroids",
+    "description": "Automatización y reglas caseras de combate espacial. Faltan archivos compilados en el archivo revisado.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "genesys-ffg-options-enhancer",
+    "title": "Genesys FFG Options Enhancer",
+    "version": "1.1.1",
+    "source": "https://github.com/robert16444/Genesys-FFG-Options-Enhancer",
+    "description": "Funciones de combate y Genesys. Exige sistema como máximo 2.0.4: no habilitado con 2.0.5-mitos.14.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "healthEstimateSwffg",
+    "title": "Health Estimate Star Wars FFG",
+    "version": "2.5.0",
+    "source": "https://github.com/prolice/healthEstimateSwffg",
+    "description": "Indicador aproximado de salud. Se agrupan las dos adaptaciones FFG antiguas.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "itempilesstarwarsffg",
+    "title": "Item Piles: Star Wars FFG",
+    "version": "0.0.1",
+    "source": "https://github.com/maersk-aerospace/FoundryVTT-ItemPiles-StarWarsFFG",
+    "description": "Adaptador FFG para Item Piles. Código fuente sin distribución lista para instalar confirmada.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "kelborns-swffg-force-presence",
+    "title": "Kelborn's SWFFG Force Presence",
+    "version": "0.2.16",
+    "source": "https://github.com/YeNov/kelborns-swffg-force-presence",
+    "description": "Reglas opcionales que sustituyen Moralidad; exige StarWarsFFG 2.1.5, superior al sistema local.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "lgs-swffg-reroller-v12",
+    "title": "Lyinggods Clever Dice Re-roller (v12)",
+    "version": "1.0.0",
+    "source": "https://github.com/Lyinggod/lgs-swffg-reroller-v12",
+    "description": "Repetir dados individuales. Declara sistema hasta 1.999 y Foundry 12.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "lgs-extra-fields-for-star-wars",
+    "title": "Lyinggods Extra Actor Fields for FFG Star Wars",
+    "version": "1.0.3",
+    "source": "https://github.com/Lyinggod/lgs-ffg-star-wars-extra-fields",
+    "description": "Campos adicionales en fichas; el nombre antiguo del repositorio redirige al actual.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "lgs-item-viewer",
+    "title": "Lyinggods Item Viewer",
+    "version": "1.0.4",
+    "source": "https://github.com/Lyinggod/lgs-item-viewer",
+    "description": "Navegador de objetos; verificar utilidad frente al navegador ya incorporado al sistema.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "lgs-token-range-bands",
+    "title": "Lyinggods Token Range Bands",
+    "version": "2.0.1",
+    "source": "https://github.com/Saberofblue/lgs-token-range-bands",
+    "description": "Bandas de alcance. Variante Saberofblue 2.0.1 declara V14; falta contrastarla con el parche local.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "materialdeck-starwarsffg",
+    "title": "Material Deck - Star Wars FFG",
+    "version": "1.0.1",
+    "source": "https://github.com/MaterialFoundry/MaterialDeck_StarWarsFFG",
+    "description": "Integración con Material Deck; requiere su servidor y hardware externo.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "ffg-pool-party",
+    "title": "Pool Party for FFG Star Wars",
+    "version": "1-dev",
+    "source": "https://github.com/tucker87/ffg-pool-party",
+    "description": "Pools compartidos. Foundry lista versión 3, pero su enlace oficial devolvió 404; forks 1-dev recuperables.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "ffg-xml-importer",
+    "title": "Roger, Roger! An OggDude XML Importer",
+    "version": "1.4.0",
+    "source": "https://github.com/Saberofblue/ffg-xml-importer",
+    "description": "Importa personajes XML de OggDude. Antes de importar borra objetos y efectos del actor destino; probar sobre una copia.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "swffg-sabacc",
+    "title": "Sabacc — Star Wars FFG",
+    "version": "1.2.0",
+    "source": "https://github.com/wanoo/swffg-sabacc",
+    "description": "Corellian Spike y Kessel Sabacc, manos privadas y apuestas con créditos de las fichas.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "starwars-silhouette",
+    "title": "Star Wars - Silhouette",
+    "version": "1.2.2",
+    "source": "https://github.com/prolice/starwars-silhouette",
+    "description": "Siluetas y tamaños de naves; requiere Math.js. Importación de imágenes pendiente de prueba.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "swffgUI-cc",
+    "title": "Star Wars - User Interface Creative Common",
+    "version": "3.0.0",
+    "source": "https://github.com/prolice/swffgUI-cc",
+    "description": "Tema global alternativo. Rama pública 3.0.0; la revisión anterior examinó 2.6.3.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "star-wars-all-compendia",
+    "title": "Star Wars All Compendia",
+    "version": "12.330.0",
+    "source": "https://github.com/prolice/starwars-all-compendia",
+    "description": "Compendios comunitarios; revisar duplicados, idioma y referencias antes de importar.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "ffg-star-wars-traduction-fr-oggdude",
+    "title": "Star Wars FFG - Traduction Fr OggDude",
+    "version": "0.5.0",
+    "source": "https://github.com/Spocky69/StarWarsFFG-TraductionFrOggDude",
+    "description": "Traducción francesa de compendios importados de OggDude; requiere Babele.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "star-wars-ffg-addon",
+    "title": "Star Wars FFG Addon Module",
+    "version": "0.2.0",
+    "source": "https://github.com/calumgould/star-wars-ffg-addon",
+    "description": "Utilidades y macros adicionales FFG; necesita socketlib.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "swffg-critical-hits",
+    "title": "Star Wars FFG Critical Hits",
+    "version": "1.0.1",
+    "source": "https://github.com/laialex501/swffg-critical-hits",
+    "description": "Heridas y daños críticos, tablas y macros; versión antigua.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "starwars-ffg-fixes-and-patches",
+    "title": "Star Wars FFG Fixes and Patches",
+    "version": "1.0.0",
+    "source": "https://github.com/kurigohan-lab/StarWarsFFGFixesandPatches",
+    "description": "Parches comunitarios V12–13; comprobar solapamientos con los ya aplicados.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "ffg-star-wars-hud-enhancements",
+    "title": "Star Wars FFG HUD Enhancements",
+    "version": "1.0.1",
+    "source": "https://github.com/YeNov/ffg-star-wars-hud-enhancements",
+    "description": "Heridas, tensión y trauma de casco desde el HUD del token.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "swffg-astronavigation",
+    "title": "SWFFG Astronavigation — Astrogation & Atlas galactique",
+    "version": "2.0.4",
+    "source": "https://github.com/wanoo/swffg-astronavigation",
+    "description": "Mapa y cálculo de astrogación; requiere Campaign Codex. Incluye reglas de viaje propias.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "swffg-dice-stacks",
+    "title": "SWFFG Dice Stacks",
+    "version": "0.0.1",
+    "source": "https://github.com/YeNov/swffg-dice-stacks",
+    "description": "Efectos de dados por un número de tiradas; necesita Status Icon Counters.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "swrpg-dice-helper-compendium",
+    "title": "SWRPG Dice Helper Compendium",
+    "version": "1.1.4",
+    "source": "https://github.com/DukeVenator/swffg-data-compendiums",
+    "description": "Sugerencias para gastar resultados en todas las habilidades.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "swrpg-karmic-dice",
+    "title": "SWRPG Karmic Dice",
+    "version": "1.0.1",
+    "source": "https://github.com/thompsdt/swrpg-karmic-dice",
+    "description": "Modifica la distribución de resultados. Conservar las preferencias de probabilidad del mundo.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "token-action-hud-ffgsw",
+    "title": "Token Action HUD for FFG Star Wars",
+    "version": "14.0.0.2_0_5",
+    "source": "https://github.com/Saberofblue/token-action-hud-ffgsw",
+    "description": "Acciones desde los tokens. Variante Saberofblue V14 localizada; requiere HUD Core.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": true
+  },
+  {
+    "id": "starwarsffg_pt-BR",
+    "title": "Translation: Brazilian Portuguese [Star Wars FFG]",
+    "version": "0.3.0",
+    "source": "https://gitlab.com/fvtt-brasil/starwarsffg",
+    "description": "Traducción brasileña; ficha oficial marcada como no publicada.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  },
+  {
+    "id": "swrpg",
+    "title": "Unofficial SWRPG Compendium",
+    "version": "1.0.15",
+    "source": "https://github.com/LeeDurant/swrpg",
+    "description": "Compendios comunitarios antiguos de personajes y equipo.",
+    "category": "starwarsffg",
+    "otherSystem": false,
+    "previousReview": false
+  }
+]

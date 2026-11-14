@@ -62,6 +62,7 @@ export default class ItemAttachments {
             itemmodifier: [],
             metadata: {
               tags: [],
+              sources: ImportHelpers.getSourcesAsArray(item?.Sources ?? item?.Source),
             },
           };
 

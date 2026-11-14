@@ -1,0 +1,1046 @@
+{
+  "date": "2026-11-14",
+  "target_foundry": "14.369",
+  "target_system": "2.0.5-mitos.14",
+  "scope": "27 archivos de módulos y dependencias inspeccionados; revisión conectada en Foundry 14.369. Búsqueda pública sin garantía de exhaustividad.",
+  "modules": [
+    {
+      "id": "ffg-star-wars-enhancements",
+      "title": "FFG Star Wars Enhancements",
+      "version": "3.2.1",
+      "source": "https://github.com/Saberofblue/StarWarsFFG-Enhancements",
+      "manifest": "https://github.com/Saberofblue/StarWarsFFG-Enhancements/releases/latest/download/module.json",
+      "download": "https://github.com/Saberofblue/StarWarsFFG-Enhancements/releases/download/3.2.1/module.zip",
+      "published_compatibility": {
+        "minimum": "13",
+        "verified": "14.368"
+      },
+      "relationships": {
+        "systems": [
+          {
+            "id": "starwarsffg",
+            "type": "system",
+            "manifest": "https://github.com/StarWarsFoundryVTT/StarWarsFFG/releases/latest/download/system.json",
+            "compatibility": {
+              "minimum": "2.0.0",
+              "verified": "2.0.4"
+            }
+          },
+          {
+            "id": "starwarsffg_sandbox",
+            "type": "system",
+            "manifest": "https://github.com/Saberofblue/starwarsffg-sandbox/releases/latest/download/system.json",
+            "compatibility": {
+              "minimum": "2.0.4",
+              "verified": "2.0.4.6"
+            }
+          }
+        ],
+        "requires": [
+          {
+            "id": "fxmaster",
+            "type": "module",
+            "compatibility": {
+              "minimum": "8.0.0",
+              "verified": "8.4.1"
+            }
+          },
+          {
+            "id": "lib-wrapper",
+            "type": "module",
+            "compatibility": {
+              "minimum": "1.13.4.0",
+              "verified": "1.13.5.1"
+            }
+          },
+          {
+            "id": "statuscounter",
+            "type": "module",
+            "compatibility": {
+              "minimum": "3.1.1",
+              "verified": "3.1.3"
+            }
+          }
+        ],
+        "recommends": [
+          {
+            "id": "JB2A_DnD5e",
+            "type": "module",
+            "compatibility": {
+              "minimum": "0.8.1",
+              "verified": "0.9.3"
+            }
+          },
+          {
+            "id": "tokenmagic",
+            "type": "module",
+            "compatibility": {
+              "minimum": "0.8.0",
+              "verified": "0.8.4"
+            }
+          }
+        ]
+      },
+      "review_status": "installed-runtime-tested",
+      "review_notes": "Upgraded 3.0.0 to Saberofblue 3.2.1; startup and compendia checked.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "ffg-star-wars-enhancements",
+        "url": "https://github.com/Saberofblue/StarWarsFFG-Enhancements/releases/download/3.2.1/module.zip",
+        "bytes": 35542538,
+        "sha256": "22851b5e068dd18761935dc28b0b1917a43a69b37570e322fcf8390c604ca350",
+        "version": "3.2.1",
+        "compatibility": {
+          "minimum": "13",
+          "verified": "14.368"
+        },
+        "files": 80,
+        "wrapper": "",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "star-wars-status-automation",
+      "title": "FFG Star Wars Status Automation",
+      "version": "0.2.1",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/star-wars-status-automation.json",
+      "download": "https://github.com/Malven31/foundryVTT-SWFFG-status-automation/releases/download/0.2.1/module.zip",
+      "source": "https://github.com/Malven31/foundryVTT-SWFFG-status-automation",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": "12",
+        "verified": "12",
+        "maximum": "13"
+      },
+      "warning": "",
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: managed encumbrance counter 2 -> 0; unrelated ActiveEffect preserved. World enablement remains optional.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "star-wars-status-automation",
+        "url": "https://github.com/Malven31/foundryVTT-SWFFG-status-automation/releases/download/0.2.1/module.zip",
+        "bytes": 31566,
+        "sha256": "64352f0e4b044158a043b8ab781eec66a9cbbf3f6d3c1911e802c6f986db0b7d",
+        "version": "0.2.1",
+        "compatibility": {
+          "minimum": "12",
+          "verified": "12",
+          "maximum": "13"
+        },
+        "files": 14,
+        "wrapper": "",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "genesys-ffg-options-enhancer",
+      "title": "Genesys FFG Options Enhancer",
+      "version": "1.1.1",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/genesys-ffg-options-enhancer.json",
+      "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-genesys-ffg-options-enhancer.zip",
+      "source": "https://github.com/robert16444/Genesys-FFG-Options-Enhancer/releases/latest/download/module.json",
+      "method": "redistributable-mirror",
+      "license": "MIT",
+      "published_compatibility": {
+        "minimum": "13",
+        "verified": "13",
+        "maximum": "13"
+      },
+      "warning": "",
+      "review_status": "patched-partial",
+      "review_notes": "V14 scene control callbacks patched. Module declares maximum system 2.0.4 and remains disabled with 2.0.5-mitos.14; full feature integration pending.",
+      "runtime_verified_this_review": false,
+      "archive_audit": {
+        "id": "genesys-ffg-options-enhancer",
+        "url": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-genesys-ffg-options-enhancer.zip",
+        "bytes": 361051,
+        "sha256": "2badddf9a0191f7c03f7c80744aff5caffef587a82b6e0bc517436ee3e225e1b",
+        "version": "1.1.1",
+        "compatibility": {
+          "minimum": "13",
+          "verified": "13",
+          "maximum": "13"
+        },
+        "files": 31,
+        "wrapper": "",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "token-action-hud-ffgsw",
+      "title": "Token Action HUD for FFG Star Wars",
+      "version": "13.0.0.2_0_3",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/token-action-hud-ffgsw.json",
+      "download": "https://github.com/TeddyBears/token-action-hud-ffgsw/archive/refs/tags/13.0.0.2_0_3.zip",
+      "source": "https://github.com/TeddyBears/token-action-hud-ffgsw",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": "13",
+        "verified": "13.351"
+      },
+      "warning": "Publisher archive is a repository snapshot and may require manual extraction.",
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: two selected tokens produce common skill actions; skill dialog opens; synthetic actor dice pool regression-tested.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "token-action-hud-ffgsw",
+        "url": "https://github.com/TeddyBears/token-action-hud-ffgsw/archive/refs/tags/13.0.0.2_0_3.zip",
+        "bytes": 90052,
+        "sha256": "97832cd7ff7fc5b51a00dee7c06c5d115838090345f936c037bac61660d5bf78",
+        "version": "13.0.0.2_0_3",
+        "compatibility": {
+          "minimum": "13",
+          "verified": "13.351"
+        },
+        "files": 20,
+        "wrapper": "token-action-hud-ffgsw-13.0.0.2_0_3/",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "statuscounter",
+      "title": "Status Icon Counters",
+      "version": "3.1.3",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/statuscounter.json",
+      "download": "https://gitlab.com/api/v4/projects/21318592/packages/generic/statuscounters/3.1.3/statuscounter-v3.1.3.zip",
+      "source": "https://gitlab.com/woodentavern/status-icon-counters",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": "14.359",
+        "verified": "14.368"
+      },
+      "warning": "",
+      "review_status": "runtime-tested",
+      "review_notes": "Foundry 14.369: managed encumbrance counter changed from 2 to 0; unrelated ActiveEffect preserved in the status automation integration test.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "statuscounter",
+        "url": "https://gitlab.com/api/v4/projects/21318592/packages/generic/statuscounters/3.1.3/statuscounter-v3.1.3.zip",
+        "bytes": 31809,
+        "sha256": "90aca9677c9204141af28ff8890eb430ba6841286d702e896f34187f244a9b8e",
+        "version": "3.1.3",
+        "compatibility": {
+          "minimum": "14.359",
+          "verified": "14.368"
+        },
+        "files": 21,
+        "wrapper": "statuscounter/",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "space-op-ui",
+      "title": "FFG Star Wars Space Opera Ui",
+      "version": "13.2",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/space-op-ui.json",
+      "download": "https://gitlab.com/sasmira/space-op-ui/-/jobs/artifacts/v13.2/raw/space-op-ui.zip?job=build",
+      "source": "https://gitlab.com/sasmira/space-op-ui",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": "13",
+        "verified": "13"
+      },
+      "warning": "Choose only one of the competing UI replacements.",
+      "review_status": "runtime-tested",
+      "review_notes": "Global interface and icons checked alongside Alternative actor sheets. CC global theme disabled.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "space-op-ui",
+        "url": "https://gitlab.com/sasmira/space-op-ui/-/jobs/artifacts/v13.2/raw/space-op-ui.zip?job=build",
+        "bytes": 867287,
+        "sha256": "0621163b29c4d97105a1232a27468ac8da0608c53005f4d7dc44f8015ab7a2b7",
+        "version": "13.2",
+        "compatibility": {
+          "minimum": "13",
+          "verified": "13"
+        },
+        "files": 9,
+        "wrapper": "module/",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "token-action-hud",
+      "title": "Token Action HUD Classic",
+      "version": "3.0.21",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/token-action-hud.json",
+      "download": "https://github.com/Drental/fvtt-tokenactionhud/releases/download/3.0.21/module.zip",
+      "source": "https://github.com/Drental/fvtt-tokenactionhud",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": "10",
+        "verified": "10.291"
+      },
+      "warning": "Classic edition, obsolete when using Token Action HUD Core.",
+      "review_status": "superseded",
+      "review_notes": "Versión clásica V10. Sustituida por Core + FFGSW; no activar simultáneamente.",
+      "runtime_verified_this_review": false,
+      "archive_audit": {
+        "id": "token-action-hud",
+        "url": "https://github.com/Drental/fvtt-tokenactionhud/releases/download/3.0.21/module.zip",
+        "bytes": 211169,
+        "sha256": "13114482a16d3174eaf236cb9184f3ff8af6550d319002c9a39b84bde1f80dc3",
+        "version": "3.0.21",
+        "compatibility": {
+          "minimum": "10",
+          "verified": "10.291"
+        },
+        "files": 26,
+        "wrapper": "",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "swffgUI-cc",
+      "title": "Star Wars - User Interface Creative Common",
+      "version": "2.6.3",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/swffgUI-cc.json",
+      "download": "https://github.com/prolice/swffgUI-cc/releases/download/v2.6.3/module.zip",
+      "source": "https://github.com/prolice/swffgUI-cc",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": "10",
+        "verified": "12.331"
+      },
+      "warning": "Choose only one of the competing UI replacements.",
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: startup, directories and Font Awesome icons checked. Alternative global theme; do not combine with Space Opera.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "swffgUI-cc",
+        "url": "https://github.com/prolice/swffgUI-cc/releases/download/v2.6.3/module.zip",
+        "bytes": 3048442,
+        "sha256": "afa6afe3cb55cc0924db43db55ed0b3dbd2d14613ec2eb118367d5f9586ccf6a",
+        "version": "2.6.3",
+        "compatibility": {
+          "minimum": "10",
+          "verified": "12.331"
+        },
+        "files": 23,
+        "wrapper": "swffgUI-cc-swffgUI-cc/",
+        "license": [
+          "CC-BY-license.webp"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "starwars-silhouette",
+      "title": "Star Wars - Silhouette",
+      "version": "1.2.2",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/starwars-silhouette.json",
+      "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-starwars-silhouette.zip",
+      "source": "https://github.com/prolice/starwars-silhouette",
+      "method": "redistributable-mirror",
+      "license": "MIT",
+      "published_compatibility": {
+        "minimum": "10",
+        "verified": "12.331",
+        "maximum": "12"
+      },
+      "warning": "Requires optional Math.js library and licensed user-supplied silhouette art.",
+      "review_status": "patched-partial",
+      "review_notes": "Foundry 14.369: disabled scaling preserved a 3x3 vehicle token; enabled scaling produced 6x6 and awaited the update. Temporary actor removed and original setting restored. Image import/attachment workflows remain pending.",
+      "runtime_verified_this_review": false,
+      "archive_audit": {
+        "id": "starwars-silhouette",
+        "url": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-starwars-silhouette.zip",
+        "bytes": 40484,
+        "sha256": "a08a3d960eb6ca01d6e48263647b3da9557586c324a7c0b5495fcd4faed725b8",
+        "version": "1.2.2",
+        "compatibility": {
+          "minimum": "10",
+          "verified": "12.331",
+          "maximum": "12"
+        },
+        "files": 4,
+        "wrapper": "",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "ffg-star-wars-alternative-ui",
+      "title": "FFG Star Wars - Alternative UI",
+      "version": "12.6.2.1_905",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/ffg-star-wars-alternative-ui.json",
+      "download": "https://github.com/TeddyBears/StarWarsFFG-alternative-UI/archive/refs/tags/12.6.2.1_905.zip",
+      "source": "https://github.com/TeddyBears/StarWarsFFG-alternative-UI",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": "12",
+        "verified": "12.331"
+      },
+      "warning": "Choose only one of the competing UI replacements. Publisher archive is a repository snapshot and may require manual extraction.",
+      "review_status": "runtime-tested",
+      "review_notes": "Actor sheet opened alongside Space Opera; custom numeric fields verified.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "ffg-star-wars-alternative-ui",
+        "url": "https://github.com/TeddyBears/StarWarsFFG-alternative-UI/archive/refs/tags/12.6.2.1_905.zip",
+        "bytes": 196646,
+        "sha256": "15cb73f39785e8365ff44bf79d578d8923deef8cc776c87e1ee2819312b34b4d",
+        "version": "12.6.2.1_905",
+        "compatibility": {
+          "minimum": "12",
+          "verified": "12.331"
+        },
+        "files": 60,
+        "wrapper": "StarWarsFFG-alternative-UI-12.6.2.1_905/",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "lgs-token-range-bands",
+      "title": "Lyinggods Token Range Bands",
+      "version": "1.1.3",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/lgs-token-range-bands.json",
+      "download": "https://github.com/Lyinggod/lgs-token-range-bands/releases/download/v1.1.3/lgs-token-range-bands.zip",
+      "source": "https://github.com/Lyinggod/lgs-token-range-bands",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": "11.0.0",
+        "verified": "12.999",
+        "maximum": "12.999"
+      },
+      "warning": "",
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: SceneConfig fields, Token HUD, range creation and token movement cleanup checked. Legacy template deprecation warnings remain; detailed ruler labels not fully checked.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "lgs-token-range-bands",
+        "url": "https://github.com/Lyinggod/lgs-token-range-bands/releases/download/v1.1.3/lgs-token-range-bands.zip",
+        "bytes": 8884,
+        "sha256": "be9c9666ccbaaa9fab8aa7f37f2cefadcc4a38ce5d89db65921b8e5e6ac95e1a",
+        "version": "1.1.3",
+        "compatibility": {
+          "minimum": "11.0.0",
+          "verified": "12.999",
+          "maximum": "12.999"
+        },
+        "files": 4,
+        "wrapper": "lgs-token-range-bands/",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "lgs-extra-fields-for-star-wars",
+      "title": "Lyinggods Extra Actor Fields for FFG Star Wars",
+      "version": "1.0.3",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/lgs-extra-fields-for-star-wars.json",
+      "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-lgs-extra-fields-for-star-wars.zip",
+      "source": "https://github.com/Lyinggod/FFG-Star-Wars-Extra-Fields",
+      "method": "redistributable-mirror",
+      "license": "Unlicense",
+      "published_compatibility": {
+        "minimum": "12",
+        "maximum": "12"
+      },
+      "warning": "",
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: blank spacer and numeric field render once in standard V2 and Alternative actor sheets; read-only protection regression-tested.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "lgs-extra-fields-for-star-wars",
+        "url": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-lgs-extra-fields-for-star-wars.zip",
+        "bytes": 9483,
+        "sha256": "fe9b6333e1dff381b18da282570eb2786c048dd393ed77f2662dd8a1315ee12d",
+        "version": "1.0.3",
+        "compatibility": {
+          "minimum": "12",
+          "maximum": "12"
+        },
+        "files": 6,
+        "wrapper": "",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "swrpg-karmic-dice",
+      "title": "SWRPG Karmic Dice",
+      "version": "1.0.1",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/swrpg-karmic-dice.json",
+      "download": "https://github.com/thompsdt/swrpg-karmic-dice/releases/latest/download/swrpg-karmic-dice.zip",
+      "source": "https://github.com/thompsdt/swrpg-karmic-dice",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": "12",
+        "verified": "12"
+      },
+      "warning": "Changes dice probabilities. Do not enable casually.",
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: a temporary FFG roll rendered in chat without errors and was removed. Original probability preferences preserved.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "swrpg-karmic-dice",
+        "url": "https://github.com/thompsdt/swrpg-karmic-dice/releases/latest/download/swrpg-karmic-dice.zip",
+        "bytes": 20527,
+        "sha256": "3dd5eef80648c37b8b612e8db0c88066dc9dd535ccf1279db10209566fb8aafa",
+        "version": "1.0.1",
+        "compatibility": {
+          "minimum": "12",
+          "verified": "12"
+        },
+        "files": 3,
+        "wrapper": "swrpg-karmic-dice/",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "ffg-star-wars-hud-enhancements",
+      "title": "Star Wars FFG HUD Enhancements",
+      "version": "1.0.1",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/ffg-star-wars-hud-enhancements.json",
+      "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-ffg-star-wars-hud-enhancements.zip",
+      "source": "https://github.com/YeNov/ffg-star-wars-hud-enhancements",
+      "method": "redistributable-mirror",
+      "license": "MIT",
+      "published_compatibility": {
+        "minimum": "13",
+        "verified": "13"
+      },
+      "warning": "",
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: wounds +/-1 on nemesis, minion, rival and hull trauma on vehicle; restored original values.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "ffg-star-wars-hud-enhancements",
+        "url": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-ffg-star-wars-hud-enhancements.zip",
+        "bytes": 7565,
+        "sha256": "dc31dc1b01b202d729848bc6700c9a433c763a3625fadf2e3ffc20e54b6c21a2",
+        "version": "1.0.1",
+        "compatibility": {
+          "minimum": "13",
+          "verified": "13"
+        },
+        "files": 10,
+        "wrapper": "",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "materialdeck-starwarsffg",
+      "title": "Material Deck - Star Wars FFG",
+      "version": "1.0.1",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/materialdeck-starwarsffg.json",
+      "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-materialdeck-starwarsffg.zip",
+      "source": "https://github.com/MaterialFoundry/MaterialDeck_StarWarsFFG",
+      "method": "redistributable-mirror",
+      "license": "MIT",
+      "published_compatibility": {
+        "minimum": "10",
+        "verified": "11"
+      },
+      "warning": "Requires legacy MaterialDeck and external Stream Deck hardware.",
+      "review_status": "patched-partial",
+      "review_notes": "Resource mappings, FFG rolls and condition preservation covered by regression tests. External MaterialDeck server/hardware unavailable.",
+      "runtime_verified_this_review": false,
+      "archive_audit": {
+        "id": "materialdeck-starwarsffg",
+        "url": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-materialdeck-starwarsffg.zip",
+        "bytes": 4583,
+        "sha256": "9a30883e78790aa82f65ff306f717dd1d66a795d66f0afb0e0546037e23cc734",
+        "version": "1.0.1",
+        "compatibility": {
+          "minimum": "10",
+          "verified": "11"
+        },
+        "files": 5,
+        "wrapper": "",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "swrpg-dice-helper-compendium",
+      "title": "SWRPG Dice Helper Compendium",
+      "version": "1.1.4",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/swrpg-dice-helper-compendium.json",
+      "download": "https://github.com/DukeVenator/swffg-data-compendiums/releases/download/v1.1.4/swrpg-dice-helper-compendium.zip",
+      "source": "https://raw.githubusercontent.com/DukeVenator/swffg-data-compendiums/main/module.json",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": 13,
+        "verified": "13"
+      },
+      "warning": "",
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Foundry 14.369: repaired the all-skill journal name collision (34 skills); Mechanics suggestions produced in chat. Replaced the missing-template settings menu, preserved its selected journal and verified saving.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "swrpg-dice-helper-compendium",
+        "url": "https://github.com/DukeVenator/swffg-data-compendiums/releases/download/v1.1.4/swrpg-dice-helper-compendium.zip",
+        "bytes": 16544,
+        "sha256": "90ee32a1d47bb556ff5f6c6b159b089291ad7f4dce1c2e65ce54cce89aed99e4",
+        "version": "1.1.4",
+        "compatibility": {
+          "minimum": 13,
+          "verified": "13"
+        },
+        "files": 8,
+        "wrapper": "",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "babele",
+      "title": "Babele",
+      "version": "2.9.1",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/babele.json",
+      "download": "https://gitlab.com/riccisi/foundryvtt-babele/-/jobs/artifacts/2.9.1/raw/babele.zip?job=build",
+      "source": "https://gitlab.com/riccisi/foundryvtt-babele",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": 13,
+        "verified": "14"
+      },
+      "warning": "",
+      "review_status": "runtime-test-needed",
+      "review_notes": "Declara V14. Dependencia de traducciones, no añade contenido por sí sola.",
+      "runtime_verified_this_review": false,
+      "archive_audit": {
+        "id": "babele",
+        "url": "https://gitlab.com/riccisi/foundryvtt-babele/-/jobs/artifacts/2.9.1/raw/babele.zip?job=build",
+        "bytes": 546791,
+        "sha256": "d84b541c876c5f8396979525242bdf95953567b7a0aeb997916da1485c261458",
+        "version": "2.9.1",
+        "compatibility": {
+          "minimum": 13,
+          "verified": "14"
+        },
+        "files": 72,
+        "wrapper": "module/",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "MaterialDeck",
+      "title": "Material Deck",
+      "version": "1.7.2",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/MaterialDeck.json",
+      "download": "https://github.com/MaterialFoundry/MaterialDeck/releases/download/v1.7.2/module.zip",
+      "source": "https://github.com/MaterialFoundry/MaterialDeck",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": "11",
+        "verified": "12"
+      },
+      "warning": "",
+      "review_status": "optional-hardware",
+      "review_notes": "Base verificada V12; no instalar por defecto sin el hardware y su servidor.",
+      "runtime_verified_this_review": false,
+      "archive_audit": {
+        "id": "MaterialDeck",
+        "url": "https://github.com/MaterialFoundry/MaterialDeck/releases/download/v1.7.2/module.zip",
+        "bytes": 5711855,
+        "sha256": "fa139189da2c0ab97d6cfad25871f2ada8c4a08e8fcf91177595da14575d50f0",
+        "version": "1.7.2",
+        "compatibility": {
+          "minimum": "11",
+          "verified": "12"
+        },
+        "files": 50,
+        "wrapper": "",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "token-action-hud-core",
+      "title": "Token Action HUD Core",
+      "version": "2.1.2",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/token-action-hud-core.json",
+      "download": "https://github.com/Larkinabout/fvtt-token-action-hud-core/releases/download/2.1.2/module.zip",
+      "source": "https://github.com/Larkinabout/fvtt-token-action-hud-core",
+      "method": "publisher-direct",
+      "license": "upstream license; no code mirrored",
+      "published_compatibility": {
+        "minimum": "13.351",
+        "verified": "14.368"
+      },
+      "warning": "",
+      "review_status": "runtime-tested",
+      "review_notes": "Foundry 14.369: provider produced 37 common actions for two selected tokens and opened the skill dialog.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "token-action-hud-core",
+        "url": "https://github.com/Larkinabout/fvtt-token-action-hud-core/releases/download/2.1.2/module.zip",
+        "bytes": 214598,
+        "sha256": "f56b81717ce302f3e4c6122979af620ddd128dea161c208b1552e5a40b696879",
+        "version": "2.1.2",
+        "compatibility": {
+          "minimum": "13.351",
+          "verified": "14.368"
+        },
+        "files": 37,
+        "wrapper": "",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "_mathjs",
+      "title": "Math.js",
+      "version": "7.5.1-fvtt2",
+      "manifest": "https://raw.githubusercontent.com/Mitos7/StarWarsFFG/foundry-v14-mitos/addons/manifests/_mathjs.json",
+      "download": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-_mathjs.zip",
+      "source": "https://github.com/League-of-Foundry-Developers/mathjs-lib",
+      "method": "redistributable-mirror",
+      "license": "Apache-2.0",
+      "published_compatibility": null,
+      "warning": "",
+      "review_status": "runtime-tested",
+      "review_notes": "Dependency loaded; math.evaluate returned 14 for 2+3*4. No interface or content of its own.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "_mathjs",
+        "url": "https://github.com/Mitos7/StarWarsFFG/releases/download/swffg-addons-20261112/swffg-addon-_mathjs.zip",
+        "bytes": 734305,
+        "sha256": "80fbc4585d18d29df86b8f8d2c69c4783b8f46074da52296c0299debfcd2aff6",
+        "version": "7.5.1-fvtt2",
+        "compatibility": null,
+        "files": 7,
+        "wrapper": "",
+        "license": [
+          "NOTICE.txt",
+          "LICENSE.txt"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "itempilesstarwarsffg",
+      "title": "Item Piles: Star Wars FFG",
+      "version": "0.0.1",
+      "source": "https://github.com/maersk-aerospace/FoundryVTT-ItemPiles-StarWarsFFG",
+      "manifest": null,
+      "download": null,
+      "published_compatibility": {
+        "minimum": "12",
+        "maximum": "13"
+      },
+      "relationships": {
+        "requires": [
+          {
+            "id": "item-piles",
+            "type": "module",
+            "manifest": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles/releases/latest/download/module.json"
+          }
+        ]
+      },
+      "review_status": "source-only",
+      "review_notes": "Integración MIT de Item Piles, sin manifiesto/ZIP de instalación y máximo V13. Requiere Item Piles compatible.",
+      "runtime_verified_this_review": false,
+      "archive_audit": {
+        "id": "itempilesstarwarsffg",
+        "url": "https://github.com/maersk-aerospace/FoundryVTT-ItemPiles-StarWarsFFG/archive/refs/heads/main.zip",
+        "bytes": 3343,
+        "sha256": "ad16de9b1267d2a7f3ac6f9c615d3ad33de4b9e6d87c1e3af9fa903054e96b89",
+        "version": "0.0.1",
+        "compatibility": {
+          "minimum": "12",
+          "maximum": "13"
+        },
+        "files": 4,
+        "wrapper": "FoundryVTT-ItemPiles-StarWarsFFG-main/",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "ffg-consumables",
+      "title": "FFG Consumables",
+      "version": "1.0.0",
+      "source": "https://github.com/villain4hire78/ffg-consumables",
+      "manifest": "https://raw.githubusercontent.com/villain4hire78/ffg-consumables/main/module.json",
+      "download": "https://github.com/villain4hire78/ffg-consumables/releases/download/v1.0.0/ffg-consumables.zip",
+      "published_compatibility": {
+        "minimum": "10",
+        "verified": "12",
+        "maximum": "12"
+      },
+      "relationships": {
+        "systems": [
+          {
+            "id": "starwarsffg",
+            "type": "system",
+            "manifest": "https://raw.githubusercontent.com/StarWarsFoundryVTT/StarWarsFFG/master/system.json",
+            "compatibility": {
+              "minimum": "1.8",
+              "verified": "1.906"
+            }
+          }
+        ]
+      },
+      "review_status": "migration-needed",
+      "review_notes": "Máximo V12. Automatización de estimulantes puede solaparse con Enhancements.",
+      "runtime_verified_this_review": false,
+      "archive_audit": {
+        "id": "ffg-consumables",
+        "url": "https://github.com/villain4hire78/ffg-consumables/releases/download/v1.0.0/ffg-consumables.zip",
+        "bytes": 64214,
+        "sha256": "df8604d23a403629d7e0e21d8ff2e707554ef197048bc8f3cb2020407f34685c",
+        "version": "1.0.0",
+        "compatibility": {
+          "minimum": "10",
+          "verified": "12",
+          "maximum": "12"
+        },
+        "files": 13,
+        "wrapper": "",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "swffg-astronavigation",
+      "title": "SWFFG Astronavigation — Astrogation & Atlas galactique",
+      "version": "2.0.4",
+      "source": "https://github.com/wanoo/swffg-astronavigation",
+      "manifest": "https://github.com/wanoo/swffg-astronavigation/releases/latest/download/module.json",
+      "download": "https://github.com/wanoo/swffg-astronavigation/releases/latest/download/swffg-astronavigation.zip",
+      "published_compatibility": {
+        "minimum": "13",
+        "verified": "13"
+      },
+      "relationships": {
+        "systems": [
+          {
+            "id": "starwarsffg",
+            "type": "system",
+            "compatibility": {}
+          }
+        ],
+        "requires": [
+          {
+            "id": "campaign-codex",
+            "type": "module",
+            "reason": "Les fiches planètes sont des fiches Campaign Codex « location » (régions liées, tags favoris).",
+            "compatibility": {}
+          }
+        ]
+      },
+      "review_status": "runtime-test-needed",
+      "review_notes": "Declara V13 y requiere Campaign Codex; incluye compendio planetario. Revisar idioma, dependencias y tirada.",
+      "runtime_verified_this_review": false,
+      "archive_audit": {
+        "id": "swffg-astronavigation",
+        "url": "https://github.com/wanoo/swffg-astronavigation/releases/latest/download/swffg-astronavigation.zip",
+        "bytes": 53309612,
+        "sha256": "ab9dd380181a0a57a776ee750cf31640ee9008d8d3b84b8659304911de54949b",
+        "version": "2.0.4",
+        "compatibility": {
+          "minimum": "13",
+          "verified": "13"
+        },
+        "files": 9,
+        "wrapper": "swffg-astronavigation/",
+        "license": [],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "kelborns-swffg-force-presence",
+      "title": "Kelborn's SWFFG Force Presence",
+      "version": "0.2.16",
+      "source": "https://github.com/YeNov/kelborns-swffg-force-presence",
+      "manifest": "https://github.com/YeNov/kelborns-swffg-force-presence/releases/latest/download/module.json",
+      "download": "https://github.com/YeNov/kelborns-swffg-force-presence/releases/latest/download/module.zip",
+      "published_compatibility": {
+        "minimum": "13",
+        "verified": "14"
+      },
+      "relationships": {
+        "requires": [
+          {
+            "id": "socketlib",
+            "type": "module",
+            "compatibility": {
+              "minimum": "1.0.13",
+              "verified": "1.1.3"
+            }
+          }
+        ],
+        "systems": [
+          {
+            "id": "starwarsffg",
+            "type": "system",
+            "compatibility": {
+              "minimum": "2.1.5",
+              "verified": "2.1.5"
+            }
+          }
+        ]
+      },
+      "review_status": "incompatible-system",
+      "review_notes": "Declara Foundry V14 pero exige StarWarsFFG 2.1.5; nuestro sistema es 2.0.5-mitos.14. Además reemplaza reglas de Moralidad.",
+      "runtime_verified_this_review": false,
+      "archive_audit": {
+        "id": "kelborns-swffg-force-presence",
+        "url": "https://github.com/YeNov/kelborns-swffg-force-presence/releases/latest/download/module.zip",
+        "bytes": 43723,
+        "sha256": "c7a65627e14579d11cc2ebd9ae6fe8100faf8b6e4494a0d970d1be8eb5e4fc58",
+        "version": "0.2.16",
+        "compatibility": {
+          "minimum": "13",
+          "verified": "14"
+        },
+        "files": 17,
+        "wrapper": "",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "swgalaxy-map",
+      "title": "Star Wars Galaxy Map & Hyperspace Calculator",
+      "version": "0.1.0",
+      "source": "https://github.com/tomjdr4-hub/foundry-swgalaxy-map",
+      "manifest": "https://raw.githubusercontent.com/tomjdr4-hub/foundry-swgalaxy-map/main/module.json",
+      "download": "https://github.com/tomjdr4-hub/foundry-swgalaxy-map/releases/latest/download/module.zip",
+      "published_compatibility": {
+        "minimum": "13",
+        "verified": "13",
+        "maximum": "14"
+      },
+      "relationships": {},
+      "review_status": "patched-runtime-tested",
+      "review_notes": "Installed 0.1.0-mitos.1 in place of incompatible Traveller Map. Initial fit fixed; map, search and travel calculator tested; time is an approximation.",
+      "runtime_verified_this_review": true,
+      "archive_audit": {
+        "id": "swgalaxy-map",
+        "url": "https://github.com/tomjdr4-hub/foundry-swgalaxy-map/releases/latest/download/module.zip",
+        "bytes": 115458,
+        "sha256": "5701fae4e186d59107998bbd498c13448336fd64ffc31161b3e0f705295f7175",
+        "version": "0.1.0",
+        "compatibility": {
+          "minimum": "13",
+          "verified": "13",
+          "maximum": "14"
+        },
+        "files": 16,
+        "wrapper": "",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": []
+      }
+    },
+    {
+      "id": "flying-is-for-droids",
+      "title": "Flying is for Droids",
+      "version": "0.1",
+      "source": "https://github.com/LedtheTed/StarWarsFFG-FlyingIsForDroids",
+      "manifest": null,
+      "download": null,
+      "published_compatibility": {
+        "minimum": 12,
+        "verified": "12"
+      },
+      "relationships": {},
+      "review_status": "incomplete-source",
+      "review_notes": "El archivo fuente carece de dist/flying-is-for-droids.js, styles/main.css y lang/en.json declarados. Proyecto homebrew V12.",
+      "runtime_verified_this_review": false,
+      "archive_audit": {
+        "id": "flying-is-for-droids",
+        "url": "https://github.com/LedtheTed/StarWarsFFG-FlyingIsForDroids/archive/refs/heads/main.zip",
+        "bytes": 29228,
+        "sha256": "ed83548a3de32c6b8fa7b5325e395b103d9838cc590108e222bbb0e6016ca31f",
+        "version": "0.1",
+        "compatibility": {
+          "minimum": 12,
+          "verified": "12"
+        },
+        "files": 13,
+        "wrapper": "StarWarsFFG-FlyingIsForDroids-main/",
+        "license": [
+          "LICENSE"
+        ],
+        "entry_files_missing": [
+          "dist/flying-is-for-droids.js",
+          "styles/main.css",
+          "lang/en.json"
+        ]
+      }
+    },
+    {
+      "id": "ffg-pool-party",
+      "title": "Pool Party for FFG Star Wars",
+      "version": "1-dev",
+      "source": "https://github.com/tucker87/ffg-pool-party",
+      "manifest": null,
+      "download": null,
+      "published_compatibility": {
+        "minimum": "0.8.6",
+        "verified": "0.8.9"
+      },
+      "review_status": "source-only",
+      "review_notes": "Código recuperado de fork; manifiesto en public/module.json, sin ZIP ni bundle compilado ni licencia en el árbol. No se redistribuye código ni se marca compatible.",
+      "runtime_verified_this_review": false,
+      "discovery_update": {
+        "official_listing": "https://foundryvtt.com/packages/ffg-pool-party",
+        "listed_version": "3",
+        "manifest_http_status": 404,
+        "note": "The later discovery found the official v3 listing. The original archive review examined only the 1-dev fork; it did not verify v3. See discovery-20261114.json."
+      }
+    }
+  ],
+  "live_audit": {
+    "documents": 4908,
+    "image_paths": 1445,
+    "broken_image_paths": 0,
+    "data_preparation_errors": 0,
+    "vehicle_default_portraits_remaining": 82,
+    "js_tests_passed": 55,
+    "patcher_tests_passed": 3,
+    "active_modules": 24,
+    "conflicts": 0
+  },
+  "followup_discovery": "DISCOVERY-20261114.md"
+}

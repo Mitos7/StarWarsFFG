@@ -1,6 +1,6 @@
 const fs = require("node:fs");
 const path = require("node:path");
-const {ClassicLevel} = require("D:/Program Files/Foundry Virtual Tabletop/resources/app/node_modules/classic-level");
+const {ClassicLevel} = require("./resolve-classic-level.cjs");
 const root = path.resolve(__dirname, "..");
 const moduleJson = JSON.parse(fs.readFileSync(path.join(root, "module.json"), "utf8"));
 const prefixes = {Item:"items",Actor:"actors",JournalEntry:"journal"};
